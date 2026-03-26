@@ -1,0 +1,104 @@
+now, help me to elaborate the slides and create study notes, make sure to do not provide any initial comment or final ideas for more prompts. 
+Also make sure to use "$$" isolated for formulas and "$" for text embedded formulas. 
+Also the markdown should be ready to copy and paste. Here is the first slide
+
+
+----
+
+we are talking about "Advanced RAG Techniques", you can check the attached PDF with the entire slide deck for the topic as context. I need your help to  elaborate the single slides that I am attaching and create study notes, make sure to do not provide any initial comment or final ideas for more prompts. The output should be 
+be markdown ready to copy and paste. Here is the first slide 
+
+---
+
+Similar flow as "RAG_with_Local_LLM_and_Embeddings.ipynb", and following the RAG vs Angentic RAG implementation from "AgenticRAG_W6_Rec_NB (2).ipynb" I need your help to create a new notebook where you implement the same flow that we have in "RAG_with_Local_LLM_and_Embeddings.ipynb" but using Agents and Tools with the Python library smolagents.
+
+Please elaborate on the fact that how using smolagents and CodeAgent can help us to do reasoning and also debug how the agent is behaving with the use of verbose mode, and also how we can use tools to enhance the capabilities of the agent.
+
+As we did in RAG_with_Local_LLM_and_Embeddings.ipynb the flow should be as follows:
+
+1 - Import Required Libraries
+2 - Load Local LLM Model (Qwen2.5)
+3 - Load Local Embedding Model (all-MiniLM-L6-v2)
+5 - Load and Chunk PDF File
+6 - Load and Chunk Text Files
+7 - Load and Chunk HTML Files
+8 - Combine All Document Chunks
+9 - Create ChromaDB Vector Store
+10 - Prepare the Retriever with Agent and Tools
+11 - Define Agent with Verbose Mode
+12 - Test the same prompts we have in "RAG_with_Local_LLM_and_Embeddings.ipynb" and Analyze Agent's Reasoning and Debugging Process
+13 - Define a new Agent used for RAG Evaluation for Groundness 
+14 - Test the new Agent with the same prompts and Analyze its Performance in terms of Groundness 
+15 - Define a new Agent used for RAG Evaluation for Context Relevance 
+16 - Test the new Agent with the same prompts and Analyze its Performance in terms of Context Relevance 
+17 - Define a new Agent used for RAG Evaluation for Answer Completeness
+18 - Test the new Agent with the same prompts and Analyze its Performance in terms of Answer Completeness
+
+Please create the new notebook with the name "RAG_with_Agentic_RAG_and_Embeddings.ipynb" and implement the above flow using smolagents and CodeAgent. Make sure to include detailed explanations and comments in the code to help understand the reasoning process of the agent and how the tools are being used to enhance its capabilities.
+
+
+---
+
+Similar to "W6_Adv_RAG_Rec_NB (1).ipynb" and now using langchain to implement an advance agentic RAG solution, I need your help to create a new notebook where you implement the following flow:
+
+1 - Import Required Libraries
+2 - Load Local LLM Model (Qwen2.5)
+3 - Load Local Embedding Model (all-MiniLM-L6-v2)
+5 - Load and Chunk PDF File and add metadata (extract some metadata from the PDF file such as title, author, publication date, etc. and add it to the document chunks as metadata)
+6 - Load and Chunk Text Files and add metadata (extract some metadata from the text files such as title, author, publication date, etc. and add it to the document chunks as metadata)
+7 - Load and Chunk HTML Files and add metadata (extract some metadata from the HTML files such as title, author, publication date, etc. and add it to the document chunks as metadata)
+8 - Combine All Document Chunks
+9 - Create ChromaDB Vector Store
+10 - Create a tool for retrieving relevant information from the vector store using langchain retriever from ChromaDB
+11 - Define Agent with Verbose Mode using langchain's Agent framework that will use the retriever tool to fetch relevant information from the vector store and use it to answer questions. The agent should also be able to reason and debug its own behavior using verbose mode.
+12 - Test 3 different prompts that require the agent to retrieve information from the vector store and analyze the agent's reasoning and debugging process using verbose mode.
+13 - Define Agent with Verbose Mode using langchain's Agent framework that will use the retriever tool and also create hypothetical questions to fetch more relevant information from the vector store to answer questions. The agent should also be able to reason and debug its own behavior using verbose mode.
+14 - Test the new Agent with the same prompts and analyze its performance in terms of reasoning, debugging, and ability to create hypothetical questions to fetch more relevant information from the vector store.
+15 - Define Agent with Verbose Mode using langchain's Agent framework that will use the retriever tool, also create hypothetical questions and also execute an hybrid search (combining keyword search and vector search) to fetch more relevant information from the vector store to answer questions. The agent should also be able to reason and debug its own behavior using verbose mode.
+16 - Test the new Agent with the same prompts and analyze its performance in terms of reasoning,
+17 - Load the cross encoder model "cross-encoder/ms-marco-MiniLM-L-6-v2" for re-ranking
+18 - Define Agent with Verbose Mode using langchain's Agent framework that will use the retriever tool, also create hypothetical questions, execute an hybrid search (combining keyword search and vector search) and also use the cross encoder model for re-ranking the retrieved results to fetch more relevant information from the vector store to answer questions. The agent should also be able to reason and debug its own behavior using verbose mode.
+19 - Test the new Agent with the same prompts and analyze its performance in terms of reasoning,
+20 - Load the LLMChainExtractor that will be used as compressor to extract the most relevant information from the retrieved chunks before feeding it to the LLM for answering questions.
+21 - Define and agent based on the previous one but now also using the LLMChainExtractor as a compressor to extract the most relevant information from the retrieved chunks before feeding it to the LLM for answering questions. The agent should also be able to reason and debug its own behavior using verbose mode.
+22 - Test the new Agent with the same prompts and analyze its performance in terms of reasoning, debugging, and ability to extract the most relevant information from the retrieved chunks using the LLMChainExtractor
+
+
+Please create the new notebook with the name "Agentic_RAG_with_Langchain.ipynb" and implement the above flow using langchain's Agent framework.
+
+Make sure to include detailed explanations and comments in the code to help understand the reasoning process of the agent, how the tools are being used to enhance its capabilities, and how the different components (retriever, hypothetical question generation, hybrid search, re-ranking, and compression) are contributing to the overall performance of the agent in answering questions based on the retrieved information from the vector store.
+
+---
+
+Now I need your help to create a new markdown which will be used to provide instructions for where we will ask to replicate (create a copy of each notebook) but with a different set of files.
+
+In this case all the files from the folder "UnstructuredDataVolleyBall" should be loaded into the Chroma vector store instead of the files we have been using in the previous notebooks. 
+
+The flow should be the same as the one we have in "RAG_with_Local_LLM_and_Embeddings.ipynb" and "Agentic_RAG_with_Langchain.ipynb" and finally "Advance_Agentic_RAG_with_Langchain.ipynb" but now using the new set of files from "UnstructuredDataVolleyBall" folder.
+
+I need your help to define extra challenges for this new notebook by example:
+
+- Load CSV Files and add metadata (extract some metadata from the CSV files such as title, author, publication date, etc. and add it to the document chunks as metadata)
+- Create a new agent that will be used to evaluate the performance of the agent in terms of its ability to handle tabular data and extract relevant information from it to answer questions.
+
+Now help me to define more challenges like the above one and include them in the instructions for the new notebook. 
+
+The name of the new notebooks should be:
+
+- "RAG_with_Agentic_RAG_and_Embeddings_VolleyBall.ipynb"
+- "Agentic_RAG_with_Langchain_VolleyBall.ipynb"
+- "Advance_Agentic_RAG_with_Langchain_VolleyBall.ipynb"
+
+Elaborate on the instruction and challenges and make them to increase the complexity of the implementation  as we move from the first notebook to the last one
+
+Also make sure to include detailed explanations and comments in the code to help understand the reasoning process of the agent, how the tools are being used to enhance its capabilities, and how the different components (retriever, hypothetical question generation, hybrid search, re-ranking, and compression) are contributing to the overall performance of the agent in answering questions based on the retrieved information from the vector store.
+
+The markdown should be named "Instructions_for_Implementing_RAG_with_Agentic_RAG_and_Embeddings_VolleyBall.md"
+
+---
+
+I need your help to understand and create a report from the session transcript where we talked about Advance RAG implementation. 
+
+I am also attaching a juypter notebook where we have the main exercises for the implementation of Advance RAG used during the session. 
+
+Make sure to provide a detail report using markdown format.

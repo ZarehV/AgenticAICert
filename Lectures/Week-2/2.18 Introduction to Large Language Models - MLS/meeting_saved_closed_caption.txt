@@ -1,0 +1,2979 @@
+[Faculty (Olympus)] 12:34:32
+Today's focus, uh, and just to be
+
+[Faculty (Olympus)] 12:34:35
+Just to be upfront here, right, it is more around how would you really leverage different types of prompting techniques.
+
+[Faculty (Olympus)] 12:34:42
+to get the most out of your large language model.
+
+[Faculty (Olympus)] 12:34:46
+Now, we will look into both options. One is open-sourced large language models,
+
+[Faculty (Olympus)] 12:34:53
+That you can actually download and run it on your own system, and the second one would be
+
+[Faculty (Olympus)] 12:34:58
+Um, an actual proprietary model. For example, in this case, we are looking at OpenAI, but you could, you know, absolutely use other models as well. The leading models in the industry.
+
+[Faculty (Olympus)] 12:35:08
+Uh, and pretty much run the same thing, okay?
+
+[Faculty (Olympus)] 12:35:12
+As we go through this, the idea is to explain you
+
+[Faculty (Olympus)] 12:35:17
+um, you know, the advantages, disadvantages, as well as a little bit of nuances in terms of the different libraries that you would require.
+
+[Faculty (Olympus)] 12:35:25
+If you're deciding to run something locally,
+
+[Faculty (Olympus)] 12:35:28
+Versus if you're deciding to leverage some of the, uh, paid, uh, APIs.
+
+[Faculty (Olympus)] 12:35:34
+Okay? So, you know, if you look at your, uh…
+
+[Faculty (Olympus)] 12:35:39
+If I go… go here…
+
+[Faculty (Olympus)] 12:35:41
+I just shared this… this particular aspect as well.
+
+[Faculty (Olympus)] 12:35:45
+So, if you go to your course, right, so…
+
+[Faculty (Olympus)] 12:35:48
+Here you have two different notebooks. You should see one
+
+[Faculty (Olympus)] 12:35:52
+Using the Hugging Face model,
+
+[Faculty (Olympus)] 12:35:54
+Um, and the second one is using the OpenAI model.
+
+[Faculty (Olympus)] 12:35:58
+having face model, like, technically it is not a hugging face model, but the model which is, you know, hosted in… in… or available for you to download from Hugging Face.
+
+[Faculty (Olympus)] 12:36:07
+Um, and we'll get into that, um, and the second one is OpenAI.
+
+[Faculty (Olympus)] 12:36:13
+one-time setup which is required for you to run the OpenAI model is to actually, like, down… basically create the token here,
+
+[Faculty (Olympus)] 12:36:20
+Um, and then download the token, um, and just create a simple JSON file.
+
+[Faculty (Olympus)] 12:36:25
+Um, and we'll get into that on how you can upload it, but that is a one-time setup, so that when you're running the actual notebook,
+
+[Faculty (Olympus)] 12:36:33
+it can refer to this particular file, which has actually your API key, right? So, as we all understand, when we run
+
+[Faculty (Olympus)] 12:36:39
+any of the paid models you need in a, you know, API key for it to
+
+[Faculty (Olympus)] 12:36:44
+charge you back, right? So that's… that's how they… they make money. Um, so in this case, when we are running the OpenAI one, this is basically what… where you generate the API key, you know, here.
+
+[Faculty (Olympus)] 12:36:55
+Okay? So…
+
+[Faculty (Olympus)] 12:36:57
+With that, you know, keep keeping that in mind, right? So you will see the two notebooks, the way you can differentiate is one is with Hugging Face here,
+
+[Faculty (Olympus)] 12:37:05
+Um, and then the other one doesn't have any hugging Face one, so the one which doesn't have a Hugging Face one is the OpenAI one.
+
+[Faculty (Olympus)] 12:37:12
+And the one which has, uh, you know, my hugging Face one is a local model.
+
+[Faculty (Olympus)] 12:37:16
+Everybody here is clear with the difference between local and the one which you can download versus
+
+[Faculty (Olympus)] 12:37:24
+versus a paid model? Any… anyone, uh, anyone who is not clear on that?
+
+[Faculty (Olympus)] 12:37:30
+For example, we have Mistral and Llama, et cetera, which are open models, versus Gemini, ChatGPT, which are paid models.
+
+[Faculty (Olympus)] 12:37:42
+Okay, so I'm seeing some nodes, so I'm assuming everybody is clear. Uh, please speak up, uh, if you're not clear.
+
+[Faculty (Olympus)] 12:37:48
+So that I can, you know, explain right now.
+
+[Faculty (Olympus)] 12:37:51
+Um, the other thing is when we want to leverage, uh, an open-source model,
+
+[Faculty (Olympus)] 12:37:58
+You also need to download it.
+
+[Faculty (Olympus)] 12:38:01
+Um, and then run it on your own machine, or on your own infrastructure. This could be your local hardware, local infrastructure, or it could be…
+
+[Faculty (Olympus)] 12:38:11
+Also, you know, private cloud kind of an infrastructure. In this case, we will actually be leveraging Google Colab,
+
+[Faculty (Olympus)] 12:38:19
+Now, it could be a little bit confusing here, because Google Colab is basically Google providing us the servers
+
+[Faculty (Olympus)] 12:38:25
+for us to run these models.
+
+[Faculty (Olympus)] 12:38:28
+But then, in this case, what Google PoolApp really does is it basically provides you a local virtual environment, so you're still running the model in your local
+
+[Faculty (Olympus)] 12:38:37
+private virtual environment, um, it's just that there is no…
+
+[Faculty (Olympus)] 12:38:41
+interaction between the model's owner, right? So, in case when we are running an OpenAI model,
+
+[Faculty (Olympus)] 12:38:47
+When you send the prompt, it actually hits the OpenAI servers,
+
+[Faculty (Olympus)] 12:38:50
+In this case, everything is getting hit in the local server, in this case, it is a virtual server, which you have created in Google Colab, right? So I think I was…
+
+[Faculty (Olympus)] 12:38:59
+Explaining this before in the last lecture as well, um, OLAB really creates a virtual private environment.
+
+[Faculty (Olympus)] 12:39:05
+for you to run your Jupyter notebooks, right? So in this case, we are leveraging that.
+
+[Faculty (Olympus)] 12:39:10
+Okay? Now, um, I think we went into hugging Face last time as well.
+
+[Faculty (Olympus)] 12:39:15
+Um, but just to be on the same page, right? So here, it's having phase.
+
+[Faculty (Olympus)] 12:39:19
+Um, you will see all of these different, uh, different models, and you can always obviously select it based on, you know, the type of task that you want to do.
+
+[Faculty (Olympus)] 12:39:27
+Um, so, you know, image-to-image, text-to-image, etc. So, always a good idea
+
+[Faculty (Olympus)] 12:39:32
+Um, to have an understanding of what Hugging Face is, um, you know, and if… obviously, when you want to download an open model, this is the place to be. I basically call it a GitHub of AI.
+
+[Faculty (Olympus)] 12:39:45
+Uh, you know, where you can see all different models, etc., right? So it's a cool one.
+
+[Faculty (Olympus)] 12:39:49
+Um, you know, I'm obviously familiar a lot with
+
+[Faculty (Olympus)] 12:39:52
+the Gemma side of the house, so you can see, you know, all the Google models, uh, the open source ones,
+
+[Faculty (Olympus)] 12:39:58
+are available here. What I also love about Hugging Faces, um, there's a lot of… there's something called a spaces here.
+
+[Faculty (Olympus)] 12:40:06
+Where you can actually look into the demos, um, which a lot of these organizations would put.
+
+[Faculty (Olympus)] 12:40:11
+Uh, so for instance, again, when you look at Google here,
+
+[Faculty (Olympus)] 12:40:16
+Uh, they've done some interesting stuff around GEMA.
+
+[Faculty (Olympus)] 12:40:19
+Um, where they would actually, like, show
+
+[Faculty (Olympus)] 12:40:21
+how, uh, you would interact with a JMR model,
+
+[Faculty (Olympus)] 12:40:24
+Um, so right now, you just need to log in, et cetera, right? So, it's a good idea to be familiarized with
+
+[Faculty (Olympus)] 12:40:32
+hugging phase, so that you can… you can leverage it, uh, you know, at a later time.
+
+[Faculty (Olympus)] 12:40:35
+So, that's… that's where we will be actually, like, downloading some of the models that we are going to be using, so I'll, you know,
+
+[Faculty (Olympus)] 12:40:42
+shift back and forth here so that you can actually, like, see in action, and if you really need to download something, you know, you will be able to do that.
+
+[Faculty (Olympus)] 12:40:49
+Um, again, just… just for instance here,
+
+[Faculty (Olympus)] 12:40:52
+Uh, if I go to Gemma, um…
+
+[Faculty (Olympus)] 12:40:56
+here you're able to use this model and…
+
+[Faculty (Olympus)] 12:40:59
+Um, there is a direct interaction or integration with Google Colabs, so if you click on this,
+
+[Faculty (Olympus)] 12:41:03
+It will open up a Google Colab.
+
+[Faculty (Olympus)] 12:41:06
+Uh, right out of the gate, where, you know, the particular library and
+
+[Faculty (Olympus)] 12:41:11
+initiation will already be there.
+
+[Faculty (Olympus)] 12:41:13
+And it also explains the different libraries which are being used, and I'm going to get into that very quickly.
+
+[Faculty (Olympus)] 12:41:20
+Uh, as part of the code. Um, and these are the different applications that can actually be used in order to run this particular local model. The very famous ones are Colama,
+
+[Faculty (Olympus)] 12:41:31
+Uh, which is basically something that you need to download. Um, I think I…
+
+[Faculty (Olympus)] 12:41:36
+Probably touched upon this last time as well.
+
+[Faculty (Olympus)] 12:41:38
+Um, so this is… this is what Olama is.
+
+[Faculty (Olympus)] 12:41:42
+Um, and, you know, you will need to download this, um, and then once you download this, then you have all of these models which are directly, like, even from Ollama, you're able to get all of these things, right?
+
+[Faculty (Olympus)] 12:41:52
+So, some of the things that you need to keep in mind. Once you have an open-source model,
+
+[Faculty (Olympus)] 12:41:58
+you need a UI to actually run. You also need a server to actually run this, right? So that's what… those are the two different things that we are discussing.
+
+[Faculty (Olympus)] 12:42:07
+Okay? So, keeping that context in mind, um, let's… let's get into the case study.
+
+[Faculty (Olympus)] 12:42:14
+Um, and then things will, you know, become more clear as we go along. So, the business context here really is, um, this is a particular company which specializes in AI to improve business operations.
+
+[Faculty (Olympus)] 12:42:26
+Um, and what they really want to do is solve, like, few different types of use cases.
+
+[Faculty (Olympus)] 12:42:32
+Um, and they want to really use the large language models much more effectively, right? So that, basically,
+
+[Faculty (Olympus)] 12:42:39
+you know, the art of prompting, right? So, um, it gets very interesting, especially when you're downloading a local model, versus you're running a paid model like, like, uh…
+
+[Faculty (Olympus)] 12:42:49
+You know, an open AI or a Gemini.
+
+[Faculty (Olympus)] 12:42:53
+Okay? So the objective here, so we are going to look into 5 different use cases. Um, you know, we'll look into
+
+[Faculty (Olympus)] 12:43:00
+customer review analysis, meeting notes summarizer, so I think we, you know,
+
+[Faculty (Olympus)] 12:43:04
+like, the use cases should be pretty easy for all of us to understand, so the first one is customer review, so basically,
+
+[Faculty (Olympus)] 12:43:11
+If you get a, you know, just like the way you provided feedback, if I… if this was, like, you know, a 10,000-line feedback,
+
+[Faculty (Olympus)] 12:43:18
+Uh, how do I quickly extract the information? I would also want to extract the name, I would also want to extract some other pieces of information.
+
+[Faculty (Olympus)] 12:43:26
+from that review, so that I can then put it in a structured format.
+
+[Faculty (Olympus)] 12:43:30
+And then maybe use it for, let's say, churn analysis, or if I want to do an upsell, cross-sell, right? So this is a direct correlation to the business.
+
+[Faculty (Olympus)] 12:43:38
+the key idea is, can I use large language models to extract that information, extract that sentiment?
+
+[Faculty (Olympus)] 12:43:44
+and get… get as much as rich information versus just a blob of text, okay? So that's the first one.
+
+[Faculty (Olympus)] 12:43:51
+The second one is meeting note summarizer. I think most of the, um…
+
+[Faculty (Olympus)] 12:43:56
+you know, meeting, um, like, softwares, right? Zoom, Gemini, like, Google Meet, etc.
+
+[Faculty (Olympus)] 12:44:03
+they have now the capability to transcribe.
+
+[Faculty (Olympus)] 12:44:06
+But transcription is great, but, you know, there are a lot of things that are discussed as part of the meeting that, hey, like, I'm gonna do this, you do this, you do that by this time, right? So these are…
+
+[Faculty (Olympus)] 12:44:16
+Especially, um, like, action items, as well as timelines. That needs to be summarized in a better format, so that'll be a meeting note summarizer.
+
+[Faculty (Olympus)] 12:44:26
+Right, so, you know, if you upload the entire transcript,
+
+[Faculty (Olympus)] 12:44:31
+to the large language model? Can it go through the transcript and then come back to us with very clear
+
+[Faculty (Olympus)] 12:44:36
+Um, next steps and timelines, um, you know, as an output, right? So that becomes a meeting note summarizer.
+
+[Faculty (Olympus)] 12:44:43
+Um, quiz generator, I think, you know, depending on
+
+[Faculty (Olympus)] 12:44:48
+Um, the type of input that you're providing, can it generate quizzes, uh, you know, 4 questions, 5 questions, multiple choice, single choice, etc., etc., right? So this is where you need to
+
+[Faculty (Olympus)] 12:44:57
+be very clear on the prompt on what should be the output, what should be the kind of quiz that you're expecting it to generate.
+
+[Faculty (Olympus)] 12:45:05
+Um, and then the last one, and there are a couple of more, like, slide script generator, um,
+
+[Faculty (Olympus)] 12:45:10
+you know, if you're presenting to a large audience, if you want speaker notes,
+
+[Faculty (Olympus)] 12:45:16
+Um, you know, what should be the speaker notes for each one of the slides. I mean, right now, I do want to know that Gemini can also spit, you know, split up slides directly.
+
+[Faculty (Olympus)] 12:45:25
+Um, probably you have heard of tools like Garma, et cetera, which can actually create slides. Garma has also got APIs available.
+
+[Faculty (Olympus)] 12:45:32
+Um, so you should be able to use that, uh, pretty quickly to actually create slides from you… for you based on the scripts, right? So you should be able to do that.
+
+[Faculty (Olympus)] 12:45:40
+Um, the last piece is complaint response generator, so based on the
+
+[Faculty (Olympus)] 12:45:45
+complaints from the customer, um, can I provide a response, right? So…
+
+[Faculty (Olympus)] 12:45:50
+those are some of the use cases that we're going to look at.
+
+[Faculty (Olympus)] 12:45:53
+Okay? Um, are we clear on the use cases? I'm just gonna look at the question here as well.
+
+[Faculty (Olympus)] 12:46:02
+So, Sanjeev asks, how common is it for Hugging Face models to be used in real production systems compared with frontier propriety models, which seems to dominate
+
+[Faculty (Olympus)] 12:46:11
+most production deployments. Uh, Sanib, it, I think, um, it is…
+
+[Faculty (Olympus)] 12:46:15
+quite common to use open-source models as well. Um, really depending a lot on the use cases.
+
+[Faculty (Olympus)] 12:46:23
+Um, you know, I've seen a lot of companies actually leveraging open source models.
+
+[Faculty (Olympus)] 12:46:28
+Especially when you…
+
+[Faculty (Olympus)] 12:46:30
+want to have more granular control on the weights and all of those kind of things with the open source models, right? So that is something
+
+[Faculty (Olympus)] 12:46:39
+Um, which, which I've seen also from an industry,
+
+[Faculty (Olympus)] 12:46:43
+Um, standpoint. So, for example, I've been talking about GEMA models for you, with you guys.
+
+[Faculty (Olympus)] 12:46:48
+Um, so let me just…
+
+[Faculty (Olympus)] 12:46:53
+Um, so if I go to…
+
+[Faculty (Olympus)] 12:46:56
+DeepMind here as an example.
+
+[Faculty (Olympus)] 12:46:58
+Um, you would see that they have…
+
+[Faculty (Olympus)] 12:47:02
+they have these JAMA models right here, which are all open source,
+
+[Faculty (Olympus)] 12:47:05
+And then in this one, you would also see that they have Medgema,
+
+[Faculty (Olympus)] 12:47:10
+Which is a, uh, healthcare-oriented
+
+[Faculty (Olympus)] 12:47:13
+Oh, I'm sorry, I'm not sharing my screen.
+
+[Faculty (Olympus)] 12:47:16
+Um, so this is a… this is MedJama, this is a healthcare-oriented model.
+
+[Faculty (Olympus)] 12:47:21
+Uh, which is open source, right? So, um, if you need a very specific industry-oriented model with the capacity and capability for you to go ahead and fine-tune as well as change the parameters,
+
+[Faculty (Olympus)] 12:47:33
+open source models are a way to go.
+
+[Faculty (Olympus)] 12:47:35
+Also, you have the capability to truly optimize open source models if you're looking at, um, you know, doing something in budget, and obviously it goes without saying, you can run open source model without internet connectivity. So if you're kind of
+
+[Faculty (Olympus)] 12:47:50
+creating an application, let's say someone wants to use something
+
+[Faculty (Olympus)] 12:47:54
+on a plane ride, uh, or you want to create an application that should be, like, a generative AI application that should be available in remote locations where internet connectivity is a problem.
+
+[Faculty (Olympus)] 12:48:04
+open source models are a go, right? So, depending on the use cases and also your budget, etc.,
+
+[Faculty (Olympus)] 12:48:10
+You know, you could probably use an open source model, and there are different types of open source models, um,
+
+[Faculty (Olympus)] 12:48:15
+you know, there are very small models also available, so you can run, um, these, uh, these niche models. I think Microsoft has 5 models, which are pretty, pretty small, and
+
+[Faculty (Olympus)] 12:48:24
+Um, you know, depending on the use case can be really, really interesting.
+
+[Faculty (Olympus)] 12:48:28
+Okay? Um…
+
+[Faculty (Olympus)] 12:48:31
+Okay, so, uh, Sanjeev, thanks for that question.
+
+[Faculty (Olympus)] 12:48:35
+Um,
+
+[Faculty (Olympus)] 12:48:37
+So, Marcel says, what are the security considerations around using open source models?
+
+[Faculty (Olympus)] 12:48:42
+Um, actually, Marcel, the name open source, um, could be misleading sometime.
+
+[Faculty (Olympus)] 12:48:48
+But open source models will be completely downloaded
+
+[Faculty (Olympus)] 12:48:51
+in your own, uh, infrastructure,
+
+[Faculty (Olympus)] 12:48:54
+So you actually have much more greater control when it comes to
+
+[Faculty (Olympus)] 12:48:58
+Um, you know, using and leveraging open source models, right? You can completely run it within your premises, so the data
+
+[Faculty (Olympus)] 12:49:06
+never leaves out of your, uh, you know, of your infrastructure, if you will.
+
+[Faculty (Olympus)] 12:49:12
+Um, and that's why one of the core use cases of actually using open source model is to
+
+[Faculty (Olympus)] 12:49:19
+is, like, regulated industries where, you know, there are very strict, uh, rules for data not to leave the premises.
+
+[Faculty (Olympus)] 12:49:26
+beyond other alternative, obviously, is to
+
+[Faculty (Olympus)] 12:49:29
+Um, use services like Azure or, you know, Google Cloud or Amazon.
+
+[Faculty (Olympus)] 12:49:33
+Where they would host the model in your, uh, in your cloud instance, so you don't…
+
+[Faculty (Olympus)] 12:49:39
+You don't need to… you don't need to, you know, get out of that particular instance to leverage that.
+
+[Faculty (Olympus)] 12:49:45
+Okay? Um, some really good questions coming up, and you guys are welcome to, you know, come on off mute and talk.
+
+[Faculty (Olympus)] 12:49:53
+So I'm just going to take some of these, and then we'll get into the notebook to continue.
+
+[Faculty (Olympus)] 12:49:59
+Um, so how is the performance of open source models? Um, I think in the terms of performance,
+
+[Faculty (Olympus)] 12:50:05
+Um, it is going to be slower, um, compared to, um, you know, your, uh,
+
+[Faculty (Olympus)] 12:50:11
+like, paid models, because you're running it in your own…
+
+[Faculty (Olympus)] 12:50:14
+Chromosis, or until and unless you have, like, access to major GPUs, etc., um, you know, it would be a little bit slower. Also,
+
+[Faculty (Olympus)] 12:50:23
+Um, the amount of, uh, innovation that is happening in every large vendor is large language models almost, you know, every other quarter. Um, you know, I think that's where you would see the difference as well, right? So…
+
+[Faculty (Olympus)] 12:50:37
+Um, so the performance of the model will be a little bit, um, and when I'm saying performance, I'm talking about the speed.
+
+[Faculty (Olympus)] 12:50:43
+Um, you know, I think it'll be a little bit restricted, uh, as well.
+
+[Faculty (Olympus)] 12:50:47
+Okay? Um…
+
+[Faculty (Olympus)] 12:50:52
+some other questions. Have you… have you heard of any vulnerabilities or security problems running open source models on-prem?
+
+[Faculty (Olympus)] 12:50:59
+Um, Zari, that's a really good question. I mean, um, I have, um, yes,
+
+[Faculty (Olympus)] 12:51:05
+Because when you are actually, like, downloading these models, you know,
+
+[Faculty (Olympus)] 12:51:12
+it… unfortunately, you're, like, a hardcore engineer, you sometimes are not familiar with, you know, what you are also downloading along with the models, right? Because the models come with their own set of libraries and code. Um, so…
+
+[Faculty (Olympus)] 12:51:24
+I think a good practice would be to have
+
+[Faculty (Olympus)] 12:51:27
+Um, something hosted on, uh, like, a cloud service, as an example.
+
+[Faculty (Olympus)] 12:51:32
+Where the vulnerability test can be passed through that, or use, like, a security
+
+[Faculty (Olympus)] 12:51:38
+Um, like, a service on the side in order to make sure that there are no vulnerabilities, um, you know, as part of the open source models, right? So, at an enterprise level.
+
+[Faculty (Olympus)] 12:51:47
+Uh, if you're testing with it. Or, obviously,
+
+[Faculty (Olympus)] 12:51:50
+Um, that's where Hugging Face becomes
+
+[Faculty (Olympus)] 12:51:53
+you know, your really good, uh, friend, because you can see the number of people who have used it, um, and you can see the true reputation here, right? So you can see the followers and the clones, et cetera, and the downloads, etc. So that actually gives you a pretty good idea
+
+[Faculty (Olympus)] 12:52:10
+you know, which ones have been used, and if there are problems out there in the community.
+
+[Faculty (Olympus)] 12:52:15
+also youth community there, okay?
+
+[Faculty (Olympus)] 12:52:17
+Alright, um, Sanjeev asks, uh, I'm curious about the prompt examples, because Gemini already does most of this for me in real time.
+
+[Faculty (Olympus)] 12:52:24
+Um, yeah, so I think, Sanjeev, the idea is to look at
+
+[Faculty (Olympus)] 12:52:28
+Um, look at the code here, if you were to use…
+
+[Faculty (Olympus)] 12:52:33
+So, if you were to download this, uh, if you were to download any of the open source models,
+
+[Faculty (Olympus)] 12:52:38
+you know, I think the idea is to understand also, like, what are the key components which you will be needing when you're installing and running this on your local premises. Um, I mean, yeah, like, it's…
+
+[Faculty (Olympus)] 12:52:48
+sort of unfair to compare it with Gemini, because
+
+[Faculty (Olympus)] 12:52:51
+Yes, I mean, you know, Gemini is a paid model, and you can do a lot.
+
+[Faculty (Olympus)] 12:52:55
+But, um, when it… when it is about actually, like, running an agentic application, you will still need to have a…
+
+[Faculty (Olympus)] 12:53:04
+a broader understanding of the framework, and we will get into that pretty quickly. So, just bear with me for a few minutes, okay?
+
+[Faculty (Olympus)] 12:53:11
+All right, um…
+
+[Faculty (Olympus)] 12:53:15
+Yeah, Dino, that's… that's a good… so Dino says hugging Face, I think, scans the model, but not sure if it does for all.
+
+[Faculty (Olympus)] 12:53:22
+I recall that they had a save tag, but not able to see the…
+
+[Faculty (Olympus)] 12:53:25
+a bill of material and scan… I don't know about the BOM, probably bill of material is the common industry nomenclature. Um…
+
+[Faculty (Olympus)] 12:53:31
+when you are uploading as a company on Hugging Face, uh, do you know, you know, there is a process that happens.
+
+[Faculty (Olympus)] 12:53:37
+I think it is more about how the community will also react to it, right? So pretty people and developers are pretty quick to provide feedback.
+
+[Faculty (Olympus)] 12:53:45
+If there are definitely vulnerabilities out there. So, um, so that's… that's my understanding.
+
+[Faculty (Olympus)] 12:53:50
+Okay? Alright, so we'll pause with the questions so that we can get, um, you know, hear the continuation of this, uh, but really appreciate, you know, all the comments and questions here.
+
+[Faculty (Olympus)] 12:54:02
+Okay. All right, so the first one that you're seeing is, um…
+
+[Faculty (Olympus)] 12:54:07
+When you want to run something locally,
+
+[Faculty (Olympus)] 12:54:09
+I think last time I had also discussed, right? So here, you have the runtime environment,
+
+[Faculty (Olympus)] 12:54:14
+Um, and you can see here that we are using
+
+[Faculty (Olympus)] 12:54:17
+Um, you know, T4 Python, which is a T for TPU, right? Like, uh, sorry, the GPU.
+
+[Faculty (Olympus)] 12:54:23
+And you'd need a GPU to run, because you are using, uh, you're kind of downloading
+
+[Faculty (Olympus)] 12:54:29
+a large language model,
+
+[Faculty (Olympus)] 12:54:31
+Um, and then running it locally, right? So the first thing you see that
+
+[Faculty (Olympus)] 12:54:34
+We are installing LandChain and transformers.
+
+[Faculty (Olympus)] 12:54:37
+And then langchain hugging Face, so these are 3 different libraries that we are installing.
+
+[Faculty (Olympus)] 12:54:44
+locally in Colab.
+
+[Faculty (Olympus)] 12:54:46
+Um, Transformers is the key one here, because Transformers is the one
+
+[Faculty (Olympus)] 12:54:51
+Which will basically convert
+
+[Faculty (Olympus)] 12:54:54
+and tokenize, and basically think of this as the engineering side of the house.
+
+[Faculty (Olympus)] 12:54:59
+When it comes to running models locally, you would not need…
+
+[Faculty (Olympus)] 12:55:03
+Transformers when you're running in OpenAI. Um, so you can actually look at
+
+[Faculty (Olympus)] 12:55:07
+look at the comparison right here.
+
+[Faculty (Olympus)] 12:55:09
+Um, here you're just, you know, leveraging Langchain and OpenAI.
+
+[Faculty (Olympus)] 12:55:13
+you're not really leveraging, uh, you know, transformers here, right? So one thing to keep in mind, uh, quickly,
+
+[Faculty (Olympus)] 12:55:20
+And you can always, you know, look at, um,
+
+[Faculty (Olympus)] 12:55:25
+the… the Transformers.
+
+[Faculty (Olympus)] 12:55:28
+Um, the, uh, the report, the library here, right? So this, this is what Transformer said.
+
+[Faculty (Olympus)] 12:55:34
+is what it really does is it provides a lot of built-in functionality, which will, you know, do a lot of
+
+[Faculty (Olympus)] 12:55:40
+the tokenization and those kind of jobs for you, right? So that is something which… which… which… which is what Transformers would do, and you will need to use this, uh, this library as part of this.
+
+[Faculty (Olympus)] 12:55:52
+The other one is Langchain. Now,
+
+[Faculty (Olympus)] 12:55:55
+Langchain is, you know, obviously one of the darlings in the industry.
+
+[Faculty (Olympus)] 12:56:00
+And Langchen really provides a framework, um, and, you know, now with the agents and multi-agents and all of those things, right? Like, Langchain has become
+
+[Faculty (Olympus)] 12:56:08
+Um, obviously very popular, but if you need to just interact with, um, you know, an open model or an open AI model, you may not need Langchain immediately.
+
+[Faculty (Olympus)] 12:56:18
+It's not simple… it's not a must-must.
+
+[Faculty (Olympus)] 12:56:21
+But if you do not use a framework like this,
+
+[Faculty (Olympus)] 12:56:23
+then, you know, you are kind of sub-optimizing your Python notebook, because
+
+[Faculty (Olympus)] 12:56:30
+The moment you want to switch to another large language model,
+
+[Faculty (Olympus)] 12:56:33
+Um, then you will have to rewrite all of these things again. So, Langchin really provides that framework
+
+[Faculty (Olympus)] 12:56:39
+So that you are able to switch to any large language model of your choice,
+
+[Faculty (Olympus)] 12:56:44
+And every model will understand… LangChain basically converts so that every mod will understand the definition of it. So, that's why using LangChain here and using Transformers,
+
+[Faculty (Olympus)] 12:56:54
+And then this is basically the definition of when you're, you know, downloading it from Hugging Face.
+
+[Faculty (Olympus)] 12:57:00
+Langchain slash Turning Fix, this is a library that… that does the translation, okay? So that… that's what it really is. I've already, you know, run this a few minutes back before the class started, so you can see that, um,
+
+[Faculty (Olympus)] 12:57:10
+It's already satisfied, like, the requirements were already there, and I've already successfully installed a land chain. Then once… once you do that, right, like, this is where you're providing that, hey, I want to use this particular model.
+
+[Faculty (Olympus)] 12:57:23
+So you can, you know, copy this, and then…
+
+[Faculty (Olympus)] 12:57:25
+go to Hugging Face, and you can actually, like, look for this particular model. So this is the… this is the one that we are basically downloading. This is the Falcon 3 1 billion parameters, right? So this is the model that we have.
+
+[Faculty (Olympus)] 12:57:38
+Um, and we are leveraging… leveraging this particular model in our… in our notebook.
+
+[Faculty (Olympus)] 12:57:42
+Now, this is the beauty of Langchain, you can change this model to any other open-source model of your choice,
+
+[Faculty (Olympus)] 12:57:49
+It will download, uh, this, you know, as it has downloaded the Falcon model,
+
+[Faculty (Olympus)] 12:57:55
+But rest, you know, all the prompts and all the instructions should run exactly the same, right? Obviously, if you're downloading, like, an image model,
+
+[Faculty (Olympus)] 12:58:05
+Uh, you know, the pipe… the text generation capability may not be there, so again, another thing to keep in mind is when you
+
+[Faculty (Olympus)] 12:58:11
+look into models, depending on the use case that you have, right? Like, you can actually, like, select
+
+[Faculty (Olympus)] 12:58:16
+sort of the right models, and then that way, you can see, you know, the different models being shown to you.
+
+[Faculty (Olympus)] 12:58:22
+Okay? So, that's the second step, uh, where we will be downloading this. Like,
+
+[Faculty (Olympus)] 12:58:29
+The initial setup is going to be different, uh, the installing and importing the necessary lines, this is going to be different
+
+[Faculty (Olympus)] 12:58:35
+Um, you know, in both notebooks. Um, so I'm kind of trying to show this to you parallelly, so that you can make sense of it, right? Like, what is the difference? Because REST, the instructions and everything, the results may be a little bit different and maybe a little bit better when it comes to OpenAI, etc.
+
+[Faculty (Olympus)] 12:58:50
+But the prompts and the instructions will be very, very similar, and you have… you guys have access to the notebook as well.
+
+[Faculty (Olympus)] 12:58:56
+So you should be able to see it as well, okay?
+
+[Faculty (Olympus)] 12:58:59
+Um, so going back…
+
+[Faculty (Olympus)] 12:59:02
+here, um, we are at this stage where we have downloaded, uh, the model, and once downloaded, right, you can actually, like, see here, uh, it is actually, like, stored in this particular
+
+[Faculty (Olympus)] 12:59:12
+files, so sometimes the files are, like, you know, invisible, so you can, you know, do this and look for this particular file, uh, you know, within the directory.
+
+[Faculty (Olympus)] 12:59:21
+As I mentioned, OLAB
+
+[Faculty (Olympus)] 12:59:24
+downloads the file, um, in your local virtual cloud environment, right? So that's why you can see that it is in the cache here.
+
+[Faculty (Olympus)] 12:59:31
+Okay? I'm gonna pause here, I'm seeing a few questions as well.
+
+[Faculty (Olympus)] 12:59:38
+Okay, James, not a commercial, but Cisco sells AI Defense, that was the company acquired.
+
+[Faculty (Olympus)] 12:59:42
+Yeah, Dean, thank you so much for providing that input. Uh, yeah, a lot of…
+
+[Faculty (Olympus)] 12:59:47
+really products out there, Cisco is obviously a leader when it comes to
+
+[Faculty (Olympus)] 12:59:51
+this and, you know, I'm aware of products from Palo Alto, you know, obviously from Google as well.
+
+[Faculty (Olympus)] 12:59:57
+Um, uh, so, you know, like, definitely do some research over there, which should be good.
+
+[Faculty (Olympus)] 13:00:04
+Um, you know, at least Adino mentioned Valoranto as well, so I appreciate that, uh, Dino.
+
+[Faculty (Olympus)] 13:00:08
+Um, James, another comment from you, a picklebomb in the context of LLMs refers to a malicious exploit with a Python pickle file.
+
+[Faculty (Olympus)] 13:00:17
+commonly used to store in… yeah, okay.
+
+[Faculty (Olympus)] 13:00:19
+This is great. Please, please kind of need to share, James, appreciate, appreciate you. You're welcome to speak as well.
+
+[Faculty (Olympus)] 13:00:26
+Um, any other comments, questions, folks, so far?
+
+[Faculty (Olympus)] 13:00:35
+Okay?
+
+[Faculty (Olympus)] 13:00:37
+Sanjeev, I know you sent some comments earlier. This is starting to make sense, and we can see the difference between the Gemini prompts and this?
+
+[Sanjiv Kumar .] 13:00:47
+Yeah, I was just curious, because…
+
+[Sanjiv Kumar .] 13:00:51
+The main thing is that…
+
+[Sanjiv Kumar .] 13:00:55
+in the real industry world, I mean, I've been utilizing it, but it's a lot of…
+
+[Sanjiv Kumar .] 13:00:59
+like, when I saw the notebook, I was like, okay, this is…
+
+[Sanjiv Kumar .] 13:01:04
+And again, you can't keep it up to date, because it changes so fast, right?
+
+[Sanjiv Kumar .] 13:01:10
+Um, so there has to be some…
+
+[Sanjiv Kumar .] 13:01:12
+But I feel that even in the… when I was going through…
+
+[Sanjiv Kumar .] 13:01:16
+the recordings, they're still referring the old, like, Bard and Falkland and all that, and that's…
+
+[Sanjiv Kumar .] 13:01:22
+really old. I mean, nobody talks about those anymore.
+
+[Sanjiv Kumar .] 13:01:24
+Those were, I feel, legacy, and it's like, just 2 years ago, they were, like, the top.
+
+[Sanjiv Kumar .] 13:01:30
+So, it's just that I… it's changing so fast.
+
+[Faculty (Olympus)] 13:01:33
+Yeah.
+
+[Sanjiv Kumar .] 13:01:33
+Like, I was surprised when…
+
+[Sanjiv Kumar .] 13:01:35
+I gave a prompt to Gemini and said, hey, can you build a…
+
+[Sanjiv Kumar .] 13:01:40
+a slide deck for me, and it did such a good job that it summarized everything.
+
+[Faculty (Olympus)] 13:01:44
+Yeah.
+
+[Sanjiv Kumar .] 13:01:45
+did the infographics? Amazing. So I'm like, okay, this is…
+
+[Sanjiv Kumar .] 13:01:50
+Um, this is really changing fast.
+
+[Faculty (Olympus)] 13:01:52
+Yeah. Yeah, no, so, I mean, I don't know which video has barred, but that is definitely a feedback for the program teams. I'm gonna share that, um, share that with them, because
+
+[Faculty (Olympus)] 13:02:06
+bar, like, we… we had it two years back, so you spot on there. Um, and it's not even multimodal, right? It's more text generation, um…
+
+[Faculty (Olympus)] 13:02:15
+I think we may have deprecated it. Sorry, I need to stop saying we. I mean, Google may have deprecated it.
+
+[Faculty (Olympus)] 13:02:22
+Um, so, um, but good catch, and we should, uh, you know, provide it.
+
+[Faculty (Olympus)] 13:02:26
+I think… I think the way you need to look at all of this, what we are, you know, seeing here, right?
+
+[Faculty (Olympus)] 13:02:32
+when you interact with Gemini on the app, Sanjeev, it's a one-to-one sort of an interaction.
+
+[Faculty (Olympus)] 13:02:38
+But to truly leverage, uh, the power of Gemini, you will need to look into the Gemini API.
+
+[Faculty (Olympus)] 13:02:44
+Um, and what are… what is the best way… what is the best construct
+
+[Faculty (Olympus)] 13:02:48
+Um, and what are the different options out there, you know, to make the best and make the best use of Gemini API as an example, right?
+
+[Faculty (Olympus)] 13:02:57
+Um, I would encourage you to look at the developer's guide for Gemini API. I think I might have shared my, uh,
+
+[Faculty (Olympus)] 13:03:05
+channel and video. I've done a few.
+
+[Faculty (Olympus)] 13:03:07
+interesting ones, you know, they have updated now Gemini API, which can upload file
+
+[Faculty (Olympus)] 13:03:12
+directly, you know, from your AWS buckets and stuff like that.
+
+[Faculty (Olympus)] 13:03:17
+doing your right, right? And it's just very hard to keep track, so I can understand these… this is, like, a university…
+
+[Faculty (Olympus)] 13:03:25
+course, right? So I'm sure they have developed it a little bit while, and it's hard to keep track, but…
+
+[Faculty (Olympus)] 13:03:31
+keep the questions coming, and I'm happy to share as much as I know, and we can continue to learn together.
+
+[Faculty (Olympus)] 13:03:37
+Okay? Um, alright, so we'll continue here, um…
+
+[Faculty (Olympus)] 13:03:42
+So, once you've done this, right, so now we have downloaded the model, the model is already here,
+
+[Faculty (Olympus)] 13:03:47
+And then this is just basic check, right? So we just kind of, you know, this is sort of the input, um, and this is the LLM invoke function.
+
+[Faculty (Olympus)] 13:03:55
+That is a standard out-of-the-box function that you would use.
+
+[Faculty (Olympus)] 13:04:00
+Once you have downloaded, uh, the, uh, the…
+
+[Faculty (Olympus)] 13:04:04
+the library here, right? So, and user input becomes your prompt, right? So this is the question.
+
+[Faculty (Olympus)] 13:04:09
+which you're asking, and, you know, it should be able to provide this particular response, right? Now, you can play with this and change the model of your choice, and then, you know, look for
+
+[Faculty (Olympus)] 13:04:19
+look for the kind of responses.
+
+[Faculty (Olympus)] 13:04:21
+Hey, uh, another thing I totally missed mentioning is device is equal to zero. This is a really key element that you need to keep in mind.
+
+[Faculty (Olympus)] 13:04:29
+So, device is equal to zero really instructs
+
+[Faculty (Olympus)] 13:04:32
+Um, the CoLab to actually use a GPU.
+
+[Faculty (Olympus)] 13:04:36
+Um, if you use devices equal to minus 1, this is going to crash. It's not gonna work because
+
+[Faculty (Olympus)] 13:04:42
+You can imagine the number of, uh, you know, it's a billion parameter model, so it's pretty high for it to run on a CPU, right? That means it's not going to use
+
+[Faculty (Olympus)] 13:04:52
+the RAM from the virtual environment, but it's just going to allocate a CPU
+
+[Faculty (Olympus)] 13:04:57
+hardware, uh…
+
+[Faculty (Olympus)] 13:04:59
+Which is going to be very, very less, right? So, make sure you… you pay attention to this particular one when you're running this, uh, notebook.
+
+[Faculty (Olympus)] 13:05:06
+Okay? Um…
+
+[Faculty (Olympus)] 13:05:08
+Alright, so we ran this, we saw, you know, a normal output, so this is basically a test that everything is running fine, we have downloaded the model, everything is good to go, okay?
+
+[Faculty (Olympus)] 13:05:18
+Now we get into the different use cases.
+
+[Faculty (Olympus)] 13:05:21
+Now, the first one is customer feedback analysis.
+
+[Faculty (Olympus)] 13:05:24
+And guys, I'm… I know we have been…
+
+[Faculty (Olympus)] 13:05:28
+running and doing prompting for a long time now, so this…
+
+[Faculty (Olympus)] 13:05:34
+will look easy and simple.
+
+[Faculty (Olympus)] 13:05:36
+Um, but this is a prompt engineering fundamental class, so…
+
+[Faculty (Olympus)] 13:05:40
+Um, let's just go through it together and try to take the maximum out of it, um, you know, and obviously I'm here
+
+[Faculty (Olympus)] 13:05:47
+Uh, to answer any additional questions that you have, so that I can cover the latest from my knowledge.
+
+[Faculty (Olympus)] 13:05:52
+Okay? So in this case, what is being done is, first, we are uploading data in a particular variable,
+
+[Faculty (Olympus)] 13:06:00
+So this is sort of the data, because we're taking, like, a, you know,
+
+[Faculty (Olympus)] 13:06:03
+feedback analysis, right? So,
+
+[Faculty (Olympus)] 13:06:05
+Um, this is sort of the data that we have. You know, I recently had the privilege of consulting with a particular doctor,
+
+[Faculty (Olympus)] 13:06:12
+Um, uh, so, you know, like a nice, really nice note someone shares, right? So, it's also pretty detailed.
+
+[Faculty (Olympus)] 13:06:19
+Um, and this is…
+
+[Faculty (Olympus)] 13:06:21
+the data, and this is the prompt,
+
+[Faculty (Olympus)] 13:06:24
+that, hey, you are the assistant that supports a healthcare provider analyzing patient reviews.
+
+[Faculty (Olympus)] 13:06:29
+Your goal is to extract key information from the user data provided below.
+
+[Faculty (Olympus)] 13:06:33
+including the patient's name, doctor mentioned.
+
+[Faculty (Olympus)] 13:06:35
+In the review, right? Um, you can see it's a very detailed prompt, and what they've also done, you know, whoever designed the prompt is, you know, they've kind of mentioned this in
+
+[Faculty (Olympus)] 13:06:45
+a JSON format, right? Which is the, you know, the format which really
+
+[Faculty (Olympus)] 13:06:50
+works well when you talk to large language models, you know, easier when it is… when something is given in a key-value pair, so you can see the key.
+
+[Faculty (Olympus)] 13:06:59
+And this is sort of the value which needs to be extracted.
+
+[Faculty (Olympus)] 13:07:02
+So if you already instruct
+
+[Faculty (Olympus)] 13:07:05
+Um, in the form of a prompt to the live language model that, hey,
+
+[Faculty (Olympus)] 13:07:10
+This is exactly what I'm looking from you.
+
+[Faculty (Olympus)] 13:07:14
+as part of the… your analysis, and go extract this information.
+
+[Faculty (Olympus)] 13:07:20
+Um, the live language model is going to do a better job
+
+[Faculty (Olympus)] 13:07:23
+Versus, you know, if you just ask it to
+
+[Faculty (Olympus)] 13:07:27
+you know, look at this, analyze, and provide me rich information.
+
+[Faculty (Olympus)] 13:07:32
+Um, depending on the power of the model, you know, and how good the model is, you may get totally different results, but if you…
+
+[Faculty (Olympus)] 13:07:39
+I have something like this video provided with very detailed instructions, it's gonna do a good job, right? So that's what this is.
+
+[Faculty (Olympus)] 13:07:46
+Um, and you can see, you know, we are asking for patient name, consulting doctor, uh, rating, so this is… we are also giving, like, a rating between 0 to 5.
+
+[Faculty (Olympus)] 13:07:56
+Um, which is, you know, which is good, so it needs to also do that calculation.
+
+[Faculty (Olympus)] 13:08:01
+description, satisfaction, and then issue tax, right? So, in the case of a negative review,
+
+[Faculty (Olympus)] 13:08:06
+or dissatisfaction at tax which specify the area of dissatisfaction.
+
+[Faculty (Olympus)] 13:08:11
+So, apparently, it looks like
+
+[Faculty (Olympus)] 13:08:13
+If there is an issue, then only tag, you know, if there is no issue, then maybe, like, not tag.
+
+[Faculty (Olympus)] 13:08:18
+something around that, right? So that's, that's, uh, that's interesting.
+
+[Faculty (Olympus)] 13:08:22
+Um, so then we… then we basically run this, so we are providing both, you know, the prompt and the data, right, as part of the overall prompt.
+
+[Faculty (Olympus)] 13:08:30
+Um, and then you basically print it, and…
+
+[Faculty (Olympus)] 13:08:34
+This is what goes as an input. Uh, so now we have this, you know, variable loaded.
+
+[Faculty (Olympus)] 13:08:40
+Um, and then now we will invoke, uh, LLMinvoke.prompt. Prompt has got all of these details now.
+
+[Faculty (Olympus)] 13:08:46
+Um, you know, with the data, as well as the ask or the instruction. Um, and then this is…
+
+[Faculty (Olympus)] 13:08:52
+This is the initial response, right? So the patient name it extracted as this, consulting doctor this,
+
+[Faculty (Olympus)] 13:08:59
+rating review this, review description this, uh, satisfaction is true.
+
+[Faculty (Olympus)] 13:09:04
+It has still identified some
+
+[Faculty (Olympus)] 13:09:07
+issue tags, uh, which I feel is…
+
+[Faculty (Olympus)] 13:09:10
+wrong, because…
+
+[Faculty (Olympus)] 13:09:12
+like, our instruction was pretty clear, right? In the case of a negative review or dissatisfaction,
+
+[Faculty (Olympus)] 13:09:18
+add tags. So in this case, the review is positive, so probably it should not have
+
+[Faculty (Olympus)] 13:09:22
+Like, these are not issue tags, right? So…
+
+[Faculty (Olympus)] 13:09:24
+This could be something you guys can, like,
+
+[Faculty (Olympus)] 13:09:26
+you know, change the prompt to see what you can do, um, but this is
+
+[Faculty (Olympus)] 13:09:32
+definitely a little bit of an issue, right? So, human in the loop, um, this is something, a good example of,
+
+[Faculty (Olympus)] 13:09:36
+what you can do here in terms of, uh, in terms of the prompt, right?
+
+[Faculty (Olympus)] 13:09:41
+similarly, you know, another data point,
+
+[Faculty (Olympus)] 13:09:45
+And you can see here, like, you know, this one is a negative, uh, feedback.
+
+[Faculty (Olympus)] 13:09:50
+So you can see, you know, the reason they are disappointing consultation, um…
+
+[Faculty (Olympus)] 13:09:55
+It kind of, you know, goes into the details, et cetera, et cetera. Um, similar prompt, etc.
+
+[Faculty (Olympus)] 13:10:01
+Um, and it's interesting, again, like, there's no issue tax found here, which is…
+
+[Faculty (Olympus)] 13:10:05
+Which is definitely something going on here, right? So, it's not doing its job right.
+
+[Faculty (Olympus)] 13:10:09
+Um, but these are two examples. One was positive, one was negative.
+
+[Faculty (Olympus)] 13:10:15
+Um, I think the models have become so well that…
+
+[Faculty (Olympus)] 13:10:18
+just with the text model, it can also extract sentiment,
+
+[Faculty (Olympus)] 13:10:22
+Um, it can also extract information, and it can also
+
+[Faculty (Olympus)] 13:10:26
+you know, add, like, a number. Um, so here it was not able to provide, like, a rating, probably should have rated as 0.
+
+[Faculty (Olympus)] 13:10:32
+But these are some of the flaws that you're seeing.
+
+[Faculty (Olympus)] 13:10:34
+Uh, as part of the output.
+
+[Faculty (Olympus)] 13:10:37
+Right? So…
+
+[Dino Vitale .] 13:10:39
+Had a quick question.
+
+[Faculty (Olympus)] 13:10:40
+Sure.
+
+[Dino Vitale .] 13:10:42
+In this case, when you have the whole… when you're putting in the whole prompt together,
+
+[Dino Vitale .] 13:10:47
+by default, is that being treated
+
+[Dino Vitale .] 13:10:49
+From a role perspective, is that being treated as a user, or it's a system… it's not a system. It's not considered a system prop. Is it behind the covers? It's a user prop. It's considered user, right?
+
+[Faculty (Olympus)] 13:11:02
+Correct, so that's a great question. Right now, it is a user prompt.
+
+[Faculty (Olympus)] 13:11:06
+Uh, later, we will also, you know, show an example of
+
+[Faculty (Olympus)] 13:11:10
+how we can actually give a system prompt along with a user prompt, and actually make the model differentiate between both the prompts.
+
+[Faculty (Olympus)] 13:11:18
+Right now, it's a user prompt.
+
+[Dino Vitale .] 13:11:20
+And just another quick question. When you did the download, when you redownloaded in the notebook,
+
+[Dino Vitale .] 13:11:25
+from Hugging Face, when it downloaded,
+
+[Dino Vitale .] 13:11:27
+It downloaded all the tokenizer files and the safe tensors,
+
+[Dino Vitale .] 13:11:31
+Can you… where do… where does actually… because I was trying to look for them.
+
+[Dino Vitale .] 13:11:36
+Like, are they loaded into your local… are they loaded somewhere in… oh, there, okay, on your local…
+
+[Faculty (Olympus)] 13:11:40
+Yeah, yeah, so it's not usually visible, um, so you have to, you know, like,
+
+[Dino Vitale .] 13:11:41
+Okay.
+
+[Faculty (Olympus)] 13:11:46
+like, these are, like, hide-hidden files, right? So you can then… you need to go into this, um, and it's usually somewhere here, so you can actually, like, ask Gemini
+
+[Faculty (Olympus)] 13:11:54
+where the files have been loaded, and it will actually, like, give you the exact location.
+
+[Faculty (Olympus)] 13:11:58
+And you should be able to see it. Um, but usually that is part of the hidden files.
+
+[Faculty (Olympus)] 13:12:04
+Um, and uh… and that's where… that's where you will need to… you will need to look for it.
+
+[Faculty (Olympus)] 13:12:09
+Um, but this is in the cache, uh, within the Hugging Face, uh, hub file.
+
+[Dino Vitale .] 13:12:15
+And I would assume they would be, like, read-only, right? Because you wouldn't want…
+
+[Dino Vitale .] 13:12:19
+You wouldn't want to go in and modify these files and, you know, and changing the tokenizer behavior.
+
+[Faculty (Olympus)] 13:12:25
+It is… it is a read… read-only, but you also have a config file where you should be able to change the parameters, and that's where it becomes really, you know, based on your knowledge level, etc.
+
+[Faculty (Olympus)] 13:12:36
+Um, if you want to, you know, change some of the things, but most of the things are just numbers, which we won't be able to understand.
+
+[Faculty (Olympus)] 13:12:44
+But then, you know, some of the things
+
+[Faculty (Olympus)] 13:12:47
+That's where the whole beauty of downloading the large language model look pretty, which is open source, you're able to use this.
+
+[Dino Vitale .] 13:12:51
+Cool.
+
+[Faculty (Olympus)] 13:12:56
+Okay? Yeah, no worries. Um, other thing which is mentioned here, right, which is HF4 Home Environment Variable. So in Colab, like, you…
+
+[Dino Vitale .] 13:12:57
+Thank you.
+
+[Faculty (Olympus)] 13:13:05
+have this… I think I mentioned this last time as well, so you… you can kind of create secrets, um, and you can specify
+
+[Faculty (Olympus)] 13:13:13
+Um, you know, like a variable, uh, like an environment variable,
+
+[Faculty (Olympus)] 13:13:17
+Um, so you can provide where you want to store it, and in that case, it can actually, like, store there.
+
+[Faculty (Olympus)] 13:13:24
+So just in case you want to do that as well.
+
+[Faculty (Olympus)] 13:13:26
+Okay?
+
+[Faculty (Olympus)] 13:13:28
+Also, um, because we are running it in Colab, it is storing it in this… in this cache.
+
+[Faculty (Olympus)] 13:13:34
+Because it's a virtual environment. If we were running it in, like, a VS Code or something of that sort, or down… you can, like, download it
+
+[Faculty (Olympus)] 13:13:42
+physically on your laptop as well, right? And then upload it in a VS Code and stuff like that. So, that's obviously possible as well.
+
+[Faculty (Olympus)] 13:13:51
+Okay? Um…
+
+[Faculty (Olympus)] 13:13:53
+All right, Sanjeev, um, thanks for that, uh, additional input, land change standardizes how interact, uh, yeah.
+
+[Faculty (Olympus)] 13:14:00
+So that's exactly what…
+
+[Faculty (Olympus)] 13:14:02
+Langchain does, um…
+
+[Faculty (Olympus)] 13:14:04
+And they have come a long way, right? Like, um, like, they also recently announced, uh, Langchain,
+
+[Faculty (Olympus)] 13:14:11
+Visual Builder, Lexi Langsmith Visual Builder, which actually, like, allows you to build, um,
+
+[Faculty (Olympus)] 13:14:17
+agents visually, which is, like, another level. So we'll get into all of that, hopefully, in the next sections. Again, I do not want to digress.
+
+[Faculty (Olympus)] 13:14:25
+Okay, so…
+
+[Faculty (Olympus)] 13:14:27
+going back to…
+
+[Faculty (Olympus)] 13:14:29
+where we were, uh, I think we went through all the examples, now we will get into the second case study here.
+
+[Faculty (Olympus)] 13:14:36
+Which is the meeting note summarizer.
+
+[Faculty (Olympus)] 13:14:39
+Um, so I think we all kind of understand, you know, this is…
+
+[Faculty (Olympus)] 13:14:44
+anybody who has any meetings can relate to this, and probably, you know, all of us, uh,
+
+[Faculty (Olympus)] 13:14:48
+So, this is sort of the kind of conversation that we have, like, you know, multiple people talking. I think this was, like, a one-on-one between John and Sarah.
+
+[Faculty (Olympus)] 13:14:56
+Um, I mean, this mic as well, so there are multiple people talking.
+
+[Faculty (Olympus)] 13:14:59
+Right? So your task is to, um, you know, summarize
+
+[Faculty (Olympus)] 13:15:03
+Um, and… and document meeting transcripts.
+
+[Faculty (Olympus)] 13:15:06
+Um, and then you can have
+
+[Faculty (Olympus)] 13:15:09
+like, in this one, see, it's not, uh, it's not being mentioned in JSON, which is fine too.
+
+[Faculty (Olympus)] 13:15:15
+you know, I think JSON makes it a little bit more interesting, and makes it much more easier for large language models to run.
+
+[Faculty (Olympus)] 13:15:21
+But not everyone understands how to write in JSON.
+
+[Faculty (Olympus)] 13:15:25
+So one way to really be smart is
+
+[Faculty (Olympus)] 13:15:27
+like, ask another LLM to convert this into a JSON so that it can become, like, a much better, smarter prompt.
+
+[Faculty (Olympus)] 13:15:33
+I think this became very popular, especially for image generation.
+
+[Faculty (Olympus)] 13:15:37
+Um, you know, you could provide, like, get really, really strong output from an image generation models.
+
+[Faculty (Olympus)] 13:15:43
+If you are providing, you know, a lot of, like, JSON format prompt prompts.
+
+[Faculty (Olympus)] 13:15:47
+Um, but…
+
+[Faculty (Olympus)] 13:15:49
+This one is straightforward, carefully read through the user input, and provide the following. I want the date of the meeting summary.
+
+[Faculty (Olympus)] 13:15:55
+list of participants, press discussion points,
+
+[Faculty (Olympus)] 13:15:58
+hierarchical points with four fields, action item, action item, description, deadline,
+
+[Faculty (Olympus)] 13:16:03
+estimated time of, you know, action and, uh…
+
+[Faculty (Olympus)] 13:16:06
+owner, comments, opinion, etc., etc., right? So this is…
+
+[Faculty (Olympus)] 13:16:10
+pretty much standard, which you would expect.
+
+[Faculty (Olympus)] 13:16:12
+Um, and then you would…
+
+[Faculty (Olympus)] 13:16:14
+you would basically, uh, this becomes the prompt, you have provided the prompt, and you will provide the
+
+[Faculty (Olympus)] 13:16:20
+conversation, which we had already loaded in this variable here.
+
+[Faculty (Olympus)] 13:16:24
+Um, and then, just like before, you will, you know,
+
+[Faculty (Olympus)] 13:16:27
+provide all of this together, um, and then you will invoke formatted prompt and score 1, which is this particular variable, which is a combination of your prompt and the data.
+
+[Faculty (Olympus)] 13:16:38
+Right? So then, based on that, it will provide exactly the way we responded, date of the meeting, summary of this,
+
+[Faculty (Olympus)] 13:16:46
+press discussion points, um, and then hierarchical points with
+
+[Faculty (Olympus)] 13:16:50
+four fields each, right? So…
+
+[Faculty (Olympus)] 13:16:52
+Um, you know, doing a really decent job. I mean, you can actually, like, build a simple app.
+
+[Faculty (Olympus)] 13:16:57
+out of this, uh, where this could be, like, a…
+
+[Faculty (Olympus)] 13:17:01
+like an extension as well, right? Lalitha says, can we feed it, uh, feed a meeting recording?
+
+[Faculty (Olympus)] 13:17:09
+I think this one, it requires text.
+
+[Faculty (Olympus)] 13:17:13
+Um, but this is where you can be more creative.
+
+[Faculty (Olympus)] 13:17:17
+Um, so you can actually download the audio, convert it into text,
+
+[Faculty (Olympus)] 13:17:23
+then use that text as an input to this. So there'll be, like, you know, multiple steps that we'll need to happen before, um, but you can absolutely do this. Right now, it is expecting
+
+[Faculty (Olympus)] 13:17:33
+someone to be loading a transcript, but you can absolutely do that, uh, audio to text, and then text to… text to this.
+
+[Faculty (Olympus)] 13:17:41
+Okay, that's a great question. Um…
+
+[Faculty (Olympus)] 13:17:46
+Next one is, it would be a very basic concept, but I would like to know the difference between agent AI and AI agents.
+
+[Faculty (Olympus)] 13:17:53
+Yeah, I think, um, it's a great question, Eduardo. When it comes to
+
+[Faculty (Olympus)] 13:17:59
+AI agents, these are specific…
+
+[Faculty (Olympus)] 13:18:02
+Um,
+
+[Faculty (Olympus)] 13:18:04
+agents which are taking action. So, for example, I built a, um…
+
+[Faculty (Olympus)] 13:18:10
+like, a transcribing agent, right? So,
+
+[Faculty (Olympus)] 13:18:13
+This agent is taking a very specific action where I'm uploading, um, you know, a transcription in this case,
+
+[Faculty (Olympus)] 13:18:22
+It is using a large language model as a brain, um, and it is taking an action and maybe, like, uploads it somewhere else.
+
+[Faculty (Olympus)] 13:18:29
+Um, that is an AI agent, which is really the… I would see that as an element which actually, like, takes an action.
+
+[Faculty (Olympus)] 13:18:36
+Agentech AI is a broader, uh, fundamental, in a sense that any application
+
+[Faculty (Olympus)] 13:18:42
+which has, you know, multiple agents within it, could be called as an agentic AI application.
+
+[Faculty (Olympus)] 13:18:47
+So, it's a broader kind of, uh,
+
+[Faculty (Olympus)] 13:18:51
+phenomena, if you would, right? So it's… it's not…
+
+[Faculty (Olympus)] 13:18:55
+an agent itself. AI agents would be part of an agentic AI application, right? So that's how I would say, I would call it as a difference.
+
+[Faculty (Olympus)] 13:19:04
+So one is more of a fundamental or an approach, broader,
+
+[Faculty (Olympus)] 13:19:09
+AI agents is basically the actual
+
+[Faculty (Olympus)] 13:19:12
+Um, actual piece which is actually taking the action.
+
+[Faculty (Olympus)] 13:19:15
+Okay. Um…
+
+[Faculty (Olympus)] 13:19:17
+Hopefully that helped.
+
+[Faculty (Olympus)] 13:19:21
+Uh, Anmol is saying, probably can use something like Notebook LM for this. Um, and well, that's… that's a good point.
+
+[Faculty (Olympus)] 13:19:26
+You could use Notebook LM. I think what we're trying to show here and move is…
+
+[Faculty (Olympus)] 13:19:31
+to use your own
+
+[Faculty (Olympus)] 13:19:34
+um, download it, uh, open source model.
+
+[Faculty (Olympus)] 13:19:37
+in order to build something like this yourself, right? So this will run on your own.
+
+[Faculty (Olympus)] 13:19:42
+local hard disk, or, like, local repository, you have the control of the model and stuff like that. Notebook LM is
+
+[Faculty (Olympus)] 13:19:47
+Google's, um, SaaS, sort of, like, an application, which, you know, under the hood, uses Gemini, etc.
+
+[Faculty (Olympus)] 13:19:54
+Uh, just a lot of, lot of very, very interesting things, but
+
+[Faculty (Olympus)] 13:19:58
+you do not have control, uh, to the API, right? And it's, uh, you know,
+
+[Faculty (Olympus)] 13:20:04
+So that's the fundamental difference between what we are seeing
+
+[Faculty (Olympus)] 13:20:07
+Versus what Notebook LM is.
+
+[Anmol Sharma .] 13:20:09
+Yeah, I think my comment was just…
+
+[Anmol Sharma .] 13:20:12
+If you want to feed, like, meeting recording and, you know, don't want to do extra steps, then you can just use
+
+[Anmol Sharma .] 13:20:18
+notebook LM to do it for you. But yeah, I definitely…
+
+[Anmol Sharma .] 13:20:23
+For sure, what we're trying to do here.
+
+[Faculty (Olympus)] 13:20:25
+Yeah, yeah, thank you for that, yeah, and I love notebook elements, one of the really cool tools out there, you know, and everybody should give it a try.
+
+[Faculty (Olympus)] 13:20:33
+Okay, so the next one is, um, like, um…
+
+[Faculty (Olympus)] 13:20:39
+Like, the next example is…
+
+[Faculty (Olympus)] 13:20:41
+meeting conversation tools, you know, something similar here.
+
+[Faculty (Olympus)] 13:20:46
+So, you know, you can read through this, um, for example,
+
+[Faculty (Olympus)] 13:20:52
+here's a random condition it might hit near Jerry, uh, again, like, they're discussing about, uh, an infrastructure project.
+
+[Faculty (Olympus)] 13:20:58
+Um, so you can see that it's kind of taking another example, um, similar…
+
+[Faculty (Olympus)] 13:21:04
+Um, you know, now you're feeding that prompt, and then kind of formatting that prompt, which should have
+
+[Faculty (Olympus)] 13:21:11
+the actual prompt, as well as the data.
+
+[Faculty (Olympus)] 13:21:13
+Um, and then you're invoking, uh, the LLM function in order to get that response, right? So pretty much the same.
+
+[Faculty (Olympus)] 13:21:19
+Um, and you will see that it has, um, it has formulated and given us some action. I think you can see here, right, like,
+
+[Faculty (Olympus)] 13:21:26
+It is trying to do a good job, but I think, you know, you can see that
+
+[Faculty (Olympus)] 13:21:30
+It's kind of lacking when it comes to providing the full
+
+[Faculty (Olympus)] 13:21:34
+full output, right? So this is where…
+
+[Faculty (Olympus)] 13:21:36
+you know, if you'd probably look at…
+
+[Faculty (Olympus)] 13:21:39
+Let's see what…
+
+[Faculty (Olympus)] 13:21:41
+this has caught as an output.
+
+[Faculty (Olympus)] 13:21:45
+So we are on…
+
+[Faculty (Olympus)] 13:21:46
+The second one…
+
+[Faculty (Olympus)] 13:21:51
+So you can see, like, OpenAI,
+
+[Faculty (Olympus)] 13:21:53
+doing a better job, you know, like, second example here, um,
+
+[Faculty (Olympus)] 13:21:58
+You can see that, okay, it has done a much better job in a tabular format.
+
+[Faculty (Olympus)] 13:22:03
+And it sort of makes sense, because as you can understand, right, like, you always have the capability to
+
+[Faculty (Olympus)] 13:22:08
+go ahead and use
+
+[Faculty (Olympus)] 13:22:11
+You will always get the capability to use the latest model from, um, you know, these vendors.
+
+[Faculty (Olympus)] 13:22:17
+And these models keep on improving, right? The way they respond. They also have the latest knowledge, etc.
+
+[Faculty (Olympus)] 13:22:22
+Um, versus when you have
+
+[Faculty (Olympus)] 13:22:25
+Um, like, open source models, it is your responsibility to ensure that you have the latest downloaded version.
+
+[Faculty (Olympus)] 13:22:32
+Um, so I think in the beginning, Sanjeev mentioned about BARD, right? So,
+
+[Faculty (Olympus)] 13:22:36
+If you use BART right now, I don't know if it is even available,
+
+[Faculty (Olympus)] 13:22:40
+That's a problem, and you cannot expect it to be at the same level as Gemini 3, right?
+
+[Faculty (Olympus)] 13:22:45
+So it becomes, like, our responsibility for kind of using local models.
+
+[Faculty (Olympus)] 13:22:50
+Okay? Um, now this is the third case, which is basically a quiz generator,
+
+[Faculty (Olympus)] 13:22:55
+Um, so again, what we're… you can see the pattern here, right? So…
+
+[Faculty (Olympus)] 13:23:01
+Here, we always upload the data in a variable,
+
+[Faculty (Olympus)] 13:23:04
+So, in this case, we are uploading the data in information.
+
+[Faculty (Olympus)] 13:23:08
+And then, um, you know,
+
+[Faculty (Olympus)] 13:23:10
+This could be any kind of… you could also upload, like, a large
+
+[Faculty (Olympus)] 13:23:15
+textbook, uh, depending on the size of the tokens. That's very, very important.
+
+[Faculty (Olympus)] 13:23:19
+Depending on the size of the model that you have downloaded, right? So, how much tokens that can be used.
+
+[Faculty (Olympus)] 13:23:24
+Um, so in this case, uh, you know, you're using, uh, a large, uh, input like this. It's not so large, but
+
+[Faculty (Olympus)] 13:23:32
+you know, decent enough. Um, and then, um,
+
+[Faculty (Olympus)] 13:23:35
+It's basically explaining, um…
+
+[Faculty (Olympus)] 13:23:38
+like, introduction to Gen AI and LLMs,
+
+[Faculty (Olympus)] 13:23:40
+talking about what are LLMs, applications of LLMs, you know, content generation, etc., and then the conclusion here,
+
+[Faculty (Olympus)] 13:23:47
+Uh, which is… which is equal to this, right? So this becomes…
+
+[Faculty (Olympus)] 13:23:50
+The input, um…
+
+[Faculty (Olympus)] 13:23:52
+And then you have the quiz generation prompt,
+
+[Faculty (Olympus)] 13:23:55
+So in this case, you are an assistant to a corporate trainer,
+
+[Faculty (Olympus)] 13:23:58
+Um, your task has generated 5 multiple-choice questions,
+
+[Faculty (Olympus)] 13:24:02
+Uh, for these instructions strictly.
+
+[Faculty (Olympus)] 13:24:04
+I mean, so this is, like, you're not giving any examples, so probably you guys have heard of, you know,
+
+[Faculty (Olympus)] 13:24:11
+Um, zero shot, single shot, double shot, you know, as prompting techniques. So if you… you know, this would become much more better if you actually provide
+
+[Faculty (Olympus)] 13:24:21
+Some examples for large language model to understand, so that those are called, like, few short prompts, right, where
+
+[Faculty (Olympus)] 13:24:28
+You can provide, like, 2-3 examples. This is how the quiz should look like. This is how I expect the answer, so…
+
+[Faculty (Olympus)] 13:24:33
+The model gets a very quick understanding of, okay, this is what the user actually wants. So in this case, it's providing the instruction,
+
+[Faculty (Olympus)] 13:24:41
+But it's still not providing an example.
+
+[Faculty (Olympus)] 13:24:44
+Um, you know, if I were doing this, and if I had just one chance to do it, then I would actually, like, make it much more…
+
+[Faculty (Olympus)] 13:24:50
+Richard in terms of the prompt, and, like, provide some more examples as such, as well.
+
+[Faculty (Olympus)] 13:24:55
+Okay? So, this is the prompt in this case, and similarly, now it generates, you know, 5 different questions. This is the answer.
+
+[Faculty (Olympus)] 13:25:05
+Um, you know, which of the following is not a common application, etc.
+
+[Faculty (Olympus)] 13:25:09
+Uh, which is a key challenge. Um…
+
+[Faculty (Olympus)] 13:25:12
+Sentiment analysis is actually, like, now. It's an application of LLM easily.
+
+[Faculty (Olympus)] 13:25:18
+Uh, probably, again, back to Sanjeev's point, maybe this was created some time back, so maybe it was not at that point in time, but now…
+
+[Faculty (Olympus)] 13:25:25
+You can easily, easily do that.
+
+[Faculty (Olympus)] 13:25:31
+I'm just reading Zara's comment here, just want to share for those who use APIs to access Ireland. There's an OS called LiteLLM.
+
+[Faculty (Olympus)] 13:25:38
+Which is proxy to connect a lot of different backend LLMs.
+
+[Faculty (Olympus)] 13:25:41
+Fantastic. Thank you, Zari, for sharing that.
+
+[Faculty (Olympus)] 13:25:45
+Yeah, appreciate, appreciate you doing this.
+
+[Faculty (Olympus)] 13:25:48
+Um, always good to…
+
+[Faculty (Olympus)] 13:25:49
+shared knowledge with your peers, so I appreciate that. And James, I'm noticing you're also sharing, so appreciate that.
+
+[Faculty (Olympus)] 13:25:58
+Okay, um…
+
+[Faculty (Olympus)] 13:26:00
+Sanjeev… oh.
+
+[Faculty (Olympus)] 13:26:03
+added an example of an AI agent versus agentic AI? Perfect, yeah. So you can see…
+
+[Faculty (Olympus)] 13:26:09
+Agent DKI is an application. It's a broader, broader, uh, phenomena, right? So…
+
+[Faculty (Olympus)] 13:26:14
+Um, any application which uses AI agents would be termed as an agentic application.
+
+[Faculty (Olympus)] 13:26:20
+All right, so we'll continue, but appreciate the dialogue between you guys. It's always good to learn from the cohort as well.
+
+[Faculty (Olympus)] 13:26:28
+Okay? Now, the next one is, uh, a slide, uh, script generator. Um, so…
+
+[Faculty (Olympus)] 13:26:35
+Again, similar, uh, use case here.
+
+[Faculty (Olympus)] 13:26:39
+Where you are giving this as an input, generate a concise slide script on… not slide, but a script for slide.
+
+[Faculty (Olympus)] 13:26:47
+Right, so this should be the introduction.
+
+[Faculty (Olympus)] 13:26:50
+There should be the content,
+
+[Faculty (Olympus)] 13:26:51
+So, basically, 3 slides, and please ensure each slide contains enough information.
+
+[Faculty (Olympus)] 13:26:56
+And you get a… get a response like this.
+
+[Faculty (Olympus)] 13:27:00
+Now, I'm sure you're familiar with a lot of different tools available in the market, which can actually create slides,
+
+[Faculty (Olympus)] 13:27:06
+Um, you know, these are paid tools, um, and you can download them and then, you know, use it on Google Slides or Microsoft PowerPoint as well.
+
+[Faculty (Olympus)] 13:27:14
+Um, and then actually, like, edit and stuff like that.
+
+[Faculty (Olympus)] 13:27:18
+Or you can now, I think, you know, Anmol talked about Notebook LM, Notebook LM also creates slides,
+
+[Faculty (Olympus)] 13:27:24
+Um, but Gemini also can create slides and embed. Uh, I think OpenAI, ChatGPT also creates sites and stuff like that, right? So,
+
+[Faculty (Olympus)] 13:27:31
+you can actually, like, do all of that there, but again, the difference is those are paid models versus this one, we're trying to do this on a…
+
+[Faculty (Olympus)] 13:27:38
+Um, on a free, kind of, open-source model.
+
+[Faculty (Olympus)] 13:27:42
+Okay? The last one is, um, user compliance. Um, so this is an example.
+
+[Faculty (Olympus)] 13:27:49
+Um, my smart refrigerator has started ordering ice cream on its own.
+
+[Faculty (Olympus)] 13:27:55
+My daughter sees this, she's gonna love this refrigerator.
+
+[Faculty (Olympus)] 13:27:58
+Um, it is turning my kitchen into…
+
+[Faculty (Olympus)] 13:28:01
+Arctic Wonderland soil. This is a genuine problem.
+
+[Faculty (Olympus)] 13:28:05
+Um, so the system message… okay, so there was a question earlier, right? So, where you were talking about system prompt versus user prompt. So, this… this is where, um, you know, we are providing a system prompt ahead of time.
+
+[Faculty (Olympus)] 13:28:18
+Uh, that, hey, you are a customer support assistant, you will be provided with a user complaint, that becomes the data.
+
+[Faculty (Olympus)] 13:28:24
+Uh, and then, you know, if the sentiment is negative, do this. If the sentiment is positive, do this. So, you can see now there's a bit of a…
+
+[Faculty (Olympus)] 13:28:32
+difference here, right? So there's a role, you're giving two different types of role, system and user,
+
+[Faculty (Olympus)] 13:28:38
+You're passing the system message as part of the, you know, the role when it… when you're giving it as a system role.
+
+[Faculty (Olympus)] 13:28:44
+And then you're passing a user complaint as the message when you're giving it a user role, right? So that's the idea here.
+
+[Faculty (Olympus)] 13:28:52
+Um, and prompt one, in this case, is basically a list, which has both these tuples, right? So you can see
+
+[Faculty (Olympus)] 13:28:59
+Um, it is… it is able to both take system message as well as
+
+[Faculty (Olympus)] 13:29:03
+the user message so that it can, you know, respect
+
+[Faculty (Olympus)] 13:29:06
+Uh, the system instruction from the get-go.
+
+[Faculty (Olympus)] 13:29:09
+Okay? Um, I don't know who had asked that. I remember, uh, probably…
+
+[Faculty (Olympus)] 13:29:14
+I'm sorry, I'm forgetting, it was Dino who had asked that question, or Zare, one of you guys, right?
+
+[Faculty (Olympus)] 13:29:19
+on the system.
+
+[Dino Vitale .] 13:29:19
+Yes, you know, yes, thank you.
+
+[Faculty (Olympus)] 13:29:21
+Okay, awesome. Alrighty now. So, hopefully, this statifies.
+
+[Faculty (Olympus)] 13:29:25
+Yeah, so then this is the second example, similar,
+
+[Faculty (Olympus)] 13:29:29
+Um, and you can see, you know, the response over here, right?
+
+[Faculty (Olympus)] 13:29:32
+So, you can see this is sort of, like, pretty straightforward, uh, you know,
+
+[Faculty (Olympus)] 13:29:36
+prompt engineering, but this one
+
+[Faculty (Olympus)] 13:29:38
+The key things to learn here is, in this one, we basically used
+
+[Faculty (Olympus)] 13:29:45
+used a downloaded model in Google Colab.
+
+[Faculty (Olympus)] 13:29:49
+Um, in… in the second one,
+
+[Faculty (Olympus)] 13:29:51
+we will be actually…
+
+[Faculty (Olympus)] 13:29:54
+So, the second one is actually using OpenAI.
+
+[Faculty (Olympus)] 13:29:58
+You can run this in Google Colab as well, or you can actually run this in VS Code.
+
+[Faculty (Olympus)] 13:30:04
+Um, there are instructions here which I, you know, I talked earlier, right?
+
+[Faculty (Olympus)] 13:30:09
+Number one, you need to kind of go on your user settings, so if you… if you go here…
+
+[Faculty (Olympus)] 13:30:14
+Um, you will, like, click on your own listing link, and then go to the settings, um, and then you should be able to see this OpenAI token, so create one.
+
+[Faculty (Olympus)] 13:30:23
+Um, and then basically copy this. Um, you also have the API-based copy, both of these, and then create a config.json file,
+
+[Faculty (Olympus)] 13:30:32
+And store it in your, you know, in your local, like, computer.
+
+[Faculty (Olympus)] 13:30:37
+Um, if you're using VS Code, then you go back here,
+
+[Faculty (Olympus)] 13:30:41
+And, um…
+
+[Faculty (Olympus)] 13:30:45
+Let me just show you this, right? So, here in the file name, you provide
+
+[Faculty (Olympus)] 13:30:50
+The link to your local
+
+[Faculty (Olympus)] 13:30:52
+file, wherever you have stored it.
+
+[Faculty (Olympus)] 13:30:54
+But if you're using Colab,
+
+[Faculty (Olympus)] 13:30:56
+then what you can do is…
+
+[Faculty (Olympus)] 13:30:58
+You can actually, um…
+
+[Faculty (Olympus)] 13:31:01
+Okay, so I'm running too many sessions, I'm just gonna kill the other one.
+
+[Faculty (Olympus)] 13:31:04
+Um, and…
+
+[Faculty (Olympus)] 13:31:06
+reconnecting here… I mean, I don't need a GPU here because I'm using OpenAI, so that's a big difference, but… so, you know,
+
+[Faculty (Olympus)] 13:31:14
+whatever file you have created, right, you can actually click on this upload file,
+
+[Faculty (Olympus)] 13:31:17
+And you can upload the file here, so you don't have to, like,
+
+[Faculty (Olympus)] 13:31:20
+give the whole, uh, link, like, the whole, uh, path to the file.
+
+[Faculty (Olympus)] 13:31:26
+But whatever file is over here, you know, it should be able to take that, right? So that is the config file that you need to
+
+[Faculty (Olympus)] 13:31:32
+configure, and then the config file will have the key and the base URL,
+
+[Faculty (Olympus)] 13:31:36
+which are actually getting… which you're actually getting from here, right? So that's… that's the… that's the main difference between the previous one and this one.
+
+[Faculty (Olympus)] 13:31:43
+And also, you can see that we are simply installing the Langchain OpenAI.
+
+[Faculty (Olympus)] 13:31:47
+Um, and once we are done with that,
+
+[Faculty (Olympus)] 13:31:49
+Then the next one is we are now pointing it so that it knows where the API key is.
+
+[Faculty (Olympus)] 13:31:55
+Um, and we're simply importing the chat open API
+
+[Faculty (Olympus)] 13:31:59
+OpenAI function, um, and in this case, we're using the 4-O mini model, but you're welcome to use
+
+[Faculty (Olympus)] 13:32:05
+other models as well, right? So that's sort of the idea.
+
+[Faculty (Olympus)] 13:32:09
+Okay, so that's fundamentally the difference. REST, everything is exactly the same.
+
+[Faculty (Olympus)] 13:32:15
+Um, you know, and that's where you're able to use different models. In this case, we have created the OpenAI one, so we are using the OpenAI import.
+
+[Faculty (Olympus)] 13:32:24
+If you're using, like, a Gemini or other models as well, please make sure you kind of follow that as well.
+
+[Faculty (Olympus)] 13:32:29
+Okay?
+
+[Jonathan Beckford .] 13:32:31
+Quick, quick question. Um…
+
+[Faculty (Olympus)] 13:32:31
+Sure.
+
+[Jonathan Beckford .] 13:32:33
+We have usage limits.
+
+[Jonathan Beckford .] 13:32:35
+for OpenAI, how do we… how do we track…
+
+[Jonathan Beckford .] 13:32:38
+where we're at, because they said that we need to be able to leave enough.
+
+[Jonathan Beckford .] 13:32:41
+To where we can complete all of our projects through the end of the…
+
+[Jonathan Beckford .] 13:32:45
+semester, right? But how do we track the usage?
+
+[Faculty (Olympus)] 13:32:47
+Yeah, that's a good question. So, number one here, you're defining the max tokens, but what you could do, Jonathan, smartly, is you can actually, like, create a small function. You should take help from Gemini,
+
+[Faculty (Olympus)] 13:33:00
+Um, which, which you can actually run here as a function, which will actually define
+
+[Faculty (Olympus)] 13:33:07
+the number of tokens each particular cell is using.
+
+[Faculty (Olympus)] 13:33:10
+Um, which should… which should help, right? So that's… that's how I would, uh, do it if I'm… if I'm more cautious of the… of the max, because, I mean, I… I just… I just understand now why you're asking this, why maybe the great learning team has done this, because they have given
+
+[Faculty (Olympus)] 13:33:23
+It's there token, right? It's not… you don't have to purchase it, so I get it. So, A, like, they have given the max tokens 512, you can increase, decrease.
+
+[Faculty (Olympus)] 13:33:31
+But if you really want to use it, then I would recommend that you just write a simple function
+
+[Faculty (Olympus)] 13:33:37
+Um, you know, here, um, which can actually, like, track the usage of the tokens.
+
+[Faculty (Olympus)] 13:33:42
+Okay?
+
+[Jonathan Beckford .] 13:33:43
+Gotcha. Okay.
+
+[Faculty (Olympus)] 13:33:44
+Yeah, no worries. Um, Triplet says to follow up John's question, can we use your own… our own API keys? You absolutely can. I think that is where, you know, you will need to change the base URL.
+
+[Faculty (Olympus)] 13:33:56
+Um, I think they are giving you free access, so just to run the projects.
+
+[Faculty (Olympus)] 13:34:01
+probably use this. Uh, but if you have your, you know, if you already have OpenAI, if you've already paid for the subscription, you know, 20 bucks, um, you know, I think it's 20 bucks, I don't know if they have decreased or increased it. I know they're introducing ads, so maybe they have decreased it.
+
+[Faculty (Olympus)] 13:34:14
+So you can go to the OpenAI platform, I'm assuming you guys know about it,
+
+[Faculty (Olympus)] 13:34:18
+And then from there, take the API key and use it over here, so it should work just as fine.
+
+[Faculty (Olympus)] 13:34:24
+trip it, did that? Did I answer that… answer your question?
+
+[Tridip Ray .] 13:34:28
+Uh, yeah, yeah, perfect, thank you.
+
+[Faculty (Olympus)] 13:34:30
+Okay, yeah, no worries.
+
+[Jonathan Beckford .] 13:34:31
+Also, just along those same lines,
+
+[Jonathan Beckford .] 13:34:33
+we're not required to use OpenAI, right? So we could use Gemini, for instance, if we had… if we're paying for that, and we have their API key.
+
+[Faculty (Olympus)] 13:34:41
+Yeah, you are not required to use, um, any spec… like,
+
+[Faculty (Olympus)] 13:34:46
+in my opinion, your article, is this, like, a project that you guys are running as part of the… as part of the program?
+
+[Faculty (Olympus)] 13:34:53
+Or, if this is the notebook you're dealing with,
+
+[Faculty (Olympus)] 13:34:56
+you're… like, I think the few things that you need to change, right? So,
+
+[Faculty (Olympus)] 13:34:59
+You will need to change the lan chain, uh, one which is specific to Gemini.
+
+[Jonathan Beckford .] 13:35:05
+Mm-hmm.
+
+[Faculty (Olympus)] 13:35:05
+basically global, um, and then here, you know, you would also need to…
+
+[Faculty (Olympus)] 13:35:09
+change the model from Langchain, which will actually, like… this one is the OpenAI model, right? Right, so you will use a different function which will… which will call Gemini, and then you're… you're welcome to use your own APIs. I would actually recommend… I would recommend that you try
+
+[Jonathan Beckford .] 13:35:12
+Right.
+
+[Jonathan Beckford .] 13:35:21
+I think he's…
+
+[Faculty (Olympus)] 13:35:25
+multiple, so that, you know, you should also, like, try Grok.
+
+[Faculty (Olympus)] 13:35:27
+Um, as an example, that will actually make you much more familiar with
+
+[Faculty (Olympus)] 13:35:31
+You know, and also independent of, like, vendor lock-ins.
+
+[Jonathan Beckford .] 13:35:35
+Yes, makes sense. I think that chat open API, or OpenAI, sorry, uh…
+
+[Jonathan Beckford .] 13:35:41
+interface or API
+
+[Jonathan Beckford .] 13:35:43
+library, Python library, is…
+
+[Jonathan Beckford .] 13:35:45
+is the same one that you would use.
+
+[Jonathan Beckford .] 13:35:48
+for the other models, right? Or is there, like…
+
+[Jonathan Beckford .] 13:35:51
+Like, that line right there where you're importing in Langchain, OpenAI,
+
+[Faculty (Olympus)] 13:35:55
+Yeah.
+
+[Jonathan Beckford .] 13:35:56
+Uh, and then the chat, OpenAI.
+
+[Faculty (Olympus)] 13:35:59
+Yeah, so I… I think…
+
+[Jonathan Beckford .] 13:35:59
+Um, don't… don't… don't all the models piggyback on that one?
+
+[Jonathan Beckford .] 13:36:03
+interface? Or… or do you have to do a…
+
+[Faculty (Olympus)] 13:36:07
+Yes, I think the first thing you see here, this one, you will need to install this. I'm actually, like, not 100% sure, so I don't want to give a… give a wrong answer.
+
+[Faculty (Olympus)] 13:36:17
+Um, I can, you know, we can research it and quickly come back to the conclusion.
+
+[Faculty (Olympus)] 13:36:21
+Um, but I think if I look at the import function here, it says any, so maybe… maybe you're right.
+
+[Faculty (Olympus)] 13:36:28
+Um, so I do not know the exact answer to that question just yet, Zaris. I don't want to…
+
+[Faculty (Olympus)] 13:36:33
+I'll give you a wrong answer.
+
+[Jonathan Beckford .] 13:36:35
+No worries, no worries. I can play around with it.
+
+[Zareh Vazquez .] 13:36:37
+And you also saw… I saw…
+
+[Zareh Vazquez .] 13:36:39
+follow up on my comment that I made before.
+
+[Zareh Vazquez .] 13:36:41
+Because I have experience that there are some…
+
+[Zareh Vazquez .] 13:36:46
+Libraries for land change, or for other frameworks that they don't support certain…
+
+[Zareh Vazquez .] 13:36:50
+Back at LLMs, and that's the reason, uh, because…
+
+[Zareh Vazquez .] 13:36:54
+I have to look for something, and that thing that I call the little…
+
+[Zareh Vazquez .] 13:36:58
+And a land allows you to connect to many more
+
+[Zareh Vazquez .] 13:37:02
+Back in LLMs?
+
+[Zareh Vazquez .] 13:37:03
+And then on the… on… on your Python,
+
+[Zareh Vazquez .] 13:37:06
+You basically are connecting as an open AI, because you basically translate
+
+[Zareh Vazquez .] 13:37:11
+Just from a standard OpenAI API.
+
+[Zareh Vazquez .] 13:37:15
+to any or many other, uh,
+
+[Zareh Vazquez .] 13:37:18
+API from different… from different backends, I believe including…
+
+[Zareh Vazquez .] 13:37:22
+local. And then everything you handle as an open AI.
+
+[Faculty (Olympus)] 13:37:27
+Okay.
+
+[Zareh Vazquez .] 13:37:27
+in LandChain or any other framework, so it's pretty interesting.
+
+[Faculty (Olympus)] 13:37:31
+Okay, no, that's…
+
+[Zareh Vazquez .] 13:37:32
+You only… you only need one more component in the middle, of course.
+
+[Faculty (Olympus)] 13:37:36
+Yeah, no, thanks, thanks for sharing that. So, I am not, uh, super familiar with that. I am definitely familiar with Langchain. The reason, um,
+
+[Faculty (Olympus)] 13:37:45
+like, you know, I like Langchen a lot because of its robustness when it also comes to
+
+[Faculty (Olympus)] 13:37:51
+You know, for example, they've also developed, like, Langraph, and I talked about the visual builder.
+
+[Faculty (Olympus)] 13:37:58
+Which is actually on top of Langgraph.
+
+[Faculty (Olympus)] 13:38:01
+Um, so if you… if you want to kind of also evaluate and also, you know, look at debugging and stuff like that,
+
+[Faculty (Olympus)] 13:38:08
+LangChain really provides a better, sort of, a framework.
+
+[Faculty (Olympus)] 13:38:12
+Um, and also, it's sort of, like, built, uh, not out of the box. I mean, now they have
+
+[Faculty (Olympus)] 13:38:18
+position themselves as a… as a multi-agent, sort of an architecture. Um, but, you know, this… this framework is quite matured and has been there for a while, so I…
+
+[Faculty (Olympus)] 13:38:28
+generally prefer that. You could also use, um, agent development kit, um, as another one.
+
+[Faculty (Olympus)] 13:38:34
+you know, instead of langchain. So there's obviously a choice, right, which you could select. Um, so…
+
+[Faculty (Olympus)] 13:38:39
+But yeah, I think…
+
+[Faculty (Olympus)] 13:38:41
+the idea for today was to basically, kind of,
+
+[Faculty (Olympus)] 13:38:45
+open up an idea that, hey, like, you can use Langton here, but you're more than welcome to kind of
+
+[Faculty (Olympus)] 13:38:50
+you know, um, see for yourself which are the different frameworks you can get comfortable, right? And that's exactly what you guys have kind of already thinking of.
+
+[Faculty (Olympus)] 13:39:00
+Okay. Um…
+
+[Faculty (Olympus)] 13:39:04
+Attribet says I already tried and works okay, just replace the config.json. Perfect, thank you, thank you, uh…
+
+[Faculty (Olympus)] 13:39:11
+Oh, it's Dino who said that, right? Okay, Dina, thank you for that.
+
+[Faculty (Olympus)] 13:39:14
+Appreciate it.
+
+[Faculty (Olympus)] 13:39:16
+All right, um, those were the main things in today's, uh, today's class. I'm just gonna stop here.
+
+[Faculty (Olympus)] 13:39:24
+Um, and I'm hoping that this was helpful.
+
+[Faculty (Olympus)] 13:39:29
+Um, anyone here impacted by the weather who is currently dealing with the weather situation?
+
+[Tridip Ray .] 13:39:35
+Not yet, but I think it's coming in, so…
+
+[Tim Grib .] 13:39:39
+I'm here in St. Louis, and it's hitting us right now.
+
+[Faculty (Olympus)] 13:39:41
+Okay.
+
+[Tim Grib .] 13:39:41
+We're supposed to get about 7 to 9 inches.
+
+[Dino Vitale .] 13:39:42
+Oh, good
+
+[Faculty (Olympus)] 13:39:45
+Yeah, yeah, you know, uh…
+
+[Faculty (Olympus)] 13:39:49
+would love to all of us. I'm in Austin, I think, like, everybody in Texas is freaking out. Like, there's nothing in HEV left, so…
+
+[Faculty (Olympus)] 13:39:58
+Uh, so far, so good. Uh, there's a little bit of snow in the morning, but Texas is not used to
+
+[Faculty (Olympus)] 13:40:03
+So, as you can probably all know, so…
+
+[Faculty (Olympus)] 13:40:05
+Yeah, hopefully, hopefully we'll be fine. Um, but I… but I hope this helped, uh, folks.
+
+[Faculty (Olympus)] 13:40:11
+you know, there's just a lot of interesting stuff.
+
+[Faculty (Olympus)] 13:40:14
+Um, which, which, which is getting developed, so happy to share, you know, new things if you wish.
+
+[Faculty (Olympus)] 13:40:21
+Um, I'm just going to pause for Sandy's question.
+
+[Faculty (Olympus)] 13:40:25
+And then I'm… I think, uh, I'll share some of the stuff that I just built using anti-gravity. Probably you guys are familiar with it, uh, and remotion. I
+
+[Faculty (Olympus)] 13:40:33
+So this is now an extra thing.
+
+[Faculty (Olympus)] 13:40:36
+You're welcome to log off. Uh, if people don't like me talking, but I'm gonna share, uh, if people are interested in listening, okay?
+
+[Faculty (Olympus)] 13:40:45
+Let me just answer Sandev's question.
+
+[Faculty (Olympus)] 13:40:47
+Um, Cindy, following up on my earlier question, are there established frameworks or tools for prompt testing in production, specifically for
+
+[Faculty (Olympus)] 13:40:53
+Yes, that's such a good question.
+
+[Faculty (Olympus)] 13:40:56
+Um, Sandeep, I am familiar with, um…
+
+[Faculty (Olympus)] 13:41:02
+Give me one second.
+
+[Faculty (Olympus)] 13:41:06
+So, uh…
+
+[Faculty (Olympus)] 13:41:09
+This one is one which I am familiar with, um…
+
+[Faculty (Olympus)] 13:41:12
+Which is stacks.
+
+[Faculty (Olympus)] 13:41:14
+Um, I don't know if any one of you have tested it out?
+
+[Faculty (Olympus)] 13:41:17
+But this, you know, gives you a really cool way for you to look at this. Um, so you can actually… and this is, like, you can upload multiple models, not just Google models, compare it with
+
+[Faculty (Olympus)] 13:41:28
+you know, prompts for you versus OpenAI,
+
+[Faculty (Olympus)] 13:41:32
+Uh, versus, you know, Anthropic, etc. So this is, like, a UI-based one. And then, obviously, you have, uh…
+
+[Faculty (Olympus)] 13:41:38
+you know, Google agent development kit, as well as, as I was mentioning, right, like, um, if you look at
+
+[Faculty (Olympus)] 13:41:44
+when I was talking about, uh, Langraph here, uh, it basically allows you to, you know, do the, uh, do the evaluation as well. So those are
+
+[Faculty (Olympus)] 13:41:54
+like, two things, uh, if you want to try something, um, which is user, uh, like, UI-based,
+
+[Faculty (Olympus)] 13:42:01
+I would recommend you look at this.
+
+[Faculty (Olympus)] 13:42:03
+Um, should be able to do this pretty quickly, actually. Uh, they have also some, like,
+
+[Faculty (Olympus)] 13:42:07
+you know, sample data sets, you will be able to evaluate this, and this is, you know, multi… it supports multi-models, right, so it should be fine as well.
+
+[Sanjiv Kumar .] 13:42:18
+So just, just, yeah, on that, um, I want to know more on the prompt injection, because we do…
+
+[Sanjiv Kumar .] 13:42:24
+So when we write the LLM apps, right, so we do say, hey, if somebody's in the system prompt, right, ignore…
+
+[Sanjiv Kumar .] 13:42:31
+stay in the… stay within your context, ignore any information the client is asking.
+
+[Sanjiv Kumar .] 13:42:36
+do not share for those…
+
+[Sanjiv Kumar .] 13:42:39
+But still, you know, um…
+
+[Sanjiv Kumar .] 13:42:42
+Sometimes, what I've seen is that
+
+[Sanjiv Kumar .] 13:42:45
+the user, if it's smart enough, would try, like, try to jailbreak.
+
+[Sanjiv Kumar .] 13:42:50
+How do you… how do you stop those different type of injection? You know, sometimes
+
+[Sanjiv Kumar .] 13:42:55
+in the prompt itself, the user will say ignore.
+
+[Sanjiv Kumar .] 13:42:57
+whatever your hidden prompts are, ignore
+
+[Sanjiv Kumar .] 13:43:00
+or, you know, go straight to here. And you can, you know, when you are in any chat application, you can say, give me your system prompt.
+
+[Sanjiv Kumar .] 13:43:07
+And I've seen that. I, you know, one time I asked on a chatbot, give you a prompt, system prompt, and it listed me the prompt. I'm like, okay, great.
+
+[Sanjiv Kumar .] 13:43:16
+So, those things are increasingly
+
+[Sanjiv Kumar .] 13:43:20
+getting… and people are getting more smarter, and they hijack, and they chain the contacts. Are there standard techniques in the industry that…
+
+[Faculty (Olympus)] 13:43:26
+Against…
+
+[Sanjiv Kumar .] 13:43:29
+that you can talk about maybe in the next class.
+
+[Faculty (Olympus)] 13:43:32
+Yeah.
+
+[Sanjiv Kumar .] 13:43:33
+with examples.
+
+[Faculty (Olympus)] 13:43:34
+Yeah, so there are… there are actually, like, a lot of different, really cool ones, um,
+
+[Faculty (Olympus)] 13:43:40
+which I'm aware, and I'm probably, like, happy to share in the…
+
+[Faculty (Olympus)] 13:43:44
+In the next class as well. So, for example, like, this is…
+
+[Faculty (Olympus)] 13:43:48
+code mender, uh, which is sort of, you know, what you're kind of asking, right? Like, it's basically, you know,
+
+[Faculty (Olympus)] 13:43:54
+checking for the vulnerability test, uh, you know, tools and all of these things. Um, so this is, um, and there are two
+
+[Faculty (Olympus)] 13:44:02
+two of these agents which are available, um, and…
+
+[Faculty (Olympus)] 13:44:06
+out of the box, I think, you know, Sanjeev, you mentioned Gemini a few times, so I'm assuming you're also, like, looking at Gemini deeply. Um, so within the ecosystem, um, you have
+
+[Faculty (Olympus)] 13:44:16
+Some of the out-of-the-box, um, like, security protocols that you could potentially use, right?
+
+[Faculty (Olympus)] 13:44:22
+So, maybe in the next lecture, um, I'll provide some more details now that I understand. A lot of you are asking similar questions.
+
+[Faculty (Olympus)] 13:44:30
+So I can come prepared with a more stronger POV on what are the different things that, you know, you can use for, uh, for security. That was certainly not the part of the today's lecture.
+
+[Faculty (Olympus)] 13:44:43
+Um, but right out of the gate, I'm aware of some of the techniques that I'm sharing here. This one is, you know,
+
+[Faculty (Olympus)] 13:44:50
+a pretty interesting one, um, which basically checks, uh, you know, code mender, and there's, um, there's another one, which is Jules. I don't know if you've heard of that. These are all, like, open source.
+
+[Faculty (Olympus)] 13:45:01
+Um, like, that one is good as well if you're not… let me just open that up for you.
+
+[Faculty (Olympus)] 13:45:06
+Um…
+
+[Faculty (Olympus)] 13:45:09
+So this also does a good job.
+
+[Faculty (Olympus)] 13:45:13
+Um, it… it is kind of…
+
+[Faculty (Olympus)] 13:45:15
+It's more around bug fixing, but…
+
+[Faculty (Olympus)] 13:45:18
+Like, you could… you would be able to use this, you know, to your own advantage, you know, in this case. But I think your specific one on jailbreak slash policy bypass, I think…
+
+[Faculty (Olympus)] 13:45:30
+Um, it requires a little bit more sophisticated ones, um, and I'll…
+
+[Faculty (Olympus)] 13:45:36
+come back on, at least from, um…
+
+[Faculty (Olympus)] 13:45:38
+the cloud ecosystem, right, on what is the answer for that.
+
+[Tim Grib .] 13:45:43
+Yeah, I wonder…
+
+[Faculty (Olympus)] 13:45:43
+James, do you want to share a little bit on the Cisco side of the house for this one?
+
+[James Teeter .] 13:45:52
+Uh, yeah, I… to be honest, I don't… I don't really know.
+
+[Faculty (Olympus)] 13:45:56
+You did mention Cisco before, right? Wasn't it you?
+
+[James Teeter .] 13:46:00
+Yeah, I mean, we have some security products and things of that nature, like AI defense, um…
+
+[James Teeter .] 13:46:08
+That will check for pickle bombs, and then also check
+
+[James Teeter .] 13:46:11
+for different types of injections and things of that nature, so…
+
+[Faculty (Olympus)] 13:46:15
+Okay.
+
+[James Teeter .] 13:46:16
+Maybe next time I can…
+
+[James Teeter .] 13:46:18
+submit something, kind of an overview.
+
+[Faculty (Olympus)] 13:46:19
+Yes. No worries, no worries. And, like, I think…
+
+[Faculty (Olympus)] 13:46:23
+I mean, I definitely know of some of our products, but again, I don't want…
+
+[Faculty (Olympus)] 13:46:29
+Uh, to be salesy in this call, so I just want to be…
+
+[Faculty (Olympus)] 13:46:32
+careful or not only talking about one vendor, so I'll come back with a broader perspective, folks.
+
+[Faculty (Olympus)] 13:46:40
+Okay? Um…
+
+[Dino Vitale .] 13:46:42
+I guess, get one observation with the two notebooks. I don't know if everybody saw the same thing.
+
+[Dino Vitale .] 13:46:47
+But I definitely saw the Mini.
+
+[Dino Vitale .] 13:46:50
+Uh, the OpenAI 40 Mini, the responses were much crisper.
+
+[Faculty (Olympus)] 13:46:56
+Yeah.
+
+[Dino Vitale .] 13:46:56
+And even, like, even in some cases, there was, like, some hallucination a little bit from…
+
+[Dino Vitale .] 13:47:01
+From the meeting notes I saw with the other… with the, um…
+
+[Dino Vitale .] 13:47:06
+With the first model… with the first model, I forget which one it was, the Hugging Face model,
+
+[Faculty (Olympus)] 13:47:10
+Yep.
+
+[Dino Vitale .] 13:47:10
+It was definitely… I think the OpenAI, uh, the Forum Mini was…
+
+[Dino Vitale .] 13:47:15
+a little bit more accurate.
+
+[Zareh Vazquez .] 13:47:18
+faster.
+
+[Dino Vitale .] 13:47:20
+They're faster.
+
+[Tim Grib .] 13:47:20
+Yeah.
+
+[Faculty (Olympus)] 13:47:21
+Yeah. No, and I think, I think, like, this is… this is where there was a question earlier, right, in terms of performance.
+
+[Faculty (Olympus)] 13:47:27
+Um, so I don't know when this model was released, you know, it's still 1 billion, so it's…
+
+[Faculty (Olympus)] 13:47:33
+to compete with OpenAI, it's, uh, you know, with the latest model, I think it's always going to be
+
+[Faculty (Olympus)] 13:47:38
+Um, challenging for, uh, unless and until you have the latest and the greatest, uh, you know, breed of models, right, with the highest techniques.
+
+[Faculty (Olympus)] 13:47:46
+Um, so understandable, and as expected, I would say.
+
+[Tim Grib .] 13:47:51
+If you don't care about costs, just keep using OpenAI.
+
+[Faculty (Olympus)] 13:47:55
+Say that again? If you don't care about… yes, yeah.
+
+[Tim Grib .] 13:47:56
+If you don't care about costs,
+
+[Faculty (Olympus)] 13:48:00
+You're right.
+
+[Tim Grib .] 13:48:00
+Because you always get the latest and greatest?
+
+[Faculty (Olympus)] 13:48:04
+Um, I mean, there are other models as well, so I would recommend you look into a combination of
+
+[Faculty (Olympus)] 13:48:11
+you know, I love Anthropic, uh, I think Oprahal's 4.5, which is fantastic, but is the most expensive, unfortunately. Um, I think, um, I just saw a note from
+
+[Faculty (Olympus)] 13:48:23
+Um, one of… one of, uh…
+
+[Faculty (Olympus)] 13:48:26
+one of an influencer,
+
+[Faculty (Olympus)] 13:48:27
+Um, really deep in engineering, um,
+
+[Faculty (Olympus)] 13:48:31
+Where, um…
+
+[Faculty (Olympus)] 13:48:33
+Ulama has actually come up with, uh…
+
+[Faculty (Olympus)] 13:48:36
+a way to use clot code without an API key. I don't know how long will that go.
+
+[Faculty (Olympus)] 13:48:41
+But I just saw this, uh, like, just right before the class, I was just going through LinkedIn, and I saw that post from Shivam.
+
+[Faculty (Olympus)] 13:48:48
+Let me see if that is real or not, but…
+
+[Faculty (Olympus)] 13:48:50
+Yeah, like, if you use Cloud Code, and if you use, um…
+
+[Faculty (Olympus)] 13:48:54
+you know, ulama, uh, that would be a good one.
+
+[Faculty (Olympus)] 13:48:58
+Just give me one second, I'll go right there.
+
+[Faculty (Olympus)] 13:49:04
+Okay, so this is the host.
+
+[Faculty (Olympus)] 13:49:07
+So I'm gonna share this. Um…
+
+[Faculty (Olympus)] 13:49:10
+obviously not official, sharing it as…
+
+[Faculty (Olympus)] 13:49:13
+Um, as I see it.
+
+[Faculty (Olympus)] 13:49:18
+Okay. Alright, um…
+
+[Faculty (Olympus)] 13:49:20
+So that was it for today. Um, I wanted to share something really cool that I…
+
+[Faculty (Olympus)] 13:49:26
+date…
+
+[Faculty (Olympus)] 13:49:30
+yesterday, actually, um, so, you know, if anybody's interested,
+
+[Faculty (Olympus)] 13:49:34
+in that, um, please feel free to stay.
+
+[Faculty (Olympus)] 13:49:39
+This one is…
+
+[Faculty (Olympus)] 13:49:42
+Um, a technique to actually create a video using code.
+
+[Faculty (Olympus)] 13:49:47
+Um, so…
+
+[Faculty (Olympus)] 13:49:49
+just gonna show…
+
+[Faculty (Olympus)] 13:49:52
+the output that I was able to create.
+
+[Faculty (Olympus)] 13:50:13
+Wasn't that…
+
+[Faculty (Olympus)] 13:50:14
+So this whole video…
+
+[Faculty (Olympus)] 13:50:16
+Literally was generated through code. There is a new thing called Remotion. I mean, it's not a new thing, but the skill is kind of new in the market.
+
+[Faculty (Olympus)] 13:50:24
+And there are just a ton of videos, uh, you know, which you can see about Cloud Core.
+
+[Faculty (Olympus)] 13:50:28
+In my case, I basically used, uh, anti-gravity. So this is the skill that I'm talking about. It's remotion.dev.
+
+[Faculty (Olympus)] 13:50:35
+Um, just trading as knowledge, right? You can, you know, try your hands around it.
+
+[Faculty (Olympus)] 13:50:40
+And what they've done is they've actually, like, released, um, you know, this particular skill, which I talk about here.
+
+[Faculty (Olympus)] 13:50:47
+Um, and we all know that we can use skills now with anti-gravity or Gemini CLI, or…
+
+[Faculty (Olympus)] 13:50:54
+Obviously, Claude as well, right? So they initially released it for Claude, but obviously it's a skill, so it can be reused with any
+
+[Faculty (Olympus)] 13:51:00
+anywhere else. Um, so what I did was I went to anti-gravity and basically uploaded all of that skill here.
+
+[Faculty (Olympus)] 13:51:07
+Um, and it's very, very easy to do, so I would highly recommend you guys to give it a shot.
+
+[Faculty (Olympus)] 13:51:11
+Um, you can see, you know, like, you just type this particular command, npx create video list,
+
+[Faculty (Olympus)] 13:51:16
+Um, and then you should be able to
+
+[Faculty (Olympus)] 13:51:19
+get a, like, you know, template like this, um, and then you just follow along and, uh, allow it to install the agents.
+
+[Faculty (Olympus)] 13:51:27
+Um, the skills to the agent, and it'll recognize where you are,
+
+[Faculty (Olympus)] 13:51:31
+Um, and then it'll install the dependency,
+
+[Faculty (Olympus)] 13:51:34
+And this whole thing is created by it, right? So this whole, you know, set of…
+
+[Faculty (Olympus)] 13:51:39
+Because we're basically cloning the repository, right? So that's… that's what's happening.
+
+[Faculty (Olympus)] 13:51:43
+And once you run this, right, like, you will… I just want to show you the…
+
+[Faculty (Olympus)] 13:51:49
+the output here. It basically runs this whole, um…
+
+[Faculty (Olympus)] 13:51:57
+this is what… you can see this is running in localhost here. Um, this is what, uh, you know, this particular tool gives you as an output, right, based on the skill.
+
+[Faculty (Olympus)] 13:52:09
+So, I was pretty fascinated to see this. I'm gonna play a little bit more on this, because here, you are able to create
+
+[Faculty (Olympus)] 13:52:16
+Um, just videos.
+
+[Faculty (Olympus)] 13:52:18
+based on code, and you can actually, like, add your own assets. So imagine if you actually have, like, video assets,
+
+[Faculty (Olympus)] 13:52:25
+You can literally stitch it, um, and create something of your own, which was…
+
+[Faculty (Olympus)] 13:52:30
+sort of not possible before. Video generation models are there, right, which will generate videos.
+
+[Faculty (Olympus)] 13:52:36
+But this is like a video stitching model, and in this case, you know, there was, like, a 15-second
+
+[Faculty (Olympus)] 13:52:42
+stitched video, you know, and automatically kind of
+
+[Faculty (Olympus)] 13:52:45
+animation and stuff like that. So, really, really cool, um, you know, I…
+
+[Faculty (Olympus)] 13:52:49
+Just wanted to share this.
+
+[Faculty (Olympus)] 13:52:53
+Hopefully, you guys, you know, will get some value out of this as well.
+
+[Faculty (Olympus)] 13:52:57
+Okay?
+
+[James Teeter .] 13:52:58
+Yeah, that… excuse me, that does…
+
+[James Teeter .] 13:53:01
+look really cool. I… I mean, I've been using, like, SOAR 2 Pro and stuff, and I…
+
+[James Teeter .] 13:53:06
+I stitched stuff together with Camtasia, but…
+
+[James Teeter .] 13:53:09
+That's really an interesting approach.
+
+[Faculty (Olympus)] 13:53:11
+Yeah, the difference here in this one is this doesn't generate, like, humans kind of interacting, so…
+
+[Faculty (Olympus)] 13:53:19
+the actual core video skills it doesn't have, but what you can really do is create, like, really strong animations. So, like, I've recorded my video,
+
+[Faculty (Olympus)] 13:53:27
+And I want, like, some animation to pass on top of me and stuff like that.
+
+[Faculty (Olympus)] 13:53:31
+it will do that for you, right? So, and then you can have, like, multiple video stats just together,
+
+[Faculty (Olympus)] 13:53:36
+Um, with your own assets and stuff like that, so which… which is… which is what I'm understanding, you know, as I was learning to make
+
+[Faculty (Olympus)] 13:53:43
+This yesterday, I kind of understood the limitations as well.
+
+[Faculty (Olympus)] 13:53:47
+Uh, versus, you know, what is possible or not.
+
+[Faculty (Olympus)] 13:53:49
+Yeah, I mean, the world is pretty much moving very fast, uh, but it's a good idea to be aware of these things.
+
+[James Teeter .] 13:53:55
+Yeah, thanks for sharing. I'll take a look.
+
+[Faculty (Olympus)] 13:53:57
+Yeah, of course.
+
+[Sanjiv Kumar .] 13:53:59
+So, you also mentioned anti-gravity. Is that something you are trying, and how do you…
+
+[Sanjiv Kumar .] 13:54:04
+Because I wanted to try that, but I haven't…
+
+[Sanjiv Kumar .] 13:54:07
+Look into that, but it looks cool.
+
+[Faculty (Olympus)] 13:54:09
+Yeah.
+
+[Sanjiv Kumar .] 13:54:09
+And really have good reviews.
+
+[Faculty (Olympus)] 13:54:12
+Yeah, anti-gravity, um, has become one of my favorite tools, because it has this thing called an agent manager.
+
+[Faculty (Olympus)] 13:54:21
+Which basically allows you to run multiple…
+
+[Faculty (Olympus)] 13:54:26
+projects parallelly, um, and you can let it completely run it itself, but, you know, recommendation usually is to review, you know, a task. I've made few…
+
+[Faculty (Olympus)] 13:54:35
+different videos on this. Um, so…
+
+[Faculty (Olympus)] 13:54:38
+It is the next version of cursor or VS Code, agentic version, in my opinion.
+
+[Faculty (Olympus)] 13:54:44
+The key difference is obviously, um,
+
+[Faculty (Olympus)] 13:54:47
+It is free, completely.
+
+[Faculty (Olympus)] 13:54:49
+Second, it allows you to, you know,
+
+[Faculty (Olympus)] 13:54:52
+It has a lot of this gracious credits available for
+
+[Faculty (Olympus)] 13:54:55
+Gemini 3, Claude, um, even, like, I think there's another model, so all of that, all of those are free. And then it is completely agentic, right? So you can build, like, an end-to-end application,
+
+[Faculty (Olympus)] 13:55:06
+Um, with the IDE, you know, for free, which was… which was a paid gig when it comes to Replit and stuff like that, right? So that is why I…
+
+[Faculty (Olympus)] 13:55:14
+like, obviously like it and talk about it a lot.
+
+[Faculty (Olympus)] 13:55:17
+And then it has got the latest integration built, uh, you know, we can use Nano Banana, it can use all of the models which are out there pretty quickly.
+
+[Faculty (Olympus)] 13:55:26
+And of course, skills, right? So, which was the previous video which I had made on skills.
+
+[Faculty (Olympus)] 13:55:32
+Um, so Anthropic release skills, but soon skills has become
+
+[Faculty (Olympus)] 13:55:36
+like a common language, just like MCP, um, so you're able to use skills very easily in anti-gravity. So, yeah, I mean, I would highly recommend you to try it. It's completely free of cost.
+
+[Faculty (Olympus)] 13:55:46
+Um, so you should definitely, you know, check it out.
+
+[Faculty (Olympus)] 13:55:49
+And see for yourself.
+
+[Sanjiv Kumar .] 13:55:53
+No, thank you. Um, just curious that…
+
+[Sanjiv Kumar .] 13:55:55
+So you… once you build those apps, I'm assuming that it's letting you run it locally, right?
+
+[Sanjiv Kumar .] 13:56:03
+Uh, those agentic apps.
+
+[Sanjiv Kumar .] 13:56:04
+is there, Google has done anything to deploy that on…
+
+[Sanjiv Kumar .] 13:56:08
+GCP as well, like, is there…
+
+[Faculty (Olympus)] 13:56:11
+that they were…
+
+[Sanjiv Kumar .] 13:56:12
+thing that lets you take it and take to the provider
+
+[Faculty (Olympus)] 13:56:14
+Yeah, I mean, I think most of these, um, most of these…
+
+[Faculty (Olympus)] 13:56:19
+Um, like, IDs have a way for you to deploy or publish, um, in, uh, anti-gravity, you can just ask it to publish on not only Google, but, you know, AWS, whatever, because it's supposed to be neutral.
+
+[Faculty (Olympus)] 13:56:31
+Um, in AI Studio, there is a publish button, which directly publishes to Cloud Run.
+
+[Faculty (Olympus)] 13:56:37
+Um, so yeah, I mean, there's that integration build, but anti-gravity, you can…
+
+[Faculty (Olympus)] 13:56:41
+Just ask it to publish, let's say, on Firebase, or, you know, AWS, or whatever. You just need to have the container ready and, you know, it should be able to publish that.
+
+[Faculty (Olympus)] 13:56:53
+Um, but yeah, I mean, it does it via an agent, so…
+
+[Faculty (Olympus)] 13:56:57
+Um, once the… like, if you have built the files, right, like, it is in your local host, that means all the files are actually in your repository because you're downloading this.
+
+[Faculty (Olympus)] 13:57:05
+Um, it needs to be shipped and, you know, basically,
+
+[Faculty (Olympus)] 13:57:09
+published it to a cloud repository, and that cloud would be any cloud in this aspect, right? So anti-gravity wouldn't…
+
+[Faculty (Olympus)] 13:57:16
+restrict you to a particular cloud.
+
+[Faculty (Olympus)] 13:57:19
+What I found the easiest was to spin up, like, a Firebase project.
+
+[Faculty (Olympus)] 13:57:24
+Um, and then just provide the credentials, and that way, just in a matter of seconds, it does that.
+
+[Faculty (Olympus)] 13:57:34
+Sandy, was that helpful?
+
+[Sanjiv Kumar .] 13:57:37
+Yeah, I was just downloading it right now.
+
+[Faculty (Olympus)] 13:57:40
+Okay, give it a try, and uh… yeah, there's just, like, people are…
+
+[Faculty (Olympus)] 13:57:45
+Um, people are really happy with it so far, so hopefully you will see some, um,
+
+[Faculty (Olympus)] 13:57:50
+really cool things.
+
+[Faculty (Olympus)] 13:57:53
+Okay. All right, folks, I'm happy to give you some time back if there are no more questions. I hope some of these additional minutes spent were helpful.
+
+[Faculty (Olympus)] 13:58:02
+Um, and uh, you know, hopefully you gain some value out of this.
+
+[Faculty (Olympus)] 13:58:07
+Um, stay safe, um, and enjoy the rest of the weekend
+

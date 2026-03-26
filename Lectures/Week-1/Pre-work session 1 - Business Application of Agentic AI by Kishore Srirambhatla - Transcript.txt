@@ -1,0 +1,3069 @@
+[Faculty (Olympus)] 13:04:01
+That's quite an experience on that. And my AI experience, so I've been.
+
+[Faculty (Olympus)] 13:04:06
+doing AI and ML. for the past 5 years, primarily scaling.
+
+[Faculty (Olympus)] 13:04:12
+the Gen AI at enterprise level. So, um, at Qualcomm, you know, we have, um.
+
+[Faculty (Olympus)] 13:04:18
+Um, not only pioneered wireless, but also we are, you know, getting into NPUs, which is neural processing units.
+
+[Faculty (Olympus)] 13:04:27
+So I've been involved in that effort, which, you know, is also.
+
+[Faculty (Olympus)] 13:04:31
+people call as AIPCs. Um, so I've been doing that for some… you know, actually, this is before.
+
+[Faculty (Olympus)] 13:04:38
+the GPT or anything that came on. You know, life, right, so 5 years ago, you know, we had a vision of, um… integrating AI into the edge, and that's where my journey started.
+
+[Faculty (Olympus)] 13:04:50
+And, um, last couple of years, I've been. mentoring, AI and ML and agentic AI in, um… primarily with great learning collaboration across multiple universities. So that's the background about me.
+
+[Faculty (Olympus)] 13:05:06
+And, um… okay, that's pretty much. I wanted to mention about… and I'm on LinkedIn, so my name is Kishore Sri Rambutla, you can do a quick search.
+
+[Faculty (Olympus)] 13:05:17
+And then you should be able to connect with me for, you know, any future communications.
+
+[Faculty (Olympus)] 13:05:22
+So that's about me. All right, so let's get into what we are doing today. So today, primarily, you guys are all.
+
+[Faculty (Olympus)] 13:05:33
+enrolled in business applications for agentic AI. You know, which is the latest.
+
+[Faculty (Olympus)] 13:05:39
+trend, right? You know, if you look at Gen AI.
+
+[Faculty (Olympus)] 13:05:41
+Ever since ChatGPT came, you know, there is a fewer.
+
+[Faculty (Olympus)] 13:05:46
+across not only industries, but also various domains, right? Not just software or.
+
+[Faculty (Olympus)] 13:05:53
+compute, but also we have seen. an explosion of agentic AI usage across various industries, you know, from.
+
+[Faculty (Olympus)] 13:06:01
+Normal ordinary user, you know, making business plans or travel arrangements to.
+
+[Faculty (Olympus)] 13:06:06
+optimizing workflows, you know, to automating their, you know, systems. So… So, business applications are… Every day, there is a new business application that's either.
+
+[Faculty (Olympus)] 13:06:20
+native AI, or… an application that is revamping itself with AI. So, um, you guys, you know, again, congratulations, and um… Um, you know, welcome on board to the business applications of Agentic AI.
+
+[Faculty (Olympus)] 13:06:33
+And, uh, this will… get you at the high-level information about.
+
+[Faculty (Olympus)] 13:06:40
+the background of AI, the gen AI, and how we are.
+
+[Faculty (Olympus)] 13:06:43
+Um, you know, in the thick of agentic AI, so this is where the course is all about, but today's session is.
+
+[Faculty (Olympus)] 13:06:50
+pre-work session, as you know, and this will cover a spectrum.
+
+[Faculty (Olympus)] 13:06:55
+of topics that will, um… go all the way from background of agentic AI to.
+
+[Faculty (Olympus)] 13:07:01
+Um, you know, we talked a little bit about GenAI, and then we'll focus on some business applications.
+
+[Faculty (Olympus)] 13:07:07
+Okay, so that's the… topic, and then, um… Let's get into the… actual structure, you know, what we're going to be doing in the next 2 hours.
+
+[Faculty (Olympus)] 13:07:22
+Obviously, introduction of the mentor, which we have done.
+
+[Faculty (Olympus)] 13:07:26
+Again, once again, I'm happy to be here, and then guide you, and just… give my overview of where we are.
+
+[Faculty (Olympus)] 13:07:34
+Um, and also share some of my experiences in this agentic AI. Okay, so I think I'm not sharing my screen.
+
+[Faculty (Olympus)] 13:07:42
+Okay, let me just get back, uh, just ensure that I'm sharing my screen. Yeah, thanks for letting me know, appreciate that.
+
+[Faculty (Olympus)] 13:07:50
+Um, so let me share my screen, and um… Okay, so… Let me just go back. So this is my introduction that I've… Thought I was sharing earlier. So, um, as I said, I have 28 years experience.
+
+[Faculty (Olympus)] 13:08:07
+Um, and then, um, you know, leading… GNI initiatives at scale.
+
+[Faculty (Olympus)] 13:08:12
+And I've been mentoring for a couple of years, okay? And then, um… We are getting into the agenda for today. By the way, you know, please.
+
+[Faculty (Olympus)] 13:08:20
+Put your questions in the Q&A, and periodically. I'm gonna pause and take as many questions as possible. Needless to say, ensure that your questions are relevant to the broader audience.
+
+[Faculty (Olympus)] 13:08:32
+If any question is very narrow or anything that's out of topic.
+
+[Faculty (Olympus)] 13:08:37
+I'll probably differ it, but otherwise I appreciate if you can keep the questions in the topic.
+
+[Faculty (Olympus)] 13:08:43
+And, uh, every 10 to 15 minutes, I'll take a pause, and I will answer your questions.
+
+[Faculty (Olympus)] 13:08:49
+Okay, so again, my name is Kishore Sri Rambatla. I'm just going through some questions before we jump into the content.
+
+[Faculty (Olympus)] 13:08:55
+Can you please share the spelling of your name? Okay, it's, um… I think I'm gonna just display right here. It's Kishore, K-I-S-H-O-R-E, and Sri Rambatla, okay?
+
+[Faculty (Olympus)] 13:09:07
+Yeah, sorry, I didn't share early. Alright, next one, um, all right, some introductions, and I can't see your slides. Now you can see… please put a thumbs up if everything is good. You can see my slides.
+
+[Faculty (Olympus)] 13:09:19
+Okay, great. Nice. All right, appreciate the confirmation.
+
+[Faculty (Olympus)] 13:09:24
+Okay, so let's, um… get started, um… By the way, today's session is a webinar in the sense that, you know, it's a one-way.
+
+[Faculty (Olympus)] 13:09:35
+you know, I'll be able to. talk, and you are all muted by default, so as a result, um, you know, unfortunately, you won't be able to talk to me and interact directly, but as I said.
+
+[Faculty (Olympus)] 13:09:47
+please pose your questions. in the question and answers, and I will answer to my best of my ability.
+
+[Faculty (Olympus)] 13:09:53
+And I'm gonna pause every few minutes to take the questions, okay?
+
+[Faculty (Olympus)] 13:09:59
+And then we will take a break, you know, it's about 2 hours, or we may go a little more than 2 hours, but I'll try to be on time.
+
+[Faculty (Olympus)] 13:10:06
+So we will take a quick break, maybe, you know, after halfway through.
+
+[Faculty (Olympus)] 13:10:11
+Okay, so I'm going to be using a couple of things that I wanted to mention, you know, as and when applicable, I'm going to be.
+
+[Faculty (Olympus)] 13:10:18
+Scribling on the slides, just to make sure that the point gets through.
+
+[Faculty (Olympus)] 13:10:24
+Well, you know, I'll probably… because sometimes when I want to share my.
+
+[Faculty (Olympus)] 13:10:27
+thoughts or concepts, you know, I'll be just. putting some diagrams or anything on the… on the slide, so I'll be using, um, you know, some, um.
+
+[Faculty (Olympus)] 13:10:37
+you know, write-ups, and I'll be drawing things. Um, other thing is, um… you know, I encourage you to, um… You know, take notes as possible, but at the same time, these slides will be available to you.
+
+[Faculty (Olympus)] 13:10:51
+And the recording will be available to you 6 hours after the session today.
+
+[Faculty (Olympus)] 13:10:55
+Okay, um, all right, so let's get into the agenda.
+
+[Faculty (Olympus)] 13:11:01
+Um, the main topic is today we're going to talk about, um.
+
+[Faculty (Olympus)] 13:11:05
+The pre-work session, and then the topics would be.
+
+[Faculty (Olympus)] 13:11:09
+Um, evolution of AI. So, um… This is where, you know, I'm gonna go through and give.
+
+[Faculty (Olympus)] 13:11:17
+not only what's in the content, but also I'm going to share my, um… visual slides, and I do have a couple of visual slides, so… Please bear with me when I flip through some of these slides, so… because I want to cover as much as possible.
+
+[Faculty (Olympus)] 13:11:31
+So I'll be using some visual aids. as much as possible.
+
+[Faculty (Olympus)] 13:11:36
+Okay, so evolution of AI, then once we have good understanding of how.
+
+[Faculty (Olympus)] 13:11:40
+AI has evolved and where we reach. Then we'll talk about agentic AI. So, Agentic AI is taking things by storm.
+
+[Faculty (Olympus)] 13:11:48
+Um, I mean, lately, you know, I've been teaching AI, gen AI, for a couple of years.
+
+[Faculty (Olympus)] 13:11:53
+But lately, what I'm noticing is. Um, everyone wants to get on agentic AI, so people.
+
+[Faculty (Olympus)] 13:12:00
+Want to know more about agentic AI, because that's, um… so we are no longer as a buzzword, right? You know, people are realizing that.
+
+[Faculty (Olympus)] 13:12:09
+AI and agentic AI, or. Being infused into a.
+
+[Faculty (Olympus)] 13:12:14
+their business applications, and then they want to get onto Agentic AI. But again, my take is as, um.
+
+[Faculty (Olympus)] 13:12:20
+you know, technology leaders and industry leaders. You need to invest in understanding concepts of.
+
+[Faculty (Olympus)] 13:12:28
+AI, you know, there are… classical AI, they're deep learning, right? You know, you need to understand the concepts of AI, how we came here.
+
+[Faculty (Olympus)] 13:12:36
+Rather than just focusing on agentic AI. So, this course is very apt.
+
+[Faculty (Olympus)] 13:12:40
+Because it'll build the foundations. But at the same time, I want you to.
+
+[Faculty (Olympus)] 13:12:45
+Um, you know, invest yourself, you know, beyond the coursework, you know, just… Develop your own, um.
+
+[Faculty (Olympus)] 13:12:52
+passion for agentic AI and regular AIs, there's so much to learn. So, not just Agentic, but, you know, there are a lot of.
+
+[Faculty (Olympus)] 13:12:59
+Um, you know, agentic technology and AI technology you need to be aware of, so.
+
+[Faculty (Olympus)] 13:13:04
+That's your learning. And then we'll focus on benefits of agentic AI. So, um… Again, you know, we're gonna have, um, go through some business use cases, you know, I'll talk about what agents are.
+
+[Faculty (Olympus)] 13:13:16
+Um, why agentic AI is becoming mainstream, and what are some of the benefits of agentic AI?
+
+[Faculty (Olympus)] 13:13:23
+Um, compared to regular Gen AI, where it's request and response.
+
+[Faculty (Olympus)] 13:13:28
+And then we'll explore about 4 or 5 use cases, right? So we have about 4 to 5 business use cases where we go.
+
+[Faculty (Olympus)] 13:13:35
+deep into how the agents are helping these business.
+
+[Faculty (Olympus)] 13:13:41
+applications, right? You know, how they are, um… Helping the workflow and optimizing things.
+
+[Faculty (Olympus)] 13:13:48
+Um, but again, one thing to keep in mind, uh, we are not going to go too much into coding aspect today.
+
+[Faculty (Olympus)] 13:13:54
+Um, we'll be covering at the high level, but at the same time, one use case, actually, I'm going to go through.
+
+[Faculty (Olympus)] 13:14:01
+Um, little bit cold. You know, I put together an agent with the Lang chain.
+
+[Faculty (Olympus)] 13:14:06
+Um, so one of the use cases, I want to go a little bit deep into it, because some of you may be.
+
+[Faculty (Olympus)] 13:14:12
+More technically aware or technically savvy and want to see some of the inner workings of an agent.
+
+[Faculty (Olympus)] 13:14:18
+I have prepared a Python notebook, a Jupyter notebook, about a customer AI classification.
+
+[Faculty (Olympus)] 13:14:25
+Which I'm going to go into more detail, but the rest of them will be at the high level, okay?
+
+[Faculty (Olympus)] 13:14:31
+And then we will understand the business risks and challenges. So, this is an important topic which.
+
+[Faculty (Olympus)] 13:14:38
+Um, most of the people. seemed to miss in the industry, so, um… As you may know, there has been some recent studies, you know, from McKinsey and others.
+
+[Faculty (Olympus)] 13:14:48
+Where they have, uh, pointed out that. like, 70% or, you know, significant number of projects in AI.
+
+[Faculty (Olympus)] 13:14:56
+They only see, um. early stages in the sense, you know, prototype and then, um.
+
+[Faculty (Olympus)] 13:15:03
+early efforts, but they won't get deployed, so they fail. One of the reasons is because people haven't really looked at.
+
+[Faculty (Olympus)] 13:15:11
+the challenges and risks up front. Instead, they look at reactively, right? They do quickly, um, you know, prototype something, do some quick testing.
+
+[Faculty (Olympus)] 13:15:20
+But later on, they realize. some of the technology elements may have changed, or they have missed.
+
+[Faculty (Olympus)] 13:15:28
+Um, security, policy, compliancy. So these are very important, uh.
+
+[Faculty (Olympus)] 13:15:33
+areas that one needs to focus. At least in my experience of, um.
+
+[Faculty (Olympus)] 13:15:39
+GenAI and agentic AI, the thing I learned is.
+
+[Faculty (Olympus)] 13:15:43
+You know, don't rush in, right? You know, just take a step back.
+
+[Faculty (Olympus)] 13:15:48
+understand what current process you have, and what exactly.
+
+[Faculty (Olympus)] 13:15:52
+You want the agentic AI to help you, right? Sometimes you have to rethink your existing process and redefine it.
+
+[Faculty (Olympus)] 13:15:58
+Or can you retrofit into the existing, uh. workflow, and then what are some of the business challenges, you know, from technology to.
+
+[Faculty (Olympus)] 13:16:07
+cultural awareness. to write metrics.
+
+[Faculty (Olympus)] 13:16:11
+Cost, uh, performance, and scaling. So, we'll touch base some of those aspects, and I can share my experiences as well.
+
+[Faculty (Olympus)] 13:16:18
+So those are the topics. We'll go in deep, and then, again, I'm going to have 10 more minutes at the end.
+
+[Faculty (Olympus)] 13:16:25
+Where we'll ask, and I can answer more questions. So this is, uh… The topic for today, and we have a lot to cover.
+
+[Faculty (Olympus)] 13:16:34
+Okay, I'm gonna pause any questions at the high level before we… go into the content.
+
+[Faculty (Olympus)] 13:16:39
+So I'm gonna look into the questions, okay? Okay, yeah. Shaker, yeah, you said chat is disabled.
+
+[Faculty (Olympus)] 13:16:49
+Q and answer? Yeah, I think let's… that's fine, you know, that's not worry, and I am looking at your.
+
+[Faculty (Olympus)] 13:16:54
+QA, so that's fine.
+
+[Faculty (Olympus)] 13:16:59
+Yeah, sorry, it's not interactive, but uh… That's understandable. Okay, Manoj says.
+
+[Faculty (Olympus)] 13:17:06
+HNTK use cases, can you please talk about anything specific.
+
+[Faculty (Olympus)] 13:17:09
+that you worked on personally? Absolutely. I will. Okay, um… Shaker, okay… I'm gonna pick questions that are much broader and applicable to everyone.
+
+[Faculty (Olympus)] 13:17:21
+Right, so Shaker says, you mentioned benefits over regular Gen AI. What is the single biggest.
+
+[Faculty (Olympus)] 13:17:28
+Disqualifier where you would tell a business not to use an agent.
+
+[Faculty (Olympus)] 13:17:31
+But to stick to standard automation or GenAI. Yeah, so that's a good point.
+
+[Faculty (Olympus)] 13:17:36
+So Sheikher is asking a question. What would be a single disqualifier for an agent, right? And stick with Gen AI or a regular flow? You know, that's an important point, because.
+
+[Faculty (Olympus)] 13:17:48
+We don't want to hit everything with agent, right? You know, people think agent can automate, right? They are autonomous, they can… Um, you know, achieve, uh, goals by tools and everything, but there is a cost, right? There is an orchestration, there is a…
+
+[Faculty (Olympus)] 13:18:01
+Um, you know, frameworks that you need to invest in. So, as I said.
+
+[Faculty (Olympus)] 13:18:06
+Understand the problem is very important. Sometimes, you can just get it by Gen AI, right? You know, good prompt engineering, right? So the way I see it is, um.
+
+[Faculty (Olympus)] 13:18:16
+Um, you know, when you want to talk about traditional LLMs.
+
+[Faculty (Olympus)] 13:18:20
+I'm just writing it here, so prompt… is your first thing, right?
+
+[Faculty (Olympus)] 13:18:25
+This is where you can just talk to LLM.
+
+[Faculty (Olympus)] 13:18:28
+Very well defined prompts. You don't need to train anything.
+
+[Faculty (Olympus)] 13:18:31
+Um, just get your answers. This is very generic.
+
+[Faculty (Olympus)] 13:18:36
+questions and responses, right? So… or you reach LLM directly, and this is how the chat GPT got 1 million users in 2024.
+
+[Faculty (Olympus)] 13:18:43
+Right, when they came up. And then, from the prompt engineering, then we… you know, people then realized, hey, look, we need to… Um, do more custom.
+
+[Faculty (Olympus)] 13:18:54
+data, like, at enterprises, we don't want to give all of our data.
+
+[Faculty (Olympus)] 13:18:57
+to LLMs, or LLMs may not have been trained with our data, so we're going to use context, you know, I'll just put… Context, rag.
+
+[Faculty (Olympus)] 13:19:07
+Uh, these are the additional things where we could provide.
+
+[Faculty (Olympus)] 13:19:12
+additional context, so that way we can have LLM synthesized with our context and be more precise and better grounding.
+
+[Faculty (Olympus)] 13:19:19
+And the last one is fine-tuning, right? You know, this is in case.
+
+[Faculty (Olympus)] 13:19:28
+In case some of the RAG and custom. Um, content is not sufficient, then what you would do is, you would take, um.
+
+[Faculty (Olympus)] 13:19:37
+an LLM from, like, place like Hugging Face, right? You know, we… Most of you may know. I've been actively following Hugging Face for a while. This is where open source models are.
+
+[Faculty (Olympus)] 13:19:47
+put together, you know, I'll probably flash the Hugging Face later so that you are aware of it.
+
+[Faculty (Olympus)] 13:19:52
+Probably the last time I checked, a month ago, they had about 2.5 million models, right?
+
+[Faculty (Olympus)] 13:19:59
+So, 2.5 million model. So what I mean by fine-tuning is, in case if.
+
+[Faculty (Olympus)] 13:20:05
+some of the LLMs that they got trained is not sufficient for you.
+
+[Faculty (Olympus)] 13:20:11
+Or context and drag and all these, um. craft, there is knowledge graph, and all these techniques may not be sufficient. Then one.
+
+[Faculty (Olympus)] 13:20:19
+good option you have is. find out what models.
+
+[Faculty (Olympus)] 13:20:24
+are already available, like open source models. That fit your project needs or your problem space, and then you can bring those models in-house, on-prem.
+
+[Faculty (Olympus)] 13:20:32
+Or you could just pick a cloud provider and then fine-tune the model. So there are techniques where.
+
+[Faculty (Olympus)] 13:20:38
+certain, um, layers of the neural networks of this model can be.
+
+[Faculty (Olympus)] 13:20:43
+train, and then you can measure. whether it's sufficient for you, right? So these are the technical… if nothing else works, you create your own ML models, right? You know, from ground up, right? You can create a, you know, good CNN model, you can do… it depends, like, either discriminative AI or generation AI.
+
+[Faculty (Olympus)] 13:20:59
+You can create your own email. Anyway, the reason I brought all this for that question is.
+
+[Faculty (Olympus)] 13:21:05
+Agentic AI is none of these, right? It's in a whole nutshell.
+
+[Faculty (Olympus)] 13:21:10
+Agentic AI is nothing but a huge orchestration. Right? An agent is basically… is not an ML model. You know, if somebody thinks.
+
+[Faculty (Olympus)] 13:21:19
+Oh, all these agents are nothing but new models? That's not correct.
+
+[Faculty (Olympus)] 13:21:23
+Basically, what agent does, again, we'll go deep into the agent, but Agent basically talks.
+
+[Faculty (Olympus)] 13:21:30
+it's like a big orchestrator, right? You know, it… kind of orchestrates all these things, you know? You could have a prompt library, you could, um… you need to bring the rag, you need to fine-tune a model, you need to talk to an LLM, you need to call tools, right?
+
+[Faculty (Olympus)] 13:21:44
+So, an agent is at the high level, instead of a human doing this manually over and over and doing multiple tasks.
+
+[Faculty (Olympus)] 13:21:52
+an agent now. has a mechanism and a framework that will enable.
+
+[Faculty (Olympus)] 13:22:01
+to make this LLMs and the. The techniques of AI, gen AI.
+
+[Faculty (Olympus)] 13:22:07
+to work better. So, think about this, again, I'll go into the details. Again, I'm just jumping ahead.
+
+[Faculty (Olympus)] 13:22:12
+Yeah, so think about this whole, uh… AI and LLM, so it's your brain.
+
+[Faculty (Olympus)] 13:22:17
+And right, and the agent is your hands and legs that will connect and orchestrate all of them.
+
+[Faculty (Olympus)] 13:22:22
+Okay, so now coming to the question is. When do we not use an agent, right? So that's a good thing. The reason I want to address right away is, um.
+
+[Faculty (Olympus)] 13:22:30
+A lot of times, you can achieve things by simple prompting. You don't need an agent, right? You know, if you're developing a travel app, or you're developing a customer app.
+
+[Faculty (Olympus)] 13:22:40
+or you want to find out you have a vulnerability or anything, a prompt engineering is good enough.
+
+[Faculty (Olympus)] 13:22:45
+But if you want more context, let's say you have an enterprise, like Walmart or any product company.
+
+[Faculty (Olympus)] 13:22:51
+Um, again, you have a lot of data that.
+
+[Faculty (Olympus)] 13:22:54
+is custom for you, right? You know, product prices, or your customer.
+
+[Faculty (Olympus)] 13:22:58
+tickets, you know, or product manuals, and all that stuff, or HR policies, right? So for that.
+
+[Faculty (Olympus)] 13:23:05
+You would need just a good RAG system that can connect and make a knowledge bot, right? For that, you may not need an agent.
+
+[Faculty (Olympus)] 13:23:14
+It's very straightforward, right? And then the third one is, yeah, you know, if you have a specific use case, you know, one of the things that I'm working in my company is, uh.
+
+[Faculty (Olympus)] 13:23:24
+very complex camera tuning framework. Which is not easy for an LLM or any model, because it's very custom, you know, we have certain sensors.
+
+[Faculty (Olympus)] 13:23:33
+certain data that we have internally for that. you know, I have a fine-tuning model that we are looking at it. So, for that, again, you may not need an agent, right, because it's a very.
+
+[Faculty (Olympus)] 13:23:44
+You know, you have data, which is very important. I have data, and I have a fine-tuned model, and all I want is.
+
+[Faculty (Olympus)] 13:23:51
+synthesize the data, train it, right? You know, I train the data, then I inference the data.
+
+[Faculty (Olympus)] 13:23:56
+And I'm happy with it. I don't need an agent for that.
+
+[Faculty (Olympus)] 13:23:58
+Um, but at the same time, if I want to create my own model.
+
+[Faculty (Olympus)] 13:24:03
+Based on the problem, you know, let's say none of these things are giving me the results, I will create my neural network.
+
+[Faculty (Olympus)] 13:24:08
+And again, I may not need an agent for that. So, in a traditional sense of.
+
+[Faculty (Olympus)] 13:24:14
+custom data that you want to train. And you have custom needs.
+
+[Faculty (Olympus)] 13:24:18
+And all you're looking is either a prediction or a classification, then you probably don't need an agent, right? It's an overkill.
+
+[Faculty (Olympus)] 13:24:26
+But where you would need an agent is in case you are building an app that needs to do multiple things, right? You want to go and you have all these tools, like you have data you need to fetch from.
+
+[Faculty (Olympus)] 13:24:36
+Um, mostly agentic air comes in inferencing, so there are two aspects, right? You know, I can, I mean, if.
+
+[Faculty (Olympus)] 13:24:42
+If you have any questions, you know, there is training where the models are get trained.
+
+[Faculty (Olympus)] 13:24:46
+Um, and then you have, um… Later on, the inferencing comes in.
+
+[Faculty (Olympus)] 13:24:51
+Where, you know, the train model has all this, uh… Okay, so again, I'm probably jumping ahead, but these are important to understand the concepts, right?
+
+[Faculty (Olympus)] 13:25:00
+So in the training part, where the LLM or any model.
+
+[Faculty (Olympus)] 13:25:05
+get trained for, um… months or weeks based on the kind of data they have.
+
+[Faculty (Olympus)] 13:25:11
+And once the training happens, then these are all your parameters, so this is where.
+
+[Faculty (Olympus)] 13:25:16
+I'll call, you know, your parameters. These are all static, you know, once the training is done, this is all frozen and sitting, it's deployed.
+
+[Faculty (Olympus)] 13:25:23
+and comes inference, right? Inference is where now you would give a new data, and then use this training to either predict, to generate.
+
+[Faculty (Olympus)] 13:25:30
+Or to classify. So, inferencing is where the agentic AI comes into picture. Basically, what we are trying to do here is.
+
+[Faculty (Olympus)] 13:25:39
+Um, we're gonna take the agent. Um, and then… inference multiple points, right? You could have a user query, you could have tools, and then you're coordinating, as I said, orchestrating with the agent, right? So that's where you need agentic AI.
+
+[Faculty (Olympus)] 13:25:55
+primarily as part of more. systematic architectural, or when I say a structural way of building applications.
+
+[Faculty (Olympus)] 13:26:04
+which uses LLMs that is pre-trained, and you're doing multiple inferences, okay? So I hope that kind of.
+
+[Faculty (Olympus)] 13:26:11
+gives a high-level view when you would use an agent, when you don't need an agent, um, okay. So, um… Let's take a couple of questions, and I'll jump into them. Okay, are you seeing organizations trying to jump straight into Agentic AI? So, Luis, you have a question.
+
+[Faculty (Olympus)] 13:26:27
+organizations jumping into AI without establishing strong Gen AI ML. Yes, I do see organizations.
+
+[Faculty (Olympus)] 13:26:33
+are rushing into agentic AI. Um, you know, there are 70%… I will show a slide.
+
+[Faculty (Olympus)] 13:26:39
+are in some way or form of looking at agentic AI, but the point, as I said, like, you need to really understand whether.
+
+[Faculty (Olympus)] 13:26:47
+What are you really doing? Are you training your data? Is it custom data?
+
+[Faculty (Olympus)] 13:26:52
+is a black box LLM from open source is good enough.
+
+[Faculty (Olympus)] 13:26:57
+Do we need prompt engineering? Do you do context engineering? And then you need to figure out, hey, okay, you know, sometimes I do think the best way to do is.
+
+[Faculty (Olympus)] 13:27:05
+Don't look at agent as the first thing. Look at the problem space, understand.
+
+[Faculty (Olympus)] 13:27:10
+What do we need to do, right? Do we need to use an LLM directly, or do you need to train, understand all the pieces of the puzzles? And even.
+
+[Faculty (Olympus)] 13:27:18
+Write your inferences, right? You can write your apps, like, clearly, you know, step 1, step 2, step 3, and then test it out, and then build an agent to.
+
+[Faculty (Olympus)] 13:27:27
+put everything together seamlessly, right? So, um, I would say that agents should.
+
+[Faculty (Olympus)] 13:27:34
+be looked as not as the very first thing, but.
+
+[Faculty (Olympus)] 13:27:37
+As the process develop, that's when one needs to look at when to embed agent TKI, okay?
+
+[Faculty (Olympus)] 13:27:43
+Alright, so, uh, why 95% of AI projects fail? So, you know what, I think that number may be.
+
+[Faculty (Olympus)] 13:27:51
+kind of… I'm not… I don't agree with that number. There is another research that said, um.
+
+[Faculty (Olympus)] 13:27:55
+that 95% of AI projects fail, but I don't see that is the case.
+
+[Faculty (Olympus)] 13:28:00
+Um, but… The reason I can talk about why they fail, right? You know, as I said, the reason why a lot of these projects fail is.
+
+[Faculty (Olympus)] 13:28:09
+Um, I would say. 3 or 4 points. One is.
+
+[Faculty (Olympus)] 13:28:16
+Um… the exact. pipeline, right? You know, how have we defined the right pipeline and the workflow? How are we doing.
+
+[Faculty (Olympus)] 13:28:24
+the whole Gen AI pipeline in place, so making sure that is there.
+
+[Faculty (Olympus)] 13:28:30
+And second one is measuring up front, right? We have to be very clear in our measurement. What metrics are we using?
+
+[Faculty (Olympus)] 13:28:37
+And are we, like, you know, things like accuracy. There is F1 score.
+
+[Faculty (Olympus)] 13:28:42
+Um, you know, and then trustworthiness, reliability. consistency, you know, a lot of times when LLMs change, your results may change, right?
+
+[Faculty (Olympus)] 13:28:51
+ensuring that the validation is good, and then privacy and security, right? You know, we need to make sure.
+
+[Faculty (Olympus)] 13:28:58
+Our data is private and secure. Otherwise. you know, we may not, um, you know, after some time, you know, people will find them issues. We don't want to leak information. There is, like, data leakage.
+
+[Faculty (Olympus)] 13:29:08
+And there is this prompt injection attacks and other security attacks, so security is a big thing.
+
+[Faculty (Olympus)] 13:29:14
+Um, and the last, but not least, is scaling and cost. Sometimes people underestimate.
+
+[Faculty (Olympus)] 13:29:21
+What the scaling means, right? What is the cost? You know, how do we… change, um, you know, what is the compute needs that are required. So if you don't estimate upfront.
+
+[Faculty (Olympus)] 13:29:30
+And then, last but not least, is culture, right? You know, it doesn't mean that you have a great product, it will.
+
+[Faculty (Olympus)] 13:29:36
+everybody will use it, right? Even internally as well as externally with your customers. So.
+
+[Faculty (Olympus)] 13:29:41
+AI mindset and culture is very important, okay? If we do that, I think there is a likelihood the project will be successful.
+
+[Faculty (Olympus)] 13:29:48
+All right, folks, um, that's the background and everything. I'm gonna, again, I spent quite a bit of time.
+
+[Faculty (Olympus)] 13:29:54
+put the framework together and answer some questions, so let's just, without further ado.
+
+[Faculty (Olympus)] 13:29:58
+I'm going to jump into the content. the slides when I say content.
+
+[Faculty (Olympus)] 13:30:06
+Okay, so I'm going to talk about a couple of points here from my some other slides, but I wanted to.
+
+[Faculty (Olympus)] 13:30:13
+I'll kind of touch base on this. We are at the fourth industrial revolution, right? I'm not going to beat up on this, but.
+
+[Faculty (Olympus)] 13:30:19
+You know, long back, we had steam engineering, then.
+
+[Faculty (Olympus)] 13:30:22
+That's when the rail system, transportation. goods being shipped then came an assembly line, you know, this is where the pipeline came in. We have Ford.
+
+[Faculty (Olympus)] 13:30:33
+Not only that, but a lot of industry revolution happened, and then the third one is internet, that.
+
+[Faculty (Olympus)] 13:30:39
+At least, you know, a lot of us know, um, you know.
+
+[Faculty (Olympus)] 13:30:41
+that began late 70s, but culminated with the dot-com bubble.
+
+[Faculty (Olympus)] 13:30:45
+But, uh, again, just joking aside, internet has taken things by storm, like.
+
+[Faculty (Olympus)] 13:30:52
+2000s. And then we are in the data… transitioning, right? So data became the new.
+
+[Faculty (Olympus)] 13:30:59
+oil, right? You know, if you have great data, you're gonna win, right? And then this, uh… Um, you know, the race, AI race. So data has been the fuel for AI.
+
+[Faculty (Olympus)] 13:31:12
+And then, you know, people started using data. convert their documents and their analytics, but now that same data has fueled AI.
+
+[Faculty (Olympus)] 13:31:24
+Where the models now can learn from the data, understand the patterns, and then.
+
+[Faculty (Olympus)] 13:31:29
+make intelligent decisions and then generate new things. So, data.
+
+[Faculty (Olympus)] 13:31:33
+Revolution is still ongoing, and that's where AI is no longer a buzzword, but it's in the.
+
+[Faculty (Olympus)] 13:31:39
+It's in the thick of the Industrial Revolution, okay?
+
+[Faculty (Olympus)] 13:31:44
+Other thing I wanted to point is, you know, we all know why.
+
+[Faculty (Olympus)] 13:31:47
+suddenly things have become so crazy, right? So… Um, I think the big thing to understand is, um.
+
+[Faculty (Olympus)] 13:31:55
+Um, 1 second. I want to see if I can expand this.
+
+[Faculty (Olympus)] 13:32:08
+Anyway, I don't want to waste time, so I'll just use this. Okay, so the reason why is the AI is not new, and we're going to go through some details about, you know, how the whole evolution happened.
+
+[Faculty (Olympus)] 13:32:17
+But everybody got their taste of AI, I don't know, what, 2022, I guess, right? That's when the ChatGPT came in.
+
+[Faculty (Olympus)] 13:32:26
+Um, write GPT. GPT is basically… generative pre-trained or generative pre-trained transformer models, and these are all based… I'm going to go through the history and everything, but that's when everybody got… and you know, this is a culmination of.
+
+[Faculty (Olympus)] 13:32:43
+Over 50 plus years of, uh… evolution, right? Ai evolution, and the reason why it became so big.
+
+[Faculty (Olympus)] 13:32:52
+is we actually have, I say, 3 convergences of big 3.
+
+[Faculty (Olympus)] 13:32:58
+technologies, right? I call three C's. One is compute.
+
+[Faculty (Olympus)] 13:33:09
+Other one is, uh, connectivity.
+
+[Faculty (Olympus)] 13:33:19
+And the third one is cost. So these 3 things really.
+
+[Faculty (Olympus)] 13:33:27
+became… The cross-section, right? You know, they all achieved their maturity at compute, right? We were traditional CPUs, now GPUs and TPUs.
+
+[Faculty (Olympus)] 13:33:37
+Um, the accelerated computing, as Jensen Huang said in his NVIDIA thing, right, you know, we are at, um.
+
+[Faculty (Olympus)] 13:33:44
+the new revolution where, you know, we actually hit the more slow limitation, like, you know, if you're in semiconductor industry, you would know.
+
+[Faculty (Olympus)] 13:33:52
+Um, that, um, according to Garden Moore's law, every.
+
+[Faculty (Olympus)] 13:33:57
+Here, the number of transistors on a chip doubles, but, you know, we hit the physical limitation of that.
+
+[Faculty (Olympus)] 13:34:02
+So, what's happening is that the trends, like, you know, now.
+
+[Faculty (Olympus)] 13:34:06
+Um, the GPUs have become. The accelerated computing.
+
+[Faculty (Olympus)] 13:34:11
+So that's powering the compute is what powering and, you know.
+
+[Faculty (Olympus)] 13:34:15
+We need a lot more compute, so that came mainstream. Then connectivity, right? You know, everything runs in the cloud, right? A lot of it right now. There is an edge AI, but a lot of cloud AI.
+
+[Faculty (Olympus)] 13:34:26
+It needs connectivity. Now, with 5G, and, um, you know, Wi-Fi 7.0.
+
+[Faculty (Olympus)] 13:34:32
+connectivity is what it seamlessly connects wherever the compute is, so that's… The arrival of connectivity.
+
+[Faculty (Olympus)] 13:34:39
+And then the cost, right, the memory. The cost is part of.
+
+[Faculty (Olympus)] 13:34:42
+Memory and… those, um… Um, also, um… Became low, and then everything kind of became a holy grail for.
+
+[Faculty (Olympus)] 13:34:54
+the AI to come back in a, you know, in a very strong way and take it by storm, right? So that's where the tipping point was. And as somebody said, right, you know, we were looking at 72% of companies are already.
+
+[Faculty (Olympus)] 13:35:07
+experimenting with AI and then working on products. Okay, um…
+
+[Faculty (Olympus)] 13:35:17
+Okay, so let's now jump into, um… Again, as I said, I'm gonna be kind of moving across the slides.
+
+[Faculty (Olympus)] 13:35:25
+As needed, um. But, uh… Okay, so let's, um…
+
+[Faculty (Olympus)] 13:35:38
+All right, so these are the actual slides that we need to go through, but.
+
+[Faculty (Olympus)] 13:35:44
+As I said, again, we already talked about it, we are in a listen-only mode, and please put your questions.
+
+[Faculty (Olympus)] 13:35:50
+And recording will be available after 6 hours. Um, we talked about agenda, um, so, uh.
+
+[Faculty (Olympus)] 13:35:56
+So this is a slide of how we came.
+
+[Faculty (Olympus)] 13:36:00
+where we are today, right? So, um… The.
+
+[Faculty (Olympus)] 13:36:05
+AI intelligence, right? The… everything started in, um, you know, 1950. You know, I have another visual that kind of highlights because I captured all the way to 2025.
+
+[Faculty (Olympus)] 13:36:14
+So I'll touch base a little bit here, and then I'll jump into my slide with more details.
+
+[Faculty (Olympus)] 13:36:20
+Um, so, before. 1950, right, so we had punch cards. I mean, again, I was not there, but there are a lot of people, and the focus.
+
+[Faculty (Olympus)] 13:36:30
+of using compute was. Logic, rules.
+
+[Faculty (Olympus)] 13:36:35
+and symbolic reasoning, right? So… We humans, we put rules, right? We will… For wide drills. If… And I'll just say a simple example if.
+
+[Faculty (Olympus)] 13:36:47
+Um, like, we are having a bank, right? If a customer is applying for a loan, right?
+
+[Faculty (Olympus)] 13:36:53
+We will say if salary is. greater than 50K.
+
+[Faculty (Olympus)] 13:36:58
+Right. Then we have another rule. This can be, like, if statements are even a small table, right, whatever.
+
+[Faculty (Olympus)] 13:37:07
+number of credit cards. I'm just called… you know, credit rating is greater than.
+
+[Faculty (Olympus)] 13:37:17
+700. Again, I'm talking about US. And then if the number of…
+
+[Faculty (Olympus)] 13:37:26
+credit cards are less than 5. And then if there are no bankruptcy, right? If the guy is not.
+
+[Faculty (Olympus)] 13:37:37
+I'll just put a little note here, not bankrupt.
+
+[Faculty (Olympus)] 13:37:43
+These rules could be like a language, or it could be, like.
+
+[Faculty (Olympus)] 13:37:46
+written in, um, like, a table or whatever. So we were mostly focusing on these kind of rules, and then.
+
+[Faculty (Olympus)] 13:37:51
+We take the data, and then we look at this data, and then if all this.
+
+[Faculty (Olympus)] 13:37:56
+checks up, and then we'll say, okay, this. We can say, yes, you know, the candidate is loan, you know, yes, you know, we can give him a loan.
+
+[Faculty (Olympus)] 13:38:06
+Or is worthy, otherwise no, right? So this, this is how the whole evolution happened, where humans, we define rules over rules over rules, but if something changes, let's say, if they want to introduce.
+
+[Faculty (Olympus)] 13:38:16
+If the guy. is, uh, um, you know, um… Renting, right, maybe we need to look at it, right, if it is, like, default on renting, right? You know, it's like not… and then he has any default, then we need to go and change the rules.
+
+[Faculty (Olympus)] 13:38:31
+all over again. So this is where we've been there until recently, right? And every time people go change the rules, one.
+
+[Faculty (Olympus)] 13:38:39
+Twice and thrice, and then the things get outdated, and it is not portable between different companies and different techniques.
+
+[Faculty (Olympus)] 13:38:45
+So, that's been the case, but. In 1959, right, you know, there was this, um.
+
+[Faculty (Olympus)] 13:38:51
+I'll talk a little bit more in details, but there was a focus on, hey, can we.
+
+[Faculty (Olympus)] 13:38:57
+Make a little bit more the machines. to understand patterns, right? You know, they… can they help us.
+
+[Faculty (Olympus)] 13:39:07
+understand some of the data, instead of we doing over and over, let's say we have a data of 100K customers.
+
+[Faculty (Olympus)] 13:39:13
+Right? Of my bank employees. Instead of me giving, what if I have all this data that I collected?
+
+[Faculty (Olympus)] 13:39:21
+That has the past history. Right, AI is nothing but looking at the past and predicting the future, right? As intelligent.
+
+[Faculty (Olympus)] 13:39:29
+as similar to humans, right? So we have all this data. Is there a way we can now.
+
+[Faculty (Olympus)] 13:39:35
+In corporate algorithms. And come up with.
+
+[Faculty (Olympus)] 13:39:39
+understanding of this data so that when a new data set comes in.
+
+[Faculty (Olympus)] 13:39:44
+Can it infer, right? That was the whole thought process that happened in, uh… Uh, like, you know, mid-50s.
+
+[Faculty (Olympus)] 13:39:52
+And then they came up with algorithms like decision trees, linear regression, there is logistic regression, SVMs, and all this stuff.
+
+[Faculty (Olympus)] 13:39:59
+Which we are not going to go into details, but the way I want to treat this as classical machine learning, right? So this is all classical.
+
+[Faculty (Olympus)] 13:40:12
+Okay. And then, that was, you know, in works, but again, the problem is there was so much limited compute, and it's a very specialized.
+
+[Faculty (Olympus)] 13:40:22
+domain of computer science, and then later on. Deep learning kind of kick-started, um… Around 1965, where a subfield of machine learning.
+
+[Faculty (Olympus)] 13:40:35
+And this is where the wanted… the, you know, the scientists or.
+
+[Faculty (Olympus)] 13:40:40
+the computer engineers and computer scientists wanted to. solve complex problems instead of using classical machine learning algorithms.
+
+[Faculty (Olympus)] 13:40:49
+They had an idea, hey, what if we take.
+
+[Faculty (Olympus)] 13:40:52
+And again, this is my little version of. brain, uh, that I want to draw.
+
+[Faculty (Olympus)] 13:41:00
+I hope this picture. Okay, so there's a left hemisphere, right hemisphere, whatever, but the point is they… the main thing they wanted to do is, you know, how does brain work?
+
+[Faculty (Olympus)] 13:41:10
+Right? You know, brain has all these neurons. I don't know, it has what… Maybe a trillion neurons, or a few… 100 billion, right? I mean.
+
+[Faculty (Olympus)] 13:41:19
+So we'll call it as a trillion neurons, right? So the brain has all these.
+
+[Faculty (Olympus)] 13:41:24
+not neutrons, neurons, right?
+
+[Faculty (Olympus)] 13:41:31
+So they thought, what if we can… I mean, see.
+
+[Faculty (Olympus)] 13:41:36
+The whole thing for human beings is they want to create.
+
+[Faculty (Olympus)] 13:41:39
+Um, you know, another human being, right? You know, that's the biggest thing that humans want to do, is create.
+
+[Faculty (Olympus)] 13:41:45
+something that… because we know how humans work, so we want to.
+
+[Faculty (Olympus)] 13:41:49
+That's the intelligence we can correlate, and we want to say that, hey, can I create another.
+
+[Faculty (Olympus)] 13:41:55
+entity as intelligent or better intelligent than human, so they need to understand, okay, where is intelligence? You know, we perceive it's in the brain.
+
+[Faculty (Olympus)] 13:42:03
+Brain has neurons, and they came up with something called perceptron.
+
+[Faculty (Olympus)] 13:42:06
+This is a digital version. Of a neuron.
+
+[Faculty (Olympus)] 13:42:15
+And they did some early, um, thing. And then, you know, again, some of you who are in the semiconductor industry, you know, it's like NAND gate, NOR gate, right? Those are, and you use a truth table.
+
+[Faculty (Olympus)] 13:42:25
+to define the fundamental gates which became. the building block for transistors and the digital communications as we know it, in a similar fashion.
+
+[Faculty (Olympus)] 13:42:35
+In the brain, right, you may have all these neurons, they are interconnected, right? All these neurons, it may not be layered as we layer in neural networks, but this is.
+
+[Faculty (Olympus)] 13:42:42
+All these neurons somewhere form connected, and then. At the end, we can… our brain can understand language.
+
+[Faculty (Olympus)] 13:42:52
+We remember things, we can… pattern recognize, right? We have all that stuff. So, the perceptron is a similar thing, I'll just draw a simple again. I'm not going to go into details, but very high level.
+
+[Faculty (Olympus)] 13:43:02
+A peritron is like a little… it has an input.
+
+[Faculty (Olympus)] 13:43:06
+I call it as I, it has an output O.
+
+[Faculty (Olympus)] 13:43:10
+And it has an activation function, so this is where, you know, it could be linear, it could be sinusoidal, but I'll just call activation function.
+
+[Faculty (Olympus)] 13:43:17
+And there is a little bias. Bias is nothing but an offset from zero on a scale, right? So this is an offset.
+
+[Faculty (Olympus)] 13:43:27
+So they came up with this perceptron. And then used it as the building blocks for a neural network, right? And then all it does is an input and an output, so your output is nothing but… so your output is function.
+
+[Faculty (Olympus)] 13:43:43
+Um… Output is this equals, you know, your input.
+
+[Faculty (Olympus)] 13:43:50
+Multiplied by a weight, you know, we don't need to worry about weight. The weight, we'll keep it as a weight.
+
+[Faculty (Olympus)] 13:43:55
+Plus your bias, which is, I'll call it an offset or B, right?
+
+[Faculty (Olympus)] 13:44:02
+This is your bias. And then, what happens is, you have an activation function that will, uh… be activated.
+
+[Faculty (Olympus)] 13:44:12
+And then you add the bias. This is your input multiplied by weight and inactivation, and then your bias.
+
+[Faculty (Olympus)] 13:44:17
+So this is how they came up with an equation that says, you know, hey, this is how your output will look like.
+
+[Faculty (Olympus)] 13:44:22
+And then you, um, connect all these… again, there are multiple activation functions, and uh… and, you know, the main thing that you need to take away with this is.
+
+[Faculty (Olympus)] 13:44:31
+Um, again, we go into details, but all these neural networks are nothing but they're all, like, neurons, right? So we have.
+
+[Faculty (Olympus)] 13:44:41
+Just, these are all dots like neurons. And then there are, like, layers, right?
+
+[Faculty (Olympus)] 13:44:46
+And then other layers, and then at the end of the output, you have an output, right? So… and each neuron is connected to multiple neurons, and all these connections.
+
+[Faculty (Olympus)] 13:44:55
+And then, um… These are multi-layer neurons.
+
+[Faculty (Olympus)] 13:44:59
+Right, you know, there's a, like, hidden, like, layer 1, layer 2, this is how neural networks are.
+
+[Faculty (Olympus)] 13:45:04
+The training is a part where. When this neural network is trained, again, I'm not going to get into training here, but.
+
+[Faculty (Olympus)] 13:45:12
+There is something called as forward propagation, feed forward propagation.
+
+[Faculty (Olympus)] 13:45:16
+And there is something called as backward propagation. So what happens is, as part of the training, these weights, right, so when we talk about parameters, right, so people hear.
+
+[Faculty (Olympus)] 13:45:27
+The word, oh, you know, we have. all these parameters in the neural network, or LLM, right? So, I mean, I might tell you.
+
+[Faculty (Olympus)] 13:45:33
+Uh, for example, DeepSeq R1, right? You know how many parameters it has? 671 billion parameters.
+
+[Faculty (Olympus)] 13:45:40
+With the latest model, you'll be surprised that we have one triennial.
+
+[Faculty (Olympus)] 13:45:44
+1 trillion. parameter models. These parameters are nothing but your weights.
+
+[Faculty (Olympus)] 13:45:50
+Right? And, um, some of your… there's also something called a learning rate that goes in, but there are all these hyper-prepared, but most of them are weights and biases.
+
+[Faculty (Olympus)] 13:45:59
+is what the network will start with some value predicts.
+
+[Faculty (Olympus)] 13:46:02
+Then it finds a loss function, which is also called the gradient descent, you may have heard.
+
+[Faculty (Olympus)] 13:46:07
+And then there is a learning rate with which it'll learn, and a bunch of hyperparameters, and then it'll go and back and forth. It adjusts its weight across all these neural networks.
+
+[Faculty (Olympus)] 13:46:17
+and then re-computes, and then… adjust it, so that's part of the training. It'll be done in batches and epochs and iterations, and then finally, you will reach your, um.
+
+[Faculty (Olympus)] 13:46:28
+Whatever the training parameters. it's able to predict it. So that's where the weights and biases come in, and this is all your neural network. So that whole thing, I just wanted to dig in a little bit because.
+
+[Faculty (Olympus)] 13:46:38
+That's the fundamental thing where the deep learning, sorry.
+
+[Faculty (Olympus)] 13:46:42
+Right here, we are here. So the deep learning came on board, and the main thing here is.
+
+[Faculty (Olympus)] 13:46:49
+The emergence of neural networks, right? So we have different neural networks.
+
+[Faculty (Olympus)] 13:46:53
+The basic ones we call ANNs. Then we have CNN as convolutional neural networks.
+
+[Faculty (Olympus)] 13:46:59
+For imaging, and then we have. Um, or, you know, recurrent neural networks, all kind of these networks came in.
+
+[Faculty (Olympus)] 13:47:07
+And then… that's the evolution, or the deep learning, right? So, from classical, we went to neural network, and then came Gen AI. So, Gen AI, we came up with, I think, again, there is a big thing that.
+
+[Faculty (Olympus)] 13:47:19
+I wanted to mention is something called as. There is a model called Transformer.
+
+[Faculty (Olympus)] 13:47:24
+Um… Model. This was done by Google in 2017.
+
+[Faculty (Olympus)] 13:47:36
+2017, where they said, okay, you know what, while we're training these neural networks.
+
+[Faculty (Olympus)] 13:47:41
+But the problem is, they are not able to… we cannot be training like pure words. Like, as humans.
+
+[Faculty (Olympus)] 13:47:47
+When we talk natural language. The words have relationship, they have attention, right? When you're saying the cat is on a wall, it drank milk, it is jumping.
+
+[Faculty (Olympus)] 13:47:57
+It's not plain words put together, right? So there is.
+
+[Faculty (Olympus)] 13:48:02
+meaning to what CAD is, to Matt is to milk.
+
+[Faculty (Olympus)] 13:48:07
+to it, right? So, again, without going into details, this transformer model.
+
+[Faculty (Olympus)] 13:48:11
+The main… they came up with something called a self-attention.
+
+[Faculty (Olympus)] 13:48:17
+That is the fundamental thing. Where?
+
+[Faculty (Olympus)] 13:48:22
+they took. the language, or whatever we are passing.
+
+[Faculty (Olympus)] 13:48:27
+They took all the words, and then they built.
+
+[Faculty (Olympus)] 13:48:31
+attention from each word, so they went to one word at a time, then they have multi-head tensions, you know, I'm not going to get into the details, but the main thing I want to mention is.
+
+[Faculty (Olympus)] 13:48:39
+There is an encoder part of it, and there is a decoder part of it is in the transformer.
+
+[Faculty (Olympus)] 13:48:44
+And then, with that, what they achieved was an ability to make sense.
+
+[Faculty (Olympus)] 13:48:50
+and build context between the words and sentences. And then you predict the right word at the end. So all LLMs, as we know, GPT or Gemini, every LLM, all they do is.
+
+[Faculty (Olympus)] 13:49:03
+They either use both. parts of the transformer, some use encoder and decoder, some use only decoder.
+
+[Faculty (Olympus)] 13:49:11
+And their whole goal is to predict the next world.
+
+[Faculty (Olympus)] 13:49:13
+with a high probability, and that's all this Gen AI is doing, right? So that's where the self-attention came in. And then, lately, what I'm hearing, you know, I was at Neurip's conference last week.
+
+[Faculty (Olympus)] 13:49:24
+The thing I see is there is a sparse attention, because with self-attention.
+
+[Faculty (Olympus)] 13:49:29
+tokens are limited, right? Tokens are nothing but your word that gets chalked, and then eventually becomes embeddings.
+
+[Faculty (Olympus)] 13:49:35
+But the problem with that is there's a token limitation and everything. So there is… there are techniques that people are introducing, like Gemini and others.
+
+[Faculty (Olympus)] 13:49:43
+It's called sparse attention and selective attention, where. You further synthesize.
+
+[Faculty (Olympus)] 13:49:50
+the need for what needs to pay attention to, rather than everything else.
+
+[Faculty (Olympus)] 13:49:55
+So these things are now evolving further. And then, this is where, like, the whole world is sitting here, right? You know, we have all of our LLMs and everything, and that's the holy grail of.
+
+[Faculty (Olympus)] 13:50:06
+Everything. And then came GenTech AI, where. This is not a model, as I said. The agentic AI is, and then, you know, the LLMs became reasoning, right? You know, they have.
+
+[Faculty (Olympus)] 13:50:17
+large reasoning models, LRMs, right, with, um… DeepSQ1, you know, it took by storm because they started putting reasoning into the.
+
+[Faculty (Olympus)] 13:50:25
+just instead of attention, they also have some reasoning.
+
+[Faculty (Olympus)] 13:50:29
+So, agentic AI is not a model by itself, but it is a goal-driven.
+
+[Faculty (Olympus)] 13:50:36
+Reasoning and decision-making. And task execution.
+
+[Faculty (Olympus)] 13:50:39
+By using… I'll just call LM, it can use any model, but, you know, by using an LLM.
+
+[Faculty (Olympus)] 13:50:46
+Right? Um, some of the reasoning modules, the RLMs, or, you know, large.
+
+[Faculty (Olympus)] 13:50:53
+Reasoning modules. kind of mimic parts of how an agent works, right, because they can plan.
+
+[Faculty (Olympus)] 13:50:58
+And they have some, they can say, thinking, and they give steps, but they won't exercise tools and everything. So, an agentic AI is a framework that has evolved.
+
+[Faculty (Olympus)] 13:51:08
+to take the LLMs. and add more.
+
+[Faculty (Olympus)] 13:51:15
+on how we do is, you know, with tools and memory and everything, which we're going to talk about it. So, this is the scoop of how we evolved.
+
+[Faculty (Olympus)] 13:51:22
+I'm gonna pause and uh… Let's see the time, yeah. So, you know what, I'll take another 5 more minutes.
+
+[Faculty (Olympus)] 13:51:28
+Um, and then I'll pause on the last question… I'll answer questions, okay? So, this is how we evolved, and we are.
+
+[Faculty (Olympus)] 13:51:34
+In the middle of agentic AI, where all these frameworks are coming in that help you.
+
+[Faculty (Olympus)] 13:51:39
+use the LLMs, and then come up with this.
+
+[Faculty (Olympus)] 13:51:42
+orchestration framework. And make things more autonomous, right? So that's where the whole agentic AI comes into picture.
+
+[Faculty (Olympus)] 13:51:51
+Okay, so I'm gonna go back, and then, uh…
+
+[Faculty (Olympus)] 13:52:01
+As I said, I'm gonna look at, uh, show you… evolution in a little bit different dynamics, um, no.
+
+[Faculty (Olympus)] 13:52:10
+That's another one. Okay. Alright, so this is the same thing in a, you know, in a little bit more.
+
+[Faculty (Olympus)] 13:52:18
+I want to peel the onion, right, unpack more.
+
+[Faculty (Olympus)] 13:52:22
+of the evolution, right? So we covered 3 things, right? One, the big themes. One was the… the classical ML, right?
+
+[Faculty (Olympus)] 13:52:32
+Then came the… Deep learning.
+
+[Faculty (Olympus)] 13:52:37
+And the third phase is agentic AI, right? So those are the three big chunks that I said. But, like, let's peel the onion a little bit more and understand.
+
+[Faculty (Olympus)] 13:52:44
+How does the State of Union. is today, right? So, I just… put this visual together. So we have total 75 years of AI research.
+
+[Faculty (Olympus)] 13:52:55
+That happened, but. All I can say is, what we have seen, the growth of AI, it was in the last 18 months, so… It's… it literally doubled in the last 18 months of.
+
+[Faculty (Olympus)] 13:53:07
+the way evolved, right? So, um… 5 major errors, right, you know, as I said, you know, these are all the.
+
+[Faculty (Olympus)] 13:53:13
+the way five stages in the last 75 years.
+
+[Faculty (Olympus)] 13:53:18
+And then this is where I said, 50% of the progress made in the last 18 months, that's mind-boggling.
+
+[Faculty (Olympus)] 13:53:24
+And then we are actually are seeing an advent of 1 trillion.
+
+[Faculty (Olympus)] 13:53:29
+models of large LLMs. You know, you have a list of them, but.
+
+[Faculty (Olympus)] 13:53:33
+But the point to remember is, you know, we are reaching a point where 1 trillion parameters.
+
+[Faculty (Olympus)] 13:53:38
+are no longer a visual, right? It's happening, and this will.
+
+[Faculty (Olympus)] 13:53:41
+Eventually, we'll give rise to your AGI, artificial general intelligence, or ASI artificial superintelligence. So.
+
+[Faculty (Olympus)] 13:53:49
+Um, and I'm… let's… it's getting there, you know, I think it's a few years away, but that's this.
+
+[Faculty (Olympus)] 13:53:54
+the high level, right, how big this space is, and how we evolved. So now let's touch base a little bit on, you know.
+
+[Faculty (Olympus)] 13:54:00
+Again, the time history, but I'll probably do a little fast, but… I can have this information shared with you.
+
+[Faculty (Olympus)] 13:54:08
+Um, so, as I said, um… Turing, um, you know, actually, I looked at this paper, this is a pretty good paper, so can machines.
+
+[Faculty (Olympus)] 13:54:17
+right, in 1950. You know, he had some ideas like.
+
+[Faculty (Olympus)] 13:54:22
+Um, can machines think, right? So, there was this, uh.
+
+[Faculty (Olympus)] 13:54:27
+paper that he put together, you can search and kind of do a review. It was put in 1950, and he coined that, hey, can machines think?
+
+[Faculty (Olympus)] 13:54:34
+Like, you know, like, simple things, right? You know, if, like, reasoning, right? You know, if, um… He is the grandfather of this person, and this person is a mother of them. What is the other person, right? You're seeing some analytical question. So he posed some good questions.
+
+[Faculty (Olympus)] 13:54:47
+So that was the early literature, or, you know.
+
+[Faculty (Olympus)] 13:54:51
+How can we make machines not just compute by rules, but can they think, right? That's where some.
+
+[Faculty (Olympus)] 13:54:57
+And then, other thing, AI was actually coined in Dartmouth Conference.
+
+[Faculty (Olympus)] 13:55:03
+In 1956, you know, he has a bunch of researchers to come for this summer forum, I think, and they said, oh, let's call it as artificial intelligence, right? Those are the.
+
+[Faculty (Olympus)] 13:55:12
+The first early beginnings of. AI, and then 57, this is where I discussed Perceptron.
+
+[Faculty (Olympus)] 13:55:21
+This is similar to what, um… you know, whatever digital representation of.
+
+[Faculty (Olympus)] 13:55:27
+a neuron in our brain, right? So those are the early beginnings, okay?
+
+[Faculty (Olympus)] 13:55:32
+And then, moving along, then things kind of settled down, people, you know, because the compute and, as I said, three things, right? Compute.
+
+[Faculty (Olympus)] 13:55:40
+cost in memory, they were not there, so it's still… We didn't have internet, so this research was happening within some prestige institutes.
+
+[Faculty (Olympus)] 13:55:49
+Then, I think the big thing came in is 1986, the back propagation. Remember I said in the neural networks, there is a.
+
+[Faculty (Olympus)] 13:55:57
+for a feed-forward network, and also there is a backward propagation. So this was a very compelling thing.
+
+[Faculty (Olympus)] 13:56:03
+Um, where they figured out, right, this is… even today, it's used in training the models, you know, you… have a loss function, then you have ability to go and do back propagate, adjust your weights and biases, and then.
+
+[Faculty (Olympus)] 13:56:16
+continue further training, right? So that came in 86.
+
+[Faculty (Olympus)] 13:56:20
+And then 97 is when. Deep Blue from IBM beat.
+
+[Faculty (Olympus)] 13:56:26
+Gary Kasparo. So this was a big thing, you know, people, again, some of you may.
+
+[Faculty (Olympus)] 13:56:30
+be aware, or some may be younger than 97 who are probably not even born, but at least, you know, I'm very well aware of this. This took by storm that, hey, you know, IBM can beat, uh.
+
+[Faculty (Olympus)] 13:56:40
+Um, you know, in chess, right, so that became a big thing.
+
+[Faculty (Olympus)] 13:56:44
+Um, and then… The revolution started in 2000, right? Deep learning renaissance, you know, people now.
+
+[Faculty (Olympus)] 13:56:51
+got, um, Jeffrey Hinton, you know, published a breakthrough on training deep learning networks, so… now it's, like, retook, you know, reignited the interest. And then I think the big thing, I think, was this AlexNet, right? So, AlexNet is.
+
+[Faculty (Olympus)] 13:57:05
+There is ImageNet, it's a very popular event today, I think it's about, I don't know, maybe 10K or 100K, I forgot.
+
+[Faculty (Olympus)] 13:57:12
+Probably something like that. Images, right? So this image in it, maybe it evolved, it may be more now, but this is one standard way of, um.
+
+[Faculty (Olympus)] 13:57:22
+kind of challenging people that, hey, you know, you have ImageNet.
+
+[Faculty (Olympus)] 13:57:24
+Um, we want a model that can. Take these 10,000 images, this could be, like, you know, a tea, um, teapot, or a horse, a donkey, whatever, you know, it may be more than this.
+
+[Faculty (Olympus)] 13:57:35
+greater than 10K, I'll put it, and then they, you know, they ask people, right, there were competitions, and.
+
+[Faculty (Olympus)] 13:57:42
+stuff like that. So, AlexNet was one that achieved over 85% of accuracy, and then that was based on a neural network, and then that… people said, oh, yeah, what, you know what?
+
+[Faculty (Olympus)] 13:57:53
+Now, you know, we can do a lot more. We can not only do image recognition, but this is where people, now banks and everybody started implementing.
+
+[Faculty (Olympus)] 13:58:02
+Um, you know, people's signatures, and then you can write you a check, and they can deposit your checks.
+
+[Faculty (Olympus)] 13:58:08
+reading handwriting, detecting images, those things, you know, AlexNet was very popular.
+
+[Faculty (Olympus)] 13:58:16
+Um, and then, uh, that… went on. The GANS, that's another one that, um, introduced generator adapter networks that also revolutionized.
+
+[Faculty (Olympus)] 13:58:27
+AI. Then came the big one, the. transformer attention is all you need. It was a paper in 2027 by Vaswani and a bunch of others from Google.
+
+[Faculty (Olympus)] 13:58:37
+Um, you know, if you have time, just go and read this. But this is the foundation for all modern AI, right, in all of our LLMs today.
+
+[Faculty (Olympus)] 13:58:46
+everybody, or, sorry, every LLM is trained on this, either through both encoder and decoder.
+
+[Faculty (Olympus)] 13:58:52
+parts of the transformer or just the decoder part of it, but this is what.
+
+[Faculty (Olympus)] 13:58:56
+Um, you know, the revolution of the current LLMs.
+
+[Faculty (Olympus)] 13:59:01
+And then GPT-3 came in, and then, you know, as we know, again, the dates, I don't know whether it's 2020.
+
+[Faculty (Olympus)] 13:59:10
+2 or something, but again, this was… Um, maybe GPT-4 is when everybody, exactly, so this is the one. And then, um… Sorry. Right, so GPT got launched, and then, as we know, in November 2022, that is, uh.
+
+[Faculty (Olympus)] 13:59:25
+100 million users in 2 months, that's probably the highest.
+
+[Faculty (Olympus)] 13:59:30
+our user base of a product in less than 5 days.
+
+[Faculty (Olympus)] 13:59:34
+And then… then, you know, the rest is history, right? Everybody from 2022, we all know what LLMs are, then, you know, we have Google.
+
+[Faculty (Olympus)] 13:59:42
+You know, all of the thing I wanted to also touch base is foundational models, right?
+
+[Faculty (Olympus)] 13:59:46
+It's very difficult for a small company. to, um… I mean, you can create your LLMs for your own use, but if you want to consume the internet.
+
+[Faculty (Olympus)] 13:59:58
+size of data. Um, it's very complex, right? Foundational.
+
+[Faculty (Olympus)] 14:00:03
+All frontier models, right, people, so there are only a handful of companies that are doing this.
+
+[Faculty (Olympus)] 14:00:07
+I'm talking about LLMs. Um, so these are because they need thousands and thousands of GPUs, billions and billions of dollars.
+
+[Faculty (Olympus)] 14:00:16
+So these are, like, a few companies, right, you know, we have Meta.
+
+[Faculty (Olympus)] 14:00:22
+We have Google.
+
+[Faculty (Olympus)] 14:00:28
+There are more, but I'll just name the top ones, right, then, um… OpenAI, obviously.
+
+[Faculty (Olympus)] 14:00:39
+We have Anthropic, you know, probably who are in coding, you all know.
+
+[Faculty (Olympus)] 14:00:42
+What coding does.
+
+[Faculty (Olympus)] 14:00:48
+Alright, and then we have Deep Seek.
+
+[Faculty (Olympus)] 14:00:58
+You know, Quinn from Alibaba, I actually, like, this one is there. And there are more, you know, they're like, you know, there's Kimi, there's a new one, Kimi.
+
+[Faculty (Olympus)] 14:01:10
+A bunch of them, but these are, you know, popular, as we know. And then Grok, I mean, how can I forget, uh… Elon Musk's groc, right? Xai, or they have, I mean…
+
+[Faculty (Olympus)] 14:01:23
+So these are the foundational ones. There may be a few more that I'm missing, but… Again, you know, now there's an AI race, right? Who's gonna win the next thing? And there's always leaderboards and people fighting every day.
+
+[Faculty (Olympus)] 14:01:34
+In the sense, you know, whose model is best and everything. You know, I mean, for me, I use, uh… Um, again, my take is IFR coding. Again, each model is different, right? You cannot have one model fit.
+
+[Faculty (Olympus)] 14:01:45
+everything. So, I use, like, for example, Anthropic, they have Cloud 4.0, 4.5.
+
+[Faculty (Olympus)] 14:01:52
+Um, the sonnet and they have a Haiku, but 4.5 Cloud, I mean, that's a very good model for.
+
+[Faculty (Olympus)] 14:01:59
+Um… Quoting, right? And then, uh, Gemini, I like for reasoning, right? You know, Gemini, they have a recent.
+
+[Faculty (Olympus)] 14:02:08
+3.0, um… 1, 3.1.
+
+[Faculty (Olympus)] 14:02:12
+Jeremy and I think this is good for reasoning, right?
+
+[Faculty (Olympus)] 14:02:15
+And then I also use, um… GPT-5, I started liking GPT-5.
+
+[Faculty (Olympus)] 14:02:22
+Or if I don't want… I don't know how to, because these are… very fast evolving. So these 3 that I use personally, but when coding is also good. So, I mean, if you want to open source and you want to do.
+
+[Faculty (Olympus)] 14:02:32
+No charge, I would recommend Quencore 3.0 there. Recently, it is.
+
+[Faculty (Olympus)] 14:02:37
+Quin Core 3.0 for coding. So these are just my thoughts, but again, I wanted to frame.
+
+[Faculty (Olympus)] 14:02:42
+That, you know, we are at a point, like, since 23, right, there is every 3 months to 6 months.
+
+[Faculty (Olympus)] 14:02:47
+All these foundational frontier companies are releasing models. And they have leaderboards that, you know, you go to huggingface.org, I think it's huggingface.co, and a bunch of sites.
+
+[Faculty (Olympus)] 14:02:59
+people measure, right, for software, it's SWA metrics, and there is, like, uh.
+
+[Faculty (Olympus)] 14:03:05
+other metrics that they have leaderboards, and then there is a very competition, like a race, like who's gonna win, and um… These are some of the things that.
+
+[Faculty (Olympus)] 14:03:14
+Okay. All right, so… Let's go back and then complete this part. And then we have DeepSeq 3.0 that came in December 4.
+
+[Faculty (Olympus)] 14:03:25
+then, um, Jan, Faivo, and then we have… oh, actually, DeepSeak released their new 3.1. I think this is very good. Now, you know, these models are not only… text, but they are, like, multimodal, as well as they are doing better reasoning.
+
+[Faculty (Olympus)] 14:03:40
+Um, and then from an agentic perspective, right, you know, I mean, um, some of the latest ones that I thought are.
+
+[Faculty (Olympus)] 14:03:48
+Salesforce agent for the, you know, they really… at the scale, right, that's what I'm trying to compare. With two months.
+
+[Faculty (Olympus)] 14:03:54
+They have 6,000 plus deals and 10,000 agents built on Dreamforce, right? So… As these models became.
+
+[Faculty (Olympus)] 14:04:01
+big and evolve their, um, able… the capability has increased, and now they… so think about these models, LLMs are the brain, right? You know, your brain… Um, it's becoming intelligent, but.
+
+[Faculty (Olympus)] 14:04:12
+We need to provide more tools, more memory, and that's where the agents come in. And Salesforce took… I mean, they're one of the pioneers of.
+
+[Faculty (Olympus)] 14:04:19
+creating agents to orchestrate all this. We don't want… because it's difficult for us to build all these repeated.
+
+[Faculty (Olympus)] 14:04:26
+things at a scale, right? You know, you have to go and look at the database, now you have to understand.
+
+[Faculty (Olympus)] 14:04:31
+fetch some tools, you have to, you know, do all this stuff, and it becomes.
+
+[Faculty (Olympus)] 14:04:35
+very difficult and repeatable. That's where, you know, I think agentic force, agent force came in and took by CRM as surprise, okay? And then… We also have further, um.
+
+[Faculty (Olympus)] 14:04:48
+agentic SDKs, right, these days, I see. more of agentic things happening, along with LLMs, right? So… That's where, you know, we are. I think, you know, 2025.
+
+[Faculty (Olympus)] 14:05:00
+people are calling us a. an age of agentic AI, right? So you may have heard this term, but 2025 is where.
+
+[Faculty (Olympus)] 14:05:09
+your agentic AI actually became mainstream. Okay.
+
+[Faculty (Olympus)] 14:05:18
+And we have frameworks like ClearAI, I'll just… Um, right there, you know, we have Crew AI.
+
+[Faculty (Olympus)] 14:05:25
+We have Lime Chain and line graph.
+
+[Faculty (Olympus)] 14:05:33
+I'm writing with my mouse, so… My handwriting may not be that good, but yeah, just… Okay, LangChain, I'll just put LangChain Plus.
+
+[Faculty (Olympus)] 14:05:42
+Then we have Microsoft, uh. Um… I think I'm forgetting Microsoft, but, uh, yeah.
+
+[Faculty (Olympus)] 14:05:53
+Anyway, so there are more things coming in. So, I'm going to pause and take some questions here, but before that, the thing that I want to also mention is.
+
+[Faculty (Olympus)] 14:06:05
+Every industry right now are looking at agentic AI.
+
+[Faculty (Olympus)] 14:06:11
+to achieve productivity because, see, agentic AI is good for achieving productivity and optimizing your workflows, because you're not creating models from ground up.
+
+[Faculty (Olympus)] 14:06:21
+So it suits well in an organization if you want to optimize.
+
+[Faculty (Olympus)] 14:06:26
+your workflows and productivity, and that's where, you know, we have seen a lot of VIP coding, you know, where.
+
+[Faculty (Olympus)] 14:06:32
+Um, you know, I'm sure you may have heard this term, you know, you're able to.
+
+[Faculty (Olympus)] 14:06:38
+gained significant productivity in coding. Uh, code gen, code reviews, um, so that's one.
+
+[Faculty (Olympus)] 14:06:45
+Big success, in my opinion, again, based on my experience, I can say over 30% productivity.
+
+[Faculty (Olympus)] 14:06:53
+is, um, you know, being achieved just in the coding, but there are other areas, but just wanted to paint that picture.
+
+[Faculty (Olympus)] 14:07:00
+Um, let's just wrap up this slide. I may have a couple of more points to make here.
+
+[Faculty (Olympus)] 14:07:07
+Yeah, GPT-5.1, that came in November 25. Clots on it, as I said, you know, this is where I put some insights, like, you know, GPT-5.1, it is best in… it's exceptional in reasoning, right? That's where I see good logical thing.
+
+[Faculty (Olympus)] 14:07:20
+Whereas 4.5, okay, this is my personal opinion, I see it as very good encoding, and it is a good benchmark.
+
+[Faculty (Olympus)] 14:07:26
+And it has good tokens. And Gemini 3.0 is also, it has a PSD level reasoning.
+
+[Faculty (Olympus)] 14:07:31
+Um, it, you know, they increase tokens. Remember, one of the reasons why they increase the tokens is by optimizing the attention mechanisms, and then we have LAMA, and then we have.
+
+[Faculty (Olympus)] 14:07:41
+Quen and DeepSiq. So these are the models that I also listed earlier. And then, um… Okay, and agentic AI, um… oh, yeah, these are the ones that I wanted to show. Um, land graph, we talked about it. Crewa is another one.
+
+[Faculty (Olympus)] 14:07:58
+AutoGen was the one that I forgot by Microsoft.
+
+[Faculty (Olympus)] 14:08:01
+Llama index, OpenAI Swarm, and Symantec Kernel. So these are the popular ones.
+
+[Faculty (Olympus)] 14:08:05
+Um, that people are using in their workflows. And, you know, to do the agent decays, okay? So, I'm going to pause. We are a little bit over one hour, so I'm gonna pause, and then… What we will do the next is we jump into some use cases, now that you have a good understanding of.
+
+[Faculty (Olympus)] 14:08:23
+how we evolved, what the models, why agentic AI, what some of the high-level aspects of it.
+
+[Faculty (Olympus)] 14:08:29
+Uh, so let me take questions.
+
+[Faculty (Olympus)] 14:08:38
+Okay, so I'm gonna take 5 minutes. May not be able to answer every single question, but I'll do my best.
+
+[Faculty (Olympus)] 14:08:46
+Muka. Again, sorry if I, uh… won't be able to answer your question, so I'm gonna pick the ones that are more relevant.
+
+[Faculty (Olympus)] 14:08:57
+Okay, so Gopinath, um, you say agentic use case patterns are currently in successful production deployment, with risk-saved words.
+
+[Faculty (Olympus)] 14:09:05
+Um, which agent KI use cases? Okay, yeah, so those use cases we're gonna talk, um.
+
+[Faculty (Olympus)] 14:09:11
+in our, you know, we have 4 or 5 use cases, so I'll point.
+
+[Faculty (Olympus)] 14:09:14
+But there are some good ones, like customer service, I would say, is a good success story, and coding, you know, because.
+
+[Faculty (Olympus)] 14:09:21
+coding agents have really taken by storm. Like, we have cursor, we have, uh.
+
+[Faculty (Olympus)] 14:09:27
+Cloud, uh, code. Um, so… and then, you know, there's a lot of companies like Windsurf.
+
+[Faculty (Olympus)] 14:09:33
+or Windsurf, or whatever, that Google bought. Uh, and then… so there is, uh, because they want to.
+
+[Faculty (Olympus)] 14:09:39
+really get on the whole coding aspect, the whole software development lifecycle, so that, I think, is a success. So I'll touch base more on that.
+
+[Faculty (Olympus)] 14:09:48
+Right, so Manot says, many of my client. Or heavily investing into MCP, so could you speak.
+
+[Faculty (Olympus)] 14:09:54
+to that also. Yeah, so I will talk about MC. Mcp is nothing but a simple protocol. I'll just give a high-level thing, right? As I said, an agent.
+
+[Faculty (Olympus)] 14:10:02
+uses the brain, which is the LLMs. And then it has fewer aspects, which we'll talk more in detail, but it has tools, it has memory, it has.
+
+[Faculty (Olympus)] 14:10:10
+Um, you know, the goals and observation. So, what.
+
+[Faculty (Olympus)] 14:10:14
+MCP does is it standardizes. The structure of.
+
+[Faculty (Olympus)] 14:10:20
+assigning the tools, and… because otherwise, if every, um, um… tool, they define the… think about MCP as nothing but an API. So, by standardizing that.
+
+[Faculty (Olympus)] 14:10:30
+we are telling the agent, you can quickly. latch onto this MCP protocol.
+
+[Faculty (Olympus)] 14:10:36
+And then it's, like, model control protocol, um, you know, basically, it's nothing but a structure of how to assign the tools and how to structure them, so that when every server, either open source or even within your company, when you define an MCP.
+
+[Faculty (Olympus)] 14:10:49
+You can easily tell the agent, and you can fetch your data quickly, and with more, uh… well managed and secure protocol. So that's the MCP. And there are, like, you know, MCP, you can get in the wild so many MCP servers, so you can plug… it's like a USB plug-in, you know, you just plug into anything you want.
+
+[Faculty (Olympus)] 14:11:10
+Okay, what do you mean by inference? So, inference is… that's an interesting word. So, there are two parts for, uh… the whole AI, um, LLMs, right? Training is where the model gets trained, right? It's trained on internet size of data.
+
+[Faculty (Olympus)] 14:11:24
+But we are talking about LLMs, right? But if you're training your own data, yeah, you could still train the neural network. So once the training is done, so it achieves certain metrics, like, you know, 90% accuracy or.
+
+[Faculty (Olympus)] 14:11:36
+recall or reference code, and they have certain parameters, right?
+
+[Faculty (Olympus)] 14:11:40
+Then, they freeze. The model is frozen, and then you release the model.
+
+[Faculty (Olympus)] 14:11:43
+And then when you inference, you're still using the same neural network, but you're not retraining it. All you do is you are.
+
+[Faculty (Olympus)] 14:11:50
+Your data query goes in and you get an output. So, relatively, training is very, very expensive. Inference is expensive, but not as expensive. So think about.
+
+[Faculty (Olympus)] 14:12:00
+inferencing is prediction on the new data rather than.
+
+[Faculty (Olympus)] 14:12:04
+the training that goes on, okay? Okay, next question.
+
+[Faculty (Olympus)] 14:12:13
+Yeah, so I think, um, yeah, I think… OMID is asking, is this a use case for HDK? Creating a pre-call summary train for sales reps.
+
+[Faculty (Olympus)] 14:12:23
+on proprietary enterprise models and the post-call feedback, yeah, that can be an agentic AI. It's a simple agent, we can do that, yes.
+
+[Faculty (Olympus)] 14:12:31
+Manoj, um, has a question because they don't want… okay, I think, uh, all right.
+
+[Faculty (Olympus)] 14:12:36
+Alright, thank you. Um, I'll just take a couple of more questions.
+
+[Faculty (Olympus)] 14:12:42
+Okay, shaker, you have, in this course, will we be modifying this.
+
+[Faculty (Olympus)] 14:12:46
+underlying rates and biases. Or is agentic engineering strictly about managing the input prompts and orchestration? Um, it's a good question. I don't think.
+
+[Faculty (Olympus)] 14:12:56
+you will be fine-tuning, um… model so much to change, um… The weights and biases, um, but there will be some overview about how it is done, but I don't think it goes into the depth, but it's more.
+
+[Faculty (Olympus)] 14:13:10
+But you will learn, see, the first few classes will be helping you build the foundation, so there will be topics on fine-tuning.
+
+[Faculty (Olympus)] 14:13:17
+But I don't know how much deep he'll be going into, okay?
+
+[Faculty (Olympus)] 14:13:21
+Okay, what is next after Agentic AI? So that's a good question from Cal.
+
+[Faculty (Olympus)] 14:13:26
+I think agent's gonna be evolving, right? So we are not now seeing not only single agent, but, you know, multiple agents.
+
+[Faculty (Olympus)] 14:13:33
+And then agent orchestration. Um, I mean, the thing that worries me is the autonomy of these agents, right?
+
+[Faculty (Olympus)] 14:13:40
+Um, if we don't regulate them. Um, these agents… could have a lot more power, right? So that's where I worry.
+
+[Faculty (Olympus)] 14:13:50
+Um, and then the way the industry's heading. things are going too fast, and then… I think issues of privacy protection. I mean, I see already there is, like, so much content on the internet that's agents creating all garbage sometimes.
+
+[Faculty (Olympus)] 14:14:04
+And we may reach a point where we don't know whether this is real or unreal, so… gotta be danger on that. So, I think, um… Beyond agentic AI, I think, see, I can think about quantum, right? So, quantum, um…
+
+[Faculty (Olympus)] 14:14:19
+is important. At the same time, it's scary because all the crypto will break when quantum comes in, so we may have to catch up.
+
+[Faculty (Olympus)] 14:14:26
+But agents can become super. helpful, but, you know, we have to ensure the guardrails, the security, and uh… Make sure they are grounded, so.
+
+[Faculty (Olympus)] 14:14:38
+Okay. I hope I answered that. Okay, there are a lot more questions.
+
+[Faculty (Olympus)] 14:14:46
+Gemini, not for coding. Why are you using GA? How are you using GPT-5? Yeah, GPT-5.
+
+[Faculty (Olympus)] 14:14:52
+I am, um, right now, uh, you cited Gemini for reasoning, and Cloud for coding. Yes, yes. Gpt-fi is also good. I noticed it's good for, uh.
+
+[Faculty (Olympus)] 14:15:03
+coding, um, but at enterprise, right, you know, we have to use multiple based on.
+
+[Faculty (Olympus)] 14:15:09
+the cost and everything, so GPT-5, um… The way at least I, my experience is more of.
+
+[Faculty (Olympus)] 14:15:16
+Of creating knowledge. Um, bots and queries, I think GPT-5 is good.
+
+[Faculty (Olympus)] 14:15:23
+Or these models get trained with our data as we interact. In other words, will my data shared with LLMs leverage to answer other questions?
+
+[Faculty (Olympus)] 14:15:30
+No, not really. So, when you're asking, let's say you are talking to your data.
+
+[Faculty (Olympus)] 14:15:38
+Will the model get trained? No, because. When you're talking to an LLM through your chat, I assume that's what you're doing, you know, you're asking it to.
+
+[Faculty (Olympus)] 14:15:46
+create a travel itinerary, or… I hope you're not asking too many private questions, but uh… These questions are presented to LLM.
+
+[Faculty (Olympus)] 14:15:53
+Um, and then all it does is they get converted into tokens and embeddings, they answer, but your data is not used.
+
+[Faculty (Olympus)] 14:16:00
+for training the model, but they may have access and they keep it for some other reasons, but for the model purely, your data that you query is not used for training.
+
+[Faculty (Olympus)] 14:16:11
+Yeah, what's coming after agentic AI, AGI, ASI? I think AGI… Artificial general intelligence, I think people say it's within the realm of 3 to 5 years. I think there is a.
+
+[Faculty (Olympus)] 14:16:23
+likelihood that could happen. Yep, Microsoft AutoGen, yeah, thanks for clarification.
+
+[Faculty (Olympus)] 14:16:30
+For small business, Manuj, I think LangChain, you know, is good. It's easy.
+
+[Faculty (Olympus)] 14:16:36
+If you want to start with that, that's a good thing, I noticed.
+
+[Faculty (Olympus)] 14:16:41
+Again, the models, I think you should pick. open source models as much as you can, but as I said, you know, you need to understand your workflow first.
+
+[Faculty (Olympus)] 14:16:49
+and then see how much of AI you need to put in, right? You know, is it a simple model, or is it on-prem? Is it on the cloud? Do you need an agent?
+
+[Faculty (Olympus)] 14:16:57
+But, um, I would say open source models and Langchen would get you there.
+
+[Faculty (Olympus)] 14:17:06
+Okay, I think the… I think, uh… Chen, you have a question. Which AI framework? I think most likely we'll be using LangChain, and the Langraph.
+
+[Faculty (Olympus)] 14:17:15
+No. Okay. All right, I'll take two more questions, and then, you know, guys, let's take about, um, 7 or 8 minute break.
+
+[Faculty (Olympus)] 14:17:24
+And then we have about 40, 40 minutes, and we're gonna cover the use cases about 4 or 5. And I will show you one use case where I actually.
+
+[Faculty (Olympus)] 14:17:35
+put together this morning, you know, an agent from scratch in a few minutes. I want… because some people that you want to see the mechanics, we can go through that.
+
+[Faculty (Olympus)] 14:17:42
+So, I'll just take two more questions here, and then we'll take a pause, okay? Just letting you know.
+
+[Faculty (Olympus)] 14:17:50
+Yeah, so on the… okay, so, um, Ananda, you also said also the code analysis for Cloud. So, Cloud, in my experience with Cloud.
+
+[Faculty (Olympus)] 14:17:58
+Um, it's been good. So Claude has multiple things, right? Claude 4.5.
+
+[Faculty (Olympus)] 14:18:04
+SONET, they also called 4.5 Haiku. So keep in mind, if you want to use.
+
+[Faculty (Olympus)] 14:18:10
+4.5, the cheaper version is Cloud 4.5 Haiku. Which is one-third of the cost, so you should probably keep that in mind.
+
+[Faculty (Olympus)] 14:18:18
+And Cloud also has, um… see, the whole wipe coding, right, so we have models, um… the way I use in, you know, my personal thing is I have VS Code, and then there is a client.
+
+[Faculty (Olympus)] 14:18:30
+Kaline is a middle. It's like a model that optimizes prompts, and the backend, it connects to whatever, you know, 4.5.
+
+[Faculty (Olympus)] 14:18:40
+IQ is a cheaper version, so keep that in mind.
+
+[Faculty (Olympus)] 14:18:44
+Okay, um… Yeah, so Google ADK, yeah, you know what, Google ADK, Kalter, um… Carlton, sorry. Yeah, um… I would say Langchain is still.
+
+[Faculty (Olympus)] 14:18:56
+lot more support. Google ADK is getting there, but currently there is good community support for Langchain, lot of.
+
+[Faculty (Olympus)] 14:19:03
+examples that are available. Google also, just like the MCP, for agent-to-agent communication, Google is also.
+
+[Faculty (Olympus)] 14:19:11
+coming out with… I mean, it's already the release, they have something called A2K, it's like agent-to-agent communication.
+
+[Faculty (Olympus)] 14:19:17
+Okay, um, Christopher, if we are a beginner, should we start with.
+
+[Faculty (Olympus)] 14:19:22
+No frameworks, example, Langchen or jump directly into using Langchain. Um… I think it's okay to use LangChain.
+
+[Faculty (Olympus)] 14:19:30
+As long as you understand the concepts, right? Because LangChain, it… See, the lank chain and lang graphs are two entities. There is, like, you know, Lang-Smith.
+
+[Faculty (Olympus)] 14:19:39
+And there's Lang MEM, so don't get too much overwhelmed.
+
+[Faculty (Olympus)] 14:19:43
+If you want to start, I would say start with the lank chain, because the way the lank chain is structured is.
+
+[Faculty (Olympus)] 14:19:49
+You have nodes and the edges. Think about these as serial.
+
+[Faculty (Olympus)] 14:19:54
+operations of orchestration, so it'll be easy for you. The lang graph.
+
+[Faculty (Olympus)] 14:19:59
+is think about a little bit. Next level to LangChain, where you have.
+
+[Faculty (Olympus)] 14:20:03
+multiple notes and decision points. and then edges. So… but using a lang chain, you can appreciate.
+
+[Faculty (Olympus)] 14:20:12
+Um, the way the orchestration works, right? You could always do yourselves, like, you know, but LangChain comes with certain.
+
+[Faculty (Olympus)] 14:20:18
+inherent. utilities, right, I call them, like, you know, reading a PDF file, you're chunking it, you're doing a rag.
+
+[Faculty (Olympus)] 14:20:26
+All these things, or you want to talk to an LLM.
+
+[Faculty (Olympus)] 14:20:29
+Um, so it comes… it'll make it easy for you, so I would say don't hesitate.
+
+[Faculty (Olympus)] 14:20:35
+using LangChain. Um… Okay, alright, last question I'm going to take is… Anna Saksena, I think the question is, what does the term wipe coding means?
+
+[Faculty (Olympus)] 14:20:48
+Okay, so white coding has been very popular in the last.
+
+[Faculty (Olympus)] 14:20:51
+one year, so there's lots of these companies. Some of these companies are actually put together by a bunch of kids from, you know, universities, and they went billion dollars or two billion.
+
+[Faculty (Olympus)] 14:21:04
+market cap within months. So the whole point of white coding is.
+
+[Faculty (Olympus)] 14:21:08
+Software is such a big element, right? You know, if you really look at it.
+
+[Faculty (Olympus)] 14:21:12
+Um, software. pervades industries, right, not only, you know, wireless or semiconductors, you know, like medical, pharmaceutical.
+
+[Faculty (Olympus)] 14:21:21
+finance, banks, um. One of the things that the whole VIP coding.
+
+[Faculty (Olympus)] 14:21:26
+came into picture is they want to optimize the entire software and security lifecycle development.
+
+[Faculty (Olympus)] 14:21:31
+So, the three aspects of the whole coding, if you really are in programming, you know, one is.
+
+[Faculty (Olympus)] 14:21:38
+design and code generation, right? The code generation is number one.
+
+[Faculty (Olympus)] 14:21:42
+Number 2 is cold. testing, analysis.
+
+[Faculty (Olympus)] 14:21:49
+And debugging, right? So once you have code, then the second thing is, you know, how do we fix the test, you know, how do we find bugs, and how do we patch it, how do we optimize it? That's number two. Number three is… How do we release, you know, how do we do CICD pipeline, like integration and release? So what.
+
+[Faculty (Olympus)] 14:22:05
+wipe coding is doing is, they are creating an agentic framework.
+
+[Faculty (Olympus)] 14:22:09
+Like, um, like. cursor is one classic case. There are more like there is another one, Windsurfer, or that was acquired by Google.
+
+[Faculty (Olympus)] 14:22:17
+Um, there are codec, there are a bunch of them, you know, coder. There are, like, several coders.
+
+[Faculty (Olympus)] 14:22:23
+And all they do is they help you. take… I mean, if I… time permits, I will demo beyond our four use cases, but you can quickly enable this into an IDE of your choice, like VS Code.
+
+[Faculty (Olympus)] 14:22:36
+or any of these development. code development framework.
+
+[Faculty (Olympus)] 14:22:41
+And then you can optimize significant portion of your software development and reducing.
+
+[Faculty (Olympus)] 14:22:47
+Uh, the, you know, the time it takes to generate code and reduce… even, like, you can generate test unit tests.
+
+[Faculty (Olympus)] 14:22:55
+Um, so, improving productivity by good 30%, that is industry standard, so… So white coding, in a nutshell, is ability to generate.
+
+[Faculty (Olympus)] 14:23:04
+Optimize, fix. And, uh, manage your code, okay? So with that, I think I addressed all the questions. Take a five-minute break, not a whole lot, and then we'll come back. So, my time… 1123, so we'll, uh…
+
+[Faculty (Olympus)] 14:23:19
+reach, um, will around, like. 11:28, okay? See you guys, we'll continue with the use cases.
+
+[Faculty (Olympus)] 14:23:25
+Thank you.
+
+[Faculty (Olympus)] 14:30:20
+Okay, so, uh, I'm back. Um, okay, so, um… Can you please let me know if everything is okay? You can see me and hear me?
+
+[Faculty (Olympus)] 14:30:32
+Okay, great, great, okay, okay, let's just… get into, um, our topic.
+
+[Faculty (Olympus)] 14:30:40
+I'm gonna go back to the slides. Okay, so we are… Okay, so now we know quite a bit about the history, and uh… What, you know, um.
+
+[Faculty (Olympus)] 14:30:53
+AI is all about. We'll dig a little bit more into what Agentic AI is, and, you know, talk about.
+
+[Faculty (Olympus)] 14:31:00
+agent, and then we'll look into the actual use cases, okay? So we'll, uh… touch base on this.
+
+[Faculty (Olympus)] 14:31:06
+Again, one thing I want you to really get out of this.
+
+[Faculty (Olympus)] 14:31:10
+couple of slides is… a good understanding of what an agent is, right? So, uh… Um, I think that that's important, okay? So, what I'll do is I'll share another.
+
+[Faculty (Olympus)] 14:31:21
+Little, uh, slide I put together. Okay… Okay. This is just to drill it down further, right? So… Okay, without an agent, so let's take, um… again, I just put together… this was done by Nano Banana, by the way.
+
+[Faculty (Olympus)] 14:31:40
+I like nano banana. I don't know if you guys use it, but you know what? Recently, I heard there are two other LLMs coming in.
+
+[Faculty (Olympus)] 14:31:47
+Um, so, you know, what their names are? One is Avocado.
+
+[Faculty (Olympus)] 14:31:51
+Another one is garlic, so… Other day, I was talking to my wife, and then, you know, I just said, oh, you know, I heard about a book out of garlic, and she said, oh, are you going to make some guacamole? But.
+
+[Faculty (Olympus)] 14:32:01
+It's interesting that they are coming out with these creative names. Maybe it's because the nano banana was a hit.
+
+[Faculty (Olympus)] 14:32:09
+Right, it can… look how cool the pictures are, like… Okay, so… The main thing I want to at least get the key.
+
+[Faculty (Olympus)] 14:32:18
+Um, idea here is to help you understand what an agent is, right?
+
+[Faculty (Olympus)] 14:32:23
+Think about, without an agent. So, let me, um… talk about this, right? So, human and LLM. So, I put this together. So, what here really is, normally, this is what?
+
+[Faculty (Olympus)] 14:32:34
+how we operate, right, in the sense in our day-to-day lives, um, you know, we are used to this, right? You know, we take… we talk to LLM.
+
+[Faculty (Olympus)] 14:32:42
+Typically, we do a search, right, and then we say, hey, you know, what is my stock price, right? And then we say, oh, okay, I got my stock price.
+
+[Faculty (Olympus)] 14:32:48
+Do I need to sell or not? I have to make a decision, right? So that's manual process, right?
+
+[Faculty (Olympus)] 14:32:54
+Or if you… let's say, you know, I have a use case where, um, I want to, um.
+
+[Faculty (Olympus)] 14:33:01
+get, um… like, you know, let's just put the use case, right? You know, I want to put.
+
+[Faculty (Olympus)] 14:33:05
+I hope you can see on the right side, I'm drawing, you know, I have a… let's say I have AI stocks, right? I want to give an example, AI stocks.
+
+[Faculty (Olympus)] 14:33:13
+That I purchased, let's say, last 1 year bank.
+
+[Faculty (Olympus)] 14:33:18
+And now people say it's a bubble or whatever, so what I want to do is I want to find my… from AI stocks in my portfolio, which is an E-Trade.
+
+[Faculty (Olympus)] 14:33:28
+And then I have a bunch of them, but I want to focus on AI stocks, and then I want to say that, hey, anything that, uh… have gain of more than 50%.
+
+[Faculty (Olympus)] 14:33:39
+What? And anything that I bought over any year, because I want to.
+
+[Faculty (Olympus)] 14:33:43
+You know, take the benefit of long-term tax gain, then what I want to do is I want to sell 50% of these stocks.
+
+[Faculty (Olympus)] 14:33:51
+So I can diversify.
+
+[Faculty (Olympus)] 14:33:59
+And number 5 is I know I'm… once I, um, then I want to… take this money that I got and I want to put it in an ETF.
+
+[Faculty (Olympus)] 14:34:06
+Right? Um, this ETF could be, I don't know, I'll just put… We'll call it as a, you know, a biotech ETF, I mean.
+
+[Faculty (Olympus)] 14:34:14
+I don't know what's gonna happen with, but let's say we just want to put in… and then a bunch of them, like, I'll call it diversified ETF, right?
+
+[Faculty (Olympus)] 14:34:21
+And then number 5 is, uh. Number 6 is, now once I do that, you know, I'll just readjust my portfolio, and, you know, it'll just… You know, send me an.
+
+[Faculty (Olympus)] 14:34:33
+an email about this thing, you know, let's say to me or my customer, right? So this is what I want to do, right?
+
+[Faculty (Olympus)] 14:34:39
+So, imagine without an agent, what you would do, right? You basically.
+
+[Faculty (Olympus)] 14:34:45
+talk to the LLM and say, hey, um. We'll say that, hey, show me all the AI stocks, right? You get the list of top AI stocks, right? You do one query.
+
+[Faculty (Olympus)] 14:34:55
+And then, separately, I need to go and look manually in my iterate, right? So this is… And then say, oh, okay, these are all the AI stocks, and then do I have in my portfolio?
+
+[Faculty (Olympus)] 14:35:05
+Okay, and then now I need to compute and say that, hey, you know, now I have, let's say I have 5 stocks.
+
+[Faculty (Olympus)] 14:35:12
+And I have to look at all those and say, which ones have.
+
+[Faculty (Olympus)] 14:35:15
+gain more than 50%. So I can either use a calculator.
+
+[Faculty (Olympus)] 14:35:19
+Or something that I need to do, right? And then I need to do further analysis, right? You know, I need to do some comparison analysis, or… So the first one is, you know, I need to do a search on the web, right?
+
+[Faculty (Olympus)] 14:35:31
+And say, which are the AI stocks, like, top AI stock.
+
+[Faculty (Olympus)] 14:35:36
+I'll just do web search, right? And then I call the LLM, then I will find some research on the LLM, hey, you know.
+
+[Faculty (Olympus)] 14:35:44
+I can do my, um… you know, this is where I'll talk to the LLM and say, show me the top.
+
+[Faculty (Olympus)] 14:35:50
+3 ETFs. So I talked to the LLM, then here I am actually use API in my E-Trade to sell it.
+
+[Faculty (Olympus)] 14:35:56
+And yeah, then I do email, you know, like Outlook or something. So, as you can see.
+
+[Faculty (Olympus)] 14:36:02
+Typically, this is what we do today. We do all this internally, you know, we search the web, we do the thing, we talk to the LLM as needed.
+
+[Faculty (Olympus)] 14:36:10
+Then we look at the portfolio, then we compose an email. It's all manual, right? The only thing we are doing is we are using the LLM.
+
+[Faculty (Olympus)] 14:36:17
+For whatever it is applicable, probably for finding out what are the best AI stocks, what is the research, what are the best ETFs, but there is all these other things.
+
+[Faculty (Olympus)] 14:36:26
+in the workflow, 1, 2, we have 6 steps, right? We have to do a lot of it manually.
+
+[Faculty (Olympus)] 14:36:32
+Right? But now, instead. What we do is, again, I'm… again, I have this… this thing here, we can call it as finance.
+
+[Faculty (Olympus)] 14:36:40
+Or whatever, right? Same idea. We will now tell the agent.
+
+[Faculty (Olympus)] 14:36:46
+to achieve all these things for us, right? We put a nice plan together, and, you know, either through prompt, good prompt.
+
+[Faculty (Olympus)] 14:36:55
+Um…
+
+[Faculty (Olympus)] 14:36:59
+And then we give all the… using the framework, and we say, hey, these are all the six things that.
+
+[Faculty (Olympus)] 14:37:05
+Need to be achieved. And now, the agent. will help us do all these things for us, like, you know, it will do web search, so that is based on the tool. So we provide the tools to the agent. We'll get into more details what all the things we provide.
+
+[Faculty (Olympus)] 14:37:18
+But it will go and do a planning first, so basically an agent can plan.
+
+[Faculty (Olympus)] 14:37:28
+then it will know all steps, then it'll… understand the tools that are there.
+
+[Faculty (Olympus)] 14:37:36
+And then it will act on it.
+
+[Faculty (Olympus)] 14:37:41
+Okay. I mean, people also call these are, like, React, right? Some… maybe you heard React is nothing but reason.
+
+[Faculty (Olympus)] 14:37:50
+and act in a very high level, right? So, bottom line is, instead of the human doing all these things.
+
+[Faculty (Olympus)] 14:37:57
+We can help. the agent, you know, give all these things to the agent and make it do it, so… It will use LLM as needed.
+
+[Faculty (Olympus)] 14:38:05
+And it'll also use other tools as needed. And then, the goal is to achieve this.
+
+[Faculty (Olympus)] 14:38:11
+An autonomous way. So this, I just wanted to give you at the high level, so… Um, you know, you have an understanding what.
+
+[Faculty (Olympus)] 14:38:18
+is an agent, right? You know, think about instead of just the brain.
+
+[Faculty (Olympus)] 14:38:21
+Um, and the human is kind of. going in all these dimensions and looking at every single step. Now we can make.
+
+[Faculty (Olympus)] 14:38:29
+The agent, we give a high-level prompt and tell the goals.
+
+[Faculty (Olympus)] 14:38:34
+and instructions, and the agent will do the planning for us, and it understands what tools to use when, and it will do.
+
+[Faculty (Olympus)] 14:38:41
+for it, it observes, and then it achieves the goal. So, in a nutshell, that's what an agent is doing, and then we'll get into more details, okay?
+
+[Faculty (Olympus)] 14:38:48
+So here, as you can see, in agent, um, is, uh.
+
+[Faculty (Olympus)] 14:38:53
+Autonomous, works autonomously. It uses tools. like, get information, statistics, whatever, it'll talk to the LLM, and it'll achieve our goals.
+
+[Faculty (Olympus)] 14:39:01
+Right, so that's, uh… think about an agent as your smart sidekick.
+
+[Faculty (Olympus)] 14:39:06
+That uses LLMs. and other environment, like, you know, other automation tools and memory and everything. So we'll dig into it, but… It's an agent, think about instead of the human doing all the steps, we delegate to the agent.
+
+[Faculty (Olympus)] 14:39:20
+by clear instructions and tools, and the agent can act.
+
+[Faculty (Olympus)] 14:39:25
+by working and collaborating with LLMs as a brain, okay?
+
+[Faculty (Olympus)] 14:39:30
+So, with that understanding, now let's jump, and uh… Okay, so that's what.
+
+[Faculty (Olympus)] 14:39:35
+whatever I said, right? Autonomy is the main thing.
+
+[Faculty (Olympus)] 14:39:40
+Um, basically, ability to operate independently with less human intervention. Again, this is a dangerous thing, you know, we need to, um… see how much autonomy you want to give, like, for example, we can ask it to put human in the loop.
+
+[Faculty (Olympus)] 14:39:53
+As needed, right? We don't want it to, like, if you're a doctor, we don't want everything the patient can get from.
+
+[Faculty (Olympus)] 14:40:00
+the doctor, like, you know, maybe the doctor has, you know, maybe other patients' information, so we have to be very careful, but the goal is these are the characteristics.
+
+[Faculty (Olympus)] 14:40:08
+Autonomy, goal-directed, right? The capacity to pursue specific objectives.
+
+[Faculty (Olympus)] 14:40:15
+Strategies and achieve them, right? So, this is where the reasoning part of the LLM comes in. The LLM can tell.
+
+[Faculty (Olympus)] 14:40:21
+What are all the steps that are required, and the agent will.
+
+[Faculty (Olympus)] 14:40:25
+coordinate or, you know, as I said, we'll talk to the LLM as needed, and then… By nature, LLMs.
+
+[Faculty (Olympus)] 14:40:33
+cannot act, because they are not designed to act. They are knowledge, and they can tell you what to do. Like, for example, you want to say, hey, I want to sell my stocks.
+
+[Faculty (Olympus)] 14:40:41
+This is the thing, the LLM can reason and say, hey, whoa, search first web, get you a stock, go look at your portfolio.
+
+[Faculty (Olympus)] 14:40:47
+then do this, but it doesn't know how to act. That's where the agent comes in. What it is doing is it.
+
+[Faculty (Olympus)] 14:40:52
+works with LLM orchestrates, and then it juggles through all the tools you have. Tool 1, tool 2.
+
+[Faculty (Olympus)] 14:40:59
+Tool 3, tool 4, and then it observes. the outcome, and then achieves the goal.
+
+[Faculty (Olympus)] 14:41:05
+Right? Other thing is learning and adoption, the ability to improve performance and decision-making over time, through experience. So this is.
+
+[Faculty (Olympus)] 14:41:12
+Basically feedback, right? You know, when we put, uh… Human, the.
+
+[Faculty (Olympus)] 14:41:17
+You know, they can learn better, so… learning through feedback is there, and interactivity. So this is, uh, depends on how much autonomy you give. You know, you can have it interact… it interacts with the environment.
+
+[Faculty (Olympus)] 14:41:30
+and possibly with other agents to achieve the goals.
+
+[Faculty (Olympus)] 14:41:33
+Um, so, this is where the main thing is autonomy.
+
+[Faculty (Olympus)] 14:41:37
+goal direction, um. I think using tools…
+
+[Faculty (Olympus)] 14:41:44
+learning, and it interacts, right? So that's the agent.
+
+[Faculty (Olympus)] 14:41:53
+Okay, um, I think… okay. So, two things that are missing here that I want to mention.
+
+[Faculty (Olympus)] 14:42:00
+is, um… Okay, tools, so we provide tools.
+
+[Faculty (Olympus)] 14:42:06
+That's important. It can act like, you know, for example, the example I took stocks, right? It needs access to my E-Trade, right? That's… we will give it an EP. Hey, this is how you access to any trade, we give that.
+
+[Faculty (Olympus)] 14:42:15
+And, uh, some tools it can find itself, like in a web search. We can even tell, like, you know, if you like DuckDuckGo, you can say, hey, go use.
+
+[Faculty (Olympus)] 14:42:22
+You know, DuckDuckGo, I think I'll call that. And if you want to send an email, I'll give you my Outlook, whatever, how to use it.
+
+[Faculty (Olympus)] 14:42:31
+Right, you can give all the tools, so that's important. And memory is another thing, right? So, agents.
+
+[Faculty (Olympus)] 14:42:38
+This is, um, agents we can give memory. One is short, the other one is long. A short one can live as part of the conversation, like, for example, you are traveling.
+
+[Faculty (Olympus)] 14:42:48
+and you're traveling to Europe, and you don't want to repeatedly ask, you know, you can say, hey, I'm traveling to Europe.
+
+[Faculty (Olympus)] 14:42:54
+What is the cost of a train from, you know.
+
+[Faculty (Olympus)] 14:42:57
+France to, I don't know, London, right? Then you can say another one. So it retains the memory during this short conversation.
+
+[Faculty (Olympus)] 14:43:04
+But it's also long memory where it can read an even longer term, maybe your preferences, maybe your personas.
+
+[Faculty (Olympus)] 14:43:08
+So, memory is another thing. So, these are the things, like autonomy, goal direction, learning, and these are the characteristics.
+
+[Faculty (Olympus)] 14:43:16
+Bye. And they use tools and memory to achieve them, right? You know, if you want to achieve certain goals.
+
+[Faculty (Olympus)] 14:43:24
+you know, it uses tools, and then it has memory, okay? So this constitutes your agent, and the frameworks will provide you how to.
+
+[Faculty (Olympus)] 14:43:31
+make these things. put together so that you can say that, hey, you know, I want as an example, right, the stock market thing, you know, take my portfolio, look at my AI stocks, achieve this, and then you build one piece at a time as a tool.
+
+[Faculty (Olympus)] 14:43:43
+And then, let the agent, and then tell the agent what you need to do, and then the agent will follow your instructions. It has tools, it has memory, and it knows which LLM to talk, and it'll achieve the goal for you.
+
+[Faculty (Olympus)] 14:43:59
+Okay. Now, we'll get into the use cases, um… Benefits, automation, right? You know, we want to automate a lot of process, right? You know, if you are trying to do this stock market thing every day, you know, the human will be tired, and if you have 100 customers.
+
+[Faculty (Olympus)] 14:44:15
+It'll be very difficult. So, automation is one big thing.
+
+[Faculty (Olympus)] 14:44:20
+Improved decision analyzes vast data to support decision-making, you know, like in finances, healthcare.
+
+[Faculty (Olympus)] 14:44:26
+So you can delegate a lot of the agent, um… to analyze things for you. So, a lot of times, you could have multiple agents, right? Like, for example, one agent.
+
+[Faculty (Olympus)] 14:44:35
+is analyzing data, right? So you could have an analysis. One is research agent.
+
+[Faculty (Olympus)] 14:44:39
+That can research your. data. Other one is, um.
+
+[Faculty (Olympus)] 14:44:44
+synthesizing, right, and then other one is maybe the… um, you know, decision maker. You could have multiple agents doing one part. That way, if one agent goes down, other things are still working, right? So… Um, you could have an orchestration of multiple agents. This is also called.
+
+[Faculty (Olympus)] 14:45:02
+multi-agent frameworks, or, you know, multi-agents that's happening, and you'll be learning in the… the course, but think about each agent has a specific role, well-defined role for it to achieve, and then.
+
+[Faculty (Olympus)] 14:45:15
+they can talk through either MCP or A2A, agent-to-agent communication.
+
+[Faculty (Olympus)] 14:45:20
+Or their shared memory mechanisms. Okay.
+
+[Faculty (Olympus)] 14:45:24
+And the most other thing that I see evolving is.
+
+[Faculty (Olympus)] 14:45:28
+tailored experience, you know, customer services, as we can see, this is gaining more traction.
+
+[Faculty (Olympus)] 14:45:34
+Where individual user personalization. You know, you're able to cater to your individual customers, so you can have an agent.
+
+[Faculty (Olympus)] 14:45:43
+You know, maybe per customer or per set of customers, and um… personnel services for them.
+
+[Faculty (Olympus)] 14:45:49
+So, benefits in a nutshell, mainly autonomy, right? And then, if you have multi-user thing, you could use these agents for multiple purposes.
+
+[Faculty (Olympus)] 14:46:00
+And then get better decisions and personalization. So, these are the big things.
+
+[Faculty (Olympus)] 14:46:06
+Um, again, white coding is one example. Um, and there are a bunch of examples, we'll look at it.
+
+[Faculty (Olympus)] 14:46:18
+Okay, agentic AI in IT operations, right? So, uh, IT operations, so this is a use case.
+
+[Faculty (Olympus)] 14:46:25
+We'll talk about, you know. There are, like, 4 or 5 domains. We're gonna talk about IT operations, right? So this is a case where.
+
+[Faculty (Olympus)] 14:46:33
+you have an incident. that, um, you want to manage through Agent DKI, right? So, how do we do… this is just a, you know, kind of help you think through, right? Again, we are not going to be creating.
+
+[Faculty (Olympus)] 14:46:46
+agents, but as I promised, I'm going to show you, I created one agent just to do this.
+
+[Faculty (Olympus)] 14:46:50
+I'm going to show you. But just to get through the thought process, right, how an agent can help.
+
+[Faculty (Olympus)] 14:46:58
+So, in the case of incident response, you know, the IT group in a company, they receives.
+
+[Faculty (Olympus)] 14:47:03
+you know, a lot of, um… issues, right? It could be issues that are security, non-security, like, you know, password reset, or unable to connect to a network.
+
+[Faculty (Olympus)] 14:47:13
+Or my, you know, laptop boots, but it doesn't work. There is a power issue, all kind of issues IT gets, right?
+
+[Faculty (Olympus)] 14:47:21
+company, and also security issues outside. So they want to automate this process, right? You know, right now.
+
+[Faculty (Olympus)] 14:47:27
+these tickets and all that stuff. See, today there is semi-automated, right? Somebody files a ticket, the tickets.
+
+[Faculty (Olympus)] 14:47:33
+It goes through a JIRA or some other ticketing system, and somebody will get it, and then they have to analyze the ticket. So it's all.
+
+[Faculty (Olympus)] 14:47:42
+still digitized, but not automated, right? You still have to rely on somebody looking at the tickets.
+
+[Faculty (Olympus)] 14:47:47
+understanding if it's a security issue, send it to a security team. Or even helping the customer, right? It may take a few days. Instead.
+
+[Faculty (Olympus)] 14:47:56
+If you can have an agentic system, process. dynamically.
+
+[Faculty (Olympus)] 14:48:01
+able to categorize the issue, send it to the right teams, or even help the user who filed the ticket with how to debug.
+
+[Faculty (Olympus)] 14:48:09
+in a very short time, and then you automate it, I think that's a beautiful thing, right? So… That's what this automation will help. And then, it also can analyze the historical data, right? So you have an issue.
+
+[Faculty (Olympus)] 14:48:21
+We could say that, hey, you know, if it is a simple thing, we can, you know, let the system do, but it can help root cause based on the previous knowledge.
+
+[Faculty (Olympus)] 14:48:30
+And then with continuous learning, and the system can, based on the feedback and everything, it will evolve over time.
+
+[Faculty (Olympus)] 14:48:36
+So, this is one nice use case where you can deploy an agent at IT management.
+
+[Faculty (Olympus)] 14:48:43
+Um, ticketing system where tickets come in. It automatically monitors, automatically understands what the issue is.
+
+[Faculty (Olympus)] 14:48:52
+creates tickets, delegates to the right people. And then also looks at.
+
+[Faculty (Olympus)] 14:48:57
+do I have these previous tickets? If it is, then it can map to the known thing, but if it's a new security issue or something.
+
+[Faculty (Olympus)] 14:49:03
+It can come up with a new ticket. Um, and then it continuously learn, right? So this will significantly help an organization to.
+
+[Faculty (Olympus)] 14:49:12
+You know, manage their IT tickets, and the agent can help you. So what I'll do is.
+
+[Faculty (Olympus)] 14:49:19
+I'll actually show you an agent in action. The exact same thing that I put together. Again, I use LangChain.
+
+[Faculty (Olympus)] 14:49:25
+Just to give you an idea, so I'm going to stop and come back.
+
+[Faculty (Olympus)] 14:50:13
+Okay, so you guys can see my screen. Okay, so this is an agentic system that I created.
+
+[Faculty (Olympus)] 14:50:20
+Um, what it does is, for example. As a human, right, you know, we need to… if you talk to LLM, it's a one… One question at a time, right? You have to call, like, in a loop and say, hey, is this an issue or is it not?
+
+[Faculty (Olympus)] 14:50:34
+But with an agent, you can actually. As we talked about, you can actually classify the issue.
+
+[Faculty (Olympus)] 14:50:41
+you can understand, we can plug in… here I'm using OpenAI, right? So what I did is I created an agent.
+
+[Faculty (Olympus)] 14:50:48
+And I use my OpenA credentials here, so I'll just show you on the right side.
+
+[Faculty (Olympus)] 14:50:53
+Sorry, on the left side, this is where I plugged in my OpenAI agent.
+
+[Faculty (Olympus)] 14:50:56
+And then, um… Again, I was able to create this entire thing using LangChain in maybe less than half an hour.
+
+[Faculty (Olympus)] 14:51:03
+Um, and then I'm gonna submit my users, like, this could be, like, a small portal.
+
+[Faculty (Olympus)] 14:51:08
+And then it just… the thing that I want the agent to do is monitor.
+
+[Faculty (Olympus)] 14:51:14
+This thing, um, and then I gave few things, right? I asked it to classify.
+
+[Faculty (Olympus)] 14:51:20
+the ticket.
+
+[Faculty (Olympus)] 14:51:25
+Okay? Then put a category in the urgency category.
+
+[Faculty (Olympus)] 14:51:34
+Then, um… assigned to the right team.
+
+[Faculty (Olympus)] 14:51:43
+provide some… debug things for the user.
+
+[Faculty (Olympus)] 14:51:50
+And then send an email, right? So these are the simple things.
+
+[Faculty (Olympus)] 14:51:55
+This is what I want the agent to do. But in this case.
+
+[Faculty (Olympus)] 14:51:58
+The agent… We don't need LLM in every area, right? So the classification agent… so in the type of classification and categorization, this is where.
+
+[Faculty (Olympus)] 14:52:09
+The agent can talk to LLM, because LLM is smart, it knows everything, so you give an issue, LLM can say, oh.
+
+[Faculty (Olympus)] 14:52:15
+You know, this issue is probably high category, right? So, this is where the brain part comes in, so it talks to the OpenAI, I'm using OpenAI for Omni.
+
+[Faculty (Olympus)] 14:52:23
+And then, assigning, this is internal. So now, the agent did two things, right? It worked with the.
+
+[Faculty (Olympus)] 14:52:30
+Based on this whole thing, it put a plan together, so this is action plan.
+
+[Faculty (Olympus)] 14:52:34
+And then, for classification categorization, the agent will use LLM.
+
+[Faculty (Olympus)] 14:52:38
+And for assigning category, this is an internal ticketing system, so I gave that… I gave these tools, right? So… Think about these are all the tools that the agent has. Then I ask you to send an email, right? So this is my, um…
+
+[Faculty (Olympus)] 14:52:53
+Tool 1, which is nothing but, you know, your LLMs.
+
+[Faculty (Olympus)] 14:52:57
+Um, these are all alcohol, yes. These are all the tools that the agent.
+
+[Faculty (Olympus)] 14:53:02
+users, right? And then, let me just show you a quick demo, and I'll call it my…
+
+[Faculty (Olympus)] 14:53:15
+Urgent meeting, right? I'll just see what happens.
+
+[Faculty (Olympus)] 14:53:24
+Okay, so it actually did. See, look at this. So, now I just gave, um… An issue that my password is issue classified successfully, right? So I'm gonna show you that.
+
+[Faculty (Olympus)] 14:53:37
+Okay, so I gave this as my, uh… Classification is successful. Then it said, hey, the issue… it categorized the issue number, it gave an issue number. Again, this is just a mock-up, simple agent.
+
+[Faculty (Olympus)] 14:53:49
+It gave an issue his password reset, and then it categorized, uh, categorized password reset, and then confidence is high is, like, critical, or, yeah, it's critical urgency. These are all the things that I asked it to do, reasoning. I asked it, hey, how did you re-reason? You know, tell me.
+
+[Faculty (Olympus)] 14:54:04
+on what basis you said, hey, this is a thing, you know, hey, the user mentioned a failing password, an urgent need, so that's why it reason.
+
+[Faculty (Olympus)] 14:54:10
+And suggested solutions, so initiative path. So this is what told the user to do.
+
+[Faculty (Olympus)] 14:54:15
+Okay, and then it put a plan saying, hey, next step is check, you send an email, check the email, follow the instructions, and contact ID for future plan. So this is a simple.
+
+[Faculty (Olympus)] 14:54:26
+Example of an agent that. used LLM.
+
+[Faculty (Olympus)] 14:54:30
+For, um, synthesizing some of the data. and use other tools.
+
+[Faculty (Olympus)] 14:54:36
+And managed an IT thing, so that's a simple example of a.
+
+[Faculty (Olympus)] 14:54:42
+an agent, okay?
+
+[Faculty (Olympus)] 14:54:46
+And then, you know, this all, you know, I put together very simply with the LangChain and little orchestration, and I gave the tools, which you'll be learning, obviously. Okay, so that's the tooling, um.
+
+[Faculty (Olympus)] 14:54:58
+Sorry, that's, uh… okay, here. Okay, and then we were able to continuously monitor, understand, and it will learn, and, you know, it will optimize things, right?
+
+[Faculty (Olympus)] 14:55:09
+Okay, next one.
+
+[Faculty (Olympus)] 14:55:13
+Similar thing, again, um… HR, right? Recruitment.
+
+[Faculty (Olympus)] 14:55:19
+screening. So, this is also another thing. I think it's already a lot of people are using, where… We have resumes, like shortlisted candidates, we get a lot of resumes. When SAV, that's the HR system.
+
+[Faculty (Olympus)] 14:55:30
+And they want to do an intelligent. matching of the skills.
+
+[Faculty (Olympus)] 14:55:37
+To the job roles, and then it calls, so you can create an agent, which will take the input.
+
+[Faculty (Olympus)] 14:55:42
+And then it can… you can give your, uh… job description, right? So, job description… And then the scales. Here, the agent… You can guide, you tell all attend, but the agent will come up with a plan, right? And it'll say, oh.
+
+[Faculty (Olympus)] 14:55:58
+for job skills matching. The agent will probably use LLM, and then see the match. There also, like, you know, scores, like.
+
+[Faculty (Olympus)] 14:56:05
+Um, how good is a match and then. Once it is done, you know, anything that finds, like, a hit of 90%, whatever.
+
+[Faculty (Olympus)] 14:56:14
+Um, then it can inter… it can just say, hey, this person is put in a list, you can have a database, right? We can have a… do a database of, uh.
+
+[Faculty (Olympus)] 14:56:22
+candidate list, right? You can provide that tool to that, and then the agent will.
+
+[Faculty (Olympus)] 14:56:27
+put that in the candidate list. and notify either candidate or… internal HR, and then the system can even go and schedule, so it can send an email to the candidate and say, hey, what are your thing? These are, like.
+
+[Faculty (Olympus)] 14:56:41
+3 days that we would like you to tell, tell me the dates, right? And then it can do a calendar.
+
+[Faculty (Olympus)] 14:56:47
+look up internally with the HR interviewers. And then schedule the calendar, so that's another thing.
+
+[Faculty (Olympus)] 14:56:55
+And then, that's it, right? And then you can even send, um… the day, you know, it can… reminders to put feedback of all the interiors.
+
+[Faculty (Olympus)] 14:57:02
+And then it can complete the loop with sending, hey, thanks for interviewing with us, and based on the decision, we'll let you know, right?
+
+[Faculty (Olympus)] 14:57:09
+So it can do all this by means of you telling to the agent what you, um, you know, what are the things that it needs to do, and it will go and put a plan together, and then you give the tools.
+
+[Faculty (Olympus)] 14:57:20
+And then it will coordinate, orchestrate with LLM, it'll orchestrate with the tools that you provide.
+
+[Faculty (Olympus)] 14:57:25
+And then your job is done, right? So, a group like Adok Group has implemented this HNTKA at scale, so you can check out their website.
+
+[Faculty (Olympus)] 14:57:34
+Um, and then they, in fact, sell their services to other companies.
+
+[Faculty (Olympus)] 14:57:37
+But it's pretty straightforward. Again, this is… again, we are not going to get into the code part of it, but.
+
+[Faculty (Olympus)] 14:57:43
+Just to give you an insight into how an agent can be deployed in case, rather than just.
+
+[Faculty (Olympus)] 14:57:49
+using NLM only for match, and then you do all these manual steps, right? Normally, this is what we do today. We get the LLM and say, oh, this is a match.
+
+[Faculty (Olympus)] 14:57:56
+Then you put it in a database, then you do the calendar thing, then you.
+
+[Faculty (Olympus)] 14:58:00
+Seek the feedback from interviews, and then you talk to the, um, the candidate, right? All this you can automate.
+
+[Faculty (Olympus)] 14:58:06
+through an agent.
+
+[Faculty (Olympus)] 14:58:12
+Okay, finance, um… So, on time-wise, quick check, we are just 2 minutes before the hour, so I may take another 5 minutes, and then we'll wrap up, and then… I'll be happy to answer any questions. I'll stay for another 10 minutes, so…
+
+[Faculty (Olympus)] 14:58:25
+But the content we can wrap in the next 5 minutes.
+
+[Faculty (Olympus)] 14:58:28
+So, next use case is agentic AI in finance. Again, um… This is to empower financial decision making.
+
+[Faculty (Olympus)] 14:58:37
+And agentic AI autonomously analyzes market. So, guys, I don't know how many of you are using.
+
+[Faculty (Olympus)] 14:58:42
+two tools that I want to bring up is I significantly use Google.
+
+[Faculty (Olympus)] 14:58:49
+to agentic tools, one is Notebook LM. If you're not already using it, I highly encourage.
+
+[Faculty (Olympus)] 14:58:57
+If you have a Gmail account, you would have some basic access.
+
+[Faculty (Olympus)] 14:59:00
+This is a good thing where you can digest any number of documents, and it'll come up with a very.
+
+[Faculty (Olympus)] 14:59:06
+Um, clear… Um, you know, insights, as well as all that stuff. And the other one, recently I started using is… finance, Google Finance.
+
+[Faculty (Olympus)] 14:59:16
+It's really good, so since we're talking about, uh.
+
+[Faculty (Olympus)] 14:59:19
+The agentic thing, Google Finance, um. He's pretty much an agent which is doing this.
+
+[Faculty (Olympus)] 14:59:26
+Basically, but in a larger scale, but if you are a financial… if there is a financial company, you know, there are very specific customers.
+
+[Faculty (Olympus)] 14:59:35
+they can automate it, or you can look at the market trends.
+
+[Faculty (Olympus)] 14:59:38
+Look at investment opportunities, you know, maybe the example that I took, AI.
+
+[Faculty (Olympus)] 14:59:43
+And make custom needs for the, you know, based on their retirement, whatever, you could put a plan together.
+
+[Faculty (Olympus)] 14:59:49
+And, uh, deploy intelligence to produce detailed analytics. dynamic reports and more accurate decision making, right? So… It could be customized per, you know, one of the clients.
+
+[Faculty (Olympus)] 15:00:03
+And then proactively scan data to identify risks. And then, um, support financial managing complaints and reduce exposure. So, a lot of things in the financial, you could.
+
+[Faculty (Olympus)] 15:00:14
+just get some analytics. and understand how market trends are.
+
+[Faculty (Olympus)] 15:00:21
+to all the way to understand macro dynamics. to micro, when I say micro, is at a user level, where you have a portfolio to manage.
+
+[Faculty (Olympus)] 15:00:31
+And you provide your customer or client weekly analysis of their portfolio.
+
+[Faculty (Olympus)] 15:00:36
+And then, based on risk management and their, whatever, retirement or whatever, you can come up with products for them. So these are all… this could be.
+
+[Faculty (Olympus)] 15:00:44
+Um, you know, we can use agents to do that, right? You could even… have hookups into, um, you know, Yahoo Finance, there is Y Finance libraries.
+
+[Faculty (Olympus)] 15:00:53
+Could also talk to, um. you know, people's 401ks, and then as long as, you know, it's, uh, you know, check the security and, um.
+
+[Faculty (Olympus)] 15:01:03
+Wet it out, you can deploy certain powerful, agentic.
+
+[Faculty (Olympus)] 15:01:07
+frameworks for finance. Okay.
+
+[Faculty (Olympus)] 15:01:14
+Okay, supply chain, um…
+
+[Faculty (Olympus)] 15:01:18
+Okay, sorry. Supply chain, yeah. Another thing is inventory management, right? So this is actually done quite a bit by big companies, like, um… Again, there's an example, you could go and read this Tek Mahindra, I think it's an Indian company, and they have.
+
+[Faculty (Olympus)] 15:01:32
+how they optimize if it's a good use case, you can look at it. But typically, you know, companies like Amazon.
+
+[Faculty (Olympus)] 15:01:39
+Walmart and. some of these big companies, they already do this, right? You know, they have agentic automation, they monitor real-time stock levels.
+
+[Faculty (Olympus)] 15:01:49
+Um, then they replenish, you know, they understand how to get and where the vendors are.
+
+[Faculty (Olympus)] 15:01:55
+Um, they check existing inventory across their work… warehouses, and then optimize it, and then, you know, route management, HNTK dynamically.
+
+[Faculty (Olympus)] 15:02:06
+provides… what is the best route? Um, considering traffic and weather conditions.
+
+[Faculty (Olympus)] 15:02:11
+And what is the fuel optimal way, and what is the best, you know, how to avoid traffic times.
+
+[Faculty (Olympus)] 15:02:16
+when to take breaks, you can optimize all the route.
+
+[Faculty (Olympus)] 15:02:19
+Management and proactively routes vehicles to avoid disruptions. And, you know, with hopefully with all these robo-taxis and everything, you know.
+
+[Faculty (Olympus)] 15:02:27
+A lot of these things, we don't even need a.
+
+[Faculty (Olympus)] 15:02:30
+a human in the middle, you know, we can have this optimized delivery, optimize, uh.
+
+[Faculty (Olympus)] 15:02:36
+efficiency, right? So this, you could take a use case, take Mahindra, and see how they have.
+
+[Faculty (Olympus)] 15:02:41
+achieved better forecasting. And, um, you know, how to reduce waste and improve efficiency, okay?
+
+[Faculty (Olympus)] 15:02:52
+I mean, you guys may be coming from different backgrounds, so this is just to help you think through, right?
+
+[Faculty (Olympus)] 15:02:58
+But, um, I think, as I said, you know, it is important to look at the existing workflow elements.
+
+[Faculty (Olympus)] 15:03:04
+And then look at it rather than just trying to put everything.
+
+[Faculty (Olympus)] 15:03:08
+in one go, look at every part of your workflow and see, you know, which parts needs to be optimized.
+
+[Faculty (Olympus)] 15:03:13
+And, you know, how agentic can help you, all right? So, it's, you know, taking some time up front is important.
+
+[Faculty (Olympus)] 15:03:21
+than rushing into a prototype and, uh… worrying later.
+
+[Faculty (Olympus)] 15:03:24
+Okay, so other one is agentic customer service. So, I see this has significantly.
+
+[Faculty (Olympus)] 15:03:31
+achieve a maturity level, you know, a lot of companies are using AI in customer support, either through existing CRM agents or creating in-house, right? There are, like, multiple things, at least.
+
+[Faculty (Olympus)] 15:03:42
+I'm aware of, or I'm involved, is, like, customer.
+
+[Faculty (Olympus)] 15:03:46
+Um, you know, articles, like, you know, training articles, or ability to.
+
+[Faculty (Olympus)] 15:03:51
+quickly debug issues, right? You know, quickly get reports, and synthesize media analysis, right? You know, if you have a new product.
+
+[Faculty (Olympus)] 15:03:58
+or an existing product, or you're trying to come up with a new product, you can do all this analysis through an agent. Agent Google.
+
+[Faculty (Olympus)] 15:04:05
+Read the blocks, read, um… Yelp, it can read, you know, social media and gather all the insights for you, so… Um, then you can use that.
+
+[Faculty (Olympus)] 15:04:14
+To better creation, you know, you can say that, hey, this is where, you know, people like these kind of content, right? We can, um… come up with a very curated content.
+
+[Faculty (Olympus)] 15:04:25
+And then, um, intelligent management of content, agents can.
+
+[Faculty (Olympus)] 15:04:30
+manage complex workflows. I mean, this could be training manuals.
+
+[Faculty (Olympus)] 15:04:32
+Um, like, you know, summarization, sorry. content summarization.
+
+[Faculty (Olympus)] 15:04:38
+translation and also, um. Having some portals where different geolocations can use agents and, you know, talk in different languages.
+
+[Faculty (Olympus)] 15:04:45
+These days, I see quite a bit of voice-activated multimodal agents.
+
+[Faculty (Olympus)] 15:04:50
+that you can converse, you know, not only text, but, you know, multimodal is gaining more traction, okay? So this is a simple use case, but powerful for.
+
+[Faculty (Olympus)] 15:04:59
+customer support, ability to, you know, customers can go and, you know.
+
+[Faculty (Olympus)] 15:05:04
+get periodic, um… you know, insights, you know, not only knowledge board, right? So, knowledge board can just do so many things.
+
+[Faculty (Olympus)] 15:05:10
+But this will agent when you deploy. can go and do competitive analysis. It can, you know, bring.
+
+[Faculty (Olympus)] 15:05:18
+you know, customer has a complaint, right? It can go all the way, file a ticket internally, and it can go and, um, you know, put some dates and put some reminders, so Agentic can automate.
+
+[Faculty (Olympus)] 15:05:29
+Rather than just a question-answer, okay? So that's a good use case.
+
+[Faculty (Olympus)] 15:05:37
+Um, okay, I think the same thing, personalized awareness, you know, we can, based on the customer, we can have an agent.
+
+[Faculty (Olympus)] 15:05:42
+Look at a customer interactions from the past. Like, Amazon does quite a bit, right? You know, they look at, uh.
+
+[Faculty (Olympus)] 15:05:48
+an agent constantly monitors the user. Um, um, you know, tastes and what they purchased, what their price range, and then they recommend it, right? And then the agent can, um.
+
+[Faculty (Olympus)] 15:05:59
+Also, um, remind, like, you know, these days I see an Alexa, right, Alexa, once in a while.
+
+[Faculty (Olympus)] 15:06:03
+Tells me and say, hey, you know, Kishore, you have… this product is on sale now, it's 20% off.
+
+[Faculty (Olympus)] 15:06:08
+Just say, yes, I'm gonna buy for you, right? So they… they are after you. So, the agents can be personalized.
+
+[Faculty (Olympus)] 15:06:16
+And they're getting very smart. Okay, so there is another one, I think last two slides.
+
+[Faculty (Olympus)] 15:06:24
+Example, domain agents is something that somebody's working on.
+
+[Faculty (Olympus)] 15:06:29
+a tech company where they published all agents. Um, and then this is their effort.
+
+[Faculty (Olympus)] 15:06:33
+to curate all agents in one place. I don't know whether it's an agent-as-a-service model, but, uh, you know, I encourage you to.
+
+[Faculty (Olympus)] 15:06:41
+Take a look at this particular, um. domain, and they have agents, so at least you'll get an idea of what type of agents they are creating.
+
+[Faculty (Olympus)] 15:06:50
+And, you know, different areas like finance, government, and, you know, what.
+
+[Faculty (Olympus)] 15:06:53
+LLMs are they using? What are their architecture, so you'll get some more, uh… take it as a reference, and then go and do some research.
+
+[Faculty (Olympus)] 15:07:06
+Okay, so the last one I want to talk is transparency, right? So, whenever we put agents, we… these are the things that you need to do up front.
+
+[Faculty (Olympus)] 15:07:14
+We don't want, you know, agent as a black box and hallucinate, right? We want to make sure, as part of building an agent.
+
+[Faculty (Olympus)] 15:07:22
+Where is it coming? You know, reliability. One thing I want to mention is.
+
+[Faculty (Olympus)] 15:07:26
+Sometimes I have seen the same thing you ask 10 times. Sometimes it may not give completely, right? So… in the sense, maybe the 8 answers are same, and 2 answers may be wrong. So you need to check.
+
+[Faculty (Olympus)] 15:07:39
+certain… there are certain hyperparameters, right? So, again, we are not going into details, but that's where it comes in early on, before you deploy the agent.
+
+[Faculty (Olympus)] 15:07:47
+You know, um, you know, is it reliable? Is it transparent is important. Where is it saying? Is it because.
+
+[Faculty (Olympus)] 15:07:52
+Depends on what type of use case, right? If you're, um… providing an HR policy.
+
+[Faculty (Olympus)] 15:07:58
+agent, right? We don't want it to hallucinate from somebody else's thing, right? We want exactly… somebody says, hey, how many leaves of… how many days I can take vacation for my paternity leave, and uh… can I combine it, my vacation or whatever, right? It needs to clearly give an answer, and then…
+
+[Faculty (Olympus)] 15:08:15
+You need to know what reference it is, which document, 1.1 of, you know, this policy, or your, like, you know, we have this.
+
+[Faculty (Olympus)] 15:08:22
+specifications, right, when. We are doing wireless products, you know, all these 3GP specs.
+
+[Faculty (Olympus)] 15:08:27
+or Wi-Fi, you know, there are a lot of specs, right? So you need to develop code. We want the agent to tell him.
+
+[Faculty (Olympus)] 15:08:33
+Where was this given? Is it what section? So, transparency is very important, right? We need to make agent.
+
+[Faculty (Olympus)] 15:08:39
+tell us where its source of truth is coming from. So, we need to build that up front, especially finance and healthcare, you know, the agents raise reliability, transparency concerns, so we need to.
+
+[Faculty (Olympus)] 15:08:51
+make sure that hallucinations are reduced or pretty much.
+
+[Faculty (Olympus)] 15:08:54
+Um, you know, even if it is hallucinating, we need to have.
+
+[Faculty (Olympus)] 15:08:58
+It alert, you know, we need to put some guardrails saying that, hey, if you cannot find out.
+
+[Faculty (Olympus)] 15:09:03
+the exact… place where you're getting source. Don't just.
+
+[Faculty (Olympus)] 15:09:07
+tell, you know, you involve the human, right? So we need to build those guardrails and everything, so having human oversight, that's important.
+
+[Faculty (Olympus)] 15:09:15
+Security. You know, I have seen cases where somebody did prompt.
+
+[Faculty (Olympus)] 15:09:20
+injection, where they. took an agent, um, and then they said, hey, every time when I say something.
+
+[Faculty (Olympus)] 15:09:27
+You always repeat and say you will give 10% discount, or, like, 90% discount, and then he got a product for 90% discount. So all this prompt injection things.
+
+[Faculty (Olympus)] 15:09:35
+Because LLMs… Or only what they do is what they know, right? We need agents to protect us.
+
+[Faculty (Olympus)] 15:09:43
+Um, in this whole workflow, right, internal tools, yeah, we have more control, but external tools, the MCP servers, we are reaching outside our company.
+
+[Faculty (Olympus)] 15:09:53
+or the LLMs, we need to always. keep an eye, and then see, are there any new attack surfaces, you know? And do more testing internally, right? We need to ensure, and the data, you know.
+
+[Faculty (Olympus)] 15:10:04
+Keyboard data encryption and where it is important. And then we need to make sure the agent doesn't leak any data outside, like privacy, people's addresses, social security number. So we need to put that… everything.
+
+[Faculty (Olympus)] 15:10:18
+guardrail, and make sure we test it out, right? And then that's important.
+
+[Faculty (Olympus)] 15:10:24
+And then, last one, high implementation and cost, right? So, don't underestimate, right? Some of these guys, the way they are.
+
+[Faculty (Olympus)] 15:10:30
+A lot of people, the buzzword, everybody, their brainwashing is.
+
+[Faculty (Olympus)] 15:10:35
+use LLMs, right? They think that. every problem can be solved by an LLM, but which is okay, but I don't think that is true.
+
+[Faculty (Olympus)] 15:10:42
+And the moment you get into that, you look at cost and complexity. Yeah, for something, it is.
+
+[Faculty (Olympus)] 15:10:47
+But as a AI. evangelist or, you know, somebody leading AI in your company, look at it and say that, hey, you know, what.
+
+[Faculty (Olympus)] 15:10:54
+how do I mitigate the cost? do I take, like, coding, right, as I said, if I use Cloud 4.5, you know, it's pretty high, it's almost $3 to $4 per million tokens.
+
+[Faculty (Olympus)] 15:11:04
+But if I use my 4.5 Haiku. It reduces one-third, right? So you need to… understand that up front, and complexity. Hey, can I bring some open source model on-prem?
+
+[Faculty (Olympus)] 15:11:17
+Versus, do I really have to use, uh… Um, you know, on the cloud, right? Maybe you need an orchestration that agent can do. Maybe certain prompts.
+
+[Faculty (Olympus)] 15:11:26
+certain, um, automation aspects, you do it on-prem, hybrid model, right? And then anything that really needs to go, you probably put it to AWS.
+
+[Faculty (Olympus)] 15:11:34
+bedrock or wherever it is, but that's where you need to really look at how do we build, how do we scale, and how do we maintain, okay? So those are important things to take.
+
+[Faculty (Olympus)] 15:11:44
+Early on, and, you know, have a team, right? You know, your IT, your development team, and everybody, and build this, uh.
+
+[Faculty (Olympus)] 15:11:51
+from, you know, very intentionally. Okay, I think that's all I have, guys. Um, you know, I'm gonna pause here, and then go to, uh… Already put questions, and then, um, I will answer those questions, and I'll still be here for another few minutes, so I can take more, okay? So let me go to the questions.
+
+[Faculty (Olympus)] 15:12:23
+Okay, I'm going through some questions here, um… Take a few more candy to create.
+
+[Faculty (Olympus)] 15:12:30
+Okay, again, now, as I said, I won't be able to cover all of them, but let me pick the ones that are more.
+
+[Faculty (Olympus)] 15:12:36
+appropriate. How do you give feedback to an agent on something that needs to change, or maybe a solution that was not.
+
+[Faculty (Olympus)] 15:12:43
+best. Uh, that's a good point. So, there are certain ways to do that. One is, simple feedback also works. You know, somebody gives, like, rating 4, rating 5, that's one thing. Or another thing is you can make.
+
+[Faculty (Olympus)] 15:12:55
+Another LLM, like, so you have an agent, right? There could be an agent called… You know, judge agent or validation thing, or a tool, right? You know, you could use another.
+
+[Faculty (Olympus)] 15:13:08
+agent to see if the feedback, the response is good or you'll get a better.
+
+[Faculty (Olympus)] 15:13:14
+feedback, right? So, you can use another LLM if that is giving better.
+
+[Faculty (Olympus)] 15:13:18
+But if not, I mean, there are techniques like reinforcement learning.
+
+[Faculty (Olympus)] 15:13:22
+Um, you know, where you take the feedback and, um.
+
+[Faculty (Olympus)] 15:13:24
+do more things, but there are techniques I have seen where simple feedback, like.
+
+[Faculty (Olympus)] 15:13:29
+telling it, hey, you know, give some use cases, hey, this is.
+
+[Faculty (Olympus)] 15:13:33
+What, you know, it could be a simple spreadsheet, right? These are the feedback, this is what the human would like to see, and this is a rating that customer gave, and then it'll learn.
+
+[Faculty (Olympus)] 15:13:41
+So there are ways to do that. Agents can be used, considered as tools instead of using a multi-agent approach.
+
+[Faculty (Olympus)] 15:13:49
+Um… yeah, I mean, agent… Itself is not a tool, I mean, you could call it as a orchestration framework, right? But agent uses tools.
+
+[Faculty (Olympus)] 15:14:00
+And it can coordinate with other tools to achieve its thing, right? So that's how I see it.
+
+[Faculty (Olympus)] 15:14:06
+Notebook LM is amazing, yes, it is. Actually, it has very cool video explaining, as well as it has a two-people conversation. I use quite a bit.
+
+[Faculty (Olympus)] 15:14:14
+Um, to make, you know. Temple, that's basically an agent, right? It takes it, it understands.
+
+[Faculty (Olympus)] 15:14:19
+But again, it doesn't take your tools, but it's like an agentic framework from Google.
+
+[Faculty (Olympus)] 15:14:25
+Next question in the context, okay, for the… okay.
+
+[Faculty (Olympus)] 15:14:32
+in finance, why is it still considered agentic if all it does is provide information? Yeah, I mean… It depends on what you're doing in the finance, right? You know, all you are trying to do is.
+
+[Faculty (Olympus)] 15:14:45
+get some research of stocks or anything, yeah, then it's not.
+
+[Faculty (Olympus)] 15:14:49
+purely agentic, but if you want to do more things with this.
+
+[Faculty (Olympus)] 15:14:54
+finance part of it, right? You know, if you have a customer.
+
+[Faculty (Olympus)] 15:14:56
+Um, when you're building it, then you can go and look at your portfolio. You can do some search, you can look at ETF.
+
+[Faculty (Olympus)] 15:15:01
+And then you can even act on it, right? Buy and sell stock. So that's all part of the agentic thing.
+
+[Faculty (Olympus)] 15:15:07
+Why we need an agentic AI to tell us which agent to use. We need an AI agent to tell which, uh.
+
+[Faculty (Olympus)] 15:15:14
+That's a good point. Omidya, I think my take is.
+
+[Faculty (Olympus)] 15:15:19
+I encourage you to go to Hugging Face. Where people do talk about it.
+
+[Faculty (Olympus)] 15:15:24
+But again, the spaces, it's… there are a lot of proprietary agents people are creating. Let's see, agents are… more fluid.
+
+[Faculty (Olympus)] 15:15:33
+than MCP, right, that people publish MCP server, but your agent.
+
+[Faculty (Olympus)] 15:15:37
+may not be portable to other people, so there is a lot of divergence, but the concepts may be same.
+
+[Faculty (Olympus)] 15:15:45
+Okay, next question, how to evaluate LLM response when response.
+
+[Faculty (Olympus)] 15:15:50
+is text. Um… Actually, you know what, you could have the LLM tell it how long it takes to respond. You could even tell the time some of them… there are certain parameters you could tell it.
+
+[Faculty (Olympus)] 15:16:01
+Either you… see, there are two ways. Typically, if you're doing an application.
+
+[Faculty (Olympus)] 15:16:05
+You'll be talking to the LLM through an API, right? You open through either, you know, you have a private key or API key, and then there are certain parameters when you invoke.
+
+[Faculty (Olympus)] 15:16:15
+In the response, it can. It will provide, um, you know, details about the response time, how many tokens it took.
+
+[Faculty (Olympus)] 15:16:24
+Um, all that stuff. So, you can extract that information.
+
+[Faculty (Olympus)] 15:16:28
+Okay, I think last question I see here is, could a good use of agent in IT ops.
+
+[Faculty (Olympus)] 15:16:33
+be if workloads that fail for some reason, or have bugs in the log file, a gentex system could open a PR, then maybe developer.
+
+[Faculty (Olympus)] 15:16:40
+can review and approve, and possibly bounce the system. Yes, absolutely, yeah. You could have, I mean, as I demonstrated, that… Um, you could, you know, have it monitor.
+
+[Faculty (Olympus)] 15:16:50
+And then you could classify the bugs. What if sometime these bugs are internal, or IT or security?
+
+[Faculty (Olympus)] 15:16:56
+Then you can open up a system. You know what, you can even have the agent look up internally.
+
+[Faculty (Olympus)] 15:17:00
+and then see if it's an existing ticket or a new ticket, and there is a root cause available, and then.
+
+[Faculty (Olympus)] 15:17:07
+send some responses and put it into a database catalog, you can have that agent do that.
+
+[Faculty (Olympus)] 15:17:11
+Okay, folks, I think we are pretty much done, and I don't see any… oh, there's one more question from Naga.
+

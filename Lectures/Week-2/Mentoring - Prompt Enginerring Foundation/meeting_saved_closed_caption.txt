@@ -1,0 +1,4476 @@
+[Braulio Cabral .] 12:34:11
+and computational science, uh, in, um…
+
+[Braulio Cabral .] 12:34:14
+Uh, the Frederick National Laboratory for Cancer Research in Frederick, Maryland.
+
+[Braulio Cabral .] 12:34:20
+basically a contractor for the government, but uh…
+
+[Braulio Cabral .] 12:34:23
+I'm excited to be here and learn about Agentic AI.
+
+[Surya Kunju (Faculty)] 12:34:27
+Awesome. Thank you for joining us. Um, James?
+
+[James Teeter .] 12:34:33
+Hi, uh, James Teeter, I work at Cisco Systems.
+
+[James Teeter .] 12:34:37
+Um, I have probably about 10 years experience scripting with Python.
+
+[James Teeter .] 12:34:41
+But definitely not a programmer. I do a lot of API integration, and been working a lot on, um,
+
+[James Teeter .] 12:34:49
+MCP routers and…
+
+[James Teeter .] 12:34:52
+And things of that, uh, to integrate, to go out and get data, bring it back, and use the genetic agents to…
+
+[James Teeter .] 12:34:58
+To do that.
+
+[Surya Kunju (Faculty)] 12:35:01
+That's awesome. Amazing background already. I'm already impressed.
+
+[Surya Kunju (Faculty)] 12:35:06
+Zari?
+
+[Zareh Vazquez .] 12:35:08
+Hello everybody, this is Sare Vasquez from Central Florida.
+
+[Zareh Vazquez .] 12:35:13
+I work for SAP.
+
+[Zareh Vazquez .] 12:35:16
+Sorry, IRE manager, um…
+
+[Zareh Vazquez .] 12:35:18
+working with Python for the last 10 years.
+
+[Zareh Vazquez .] 12:35:21
+As you can imagine, in the SREA space, there is a lot of…
+
+[Surya Kunju (Faculty)] 12:35:22
+Yeah.
+
+[Zareh Vazquez .] 12:35:25
+Automation, services, tools that has to be built.
+
+[Zareh Vazquez .] 12:35:30
+Recently, last year, we started our journey
+
+[Zareh Vazquez .] 12:35:34
+in the LOV that I work on implementing Agentic AI capabilities.
+
+[Zareh Vazquez .] 12:35:39
+In top of all the observability tools that we use.
+
+[Zareh Vazquez .] 12:35:41
+Looking forward to get some formal education about…
+
+[Zareh Vazquez .] 12:35:46
+Hey, Agentic AI, and also, at the same time, I'm working on a master's degree on…
+
+[Zareh Vazquez .] 12:35:51
+artificial intelligence.
+
+[Zareh Vazquez .] 12:35:54
+Round you to Austin.
+
+[Surya Kunju (Faculty)] 12:35:56
+Awesome. Um, great to meet you, Zari.
+
+[Zareh Vazquez .] 12:35:59
+Nice to meet you.
+
+[Surya Kunju (Faculty)] 12:35:59
+I'm your ex-colleague, uh, 10 years at SAP, so nice to see you here.
+
+[Zareh Vazquez .] 12:36:03
+Oh, nice to hear from you.
+
+[Surya Kunju (Faculty)] 12:36:04
+Yeah.
+
+[Jack .] 12:36:09
+I'm Jack. I just finished my undergraduate degree in computer science, so I, uh…
+
+[Jack .] 12:36:14
+Probably lack a lot of experience that
+
+[Jack .] 12:36:16
+other people have in here, so, I mean…
+
+[Jack .] 12:36:19
+Yeah, everything I've learned is from an academic perspective, so I'm kind of…
+
+[Jack .] 12:36:23
+Just trying to get an edge on the workforce right now, to be honest, more than anything, so yeah.
+
+[Surya Kunju (Faculty)] 12:36:27
+Yeah, no, perfect, uh, that you're in the right spot.
+
+[Surya Kunju (Faculty)] 12:36:30
+Thanks for joining. Anmol?
+
+[Anmol Sharma .] 12:36:36
+Uh, can you hear me?
+
+[Surya Kunju (Faculty)] 12:36:38
+Yes.
+
+[Anmol Sharma .] 12:36:38
+Yeah, so Unmo Sharma here,
+
+[Anmol Sharma .] 12:36:40
+Uh, I work at a TD Bank as an AIML lead.
+
+[Anmol Sharma .] 12:36:45
+Um, being in the industry for almost 10 years now, uh, have quite a bit of experience working with, uh, Python, because I have done a lot of CICD orientation for the bank.
+
+[Surya Kunju (Faculty)] 12:36:55
+Yes, it can
+
+[Anmol Sharma .] 12:36:56
+Um, looking forward to learn more for, uh, and get more hands-on experience on, uh, Agentic AI with this program.
+
+[Surya Kunju (Faculty)] 12:37:05
+Awesome. Welcome to the class, Admol.
+
+[Surya Kunju (Faculty)] 12:37:08
+Um, Eduardo?
+
+[Surya Kunju (Faculty)] 12:37:16
+Okay, maybe it's fixing his mic, uh, Vijaykumar?
+
+[Surya Kunju (Faculty)] 12:37:22
+Okay, we'll go back to Eduard to Edward. Go ahead, sorry, go ahead.
+
+[Eduardo Seiti Ito .] 12:37:22
+Sorry.
+
+[Eduardo Seiti Ito .] 12:37:24
+I think… Hello?
+
+[Eduardo Seiti Ito .] 12:37:27
+Didn't hear it?
+
+[Surya Kunju (Faculty)] 12:37:28
+Yes.
+
+[Eduardo Seiti Ito .] 12:37:30
+Okay. Um, today, uh, I am a bit retired, and also doing pretty DT school.
+
+[Eduardo Seiti Ito .] 12:37:38
+And uh…
+
+[Eduardo Seiti Ito .] 12:37:41
+by doing some stuff about, uh, edge computing, about, uh,
+
+[Eduardo Seiti Ito .] 12:37:46
+Uh, the GTP, right?
+
+[Eduardo Seiti Ito .] 12:37:48
+I'm quite doing something that is really…
+
+[Eduardo Seiti Ito .] 12:37:52
+something that I need to do in delegitation.
+
+[Eduardo Seiti Ito .] 12:37:57
+So, uh…
+
+[Surya Kunju (Faculty)] 12:37:58
+you're a little bit hard to hear, but I think I'm…
+
+[Surya Kunju (Faculty)] 12:38:01
+I'm able to comprehend a little
+
+[Surya Kunju (Faculty)] 12:38:04
+You said you are interested in…
+
+[Surya Kunju (Faculty)] 12:38:06
+Could you… could you be a bit more clear? Or I think you're getting a lot of echo wherever you are.
+
+[Eduardo Seiti Ito .] 12:38:13
+Yeah, but in our peak system pumping, so I am in now.
+
+[Eduardo Seiti Ito .] 12:38:18
+That's what… so, maybe…
+
+[Eduardo Seiti Ito .] 12:38:23
+But, uh, the 40s, um, I think I just wanted to go
+
+[Eduardo Seiti Ito .] 12:38:27
+understand better, uh, AJCADI.
+
+[Eduardo Seiti Ito .] 12:38:30
+We'll see, uh, doing correct things.
+
+[Eduardo Seiti Ito .] 12:38:34
+in my B2D insertion.
+
+[Eduardo Seiti Ito .] 12:38:36
+So, by Tom needs, uh…
+
+[Eduardo Seiti Ito .] 12:38:40
+I believe we never did business.
+
+[Surya Kunju (Faculty)] 12:38:43
+Okay. Um, thank you for joining us, and welcome to the class.
+
+[Surya Kunju (Faculty)] 12:38:47
+Um, we'll go to Vijay Kumar.
+
+[Surya Kunju (Faculty)] 12:38:59
+Okay, I'll move on to Bhim, Vijay, you might need to…
+
+[Surya Kunju (Faculty)] 12:39:03
+Change your mic setting…
+
+[Bheem Singh .] 12:39:05
+Hello, everyone. Uh, good morning.
+
+[Bheem Singh .] 12:39:07
+I am logging in from New Jersey.
+
+[Bheem Singh .] 12:39:10
+I have around 20-plus years of experience in software engineering, data handling,
+
+[Bheem Singh .] 12:39:16
+then later in big data, right now, I'm…
+
+[Bheem Singh .] 12:39:20
+data engineering architect.
+
+[Bheem Singh .] 12:39:22
+working… I have experience working with the different, uh,
+
+[Bheem Singh .] 12:39:27
+domains, like banking, uh, SEM…
+
+[Bheem Singh .] 12:39:32
+uh, telephone.
+
+[Bheem Singh .] 12:39:33
+I'm good in programming, I know
+
+[Bheem Singh .] 12:39:35
+Java, Scala, C, C++, Python.
+
+[Bheem Singh .] 12:39:39
+Whereas database is now Spark Streaming, so I have vast experience working in
+
+[Bheem Singh .] 12:39:45
+various technology and programming languages.
+
+[Surya Kunju (Faculty)] 12:39:47
+Awesome. Fantastic. Welcome to the class, Beam. Um…
+
+[Surya Kunju (Faculty)] 12:39:52
+Vijay, are you good? Vijaya, sorry, are you good now?
+
+[Vijayakumar Ammireddy .] 12:39:55
+Yes, yes, it's unable to hear my voice.
+
+[Vijayakumar Ammireddy .] 12:39:58
+Are you able to hear my voice?
+
+[Surya Kunju (Faculty)] 12:40:00
+Okay, Vijay, I think your mic's, uh, not working, so I'll… I'll move.
+
+[Surya Kunju (Faculty)] 12:40:05
+to a Dino.
+
+[Dino Vitale .] 12:40:09
+My name is Dino Vitale, I also work for TD as part of our
+
+[Dino Vitale .] 12:40:14
+AI and machine learning platform engineering. I feel comfortable with Python. I don't use it on a day-to-day basis, um, but, you know, I feel comfortable.
+
+[Dino Vitale .] 12:40:24
+Using it, you know, we basically enable
+
+[Dino Vitale .] 12:40:28
+insecure and automate the AI services for our business and our lines of business to leverage and build their applications. My background, I have 30-plus years experience, but mostly the background is in high-performance
+
+[Dino Vitale .] 12:40:42
+computing. Uh, so I programmed a lot in C, C++, OpenCL.
+
+[Dino Vitale .] 12:40:48
+Um, and kind of those kind of, you know, esoteric languages, MPI, uh, for, uh, you know, hyper… in, you know, for high-performance computing and, you know, distributing workloads, and I've been working with GPUs for God knows how long.
+
+[Dino Vitale .] 12:41:02
+When CUDA first came out, like, 25, maybe almost 30 years ago.
+
+[Dino Vitale .] 12:41:07
+Um, and I'm looking to get more grounding.
+
+[Dino Vitale .] 12:41:11
+in, uh, developing more, like, agent… multi-agent,
+
+[Dino Vitale .] 12:41:15
+apps and understanding, you know, how to evaluate them, understand the guardrails.
+
+[Dino Vitale .] 12:41:20
+Um, how to secure our agents.
+
+[Surya Kunju (Faculty)] 12:41:24
+Right. Yeah. Well, that's awesome, um, and I'm glad to hear about the GPU experience as well. I think that'll be super helpful, um, you know, in the context of what we are going to learn in the next few sessions, so I appreciate you joining, Dino.
+
+[Surya Kunju (Faculty)] 12:41:38
+Um, Sanjeev?
+
+[Sanjiv Kumar .] 12:41:39
+Sure, hey guys, this is Sanjita Kumar. I am a Senior Director here at Magic Leap. We are
+
+[Sanjiv Kumar .] 12:41:46
+an ARV or headset company, so I lead a core data team on analytics and…
+
+[Sanjiv Kumar .] 12:41:51
+Now, going into Agent AKI Solutions. So, goal is to learn more on
+
+[Sanjiv Kumar .] 12:41:56
+how to unlock enterprise business use cases?
+
+[Sanjiv Kumar .] 12:41:59
+Um, so that we have a different line of business units that are very…
+
+[Sanjiv Kumar .] 12:42:03
+So, I'm hoping to…
+
+[Sanjiv Kumar .] 12:42:05
+gain some footing in that, and do some POCs on enterprise level.
+
+[Surya Kunju (Faculty)] 12:42:10
+Awesome. Thanks, Cindy, for joining.
+
+[Surya Kunju (Faculty)] 12:42:12
+We have Tim…
+
+[Tim Grib .] 12:42:15
+Uh, yeah, my name is Tim Gribb, I'm from St. Louis, Missouri, U.S. I'm a Vice President of Product Development for a small company here. We have a product that we sell in the energy efficiency, energy management space.
+
+[Tim Grib .] 12:42:29
+Um, I also have over 30 years of experience. I was a former C, C++ Java programmer.
+
+[Tim Grib .] 12:42:34
+Uh, about 5 years ago, we started to try to introduce machine learning technologies into the product.
+
+[Tim Grib .] 12:42:41
+So we're doing a lot of deep learning back in those days, um, and I picked up Python back then. I'm kind of a player coach now.
+
+[Tim Grib .] 12:42:48
+for my team, and uh… pretty much have to be with a small team we have, and so…
+
+[Tim Grib .] 12:42:54
+I've been taking courses with great learning. I just finished the GenAI certificate last…
+
+[Tim Grib .] 12:42:59
+Last semester, and that was a… that was a hands-on course, so I'm pretty comfortable.
+
+[Tim Grib .] 12:43:03
+time I've been doing it now for a while.
+
+[Surya Kunju (Faculty)] 12:43:05
+Awesome. All right.
+
+[Surya Kunju (Faculty)] 12:43:08
+Welcome to the class, Tim, and you're familiar with the great learning stuff, so that's good to know.
+
+[Surya Kunju (Faculty)] 12:43:14
+Um, okay, just looking at the names, uh, Sahitte?
+
+[Sahitya Gollapudi .] 12:43:23
+Hey, Ron. Um, yeah, my name is Zahitya. Um, I am pretty familiar with Python and, uh, other, uh, programming languages as well.
+
+[Sahitya Gollapudi .] 12:43:31
+And, uh, I'm… I've been leading a team, building distributed workflows with DocuSign, and uh…
+
+[Sahitya Gollapudi .] 12:43:39
+Can I… now, one of the challenges is to…
+
+[Sahitya Gollapudi .] 12:43:42
+build agentic workflows within our own workflows, so…
+
+[Surya Kunju (Faculty)] 12:43:44
+Right.
+
+[Sahitya Gollapudi .] 12:43:45
+I'm hoping this class is gonna get me to there, and uh, we're gonna build something, uh,
+
+[Sahitya Gollapudi .] 12:43:51
+In that, uh, distributed workflow system.
+
+[Surya Kunju (Faculty)] 12:43:53
+Awesome. Um, thanks for joining, Say it. You're welcome. Um, we have Rajesh.
+
+[Surya Kunju (Faculty)] 12:44:05
+will move while Rajesh is fixing his mic. Marcel?
+
+[Marcelle Mercier .] 12:44:12
+Hi, my name is Marcel Mershey.
+
+[Marcelle Mercier .] 12:44:14
+time and enterprise architect, and my focus really is around
+
+[Surya Kunju (Faculty)] 12:44:17
+I hope this one.
+
+[Marcelle Mercier .] 12:44:18
+Helping to bring strict fear and alignment across teams, processes, and technology.
+
+[Marcelle Mercier .] 12:44:23
+So, I'm really excited about Agentic AI, especially its potential to kind of automate the end-to-end workflows and hopefully support better decisions at scale. So…
+
+[Marcelle Mercier .] 12:44:34
+I did do the, um, introductory course, I guess, last…
+
+[Marcelle Mercier .] 12:44:39
+on the, um, applied AI with, um, great learning, and I thought this one might be interesting as a follow-up.
+
+[Marcelle Mercier .] 12:44:44
+Uh, so I'm pretty familiar with Python, even though it's not part of my D2DR.
+
+[Marcelle Mercier .] 12:44:50
+toolset, then.
+
+[Surya Kunju (Faculty)] 12:44:52
+Awesome. Welcome to the class, Marcel.
+
+[Surya Kunju (Faculty)] 12:44:56
+Um, we have Anna.
+
+[Ana Saxena .] 12:45:00
+Hi, uh, I'm Anna Saxino, and I'm a Senior Director at U.S. Fintech.
+
+[Ana Saxena .] 12:45:05
+I lead the platform engineering team in that organization, and we have a lot of use cases we are evaluating where we can apply
+
+[Ana Saxena .] 12:45:12
+authentic AI Solutions. I've been learning a lot on my own, and I think I'm very hands-on.
+
+[Ana Saxena .] 12:45:17
+And I think, uh, in this class, I'm really looking… looking forward to kind of learning the overall everything, so I can get empowered with kind of building those applications in my organization.
+
+[Surya Kunju (Faculty)] 12:45:27
+Awesome.
+
+[Ana Saxena .] 12:45:28
+I lead my team for that.
+
+[Surya Kunju (Faculty)] 12:45:29
+Awesome. Thank you for joining. Welcome to the class.
+
+[Ana Saxena .] 12:45:32
+Thank you.
+
+[Surya Kunju (Faculty)] 12:45:33
+Um, we have Lalita,
+
+[Surya Kunju (Faculty)] 12:45:43
+Okay, when Elite is probably fixing the mic. We have Angela.
+
+[Angela Johnson .] 12:45:51
+Right? Video, okay?
+
+[Surya Kunju (Faculty)] 12:45:52
+Yes.
+
+[Angela Johnson .] 12:45:54
+So, uh, I'm Angela Johnson, Senior Vice President at Obamia, so we mid-size, uh,
+
+[Angela Johnson .] 12:46:00
+product on a medical device, uh, clinical research organization.
+
+[Angela Johnson .] 12:46:02
+been doing a lot with, uh, implementing, uh, I'll say, new R&D solutions, lots of clients working with FDA-regulated versions of AI, so…
+
+[Angela Johnson .] 12:46:10
+you know, that's my top interest, and hey, never had more fun than in the last few years. My background is in computational linguistics, PhD, so…
+
+[Angela Johnson .] 12:46:17
+you know, I tinker with a lot of the new models coming out. I'll say some of the solid state's been really interesting.
+
+[Angela Johnson .] 12:46:23
+you know, I'm an amateur Python and pretty good with R and more analytical frameworks, but…
+
+[Angela Johnson .] 12:46:28
+with AI now can often figure out the more complex pieces, so pretty comfortable in that sense.
+
+[Angela Johnson .] 12:46:32
+based here in Boston.
+
+[Surya Kunju (Faculty)] 12:46:34
+Awesome. Thank you, and welcome to the class.
+
+[Surya Kunju (Faculty)] 12:46:38
+We have Roma. I think you're the last one, probably.
+
+[Surya Kunju (Faculty)] 12:46:42
+Roma?
+
+[Surya Kunju (Faculty)] 12:46:49
+Okay, um…
+
+[Surya Kunju (Faculty)] 12:46:51
+So, I know Vijaya's mic was problematic, so we can, you know, we'll get to know each other, so no worries, and Roma, whenever you're…
+
+[Rajesh babu Viswanadhapalli .] 12:46:58
+Hey, sorry to interrupt, uh, Surya, this is Rajit.
+
+[Surya Kunju (Faculty)] 12:47:01
+Yeah. If I missed anyone, please, yeah, thank you, Rajishap. Apologies for that.
+
+[Rajesh babu Viswanadhapalli .] 12:47:05
+I was out to take a quick call. I'm sorry about that.
+
+[Rajesh babu Viswanadhapalli .] 12:47:09
+My name is Rajuvishkanag Pali.
+
+[Rajesh babu Viswanadhapalli .] 12:47:12
+Uh, I have total, like, you know…
+
+[Rajesh babu Viswanadhapalli .] 12:47:15
+years of experience, and about 19, like, 10 years into development, and 9 years, I've been working as a security engineer.
+
+[Rajesh babu Viswanadhapalli .] 12:47:23
+Uh, yeah, I have some experience, uh, working with Python.
+
+[Rajesh babu Viswanadhapalli .] 12:47:27
+And for the last year or so, at our workplace, we have been using, uh,
+
+[Rajesh babu Viswanadhapalli .] 12:47:33
+cloud code and root core, you know, those agent TK…
+
+[Rajesh babu Viswanadhapalli .] 12:47:38
+agents to develop operations. In fact, I've been working on
+
+[Rajesh babu Viswanadhapalli .] 12:47:43
+Primarily myself working on developing one application based using Python, using root code. So, yeah, I have some…
+
+[Rajesh babu Viswanadhapalli .] 12:47:51
+Experience using those tools as well. So, yeah, that's about me, and nice to meet you all. Thank you.
+
+[Surya Kunju (Faculty)] 12:47:56
+Awesome, awesome. Have I missed anyone?
+
+[Roma Ahuja .] 12:47:58
+Hi, sorry. Yes, sorry, this is not my hair. Yeah, my mute, mute, my mic was not unmuting earlier.
+
+[Surya Kunju (Faculty)] 12:48:00
+Yep.
+
+[Surya Kunju (Faculty)] 12:48:05
+No worries.
+
+[Roma Ahuja .] 12:48:06
+Cool, yeah. Uh, yeah, my name is Roma. I, uh, I'm a… I'm currently a lead data engineer.
+
+[Roma Ahuja .] 12:48:12
+At Visa, so I do work with
+
+[Roma Ahuja .] 12:48:14
+Lot of data processing and ML pipeline tools.
+
+[Roma Ahuja .] 12:48:19
+Uh, with, um…
+
+[Roma Ahuja .] 12:48:21
+agentic, um, uh, workflows in the scene, I am here to get more.
+
+[Roma Ahuja .] 12:48:28
+expand my skills on that.
+
+[Surya Kunju (Faculty)] 12:48:30
+Okay, awesome, Roma. Thank you, thank you for joining, and thank you for, uh, you know, welcome to the class.
+
+[Surya Kunju (Faculty)] 12:48:36
+Um, so I believe I've covered everyone here, right?
+
+[Surya Kunju (Faculty)] 12:48:41
+So, first of all, guys,
+
+[Surya Kunju (Faculty)] 12:48:44
+Welcome, uh, holistically, I think this is a fantastic cohort, you know, your experiences, you just heard from each other.
+
+[Surya Kunju (Faculty)] 12:48:51
+you know, speak for, uh, you know, themselves and itself, right? So…
+
+[Surya Kunju (Faculty)] 12:48:55
+I think broadly speaking, almost all of you have a strong programming background.
+
+[Surya Kunju (Faculty)] 12:49:01
+Um, you know, and some people are, like, doing it on a daily basis, and some folks have…
+
+[Surya Kunju (Faculty)] 12:49:06
+you know, moved up the ladder, or, you know, are not doing it on a daily basis, you know, depending on the organizations, right?
+
+[Surya Kunju (Faculty)] 12:49:14
+So, but I think one good thing here is everybody…
+
+[Surya Kunju (Faculty)] 12:49:18
+has a decent amount of background, so…
+
+[Surya Kunju (Faculty)] 12:49:21
+We don't have to, like, go into, like, the absolute, absolute basics of Python, which I'm gonna suck if I do that.
+
+[Surya Kunju (Faculty)] 12:49:27
+So I'm grateful that you guys are here.
+
+[Surya Kunju (Faculty)] 12:49:30
+Also, I think, you know, when you look at where we are right now,
+
+[Surya Kunju (Faculty)] 12:49:34
+Do we need to really learn Python? That itself is a question mark, right? So there are a lot of schools of thoughts there.
+
+[Surya Kunju (Faculty)] 12:49:41
+Uh, when it comes to, like, you know, thinking about learning a fresh set of programming language,
+
+[Surya Kunju (Faculty)] 12:49:47
+versus truly, you know, leveraging the AI in the best possible way to make sure you're actually, like, producing very optimistic, you know, not optimistic, optimal quality of code.
+
+[Surya Kunju (Faculty)] 12:49:57
+Um, so we'll get into that. Let me just make sure, you know, I quickly share with you guys about myself.
+
+[Surya Kunju (Faculty)] 12:50:07
+Yeah, I'm just gonna do that, Vim, yes.
+
+[Surya Kunju (Faculty)] 12:50:10
+So this is me.
+
+[Surya Kunju (Faculty)] 12:50:12
+Um, just like yourself, you know, most of you have been in the industry for a while.
+
+[Surya Kunju (Faculty)] 12:50:19
+Um, I have myself moved away from programming, um, you know, for quite a bit.
+
+[Surya Kunju (Faculty)] 12:50:26
+Um, and I've been more in the area of solution architecture, enterprise architecture, and sort of, like, principal architect kind of stuff, and also
+
+[Surya Kunju (Faculty)] 12:50:35
+Um, a lot of real hands-on experience when it comes to
+
+[Surya Kunju (Faculty)] 12:50:39
+Um, solution architecting for larger enterprise organizations. Um, I think we have an ex… we have an SAP colleague here as well, so you can see I've been with some companies like Accenture,
+
+[Surya Kunju (Faculty)] 12:50:49
+SAP, you know, for the long amount of time. A lot of my core experience
+
+[Surya Kunju (Faculty)] 12:50:54
+Um, either on machine learning and AI,
+
+[Surya Kunju (Faculty)] 12:50:57
+And obviously, these days, it's really hardcore agentic AI and Gen AI.
+
+[Surya Kunju (Faculty)] 12:51:02
+Um, you know, I used to lead the machine learning for North America COE at SAP and stuff like that. So, you know,
+
+[Surya Kunju (Faculty)] 12:51:09
+pretty hands-on on that aspect as well. And with great learning, I'm obviously associated with at a personal capacity, as you can see, and I've been fortunate to teach different types of cohorts.
+
+[Surya Kunju (Faculty)] 12:51:18
+Um, you know, across the board. I have a lot of…
+
+[Surya Kunju (Faculty)] 12:51:22
+Um, retail media and marketing sort of background as well, so I've taken that Wharton course as well, which is very interesting on advanced.
+
+[Surya Kunju (Faculty)] 12:51:29
+marketing, uh, strategies as well.
+
+[Surya Kunju (Faculty)] 12:51:31
+So, you know, broad, uh, background, uh, have been with Great Learning for a long period now.
+
+[Surya Kunju (Faculty)] 12:51:38
+And I've kind of, you know, interacted with very different types of cohorts. Um, so hopefully,
+
+[Surya Kunju (Faculty)] 12:51:43
+you know, we will find a rhythm between us, um, you know, what works best for you and what works best for me.
+
+[Surya Kunju (Faculty)] 12:51:51
+Um, and we'll… we'll try to, you know, make the most out of it.
+
+[Surya Kunju (Faculty)] 12:51:55
+I think, generally speaking, my…
+
+[Surya Kunju (Faculty)] 12:51:57
+style is a, you know, very interactive, and I appreciate the questions.
+
+[Surya Kunju (Faculty)] 12:52:02
+Um, and I appreciate questions more from the business perspective, so that you can look at things, you know, end-to-end, and that's where my real experience
+
+[Surya Kunju (Faculty)] 12:52:12
+Um, comes handy. I've always been with… mostly been with product companies throughout my career.
+
+[Surya Kunju (Faculty)] 12:52:17
+So I've, you know, helped sell, explain,
+
+[Surya Kunju (Faculty)] 12:52:20
+Um, and implement products. So, just because of that, I've…
+
+[Surya Kunju (Faculty)] 12:52:25
+dealt with so many variety of customers and clients that
+
+[Surya Kunju (Faculty)] 12:52:29
+Uh, you know, that business experience comes very handy in how you actually go in and solve the problem.
+
+[Surya Kunju (Faculty)] 12:52:34
+Hopefully, we'll… we'll get to, you know, know each other a bit more, and, you know, we can
+
+[Surya Kunju (Faculty)] 12:52:38
+learn from each other's experience. I certainly am going to learn a lot from you guys. Um, you know, clearly you've got some amazing, uh, amazing, like, you know,
+
+[Surya Kunju (Faculty)] 12:52:47
+background here. So… so that's me.
+
+[Surya Kunju (Faculty)] 12:52:49
+Okay? Now, what I want to do is, um, I think…
+
+[Surya Kunju (Faculty)] 12:52:53
+you know, if you look at…
+
+[Surya Kunju (Faculty)] 12:52:56
+If you look at the core structure here, right, um…
+
+[Surya Kunju (Faculty)] 12:53:01
+This is… this is the overall structure. I mean, given… given the kind of expertise you guys have already, or the level you guys have already on Python,
+
+[Surya Kunju (Faculty)] 12:53:09
+You know, I think we'll start to discuss a little bit beyond just the
+
+[Surya Kunju (Faculty)] 12:53:15
+coding part of it, but more around
+
+[Surya Kunju (Faculty)] 12:53:18
+Um, you know, things, uh, related to agent AKI and large language models.
+
+[Surya Kunju (Faculty)] 12:53:23
+Um, and then we'll also, like, touch upon things which we are seeing in the industry, and I want to really
+
+[Surya Kunju (Faculty)] 12:53:28
+hear from you on, you know,
+
+[Surya Kunju (Faculty)] 12:53:30
+Um, your experience, like, I think someone, Rajesh, talked about Claude,
+
+[Surya Kunju (Faculty)] 12:53:34
+Um, so your… your own experience around, like, all of these, you know, different tools, um, you know, on a regular basis on how you're actually using it.
+
+[Surya Kunju (Faculty)] 12:53:42
+We'll try to keep this, uh, today's session a little bit more around that. We'll… we'll go through one quick case study, which is on Google Colab, and we'll talk about that pretty quickly.
+
+[Surya Kunju (Faculty)] 12:53:52
+But let's… let's not make it…
+
+[Surya Kunju (Faculty)] 12:53:56
+like a coding…
+
+[Surya Kunju (Faculty)] 12:53:57
+like, class, you know what I mean? Like, I think… I think that… that won't be beneficial to most of us, so I wouldn't want to… want to go there.
+
+[Surya Kunju (Faculty)] 12:54:05
+Um, but let's kind of, you know, keep it at a broader, higher level so that we can all take advantage of it.
+
+[Surya Kunju (Faculty)] 12:54:11
+Okay? Now, a few things, um…
+
+[Surya Kunju (Faculty)] 12:54:15
+A few things I want to kind of talk about, right? So you can see the…
+
+[Surya Kunju (Faculty)] 12:54:18
+the flow here, I think today we are here,
+
+[Surya Kunju (Faculty)] 12:54:21
+Um, then we will… we'll get into LLMs, we'll talk about transformers and stuff like that.
+
+[Surya Kunju (Faculty)] 12:54:26
+And I think from here, like, things start to get very, very interesting the moment, you know, we talk about RAG, which is retrieval Augmented Generation.
+
+[Surya Kunju (Faculty)] 12:54:33
+That's where we start about, you know,
+
+[Surya Kunju (Faculty)] 12:54:35
+How do we ground the large language model to your data? We can also talk about, you know, fine-tuning and all of those interesting things. That's where things kind of get very, very interesting pretty quickly.
+
+[Surya Kunju (Faculty)] 12:54:47
+Um, and then we'll also, like, discuss, you know, various different platforms and techniques via which you can do that.
+
+[Surya Kunju (Faculty)] 12:54:53
+Um, so… so you can see that here it is…
+
+[Surya Kunju (Faculty)] 12:54:57
+you know, it's kind of… that is the first phase, and it's kind of limited to rank here.
+
+[Surya Kunju (Faculty)] 12:55:02
+And then we go into…
+
+[Surya Kunju (Faculty)] 12:55:04
+the details around agent take, uh, in code…
+
+[Surya Kunju (Faculty)] 12:55:07
+concepts, and then we'll move towards the ethical side of the house, and then we get into the multi-agent system.
+
+[Surya Kunju (Faculty)] 12:55:13
+Um, you know, and…
+
+[Surya Kunju (Faculty)] 12:55:15
+the future, etc., right? So that's how the…
+
+[Surya Kunju (Faculty)] 12:55:19
+course is sort of designed.
+
+[Surya Kunju (Faculty)] 12:55:21
+But folks, like, we can make it, you know, much more…
+
+[Surya Kunju (Faculty)] 12:55:25
+real-time, um…
+
+[Surya Kunju (Faculty)] 12:55:28
+And much, much more, like,
+
+[Surya Kunju (Faculty)] 12:55:30
+in the moment, like, a lot of different new stuff, you know, stuff is getting released. Like, last night I made a video on anti-gravity,
+
+[Surya Kunju (Faculty)] 12:55:38
+skills. If you guys have heard of the latest IDE from Google, which is…
+
+[Surya Kunju (Faculty)] 12:55:43
+Uh, you know, which is agentic ID. So, like, these skills and these things are changing, like, you know, as we move
+
+[Surya Kunju (Faculty)] 12:55:51
+move forward, almost like every other week.
+
+[Surya Kunju (Faculty)] 12:55:53
+Um, you know, anthropic released, Claude has now got projects, you know, obviously Anthropic had skills, which has been now, you know, used across the board. So I think
+
+[Surya Kunju (Faculty)] 12:56:02
+I would rather also, like, have those kind of very interesting, very real discussions with you guys.
+
+[Surya Kunju (Faculty)] 12:56:08
+So that you can take the best, you know, advantage of all of those things, versus, you know, just talking about, uh,
+
+[Surya Kunju (Faculty)] 12:56:14
+you know, like, the normal stuff, right? So, and I hope that…
+
+[Surya Kunju (Faculty)] 12:56:17
+you guys are okay with that, and, you know, would be appreciative of that.
+
+[Surya Kunju (Faculty)] 12:56:22
+do ping me one-on-one on the side if…
+
+[Surya Kunju (Faculty)] 12:56:24
+If you have any specific, you know, type of requirements, or obviously, like, or…
+
+[Surya Kunju (Faculty)] 12:56:29
+the class chat as well, and I'm happy to kind of look into that.
+
+[Surya Kunju (Faculty)] 12:56:32
+Okay? So that's something I wanted to share first.
+
+[Surya Kunju (Faculty)] 12:56:36
+Now, let me just pause here, just to hear if…
+
+[Surya Kunju (Faculty)] 12:56:40
+this made sense, and the thought process is…
+
+[Surya Kunju (Faculty)] 12:56:42
+is relatable, um…
+
+[Surya Kunju (Faculty)] 12:56:45
+Any quick feedback? You were able to understand me, hear me well, all of those things, the pace, everything's okay?
+
+[Surya Kunju (Faculty)] 12:56:52
+Okay, um…
+
+[Surya Kunju (Faculty)] 12:56:54
+Has anyone here actually built an agent and deployed in production as of today?
+
+[Surya Kunju (Faculty)] 12:57:02
+Okay, so most of you…
+
+[James Teeter .] 12:57:04
+Yes.
+
+[Surya Kunju (Faculty)] 12:57:04
+Okay, sorry, go ahead.
+
+[Zareh Vazquez .] 12:57:06
+Yes.
+
+[James Teeter .] 12:57:06
+Yeah.
+
+[Surya Kunju (Faculty)] 12:57:08
+Angela, Zare, okay?
+
+[Surya Kunju (Faculty)] 12:57:11
+And James.
+
+[James Teeter .] 12:57:13
+Mm-hmm.
+
+[Surya Kunju (Faculty)] 12:57:13
+James, why don't you share with us, um,
+
+[Surya Kunju (Faculty)] 12:57:18
+What is the framework that you used? A little bit about, you know, if it is proprietary, obviously don't share, but, like, if you can, uh, you know, broadly speaking, what is the framework, what does it do, et cetera, that will be beneficial.
+
+[James Teeter .] 12:57:33
+You can think of it as, like, a MCP router, where…
+
+[James Teeter .] 12:57:37
+You can go to, and instead of a routing protocol, you have a genic agent.
+
+[James Teeter .] 12:57:42
+And instead of using a RAC database, it's able to go out
+
+[James Teeter .] 12:57:46
+And, uh, get data.
+
+[James Teeter .] 12:57:49
+from various…
+
+[James Teeter .] 12:57:51
+devices or platforms and pull that data back, and then do…
+
+[James Teeter .] 12:57:55
+whatever, uh, is instructed in the agentic agent.
+
+[James Teeter .] 12:57:59
+takes care of all of that, makes the decisions to pull that data, what… what…
+
+[James Teeter .] 12:58:04
+you know, platforms to go to, and then what to do with that data, and then gives that data
+
+[James Teeter .] 12:58:10
+you know, presents that back.
+
+[Surya Kunju (Faculty)] 12:58:12
+So… so that's really cool, um, and what is the framework that you use to build that agent?
+
+[Surya Kunju (Faculty)] 12:58:20
+Because you also mentioned MCP, so…
+
+[Surya Kunju (Faculty)] 12:58:24
+you're curious to understand the stack.
+
+[James Teeter .] 12:58:28
+Uh, it's just custom Python, um, and to be honest, I try…
+
+[James Teeter .] 12:58:33
+very hard not to use LLMs. Um, so that's kind of my last resort, to be honest.
+
+[Surya Kunju (Faculty)] 12:58:34
+we're gonna finish up
+
+[James Teeter .] 12:58:39
+Uh, so it's all coded, and it goes out, gets the data, and then it can use
+
+[Surya Kunju (Faculty)] 12:58:40
+Okay.
+
+[James Teeter .] 12:58:44
+it can determine if there's templates in there to use or not, gets the data, and transforms it, and…
+
+[Surya Kunju (Faculty)] 12:58:46
+certificates of their spreadsheet.
+
+[James Teeter .] 12:58:51
+And gives the data back to the… if you can think of it as the front end, or what… or…
+
+[James Teeter .] 12:58:58
+the MCP client, if you will, that's requesting information.
+
+[Surya Kunju (Faculty)] 12:59:03
+Okay, so…
+
+[Surya Kunju (Faculty)] 12:59:05
+So they're, like, so it's not really using a large language model, if I got that right.
+
+[James Teeter .] 12:59:12
+It only does it when it really needs to, like if it's using… you could think of it as, like, React or something, um, and if it can…
+
+[James Teeter .] 12:59:18
+it determines what the complexity score is, and it determines
+
+[James Teeter .] 12:59:23
+different parameters, and if it… it feels that it can…
+
+[James Teeter .] 12:59:27
+get it on its own, it's gonna go ahead and do it. If it determines the complexity is too high, or there's too many platforms,
+
+[James Teeter .] 12:59:34
+then it'll go ahead and go through a large language model.
+
+[James Teeter .] 12:59:38
+For assistance.
+
+[Surya Kunju (Faculty)] 12:59:39
+And then when you say it determines…
+
+[Surya Kunju (Faculty)] 12:59:42
+Isn't that also determined by a large language model, or is that, like…
+
+[James Teeter .] 12:59:44
+It's…
+
+[James Teeter .] 12:59:48
+the agent does all the computations.
+
+[Surya Kunju (Faculty)] 12:59:50
+Okay.
+
+[James Teeter .] 12:59:50
+And it determines the complexity.
+
+[Surya Kunju (Faculty)] 12:59:52
+Okay.
+
+[James Teeter .] 12:59:52
+And, uh, makes those decisions, and then if it needs to, if it hits a certain threshold, then it will go ahead and go to the large language model for help.
+
+[Surya Kunju (Faculty)] 13:00:01
+Okay. Well, that's very cool.
+
+[Surya Kunju (Faculty)] 13:00:04
+as we progress, right, I would love to…
+
+[Surya Kunju (Faculty)] 13:00:08
+discuss a little bit more with you, and then, you know, we'll also, like, make this for… beneficial for the rest of the folks as well on…
+
+[Surya Kunju (Faculty)] 13:00:15
+When you deployed in production, you know, how are you thinking about things like observability, security,
+
+[Surya Kunju (Faculty)] 13:00:22
+you know, all of those kind of things, right? So, would…
+
+[Surya Kunju (Faculty)] 13:00:25
+I think at some point, we'll have that kind of discussion as well, because that's where I want to…
+
+[Surya Kunju (Faculty)] 13:00:29
+Like, I was… I was wanting to hear about the overall stack.
+
+[Surya Kunju (Faculty)] 13:00:33
+But it's fine, like, let's… let's… I think this information is, for the moment, it's very helpful.
+
+[James Teeter .] 13:00:38
+Yeah, I will… I will say it's 100% hard-coded with, uh, with OTEL.
+
+[James Teeter .] 13:00:42
+So you can see the agent calls, you can see the function calls,
+
+[Surya Kunju (Faculty)] 13:00:46
+Okay.
+
+[James Teeter .] 13:00:47
+And… it's all open source, so…
+
+[James Teeter .] 13:00:49
+But anyway.
+
+[Surya Kunju (Faculty)] 13:00:50
+Okay. Yeah. No, that's pretty cool. Thanks, thank you, James. I think that's fantastic that you shared that.
+
+[James Teeter .] 13:00:54
+Yeah.
+
+[Surya Kunju (Faculty)] 13:00:56
+Um… Sanjeev, go ahead, please.
+
+[Surya Kunju (Faculty)] 13:01:05
+Okay. But…
+
+[Zareh Vazquez .] 13:01:06
+I can give you… I can… I can… I can explain.
+
+[Surya Kunju (Faculty)] 13:01:08
+Yeah. Sorry, go ahead.
+
+[Zareh Vazquez .] 13:01:10
+what we have done, so…
+
+[Surya Kunju (Faculty)] 13:01:10
+Yeah, but…
+
+[Zareh Vazquez .] 13:01:13
+talking about frameworks, yes, we are using LandChain, LandGraph.
+
+[Zareh Vazquez .] 13:01:19
+We are using FastMCP.
+
+[Zareh Vazquez .] 13:01:21
+Uh, for client servers, fast APIs are…
+
+[Zareh Vazquez .] 13:01:26
+As, uh, as, uh…
+
+[Zareh Vazquez .] 13:01:27
+API server. We are using Open Web UI.
+
+[Zareh Vazquez .] 13:01:32
+For the… for the chat.
+
+[Zareh Vazquez .] 13:01:34
+And we are using little LLM for integration with subgen AI.
+
+[Zareh Vazquez .] 13:01:40
+So, using dust technology, what we have is a chatbot, which is used by
+
+[Zareh Vazquez .] 13:01:46
+Product support,
+
+[Zareh Vazquez .] 13:01:48
+my team, uh, developers, uh, operations,
+
+[Zareh Vazquez .] 13:01:53
+to either interact with
+
+[Zareh Vazquez .] 13:01:56
+the backends execute certain permitted actions,
+
+[Zareh Vazquez .] 13:02:01
+Right? Which is… basically, we're using tools.
+
+[Zareh Vazquez .] 13:02:04
+from the large language models.
+
+[Zareh Vazquez .] 13:02:06
+And we also have capabilities for enhanced analysis, where we analyze, based on
+
+[Zareh Vazquez .] 13:02:14
+Uh, uh, I think James mentioned
+
+[Zareh Vazquez .] 13:02:16
+portal, right? So we use trace IDs.
+
+[Zareh Vazquez .] 13:02:20
+For example, to using the trace ID, which is coming from traces from Hotel,
+
+[Zareh Vazquez .] 13:02:24
+We, uh, analyze…
+
+[Zareh Vazquez .] 13:02:27
+the performance of that request?
+
+[Zareh Vazquez .] 13:02:29
+And basically, it goes to different sources to extract
+
+[Zareh Vazquez .] 13:02:33
+Traces, logs…
+
+[Zareh Vazquez .] 13:02:35
+And understand the reason of a performance problem, or an error.
+
+[Zareh Vazquez .] 13:02:40
+Using, uh, using at the end the LLM to analyze.
+
+[Zareh Vazquez .] 13:02:43
+all these outputs, and provide feedback to the user, telling them,
+
+[Zareh Vazquez .] 13:02:48
+What is the reason, or in fact, sometimes…
+
+[Zareh Vazquez .] 13:02:50
+how to fix certain type of problem in cases where…
+
+[Zareh Vazquez .] 13:02:54
+We have enough information that we can show even the code.
+
+[Zareh Vazquez .] 13:02:58
+That is having troubles.
+
+[Surya Kunju (Faculty)] 13:03:01
+That's…
+
+[Zareh Vazquez .] 13:03:01
+So it's pretty, pretty amazing thing that we can do with LLMs.
+
+[Surya Kunju (Faculty)] 13:03:05
+Yeah, no, it is, and thank you. Thank you for sharing that information. So, I'm just gonna, you know, put a poll here, um,
+
+[Surya Kunju (Faculty)] 13:03:12
+So, like, try to answer that question, I don't know where it went.
+
+[Surya Kunju (Faculty)] 13:03:21
+Okay, sorry, just one second.
+
+[Surya Kunju (Faculty)] 13:03:24
+I want to make sure, um…
+
+[Surya Kunju (Faculty)] 13:03:27
+I want to make sure that…
+
+[Surya Kunju (Faculty)] 13:03:33
+How can we get rid of this, okay?
+
+[Surya Kunju (Faculty)] 13:03:37
+All right, launch.
+
+[Surya Kunju (Faculty)] 13:03:40
+Do you see the poll now?
+
+[Surya Kunju (Faculty)] 13:03:42
+Um, I think it'll be a good idea for people to answer, have you built agents so that I can, I can kind of, you know, have the talk track accordingly.
+
+[Surya Kunju (Faculty)] 13:03:52
+Okay.
+
+[Surya Kunju (Faculty)] 13:03:58
+Appreciate you guys participating.
+
+[Surya Kunju (Faculty)] 13:04:02
+So I've got 13 of you who have voted.
+
+[Surya Kunju (Faculty)] 13:04:05
+So, quite a few of you actually, like, more than, you know, like, 60% of you have actually, like, built agents, which is fantastic.
+
+[Surya Kunju (Faculty)] 13:04:14
+Um… yeah, 70… 64%.
+
+[Surya Kunju (Faculty)] 13:04:17
+Okay. So…
+
+[Surya Kunju (Faculty)] 13:04:20
+That's really good, um…
+
+[Surya Kunju (Faculty)] 13:04:22
+And…
+
+[Surya Kunju (Faculty)] 13:04:24
+I'm just trying to make sure, you know,
+
+[Surya Kunju (Faculty)] 13:04:27
+that I, like, depending on your existing level, like, we don't have to…
+
+[Surya Kunju (Faculty)] 13:04:32
+you know, we don't have to, like, go back to the basics, etc. But at the same time, there are a few who have not, so…
+
+[Surya Kunju (Faculty)] 13:04:39
+Um, so that's fine. I think…
+
+[Surya Kunju (Faculty)] 13:04:41
+let's kind of have a quick discussion around…
+
+[Surya Kunju (Faculty)] 13:04:46
+you know, a quick…
+
+[Surya Kunju (Faculty)] 13:04:48
+Um, history lesson on…
+
+[Surya Kunju (Faculty)] 13:04:51
+Live language models specifically to the agents.
+
+[Surya Kunju (Faculty)] 13:04:53
+And I, you know, I'm hoping you guys will appreciate this, right? So, like, you know, not like 20 years back history, but, like, 2-3 years back history, like,
+
+[Surya Kunju (Faculty)] 13:05:01
+I think we can all remember and relate to this. We started with…
+
+[Surya Kunju (Faculty)] 13:05:06
+um, chat-based, you know, models, which was really around generating text when it… when the…
+
+[Surya Kunju (Faculty)] 13:05:12
+to add off, you know, ChatGPT and everything began, right? So that was the first…
+
+[Surya Kunju (Faculty)] 13:05:15
+First thing, which is where, you know, Google then came back with BARD and Palm and all of those kind of models. And the…
+
+[Surya Kunju (Faculty)] 13:05:23
+raise in the industry, if you will, was more around
+
+[Surya Kunju (Faculty)] 13:05:25
+you know, which particular large language model can actually have more context window, right? So…
+
+[Surya Kunju (Faculty)] 13:05:31
+That's where, you know, GPT kind of came with a lot of newer models, um, and then Gemini came up with… Google came up with Gemini, which had, like, 1 million
+
+[Surya Kunju (Faculty)] 13:05:40
+as the context window. So that's… that's how it kind of, you know, that was the initial bit of the competition in the industry, right? Which is… which was all around
+
+[Surya Kunju (Faculty)] 13:05:49
+you know, text generation, text-based content generation, and then immediately moving to
+
+[Surya Kunju (Faculty)] 13:05:53
+Increasing the context. I think we can all kind of
+
+[Surya Kunju (Faculty)] 13:05:56
+Remember that, right? After that,
+
+[Surya Kunju (Faculty)] 13:06:00
+Uh, let me just close this.
+
+[Surya Kunju (Faculty)] 13:06:03
+After that, you know, from the context, we started getting obsessed
+
+[Surya Kunju (Faculty)] 13:06:08
+with the kind of output the large language model would generate. So if you think about this, you know, initially it was text, then we started generating, like, images, then code,
+
+[Surya Kunju (Faculty)] 13:06:17
+Um, you know, the Claude, like, you know, came about that time, people would just…
+
+[Surya Kunju (Faculty)] 13:06:22
+People got crazy about it. Um, but then, like, we had, like, individual models
+
+[Surya Kunju (Faculty)] 13:06:26
+which was generating individual
+
+[Surya Kunju (Faculty)] 13:06:29
+category of output, if you will, right? So we had image generation going on, you know, like, remember DALI and all of those models, which are still there, but, like,
+
+[Surya Kunju (Faculty)] 13:06:36
+Those models will only generate
+
+[Surya Kunju (Faculty)] 13:06:38
+like, very specific type of output. We have code generation, we have image generation, we have audio generation,
+
+[Surya Kunju (Faculty)] 13:06:44
+And then we had video generation.
+
+[Surya Kunju (Faculty)] 13:06:46
+Um, so the… so the race kind of became from context to creating these individual outputs really, really well.
+
+[Surya Kunju (Faculty)] 13:06:53
+Then, we started thinking, well, you know, I don't want to have, like, all of these models doing different things. What if I could have, like, one model?
+
+[Surya Kunju (Faculty)] 13:07:00
+generate all of these, you know, together.
+
+[Surya Kunju (Faculty)] 13:07:02
+So from there, we came to multimodality. Like, one model being able to generate
+
+[Surya Kunju (Faculty)] 13:07:07
+all of these, uh, you know, types of content together.
+
+[Surya Kunju (Faculty)] 13:07:11
+So I think, again, like, Gemini was fantastic there.
+
+[Surya Kunju (Faculty)] 13:07:15
+Truly, truly multimodal from the get-go, where you are able to create audio, video, code,
+
+[Surya Kunju (Faculty)] 13:07:20
+all of those things in, you know, in the same… using the same model. So…
+
+[Surya Kunju (Faculty)] 13:07:25
+we kind of focus, like, the industry was kind of focused around that, and then…
+
+[Surya Kunju (Faculty)] 13:07:29
+Once you had that, then, you know, while that parallel stream was continuing,
+
+[Surya Kunju (Faculty)] 13:07:34
+Then people started discussing, oh, you know what, like, my… my…
+
+[Surya Kunju (Faculty)] 13:07:37
+model is not really generating data which is grounded to my own.
+
+[Surya Kunju (Faculty)] 13:07:41
+Uh, you know, uh, corporate, right, or enterprise. So that's where the focus and the discussion very quickly moved towards
+
+[Surya Kunju (Faculty)] 13:07:48
+you know, what can we do towards the architecture?
+
+[Surya Kunju (Faculty)] 13:07:51
+So that the large language model can be grounded in my own data.
+
+[Surya Kunju (Faculty)] 13:07:55
+And that's where we started with retrieval augmented generation,
+
+[Surya Kunju (Faculty)] 13:07:58
+Which is where it is retrieving the information.
+
+[Surya Kunju (Faculty)] 13:08:02
+from the database, which is a specialized database, which is called Vector Database, stores the information in the form of embeddings, and in real time, able to refer to that
+
+[Surya Kunju (Faculty)] 13:08:10
+augment the information, and then finally generate, right? So retrieve, augment generation. So that is… that is RAG. And then the whole…
+
+[Surya Kunju (Faculty)] 13:08:17
+industry sort of begins with, you know, optimizing RAT-based architecture. So text-to-context to multimodal
+
+[Surya Kunju (Faculty)] 13:08:25
+to then rag-based architecture, right?
+
+[Surya Kunju (Faculty)] 13:08:27
+Um, and then from there, there were, like, more few things where people started talking about, well, RAG is great, but it's doing it in real time.
+
+[Surya Kunju (Faculty)] 13:08:34
+you know what, like, can we do something about, uh, can we do something at the training, uh, you know, uh, like, training area, right? So that's where…
+
+[Surya Kunju (Faculty)] 13:08:41
+started discussing about fine-tuning, we had supervised fine-tuning, we had Lura, a lot of different…
+
+[Surya Kunju (Faculty)] 13:08:46
+you know, like, techniques to do this. Um, and then we also combined
+
+[Surya Kunju (Faculty)] 13:08:50
+Um, fine-tuning with RAG, right? So that's the, sort of the, like, the latest on that side of the house. Now, that… that is still a hot topic, um, and most of the organizations, whoever is building
+
+[Surya Kunju (Faculty)] 13:09:04
+you know, applications or chatbots, are…
+
+[Surya Kunju (Faculty)] 13:09:07
+very clearly RAG-based chatbots today, right? And, you know, of course, fine-tuning and everything is also taken into consideration.
+
+[Surya Kunju (Faculty)] 13:09:13
+So that's the… that's the evolution on… on… on that side of the house.
+
+[Surya Kunju (Faculty)] 13:09:17
+Then from there, once we kind of fix that,
+
+[Surya Kunju (Faculty)] 13:09:20
+Then people started talking about, well…
+
+[Surya Kunju (Faculty)] 13:09:22
+I actually give my large language model, which is grounded already,
+
+[Surya Kunju (Faculty)] 13:09:27
+access to different types of things, and that's where, you know, can I give it access to
+
+[Surya Kunju (Faculty)] 13:09:33
+like, say, database, can I give it access to, it's an API?
+
+[Surya Kunju (Faculty)] 13:09:37
+So, all of those things became giving LLM an access to something else, which is, in general, called a tool, James, you know, definitely talked about it.
+
+[Surya Kunju (Faculty)] 13:09:48
+you know, for some time now. And then, like, there was a new protocol that was released, which was from Anthropic, which was MCP, right? Which was
+
+[Surya Kunju (Faculty)] 13:09:57
+in a much more elegant way of handling requests coming from different large language models to your application, right? So what if I had, like, a protocol
+
+[Surya Kunju (Faculty)] 13:10:06
+Which will allow all of these different app, you know, large language models to actually connect to me. So… so that's where, you know,
+
+[Surya Kunju (Faculty)] 13:10:12
+grounded RAG-based, uh,
+
+[Surya Kunju (Faculty)] 13:10:15
+you know, like, application is now able to connect to different tools via the MCB protocol.
+
+[Surya Kunju (Faculty)] 13:10:20
+So that was the next level of evolution. So we are able to now talk to the other, other, like, you know, APIs and tools.
+
+[Surya Kunju (Faculty)] 13:10:27
+But then, we also wanted to then evolve and start taking some sort of an action.
+
+[Surya Kunju (Faculty)] 13:10:33
+And that's where, like, for example, you know, like, the weather looks nice, I want to go get a haircut.
+
+[Surya Kunju (Faculty)] 13:10:39
+Um, you know, so can… can you decide on my behalf if the weather is alright, go get an aircut appointment and book
+
+[Surya Kunju (Faculty)] 13:10:47
+that in my calendar, right? So here, I'm moving…
+
+[Surya Kunju (Faculty)] 13:10:51
+beyond large language model, not just taking, uh, you know, not just accessing a weather API tool,
+
+[Surya Kunju (Faculty)] 13:10:58
+but also deciding on my behalf, so that's where I was kind of asking James this question, like, who's…
+
+[Surya Kunju (Faculty)] 13:11:04
+decision, right? So in this case, the large language model is actually taking the decision on my behalf, which is the human.
+
+[Surya Kunju (Faculty)] 13:11:10
+Um, and then also taking an action.
+
+[Surya Kunju (Faculty)] 13:11:13
+Which is actually physically booking my calendar.
+
+[Surya Kunju (Faculty)] 13:11:16
+Right? So, now you see the evolution here. So, you know, the agent is…
+
+[Surya Kunju (Faculty)] 13:11:21
+Taking an action, using its own brain,
+
+[Surya Kunju (Faculty)] 13:11:24
+on behalf of a human,
+
+[Surya Kunju (Faculty)] 13:11:26
+And that is really the definition of what an agentic application is all about.
+
+[Surya Kunju (Faculty)] 13:11:31
+So, you know, if you're now, like, summarize what I just said,
+
+[Surya Kunju (Faculty)] 13:11:35
+That is the evolution we have all seen together, right? We started with text prompt-based things,
+
+[Surya Kunju (Faculty)] 13:11:41
+We discussed, like, prompt engineering became a big thing, you know, and all of those things. I mean, it's still big, but at that time, that was the biggest thing ever.
+
+[Surya Kunju (Faculty)] 13:11:48
+Um, all the way to, you know, text, to context, to…
+
+[Surya Kunju (Faculty)] 13:11:52
+you know, multimodality to, you know, giving access to tools, um, then, you know, making it grounding through RAG, and then fine-tuning.
+
+[Surya Kunju (Faculty)] 13:11:59
+you know, cut to 2026, we are…
+
+[Surya Kunju (Faculty)] 13:12:01
+looking into voice agents, which have rag-based enabled, and then can actually, like, take actions and
+
+[Surya Kunju (Faculty)] 13:12:07
+book, you know, book any kind of an appointment, etc., etc., right? So that's where… that's where the industry is right now, right? And I…
+
+[Surya Kunju (Faculty)] 13:12:15
+where we're going with all of this is, I think, like, last week, there was NRF in New York,
+
+[Surya Kunju (Faculty)] 13:12:21
+anybody from the retail industry,
+
+[Surya Kunju (Faculty)] 13:12:23
+you know, probably, probably must know about that. Like, now, like, we are actually, like, getting into the new
+
+[Surya Kunju (Faculty)] 13:12:30
+uh, like, era of…
+
+[Surya Kunju (Faculty)] 13:12:31
+kind of, you know, this one is, like, more around commerce, but you will see, like, a lot of, like, really big companies like Walmart,
+
+[Surya Kunju (Faculty)] 13:12:38
+Shopify, Wayfair, like, you know, Target, et cetera, are already kind of involved here, and this is where…
+
+[Surya Kunju (Faculty)] 13:12:44
+you are actually able to have a direct conversation with the agent,
+
+[Surya Kunju (Faculty)] 13:12:49
+The agent could be sitting in your, you know, application.
+
+[Surya Kunju (Faculty)] 13:12:54
+Or could be actually on the website itself.
+
+[Surya Kunju (Faculty)] 13:12:56
+But it's able to not only just have a conversation, but also actually able to
+
+[Surya Kunju (Faculty)] 13:13:01
+you know, add to the cart, do the checkout, off, you know, offer promotions and all of those things, and also, like,
+
+[Surya Kunju (Faculty)] 13:13:07
+you know, finish the payment, right? Like, that's… that's sort of where…
+
+[Surya Kunju (Faculty)] 13:13:10
+where we are from an industry perspective today. So this is, like, the latest and greatest. We also have, like, something called as A2A,
+
+[Surya Kunju (Faculty)] 13:13:16
+Which is, you know, agent-to-agent protocol.
+
+[Surya Kunju (Faculty)] 13:13:20
+Uh, which is another one.
+
+[Surya Kunju (Faculty)] 13:13:22
+which was released, uh, I think, uh, last year.
+
+[Surya Kunju (Faculty)] 13:13:26
+almost a year now, but you can see, like, even at that point in time, there were so many of these companies
+
+[Surya Kunju (Faculty)] 13:13:31
+Um, and this is, like, another protocol which allows agents to talk to another agent, right?
+
+[Surya Kunju (Faculty)] 13:13:37
+The reason I'm kind of sharing all of these things with you guys is…
+
+[Surya Kunju (Faculty)] 13:13:40
+for you to be aware of the trajectory and the progress.
+
+[Surya Kunju (Faculty)] 13:13:45
+that all of us as an industry have made.
+
+[Surya Kunju (Faculty)] 13:13:48
+Um, and, you know, and…
+
+[Surya Kunju (Faculty)] 13:13:51
+like, I… and I think you guys have taken the right decision to learn about this, but this is where we are right now, right?
+
+[Surya Kunju (Faculty)] 13:13:56
+So I'm gonna, like, take a quick pause here, and then we will get into
+
+[Surya Kunju (Faculty)] 13:14:00
+Um, you know, this bit here on Google Colab, just to do the exercise which we are supposed to do anyways. I want to take a quick pause here.
+
+[Surya Kunju (Faculty)] 13:14:07
+This made sense, I know it talked a lot, but did that history, like, did that, uh, you know, conversation made sense? Were you guys able to relate to it?
+
+[Surya Kunju (Faculty)] 13:14:17
+Okay, seeing some nods.
+
+[Dino Vitale .] 13:14:22
+I think… I think for regulate… for folks that work in regulated industries, like insurance and…
+
+[Dino Vitale .] 13:14:29
+financials and medical, I think there's more…
+
+[Dino Vitale .] 13:14:32
+probably, you know, subject to more.
+
+[Dino Vitale .] 13:14:35
+challenges, because the security aspect, the governance aspect, you know, you get hit with all these extra heavy stuff, and you know, and for our side, like, we just…
+
+[Dino Vitale .] 13:14:43
+We're just finally getting comfortable with red teaming RAG applications, coming up with policies, you know, understanding all the different threats of an LLM, and now, you know, now agents come in, and OWASP has its, you know, set of 20 new vulnerabilities, we have to think about how do we red team agentic applications, you know.
+
+[Dino Vitale .] 13:15:03
+So that's kind of like…
+
+[Dino Vitale .] 13:15:05
+What I'm seeing, at least in those… from the financial services, where some of the, you know, because it's not so much about the toolkits, you know, you got line graph, you got auto… you know, there's good tools, there's Linesmith, there's a lot of good observability platforms, you know.
+
+[Dino Vitale .] 13:15:20
+You know, but the governance piece starts becoming in, like, you know, like, how do you register? Do you have a registry? Where do you keep… what do you do from an asset management perspective? How many agents you got running in your whole company?
+
+[Dino Vitale .] 13:15:29
+Typical things that you would have, like, when you're managing APIs,
+
+[Dino Vitale .] 13:15:33
+Right, almost very similar. You sort of need to replicate a lot of the, you know, kind of ecosystem around managing, you know, you know, APIs and things like that. That's just an observation I'm seeing.
+
+[Surya Kunju (Faculty)] 13:15:46
+Yeah, no, I think that's a very, very valid observation. I think…
+
+[Surya Kunju (Faculty)] 13:15:52
+you know, the systems are evolving. I think I mentioned in the beginning that I talked about something called as, um,
+
+[Surya Kunju (Faculty)] 13:16:01
+skills, uh, you know, probably
+
+[Surya Kunju (Faculty)] 13:16:02
+you know, probably all of you are aware of, you know, what skills are,
+
+[Surya Kunju (Faculty)] 13:16:06
+But it's a new… it's a new kind of, um,
+
+[Surya Kunju (Faculty)] 13:16:10
+like, I would say protocol,
+
+[Surya Kunju (Faculty)] 13:16:12
+released by Anthropic, which basically allows agents to have skills, especially to solve situational problems like what you just discussed.
+
+[Surya Kunju (Faculty)] 13:16:23
+Um, so let me, um…
+
+[Surya Kunju (Faculty)] 13:16:26
+share this video with you guys here.
+
+[Surya Kunju (Faculty)] 13:16:28
+Um,
+
+[Surya Kunju (Faculty)] 13:16:31
+Sorry, just one second.
+
+[Surya Kunju (Faculty)] 13:16:33
+I think you just want to, like, get to…
+
+[Surya Kunju (Faculty)] 13:16:39
+Okay, to this part so that you can see, uh, what I'm talking about.
+
+[Surya Kunju (Faculty)] 13:16:43
+So, uh, and this is, like, an answer to, you know, your specific question.
+
+[Surya Kunju (Faculty)] 13:16:50
+Um, so I didn't lose you guys.
+
+[Surya Kunju (Faculty)] 13:16:52
+Okay, um, so here,
+
+[Surya Kunju (Faculty)] 13:16:56
+this is, like, don't worry about, you know, what this IDE and stuff like that is.
+
+[Surya Kunju (Faculty)] 13:17:01
+Um, the idea is, let's say that, you know, in this example, I had built, like, a machine learning, no-code machine learning,
+
+[Surya Kunju (Faculty)] 13:17:09
+Um, you know, skill.
+
+[Surya Kunju (Faculty)] 13:17:11
+So, specifically, like, Dino, the way you asked a question, right?
+
+[Surya Kunju (Faculty)] 13:17:15
+Um, if…
+
+[Surya Kunju (Faculty)] 13:17:18
+the best way to control this is to provide
+
+[Surya Kunju (Faculty)] 13:17:21
+very clear specification on
+
+[Surya Kunju (Faculty)] 13:17:23
+What are the things that an agent can do?
+
+[Surya Kunju (Faculty)] 13:17:27
+And skills is one of the coolest ways I feel now, you know, which allows you to do that.
+
+[Surya Kunju (Faculty)] 13:17:33
+In this case, um, let me just see here…
+
+[Surya Kunju (Faculty)] 13:17:36
+Like, this is, like, a…
+
+[Surya Kunju (Faculty)] 13:17:39
+this is where, you know, you are able to create the skills.md, and, you know, the cool thing about skills is this can be used across the board now, right?
+
+[Surya Kunju (Faculty)] 13:17:48
+It can be used with, you know, Claude, it can be used with
+
+[Surya Kunju (Faculty)] 13:17:51
+Uh, you know, a lot of different tools, so this is going to become… this is already an industry norm.
+
+[Surya Kunju (Faculty)] 13:17:56
+But you can actually, like, define, um, you know, what
+
+[Surya Kunju (Faculty)] 13:18:00
+your… how your agent should behave.
+
+[Surya Kunju (Faculty)] 13:18:03
+And then, like, there are more things here where, for example, like,
+
+[Surya Kunju (Faculty)] 13:18:06
+in this one, like, I created, like, an AutoML skill, which will automatically figure out
+
+[Surya Kunju (Faculty)] 13:18:12
+you know, based on the dataset that you will upload, you know, what algorithm to choose, where is the direction to go, etc. And it is able to provide that, right? So here, I've given, like, examples.
+
+[Surya Kunju (Faculty)] 13:18:23
+Um, and then I've, like, created a skill for it. So,
+
+[Surya Kunju (Faculty)] 13:18:26
+I think if you use this in combination with some of the open models out there, for example, Gemma is
+
+[Surya Kunju (Faculty)] 13:18:34
+is an open model. I'm sure you have heard of, you know, Llama is an example from Meta.
+
+[Surya Kunju (Faculty)] 13:18:39
+I think a combination of this plus, you know, skills, um, is going to actually, like, control what you just said a lot.
+
+[Surya Kunju (Faculty)] 13:18:48
+And then, obviously, there are things like model registration and all of those things, which we will touch upon as the course progresses.
+
+[Surya Kunju (Faculty)] 13:18:54
+Which can also help a lot in terms of
+
+[Surya Kunju (Faculty)] 13:18:57
+you know, observability and all of those things, you know, when it comes to models taking actions or agents taking actions on our behalf.
+
+[Surya Kunju (Faculty)] 13:19:04
+I'm gonna pause here, I don't know if this was me.
+
+[Surya Kunju (Faculty)] 13:19:07
+But, just wanted to share, like, a real example, uh,
+
+[Surya Kunju (Faculty)] 13:19:09
+Which was, like, very brand new.
+
+[Surya Kunju (Faculty)] 13:19:13
+Do you know?
+
+[Dino Vitale .] 13:19:17
+Yeah, that's interesting. If you could share any links on that. It's sort of, like, almost… is it… is it, like, analogous to…
+
+[Dino Vitale .] 13:19:22
+what you have is, like, spec-driven development for driving code, you know, for driving, you know, sort of, like, you know, all the code generation. Is it, like, something similar? It's almost like a… it looks like almost… almost like a policy-like enforcement.
+
+[Dino Vitale .] 13:19:36
+of providing a level of governance of how an agent should act, and I'm assuming, you know, you…
+
+[Dino Vitale .] 13:19:42
+like, drift monitoring and things like that, that would augment, you know, making sure that, you know, you're still monitoring the behavior, that you're not going off of what it's supposed to be doing.
+
+[Surya Kunju (Faculty)] 13:19:52
+Yeah, so… the way it is designed is to give…
+
+[Surya Kunju (Faculty)] 13:19:58
+agents, some additional capabilities where, you know, like, when you think of MCP and all of these, you know, tools, there is a lot of
+
+[Surya Kunju (Faculty)] 13:20:04
+You know, like, the agent gets…
+
+[Surya Kunju (Faculty)] 13:20:08
+like, loses context, because they just, you know, you can give, like, 50, 100 MCP, uh, you know, access, and it kind of loses context, so…
+
+[Surya Kunju (Faculty)] 13:20:15
+Originally, the skills was designed to do this, right?
+
+[Surya Kunju (Faculty)] 13:20:20
+To make sure that, you know, agents will have access to this automatically pretty quickly before even they go to MCP.
+
+[Surya Kunju (Faculty)] 13:20:25
+The way I'm looking at
+
+[Surya Kunju (Faculty)] 13:20:28
+The question that you asked me, Dino,
+
+[Surya Kunju (Faculty)] 13:20:30
+the way I'm looking at that question is… is where you can apply the skills
+
+[Surya Kunju (Faculty)] 13:20:35
+to solve for that… that particular problem as well, right? Like…
+
+[Surya Kunju (Faculty)] 13:20:39
+It is not originally designed to solve specifically that problem. Do you know what you asked?
+
+[Surya Kunju (Faculty)] 13:20:44
+But you could. That's what I'm trying to explain here.
+
+[Surya Kunju (Faculty)] 13:20:49
+So, just being a little bit creative.
+
+[Surya Kunju (Faculty)] 13:20:53
+Okay? Sanjeev, I see your hand is raised.
+
+[Surya Kunju (Faculty)] 13:21:07
+Okay, maybe it was raised by mistake.
+
+[Surya Kunju (Faculty)] 13:21:11
+Okay, so let's… let's get into this one, um, and then, you know, we'll… hopefully we'll have more time, because this should be pretty, pretty quick for you guys.
+
+[Surya Kunju (Faculty)] 13:21:18
+So, I'm assuming all of us have used Colab. Anybody who has not used Colab or not aware what Colab is?
+
+[Sanjiv Kumar .] 13:21:27
+Hi, can you hear me? Sorry.
+
+[Surya Kunju (Faculty)] 13:21:28
+Yep, Sandeep, now we can. Yes, go ahead, please.
+
+[Sanjiv Kumar .] 13:21:30
+Yeah, so I'm sorry, the… my… I got double muted. So, the question that was raised… actually, that's a very valid question in the enterprise. So,
+
+[Sanjiv Kumar .] 13:21:39
+The… you know, when you build in anything, right, any project, CapEx, OPEX, so that's question first, and how would you manage that asset?
+
+[Sanjiv Kumar .] 13:21:47
+How do you take it and then apply securities and the governance around it? So, for example,
+
+[Sanjiv Kumar .] 13:21:53
+We build a DSAR agent. So we had a person in the company that used to…
+
+[Sanjiv Kumar .] 13:22:00
+search data subject required. So, for example, any enterprise, collect personal information, right?
+
+[Sanjiv Kumar .] 13:22:04
+third-party information, developer information, and as a consumer, for GDPR or CCPA, you can tell them, hey, you delete my information.
+
+[Sanjiv Kumar .] 13:22:13
+Right? I don't want to keep… I don't want you to keep my information. So in that case…
+
+[Sanjiv Kumar .] 13:22:18
+The agent that we build was the entire… so when you send a request, so the agent has to search multiple systems, right?
+
+[Sanjiv Kumar .] 13:22:27
+And what happens if they found…
+
+[Sanjiv Kumar .] 13:22:30
+information, let's say, in your greenhouse, or in your success factor, right?
+
+[Sanjiv Kumar .] 13:22:34
+Can you delete it? And that's where the security come into aspect, to say, now the agent has to
+
+[Sanjiv Kumar .] 13:22:40
+take a data steward hat,
+
+[Sanjiv Kumar .] 13:22:42
+for, let's say, greenhouse system, right? Because he should be able to search, and that particular system only.
+
+[Sanjiv Kumar .] 13:22:50
+Once it's fine, then he has to decide, can I delete this information? So, another policy.
+
+[Sanjiv Kumar .] 13:22:56
+And then it goes to, let's say, Salesforce, a totally different system, so…
+
+[Sanjiv Kumar .] 13:23:00
+you cannot give this agent a universal…
+
+[Sanjiv Kumar .] 13:23:05
+access to all your systems, because, you know, if it's compromised, then you're doomed.
+
+[Sanjiv Kumar .] 13:23:09
+So, in that case, the security policy comes into play to say, now,
+
+[Sanjiv Kumar .] 13:23:13
+the agent has to own this…
+
+[Sanjiv Kumar .] 13:23:17
+Salesforce, um, access authorization and go search, and then if needed,
+
+[Sanjiv Kumar .] 13:23:21
+take an action to delete.
+
+[Sanjiv Kumar .] 13:23:23
+And so, I think there are, um… so at least what we solve is that we… we kept… we used crew.
+
+[Sanjiv Kumar .] 13:23:31
+Um, which give us, um, it's low-code, uh, framework rather than heavy code, so most of the things that we were…
+
+[Sanjiv Kumar .] 13:23:38
+Utilizing is basically prompts, again.
+
+[Sanjiv Kumar .] 13:23:41
+We were putting prompts, and then Paul…
+
+[Surya Kunju (Faculty)] 13:23:42
+Right.
+
+[Sanjiv Kumar .] 13:23:45
+files to say what system are you searching, and then keeping a track, um,
+
+[Sanjiv Kumar .] 13:23:49
+And then on the asset side, like, how do you manage? So, because we have to keep an eye on the cost,
+
+[Sanjiv Kumar .] 13:23:55
+So we had a dashboard on our…
+
+[Sanjiv Kumar .] 13:23:59
+GCP dashboard to say, you know, how much are we spending on these agents? Is it…
+
+[Sanjiv Kumar .] 13:24:04
+equivalent to… because sometimes it goes run away, right? I mean, I don't want my… it to keep, uh, keep in a loop and then keep querying.
+
+[Sanjiv Kumar .] 13:24:11
+And then, you know, these costs become expensive.
+
+[Sanjiv Kumar .] 13:24:15
+So, this is a very valid point, and when you start putting these use cases,
+
+[Sanjiv Kumar .] 13:24:21
+It's just not like, hey, I'm gonna build it here and just be happy with it. No, you?
+
+[Sanjiv Kumar .] 13:24:25
+You need to take it and then cost.
+
+[Sanjiv Kumar .] 13:24:29
+governance, like, what access can it has, security policies,
+
+[Sanjiv Kumar .] 13:24:33
+How do I depreciate this asset?
+
+[Sanjiv Kumar .] 13:24:36
+How long would it be? How would you version control it, given there's a change in GDPR now?
+
+[Sanjiv Kumar .] 13:24:42
+So, I thought that was a very valid question, and…
+
+[Sanjiv Kumar .] 13:24:45
+I wanted to provide my input here.
+
+[Surya Kunju (Faculty)] 13:24:47
+Yeah, no, that's… that's awesome. Thank you for doing that. Um, I mean, we'll… we'll get into more details, um,
+
+[Surya Kunju (Faculty)] 13:24:54
+like, you know, it's, like, I'm loving the conversation. By the way, because there's just so much information that I can share. For example, like, you know, on the Google side, there's Agent Development Kit, Agent Engine,
+
+[Surya Kunju (Faculty)] 13:25:07
+Which is precisely what Sanjeev is talking about, you know, could also do, right? Like, you can… you can, you know, monitor agents and, you know, do observability and stuff like that.
+
+[Surya Kunju (Faculty)] 13:25:15
+I think I'll keep it for later, um, and not go too much into it, like, in the first class.
+
+[Surya Kunju (Faculty)] 13:25:22
+But please keep the questions coming, uh, these are very, very good questions, and I'm…
+
+[Surya Kunju (Faculty)] 13:25:26
+Again, impressed with the level of questions, you know, you guys are asking on day one, so appreciate that.
+
+[Surya Kunju (Faculty)] 13:25:32
+But know that, uh, you know, a lot of these things can actually
+
+[Surya Kunju (Faculty)] 13:25:36
+actually be done. So, for example, like, yeah, sorry, let me control myself and not get into…
+
+[Surya Kunju (Faculty)] 13:25:41
+problem-solving mode immediately, but we'll definitely talk about things like agent development kit,
+
+[Surya Kunju (Faculty)] 13:25:46
+Um, you know, Agent Startup Pack, and some of the ways to manage, uh, and that's just, you know, one side, but we can also talk about, like, through AI and some of the other stuff where we can have some sort of observability, etc.
+
+[Surya Kunju (Faculty)] 13:25:57
+Okay? Um, Angela?
+
+[Angela Johnson .] 13:26:01
+I'll keep mine pretty quick, but I'll follow on with those other…
+
+[Angela Johnson .] 13:26:04
+It's that everything we do is in medical, so high accuracy required.
+
+[Angela Johnson .] 13:26:08
+But I find this running a lot of, uh, I'll say redundant agents, you know, having multiple agents to make a decision, an arbitrator agents
+
+[Angela Johnson .] 13:26:15
+to essentially execute with a much firmer loop.
+
+[Angela Johnson .] 13:26:18
+I'd be really curious how others, maybe in financial services or other areas, are solving these high-accuracy
+
+[Angela Johnson .] 13:26:25
+Um, issues, you know, and obviously we're using custom orchestration,
+
+[Angela Johnson .] 13:26:29
+And I'll say pretty highly customized observability on it, because you want to see, especially if multiple agents are reaching a decision.
+
+[Angela Johnson .] 13:26:35
+you know, what does consensus look like? You know,
+
+[Angela Johnson .] 13:26:37
+How many are getting it wrong, but I do find the redundancy gets to a very, very high degree of accuracy.
+
+[Angela Johnson .] 13:26:45
+Um, but obviously, you know, that makes it very expensive. So, curious how others in the industry are solving those kind of problems.
+
+[Surya Kunju (Faculty)] 13:26:52
+Yeah. Um, I think that's a really, really good question. Let's park on that, because that actually, like, also touches on model, like, evaluation, agent-type evaluation.
+
+[Surya Kunju (Faculty)] 13:27:04
+Um, I'll share something around, you know, stacks and some of the other things that, you know, I think will benefit.
+
+[Surya Kunju (Faculty)] 13:27:10
+Um, and we'll also touch upon, you know, on the observability side of the house, right?
+
+[Surya Kunju (Faculty)] 13:27:16
+But again, like, great, great question.
+
+[Surya Kunju (Faculty)] 13:27:18
+Um, you know, specifically around… around the medical community as well.
+
+[Surya Kunju (Faculty)] 13:27:23
+So appreciate that. Um, okay, so let's just, again, like, you know, do this pretty quickly, and then we'll have some more time to have more open discussions.
+
+[Surya Kunju (Faculty)] 13:27:32
+Um, I… I was just asking if everybody's familiar with Colab. Anybody who has not used it, um, I'm happy to kind of explain what it is, but if everybody's used it, then…
+
+[Surya Kunju (Faculty)] 13:27:41
+It's a moot point.
+
+[Surya Kunju (Faculty)] 13:27:46
+Okay, so I guess everybody has used it.
+
+[Rajesh babu Viswanadhapalli .] 13:27:48
+Uh, I haven't used it, I'm sorry, Surya. Yeah, I haven't started, actually, yeah.
+
+[Surya Kunju (Faculty)] 13:27:52
+Okay, yeah, no worries, uh, appreciate, appreciate it. So, um, I think…
+
+[Surya Kunju (Faculty)] 13:27:58
+probably just said, you know, just to recap for all of us, right? So when we want to…
+
+[Surya Kunju (Faculty)] 13:28:03
+execute, um, like, you know, Python code, you could have…
+
+[Surya Kunju (Faculty)] 13:28:08
+You could run it via any kind of an IDE, such as VS Core,
+
+[Surya Kunju (Faculty)] 13:28:12
+Um, you know, we obviously have a lot of Gen AI-enabled IDE, like cursor and stuff like that.
+
+[Surya Kunju (Faculty)] 13:28:16
+Um, what Colab allows you to do is to basically run Python directly, you know, on this particular… like, it's basically… it's a Jupyter notebook hosted on Google Cloud.
+
+[Surya Kunju (Faculty)] 13:28:28
+So it provides you all the compute resources and all of those things available, uh, you know, available for free, right? So that's what
+
+[Surya Kunju (Faculty)] 13:28:36
+Um, that's what, uh, OLAB is.
+
+[Surya Kunju (Faculty)] 13:28:39
+Um,
+
+[Surya Kunju (Faculty)] 13:28:44
+Yeah, Dino, I think it's a great point. Maybe, like, let's open up a document. I think it's a really good point.
+
+[Surya Kunju (Faculty)] 13:28:48
+Let me just, uh, create a document, and I'll share it with you guys here. It's a really good point, let's…
+
+[Surya Kunju (Faculty)] 13:28:55
+Um, because I think we'll…
+
+[Surya Kunju (Faculty)] 13:28:58
+you know, as the class progresses, right?
+
+[Surya Kunju (Faculty)] 13:29:01
+I think we'll lose track of the questions, so…
+
+[Surya Kunju (Faculty)] 13:29:05
+I'm creating a document, just give me one second, and I'm gonna share it with…
+
+[Surya Kunju (Faculty)] 13:29:12
+With you guys.
+
+[Surya Kunju (Faculty)] 13:29:18
+Okay, so this is a document for the moment. Obviously, I've not structured it or whatever, but, like, let's probably, like,
+
+[Surya Kunju (Faculty)] 13:29:24
+you know, use that to put whatever thoughts we have right now, and then I'll structure it later so that we can look at it later, okay?
+
+[Surya Kunju (Faculty)] 13:29:31
+Um, I think it's… yeah, I don't have control on that, do you know, on the transcribe?
+
+[Surya Kunju (Faculty)] 13:29:38
+So I'm not sure. I don't use Zoom, as you can imagine.
+
+[Surya Kunju (Faculty)] 13:29:42
+But, alright, um, so…
+
+[Surya Kunju (Faculty)] 13:29:46
+Coming back to Colab, you know, I think we understand what it is. The coolest thing about Poolab is it gives you an
+
+[Surya Kunju (Faculty)] 13:29:52
+access to different types of hardware.
+
+[Surya Kunju (Faculty)] 13:29:56
+So, for example, if you want to run, um, you know, your, uh, like, small language models,
+
+[Surya Kunju (Faculty)] 13:30:02
+You can actually, like, get access to… you can get access to, you know, like, TensorFlow GPUs and all of those things.
+
+[Surya Kunju (Faculty)] 13:30:08
+Which is… which is pretty cool, uh, and… and…
+
+[Surya Kunju (Faculty)] 13:30:11
+All of this is for free.
+
+[Surya Kunju (Faculty)] 13:30:14
+is another cool aspect of this. Now, obviously, like, you can go ahead and buy some freemium GPUs as well, but all of this, you know, Coolab is basically, you know, completely free, right? So…
+
+[Surya Kunju (Faculty)] 13:30:24
+So that's something which… which is the coolest part of this. And the way it is kind of structured is, you know, you will have… you can upload, like, your files directly,
+
+[Surya Kunju (Faculty)] 13:30:33
+Um, or you can directly point it to your, uh, you know, Google Drive, and that way your notebooks are stored, you know, as long as it is stored in
+
+[Surya Kunju (Faculty)] 13:30:44
+in your Google Drive as well.
+
+[Surya Kunju (Faculty)] 13:30:46
+Um, then they have a really nice way to kind of manage, you know, your keys and stuff like that, so you can
+
+[Surya Kunju (Faculty)] 13:30:51
+You can have, like, your secret keys, etc. here, so you can provide the specific notebook.
+
+[Surya Kunju (Faculty)] 13:30:57
+access, so that way, you know, for example, like, I have the subbing-faced open access if I have to download a model.
+
+[Surya Kunju (Faculty)] 13:31:02
+run something here on Google Colab.
+
+[Surya Kunju (Faculty)] 13:31:05
+Um, then I just give it access, you know, and then, like, that way, I don't have to do it multiple times. So those are some of the cool things that, uh, that Colab provides, right?
+
+[Surya Kunju (Faculty)] 13:31:14
+Um, and it's also very visual, as you can see, so it's easier. I mean, overall, Python is very visual, but, uh, you know, Popolab does a good job.
+
+[Surya Kunju (Faculty)] 13:31:21
+here as well, right? So those are some of the main, like, you know, key things that…
+
+[Surya Kunju (Faculty)] 13:31:24
+that we need to kind of understand. You don't need to create, like, a virtual environment and stuff like that if you were using VS Code or any other IDE.
+
+[Surya Kunju (Faculty)] 13:31:31
+We'd have to kind of do that, but here, you don't… you don't really have to, so it's kind of…
+
+[Surya Kunju (Faculty)] 13:31:35
+you're able to run the Python and, uh, like, the Jupyter notebook directly here.
+
+[Surya Kunju (Faculty)] 13:31:39
+Okay? Now…
+
+[Surya Kunju (Faculty)] 13:31:41
+Um, like, another cool addition is this, which is the Gemini…
+
+[Surya Kunju (Faculty)] 13:31:46
+Um, built in here.
+
+[Surya Kunju (Faculty)] 13:31:48
+I don't know if a lot of people are aware, but this could also be a full-blown data scientist.
+
+[Surya Kunju (Faculty)] 13:31:55
+So if you just, you know, add a, uh, you know, add, like, a file, so let's say that…
+
+[Surya Kunju (Faculty)] 13:32:03
+So, let's say that we add this here…
+
+[Surya Kunju (Faculty)] 13:32:27
+So, if people are not familiar, I just want to make sure, you know, you see this.
+
+[Surya Kunju (Faculty)] 13:32:32
+Um, because they have quietly released the data science agent as part of Colab, so it's like, you know, what you would see, hopefully, is… and I'm using the old model, but, um, you know, it will kind of create all the steps that a data scientist would create.
+
+[Surya Kunju (Faculty)] 13:32:47
+based on the dataset that it has got, and it will actually, like, execute each one of those steps. So, if you take any data science, you know, use case, any machine learning use case, you'll have… you'll have the input data, you'll have to break it into train and test,
+
+[Surya Kunju (Faculty)] 13:33:01
+And stuff like that, right? So, let me just show you what it is saying here.
+
+[Surya Kunju (Faculty)] 13:33:05
+Um, so, you know, like, these are the steps it's gonna…
+
+[Surya Kunju (Faculty)] 13:33:08
+load the data, uh, into Panda's data frame, then it'll perform the regression analysis. It will visualize it, provide insights, and final task, right?
+
+[Surya Kunju (Faculty)] 13:33:17
+So you can accept an auto-run.
+
+[Surya Kunju (Faculty)] 13:33:19
+And it's gonna do all of those things for you.
+
+[Surya Kunju (Faculty)] 13:33:23
+Right, so this is, like…
+
+[Surya Kunju (Faculty)] 13:33:25
+Um, again, I'm assuming a lot of you have seen this. Have you seen… have you played with the data science element of
+
+[Surya Kunju (Faculty)] 13:33:32
+collab… okay, thank God, like, this something which I'm adding to you guys today.
+
+[Surya Kunju (Faculty)] 13:33:38
+Like, any question I've asked, like, you guys have already mastered it, so…
+
+[Surya Kunju (Faculty)] 13:33:43
+All right, appreciate that. I'm just kidding. Um, so this is a cool feature which, you know, I was surprised to see.
+
+[Surya Kunju (Faculty)] 13:33:49
+Um, and it allows you to run everything kind of together.
+
+[Surya Kunju (Faculty)] 13:33:53
+Um, so we'll give it some time while it is doing that.
+
+[Surya Kunju (Faculty)] 13:33:57
+Um, you know, and till then, let's kind of go through the case study and stuff like that, right? So it's gonna… it's gonna do it on the side.
+
+[Surya Kunju (Faculty)] 13:34:03
+Now, the case studies is… or the use case is pretty straightforward here.
+
+[Surya Kunju (Faculty)] 13:34:10
+Basically, think of, like, a local fruit…
+
+[Surya Kunju (Faculty)] 13:34:12
+Um, who didn't have, like, a good sort of, like, billing process.
+
+[Surya Kunju (Faculty)] 13:34:17
+Um, or computerized sort of billing process. So imagine, you know, someone like this, you know, where
+
+[Surya Kunju (Faculty)] 13:34:25
+The e-commerce website or, like, the website doesn't have
+
+[Surya Kunju (Faculty)] 13:34:28
+Um, you know, like a shopping cart feature or add to cart feature, or add to checkout kind of a feature, right?
+
+[Surya Kunju (Faculty)] 13:34:33
+So this is… this is what needs to be done here. Um, so if you look at this particular workflow,
+
+[Surya Kunju (Faculty)] 13:34:41
+What needs to happen is, you know, as soon as an end consumer is on the website, they should show
+
+[Surya Kunju (Faculty)] 13:34:48
+like an existing card, which probably is going to be empty, then the user will have a choice to add an item,
+
+[Surya Kunju (Faculty)] 13:34:54
+from the inventory, so, you know, you need to have, like, different types of fruits, etc. I mean, obviously, it's a fruit seller, so, like, that… those will be the…
+
+[Surya Kunju (Faculty)] 13:35:01
+type of items that it will have.
+
+[Surya Kunju (Faculty)] 13:35:03
+And then the food item will have the price, so each, like, an apple will have, like, a price, mango will have a price, etc.
+
+[Surya Kunju (Faculty)] 13:35:09
+Um, and then, um, so the user can actually, like, add that item to the cart,
+
+[Surya Kunju (Faculty)] 13:35:14
+Um, they can continuously do the addition, and then it'll… they can, you know,
+
+[Surya Kunju (Faculty)] 13:35:19
+calculate the total price.
+
+[Surya Kunju (Faculty)] 13:35:21
+Or they can remove the item as well, um, and once they're done with that, then they can exit, right? So those are the four choices.
+
+[Surya Kunju (Faculty)] 13:35:27
+the user will have, like, add item, calculate total, remove item, and exit, so 1, 2, 3, and 9.
+
+[Surya Kunju (Faculty)] 13:35:33
+And then depending on the choice, right? So, like, if they choose add item, then it basically calls this particular function, which is going to
+
+[Surya Kunju (Faculty)] 13:35:41
+you don't add that particular product ID to the card.
+
+[Surya Kunju (Faculty)] 13:35:46
+functions based on the user's choice, right? It's kind of that straightforward. People who have been doing programming for a long time, you know, can…
+
+[Surya Kunju (Faculty)] 13:35:54
+understand that this is going to be pretty easy. But then…
+
+[Surya Kunju (Faculty)] 13:35:57
+the idea here is we are not thinking of coding.
+
+[Surya Kunju (Faculty)] 13:36:01
+We are thinking of prompting
+
+[Surya Kunju (Faculty)] 13:36:03
+which will generate the code.
+
+[Surya Kunju (Faculty)] 13:36:05
+Right? Like, that's the mindset that we need to kind of
+
+[Surya Kunju (Faculty)] 13:36:08
+I know you guys are, you know, pretty experienced, but…
+
+[Surya Kunju (Faculty)] 13:36:12
+This is prompt engineering to, you know, refresher, or prompt engineering for Python, so that's what we are.
+
+[Surya Kunju (Faculty)] 13:36:18
+We are going to use, right? So…
+
+[Surya Kunju (Faculty)] 13:36:20
+That is sort of the problem that we are trying to solve.
+
+[Surya Kunju (Faculty)] 13:36:23
+Um, so people should be able to add products, remove unwanted items, and then calculate the total bill.
+
+[Surya Kunju (Faculty)] 13:36:29
+Okay? Now, this is the, uh, so…
+
+[Surya Kunju (Faculty)] 13:36:31
+we have to create dummy data, because we don't have the data, et cetera, here.
+
+[Surya Kunju (Faculty)] 13:36:36
+Um, so in this case, we're gonna, you know,
+
+[Surya Kunju (Faculty)] 13:36:39
+Um, assign some sort of a dataset in the form of a list.
+
+[Surya Kunju (Faculty)] 13:36:43
+Um, and then it'll have tuples where, you know, that'll be fixed, but the list can increase or decrease, because you can
+
+[Surya Kunju (Faculty)] 13:36:49
+add more items to the inventory.
+
+[Surya Kunju (Faculty)] 13:36:52
+Um, and then these will be the different sort of functions, right? So you will have, like, an add-to,
+
+[Surya Kunju (Faculty)] 13:36:58
+add items to the cart function,
+
+[Surya Kunju (Faculty)] 13:36:59
+Um, then you'll have the removeItem function, the total cost function, which will calculate the total cost,
+
+[Surya Kunju (Faculty)] 13:37:06
+And then the display… display, you know, card function, and then obviously there'll be a main.py, which will kind of centralize all of these things, right? So you'll have…
+
+[Surya Kunju (Faculty)] 13:37:13
+And it'll call the functions accordingly. So… so that's really the…
+
+[Surya Kunju (Faculty)] 13:37:17
+use case. I'm hoping it's super clear that any questions on this?
+
+[Surya Kunju (Faculty)] 13:37:22
+what we're trying to really do?
+
+[Surya Kunju (Faculty)] 13:37:26
+I think, you know, people…
+
+[Surya Kunju (Faculty)] 13:37:29
+who are a little less familiar or, you know,
+
+[Surya Kunju (Faculty)] 13:37:32
+are trying to expand on Python.
+
+[Surya Kunju (Faculty)] 13:37:35
+I think a cool way to also, like,
+
+[Surya Kunju (Faculty)] 13:37:38
+understand Python is to know
+
+[Surya Kunju (Faculty)] 13:37:39
+what to focus, right? Python has got a ton of different libraries,
+
+[Surya Kunju (Faculty)] 13:37:44
+Um, so, like, depending on…
+
+[Surya Kunju (Faculty)] 13:37:47
+Like, if you are using Python for application development, then your focus will be more around, like, APIs and all those kind of management.
+
+[Surya Kunju (Faculty)] 13:37:53
+If your focus is building, like, machine learning, then it's, you know, there's a completely different side of Python, you know, you might use, like, scikit-learn,
+
+[Surya Kunju (Faculty)] 13:38:02
+and all of those kind of libraries a lot more.
+
+[Surya Kunju (Faculty)] 13:38:04
+But if you're… and if your focus is more around data engineering or data manipulation, then there are, like, different types of algorithms, you know, which you will be using.
+
+[Surya Kunju (Faculty)] 13:38:12
+I do have, um, a website that I had…
+
+[Surya Kunju (Faculty)] 13:38:16
+uh, opened here.
+
+[Surya Kunju (Faculty)] 13:38:17
+Just give me one second so that I can…
+
+[Surya Kunju (Faculty)] 13:38:19
+find it.
+
+[Surya Kunju (Faculty)] 13:38:22
+Which shows you, like, the different types of algorithms that we can… we can select.
+
+[Surya Kunju (Faculty)] 13:38:28
+So this is a good one which kind of summarizes, right? So this is, like, 31 different libraries from a data science perspective.
+
+[Surya Kunju (Faculty)] 13:38:34
+I have a lot of data science background, so this was very easy for me to relate to. So you can see, like, NumPy, Pandas, like,
+
+[Surya Kunju (Faculty)] 13:38:41
+Um, Panet is the one which is used a lot, like, data free.
+
+[Surya Kunju (Faculty)] 13:38:45
+One of the most common, uh, you know, famous, uh, uh, like, frameworks in order to load and manipulate the data and stuff like that.
+
+[Surya Kunju (Faculty)] 13:38:52
+Um, scikit-learn is my all-time favorite. You know, it has got
+
+[Surya Kunju (Faculty)] 13:38:57
+all the key, um, libraries and functions that you would need in order to run machine learning, right? And then we have Streamlit, which is more around the UI, so…
+
+[Surya Kunju (Faculty)] 13:39:06
+Uh, on UI, you have Streamlit,
+
+[Surya Kunju (Faculty)] 13:39:09
+Um, and then you also have, um…
+
+[Surya Kunju (Faculty)] 13:39:13
+Gradio, which are… which are the two…
+
+[Surya Kunju (Faculty)] 13:39:14
+you know, most commonly used ones. I'm sure you… again, you guys must be familiar with this.
+
+[Surya Kunju (Faculty)] 13:39:19
+Absolutely, you know, in order to display something,
+
+[Surya Kunju (Faculty)] 13:39:22
+Um, you know, rendered something which is UI-based, like Streamlane… Streamlit can be, like, imported as a library,
+
+[Surya Kunju (Faculty)] 13:39:30
+And then it just makes it pretty easy. Uh, in this case, we are using Gradio, so this is, um, this is Gradio.
+
+[Surya Kunju (Faculty)] 13:39:36
+Right, which is very similar to, um, you know, what Streamlit is. It is just a different implementation, and you would, again,
+
+[Surya Kunju (Faculty)] 13:39:43
+Um, you know, use, like, import,
+
+[Surya Kunju (Faculty)] 13:39:45
+install Gradio, and then you are able to use the Gradio kind of functions, uh,
+
+[Surya Kunju (Faculty)] 13:39:52
+and carts and stuff like that, right? So two…
+
+[Surya Kunju (Faculty)] 13:39:55
+Generally, like, these two are the ones which have been used quite in the industry for a long time.
+
+[Surya Kunju (Faculty)] 13:40:00
+Um, so… so… so I just wanted to share that as well, okay?
+
+[Surya Kunju (Faculty)] 13:40:04
+Um,
+
+[Surya Kunju (Faculty)] 13:40:08
+Okay. Um…
+
+[Surya Kunju (Faculty)] 13:40:10
+Any other… okay, so let's… let's kind of get into
+
+[Surya Kunju (Faculty)] 13:40:14
+the data, so this is the initial, like, data that we will, like, use, right? So we'll just initialize inventory, which becomes our list, and we'll have these tuples. We'll have Apple, which is the price, this is the…
+
+[Surya Kunju (Faculty)] 13:40:27
+the ID, uh, price, and… sorry, the name of the product and the price.
+
+[Surya Kunju (Faculty)] 13:40:32
+We're just giving it, like, 5 different products to begin with.
+
+[Surya Kunju (Faculty)] 13:40:34
+Um, and you can, you know, you can always, like, print
+
+[Surya Kunju (Faculty)] 13:40:38
+And inventory features do not give this, um, then it's just gonna print the overall inventory as such, right? So you can do that.
+
+[Surya Kunju (Faculty)] 13:40:44
+Um, and then the next one is, it just writes a quick function which displays it in a nice format, so that's the function here.
+
+[Surya Kunju (Faculty)] 13:40:54
+And people, I think, like, few of the folks were not familiar
+
+[Surya Kunju (Faculty)] 13:40:58
+Um, with, with CoLab,
+
+[Surya Kunju (Faculty)] 13:41:00
+once I press this play button, it is actually executing.
+
+[Surya Kunju (Faculty)] 13:41:03
+the runtime is directly connected here, so you can see that connected to Python 3, Google Compute Engine backend. So, whenever we're running, like, in Notebook on Colab,
+
+[Surya Kunju (Faculty)] 13:41:14
+Google allocates, you know, some sort of, like, hardware, I think that's up to 12GB.
+
+[Surya Kunju (Faculty)] 13:41:19
+Um, you know, virtual machine, basically, which is dedicated to what you're doing right now. So that's where…
+
+[Surya Kunju (Faculty)] 13:41:25
+the actual, you know, application is running and the implementation is happening, right?
+
+[Surya Kunju (Faculty)] 13:41:30
+That's why, you know, you're seeing the zero seconds command, etc., to run. Obviously, this is, like, a small one, so it happens very, very quickly.
+
+[Surya Kunju (Faculty)] 13:41:37
+Okay? So we… we gave some data, and then we, you know,
+
+[Surya Kunju (Faculty)] 13:41:43
+laying the data in a nice tabular format.
+
+[Surya Kunju (Faculty)] 13:41:45
+Um, and then we kind of start writing some of the functions. So we are initializing the cart, we kind of, you know, starting with
+
+[Surya Kunju (Faculty)] 13:41:52
+Uh, like, with a zero kind of cart, right?
+
+[Surya Kunju (Faculty)] 13:41:55
+And this is where we're starting with the first function, which is add item to the card. Just gonna move it here, this way.
+
+[Surya Kunju (Faculty)] 13:42:01
+neck pains. Um, so, yeah, we are writing one function which is addItem to the cart,
+
+[Surya Kunju (Faculty)] 13:42:07
+And in this function, we are giving it two, uh, you know,
+
+[Surya Kunju (Faculty)] 13:42:11
+arguments. One is item ID, and then inventory.
+
+[Surya Kunju (Faculty)] 13:42:15
+Because we already, like, you know, uh, like, the amount and which item, right? So, the amount of item that you want to add.
+
+[Surya Kunju (Faculty)] 13:42:21
+Um, and you… you're also giving, like, a try and accept, uh, like, try and catch kind of thing, right? Where…
+
+[Surya Kunju (Faculty)] 13:42:27
+the user should be… should be made aware of if things have worked or not worked, right? So, I'm just gonna run this.
+
+[Surya Kunju (Faculty)] 13:42:34
+Um, and then… and then move forward.
+
+[Surya Kunju (Faculty)] 13:42:36
+Um, so I think we initialized…
+
+[Surya Kunju (Faculty)] 13:42:42
+Okay. Now, um…
+
+[Surya Kunju (Faculty)] 13:42:45
+And then we're going to add a bunch of test cases here, um, just to… just to make sure that…
+
+[Surya Kunju (Faculty)] 13:42:51
+Uh, you know, if there are different scenarios that we can address, right? So these are the different test cases that we will add.
+
+[Surya Kunju (Faculty)] 13:42:57
+So you can see that test one is… you can see how it is adding here, right? Like, adding a valid item.
+
+[Surya Kunju (Faculty)] 13:43:03
+So if we are using one, which, like, which the ID is actually for apples, um, that is… that is being added.
+
+[Surya Kunju (Faculty)] 13:43:10
+you know, that is in the cart now.
+
+[Surya Kunju (Faculty)] 13:43:13
+So you can see, like, different test cases, and at any point in time, if it is beyond
+
+[Surya Kunju (Faculty)] 13:43:17
+Um, you know, the number of items that is there, uh, then it gives an error message as such, right? So here,
+
+[Surya Kunju (Faculty)] 13:43:23
+We have 5 items in the beginning, 1, 2, 3, 4, 5.
+
+[Surya Kunju (Faculty)] 13:43:27
+Obviously, we all know that any programming, you always start with zero as the index.
+
+[Surya Kunju (Faculty)] 13:43:33
+Um, so it's 0, 1, 2, 3, um, and that's where, you know, they're kind of doing a minus here, item ID minus 1, so that inventory
+
+[Surya Kunju (Faculty)] 13:43:40
+Like, if you put something as 5, then, you know, inventory will actually, like, look at this as 4, because this is 0,
+
+[Surya Kunju (Faculty)] 13:43:48
+1, 2, 3, 4, and that's… that's what is being displayed over here, right?
+
+[Surya Kunju (Faculty)] 13:43:52
+So, yeah, those will be the test cases that we will run, and similarly, we'll create a remove item function,
+
+[Surya Kunju (Faculty)] 13:44:00
+So, we're kind of creating, like, these individual…
+
+[Surya Kunju (Faculty)] 13:44:03
+and doing the same thing again, like, you know, try and kind of catch, and then test cases for the remove.
+
+[Surya Kunju (Faculty)] 13:44:09
+function as well, so similar things, right? Like, so once the user kind of runs this, then
+
+[Surya Kunju (Faculty)] 13:44:15
+They're, you know, these are different scenarios that will happen.
+
+[Surya Kunju (Faculty)] 13:44:19
+the item training has been removed, etc., etc., right? And if you…
+
+[Surya Kunju (Faculty)] 13:44:22
+something which is invalid, then you get
+
+[Surya Kunju (Faculty)] 13:44:25
+Uh, an error message, which is a more…
+
+[Surya Kunju (Faculty)] 13:44:27
+nicer way to kind of explain to the… to the end user of what the error is.
+
+[Surya Kunju (Faculty)] 13:44:32
+Okay? Um, now, similarly, the other function, total cost. So, we're kind of doing this, you know, for each function that we have discussed, right? So…
+
+[Surya Kunju (Faculty)] 13:44:40
+you know, adding card, removing items from the cart,
+
+[Surya Kunju (Faculty)] 13:44:43
+total, uh, you know, creating the total, uh, of the items that have been added to the cart, right?
+
+[Surya Kunju (Faculty)] 13:44:49
+Um, and then obviously, like, the test cases,
+
+[Surya Kunju (Faculty)] 13:44:51
+Um, you know, for the total… for doing the total acceptor, right? So those are some of the things that we will do.
+
+[Surya Kunju (Faculty)] 13:44:57
+And then this is, like, the display function for the final, um, cart to be displayed to the
+
+[Surya Kunju (Faculty)] 13:45:02
+to the end user, um, so you kind of do this as well. Now, all of these, you're also seeing the prompts that
+
+[Surya Kunju (Faculty)] 13:45:08
+Uh, that… that have been given. So, you can actually, like, ask, you know, ChatGPT or Gemini, whatever, if you're not, uh,
+
+[Surya Kunju (Faculty)] 13:45:16
+like a James, who can write this, uh, in his sleep, but you can actually, like,
+
+[Surya Kunju (Faculty)] 13:45:22
+use any of these large language models to create, you know, to create, like, these, all of these functions pretty quickly.
+
+[Surya Kunju (Faculty)] 13:45:28
+And that's sort of the idea in the…
+
+[Surya Kunju (Faculty)] 13:45:30
+In the future, right? Um, so again, like, this is for the display, so you do the… all the test cases here.
+
+[Surya Kunju (Faculty)] 13:45:36
+Um, and it will kind of display, this is… this is what is there in your cart, and this is the total price.
+
+[Surya Kunju (Faculty)] 13:45:41
+Um, to test these tools, it's your, you know, card is empty, and then test case 3 is your duplicate items, right?
+
+[Surya Kunju (Faculty)] 13:45:48
+So, of course, you can kind of design multiple test cases, and based on the scenarios, it will generate different kind of outputs, right?
+
+[Surya Kunju (Faculty)] 13:45:55
+So, once you have defined all of those functions, then you define, basically, the main method. So, you know, this could be the prompt that you could give,
+
+[Surya Kunju (Faculty)] 13:46:05
+write a Python program with a loop,
+
+[Surya Kunju (Faculty)] 13:46:08
+green card system, display the cart using… display cart function, and then from the user to
+
+[Surya Kunju (Faculty)] 13:46:12
+do one of the following, and then the prompt should be able to
+
+[Surya Kunju (Faculty)] 13:46:16
+the programs should be able to handle, you know, user input.
+
+[Surya Kunju (Faculty)] 13:46:19
+Um, and provide appropriate messages, and also handle invalid input with error messages, right? So…
+
+[Surya Kunju (Faculty)] 13:46:25
+if you were to give a prompt to a large language model, this is probably an example.
+
+[Surya Kunju (Faculty)] 13:46:31
+of what you would… what you would do, or what you would give.
+
+[Surya Kunju (Faculty)] 13:46:33
+And it would generate something like this, right? Which is…
+
+[Surya Kunju (Faculty)] 13:46:38
+Um, there's a while loop, because you continuously keep displaying the cart option
+
+[Surya Kunju (Faculty)] 13:46:44
+till the user types a 9,
+
+[Surya Kunju (Faculty)] 13:46:46
+So if we go back here, um, you know, as part of the original plan, right? So till…
+
+[Surya Kunju (Faculty)] 13:46:52
+He types in 9, he or she types a 9, it's not gonna exit, it's gonna keep going back and displaying
+
+[Surya Kunju (Faculty)] 13:46:57
+the cart so that they can keep handing, right? So that's the idea.
+
+[Surya Kunju (Faculty)] 13:47:00
+So, we are at the main function.
+
+[Surya Kunju (Faculty)] 13:47:03
+Um…
+
+[Surya Kunju (Faculty)] 13:47:08
+Which basically does that. So…
+
+[Surya Kunju (Faculty)] 13:47:11
+you know, the user's choice, um, choose an operation, these are the different options that you have. If user chooses one,
+
+[Surya Kunju (Faculty)] 13:47:18
+then do this, if you choose to do, then do this. If you chooses 3, then do this. I think you guys may be, you know, probably are already familiar of the if, elif, and else, uh, you know, option in Python.
+
+[Surya Kunju (Faculty)] 13:47:32
+So I'm not gonna go into that. Um, so once you've done all of this, you know,
+
+[Surya Kunju (Faculty)] 13:47:38
+this is within the CoLab, you can actually have
+
+[Surya Kunju (Faculty)] 13:47:42
+and interaction, so we can… we can run this now, right? So, this is the cart currently. You can see that this is running, so it's waiting for
+
+[Surya Kunju (Faculty)] 13:47:49
+use this action, so till I actually, like,
+
+[Surya Kunju (Faculty)] 13:47:52
+Uh, press 9. This is going to continue to run, right? So for the moment, I say that add, you know,
+
+[Surya Kunju (Faculty)] 13:47:59
+Um, Cherry again, so you'll see that now…
+
+[Surya Kunju (Faculty)] 13:48:01
+you know, Cherry has been added. Let's go back and look at…
+
+[Surya Kunju (Faculty)] 13:48:06
+the values here, so that we're clear on what we are adding.
+
+[Surya Kunju (Faculty)] 13:48:10
+Right? So, product ID 1 is apple, cherry, chiku, grapes, and mangoes. So, probably, I add 3 and 5.
+
+[Surya Kunju (Faculty)] 13:48:17
+Um, and see what happens, but this is… this is what you would do, right? So I'm going to add an item to the cart.
+
+[Surya Kunju (Faculty)] 13:48:24
+And then enter the choice, so…
+
+[Surya Kunju (Faculty)] 13:48:26
+I did that. Let's edit this, then I'm gonna again add an item to the cart.
+
+[Surya Kunju (Faculty)] 13:48:30
+Um, and then I add, like, 5, um, and then it has added, you know, mangoes as well.
+
+[Surya Kunju (Faculty)] 13:48:36
+You can see it's also calculating the price, etc., right? So that's what's happening in real time.
+
+[Surya Kunju (Faculty)] 13:48:41
+Um, similarly, I can do a remove, um, you know, same thing, so…
+
+[Surya Kunju (Faculty)] 13:48:46
+do this, so now, you know, like, enter product ID that you want to remove.
+
+[Surya Kunju (Faculty)] 13:48:50
+I'm gonna say 5, so it's gonna remove…
+
+[Surya Kunju (Faculty)] 13:48:52
+the mangoes which were there, right? So, and it automatically also calculates it.
+
+[Surya Kunju (Faculty)] 13:48:57
+So that's the main function that is running with the users' choice as well.
+
+[Surya Kunju (Faculty)] 13:49:01
+Now I'm gonna press 9, and then it exits, right? So it stopped, it stopped working, it ran for, like, one minute.
+
+[Surya Kunju (Faculty)] 13:49:07
+Um, and it gives the final output that this is, you know, this is what happened, uh, you know, as part of your,
+
+[Surya Kunju (Faculty)] 13:49:14
+As part of a program, right? So, what we just saw was running the Python code as, like, as
+
+[Surya Kunju (Faculty)] 13:49:20
+part of the life, like, as part of the notebook itself. You can obviously…
+
+[Surya Kunju (Faculty)] 13:49:24
+you know, use LaModel or your own, you know, programming skills to…
+
+[Surya Kunju (Faculty)] 13:49:28
+add more items, uh, sorry, add more functionalities. For example, you can add
+
+[Surya Kunju (Faculty)] 13:49:33
+Uh, like, applying, like, a discount if someone is ordering in bulk.
+
+[Surya Kunju (Faculty)] 13:49:37
+Uh, then you should, like, you know, apply, like, a 5% discount. So those are some of the things that you can try.
+
+[Surya Kunju (Faculty)] 13:49:42
+you know, yourself, right?
+
+[Surya Kunju (Faculty)] 13:49:45
+The next step, what they've done is they've actually, like, used, um…
+
+[Surya Kunju (Faculty)] 13:49:49
+uh, like, gradio, as an example here for a UI.
+
+[Surya Kunju (Faculty)] 13:49:52
+Um, you could have… they could have used Streamlit as well, but in this case, they've used Gradio.
+
+[Surya Kunju (Faculty)] 13:49:57
+So, the first thing here is to install Gradio, so, you know, this pip install, um, is…
+
+[Surya Kunju (Faculty)] 13:50:04
+is to be initiated. Once it is done,
+
+[Surya Kunju (Faculty)] 13:50:08
+then Gradio will be installed, and then you can import Gradio as a library.
+
+[Surya Kunju (Faculty)] 13:50:11
+And then GR.whatever becomes your graduous input, right? So,
+
+[Surya Kunju (Faculty)] 13:50:17
+This is where, if you go back to…
+
+[Surya Kunju (Faculty)] 13:50:20
+grad you here, um, you know, you will get a lot of…
+
+[Surya Kunju (Faculty)] 13:50:23
+a lot of, uh…
+
+[Surya Kunju (Faculty)] 13:50:26
+examples here, right? Like, a lot of different components that can be used. So these are all
+
+[Surya Kunju (Faculty)] 13:50:30
+you know, out of the box, like, part of the library, so you can see that, you know, the interface class,
+
+[Surya Kunju (Faculty)] 13:50:36
+Um, you know, like, different types of, uh, options which are… which are available here.
+
+[Surya Kunju (Faculty)] 13:50:40
+Uh, so the more, you know, you're aware of, you know, how Gradio functions, what are the different options, you can do it.
+
+[Surya Kunju (Faculty)] 13:50:46
+Or, as always, you know, you can use, um,
+
+[Surya Kunju (Faculty)] 13:50:49
+like, large language model to actually, like, just ask what is it that you need to create, and then it will… it will do it for you.
+
+[Surya Kunju (Faculty)] 13:50:57
+Okay? I lost my…
+
+[Surya Kunju (Faculty)] 13:51:04
+Sorry.
+
+[Surya Kunju (Faculty)] 13:51:09
+Just one second.
+
+[Surya Kunju (Faculty)] 13:51:12
+Okay, yeah, so back here. Um, so here, you know, if you can give an interface like this, create a graduate interface,
+
+[Surya Kunju (Faculty)] 13:51:19
+for the complete code of the above case study.
+
+[Surya Kunju (Faculty)] 13:51:22
+use to add items and stuff like that. And of course, you can make it, you know, much more better and stuff like that, right? So, I'm gonna run this.
+
+[Surya Kunju (Faculty)] 13:51:28
+Um, and this is going to…
+
+[Surya Kunju (Faculty)] 13:51:31
+basically create the Gradio interface, um, and…
+
+[Surya Kunju (Faculty)] 13:51:35
+This is… this is already running here, so you can see that it could be embedded
+
+[Surya Kunju (Faculty)] 13:51:40
+or I can kind of, you know, look at it outside here.
+
+[Surya Kunju (Faculty)] 13:51:43
+And I can do the same thing here now, but it's a… it's a better… better UI. It may not be like that, that good just yet.
+
+[Surya Kunju (Faculty)] 13:51:50
+But it's a much better rewired, like, you can have it run independently, right? As long as the program is running.
+
+[Surya Kunju (Faculty)] 13:51:56
+I have this, you know, URL, which is public,
+
+[Surya Kunju (Faculty)] 13:51:59
+Um, and I can share it with you guys as well, and probably, you know, you can try it, because it's running on Colab.
+
+[Surya Kunju (Faculty)] 13:52:04
+So, let's say that I enter 2, I'm gonna say add it to the cart.
+
+[Surya Kunju (Faculty)] 13:52:09
+And then, you know, here it kind of shows
+
+[Surya Kunju (Faculty)] 13:52:12
+There's no way to expand this here, and that sucks, but that's where you need to kind of work with
+
+[Surya Kunju (Faculty)] 13:52:18
+Uh, you know, your large language model to ask it, right? So you can continue to add
+
+[Surya Kunju (Faculty)] 13:52:24
+Um, and you will see that it is… it has added apples and cherries, and it has also changed this.
+
+[Surya Kunju (Faculty)] 13:52:30
+Um, you can remove this, so I'm just gonna remove something, and then you will see
+
+[Surya Kunju (Faculty)] 13:52:34
+Um, you know, some… like Cherries has got removed, right? So that's… that's… that is what is being…
+
+[Surya Kunju (Faculty)] 13:52:40
+what is running on… on Gradio.
+
+[Surya Kunju (Faculty)] 13:52:42
+So that's a quick, um, you know,
+
+[Surya Kunju (Faculty)] 13:52:46
+run down on the whole Colab notebook.
+
+[Surya Kunju (Faculty)] 13:52:51
+went through this pretty quickly, because you guys are very, very familiar with this, so I didn't want to bore you.
+
+[Surya Kunju (Faculty)] 13:52:56
+Um, you could develop something like this
+
+[Surya Kunju (Faculty)] 13:53:00
+you know, with… with, like, any of the whiteboarding tools.
+
+[Surya Kunju (Faculty)] 13:53:04
+As well, so, for example, uh…
+
+[Surya Kunju (Faculty)] 13:53:09
+I'll just run this with you in front of you.
+
+[Surya Kunju (Faculty)] 13:53:15
+So this is, uh, a Google AI studio.
+
+[Surya Kunju (Faculty)] 13:53:18
+So, um, probably you guys are familiar with this, you can use, like, anti-gravity or whatever.
+
+[Surya Kunju (Faculty)] 13:53:23
+So I'm just gonna ask the same thing, right? Like, create a Python application that uses sample synthetic data and solves the use case, and this one, I just directly copied
+
+[Surya Kunju (Faculty)] 13:53:34
+from the notebook. And I just click on Build,
+
+[Surya Kunju (Faculty)] 13:53:36
+And it's going to use the Gemini 3 model,
+
+[Surya Kunju (Faculty)] 13:53:39
+Um, and it's gonna build the application for us.
+
+[Surya Kunju (Faculty)] 13:53:42
+Um, I'm a big fan of AI Studio. One of the main things, one of the main reasons is because of
+
+[Surya Kunju (Faculty)] 13:53:48
+the contextual recommendation that it provides.
+
+[Surya Kunju (Faculty)] 13:53:51
+I, you know, so it automatically, like, it's giving you options that, hey, like, you can add this feature, that feature,
+
+[Surya Kunju (Faculty)] 13:53:56
+As part of your application, right, you can publish it to GitHub and stuff like that.
+
+[Surya Kunju (Faculty)] 13:54:00
+Um, so it continues to kind of give you different options while
+
+[Surya Kunju (Faculty)] 13:54:04
+while building that, right? And you can see that it's kind of generating the code.
+
+[Surya Kunju (Faculty)] 13:54:09
+And this is, again, not something which you guys will be unfamiliar,
+
+[Surya Kunju (Faculty)] 13:54:13
+Um, but… but, you know, I just…
+
+[Surya Kunju (Faculty)] 13:54:15
+I should share that this is how
+
+[Surya Kunju (Faculty)] 13:54:18
+Um, a completely non-coding background person could go ahead and build it.
+
+[Surya Kunju (Faculty)] 13:54:23
+Now, this is going to build, not in Python though, it is going to build in TypeScript.
+
+[Surya Kunju (Faculty)] 13:54:30
+Um, because in, uh, Chrome, you cannot execute Python directly.
+
+[Surya Kunju (Faculty)] 13:54:35
+Um, so that's where, you know, you require…
+
+[Surya Kunju (Faculty)] 13:54:37
+I mean, it would create something in TypeScript, right? So that's what it is trying to do here.
+
+[Surya Kunju (Faculty)] 13:54:42
+Okay? So, let's see what it comes back with. It's still generating the last bit.
+
+[Surya Kunju (Faculty)] 13:54:48
+And there you go. So, it has…
+
+[Surya Kunju (Faculty)] 13:54:51
+just done a decent job, and we can, like, ask… give it some prompts, etc.
+
+[Surya Kunju (Faculty)] 13:54:55
+And now if I add this, students doing this…
+
+[Surya Kunju (Faculty)] 13:54:59
+basically whatever we had asked for it to do, right? So you can…
+
+[Surya Kunju (Faculty)] 13:55:02
+You can see that it can remove, uh, you know, you can delete this, and it… so that was the application that we basically built there, but now…
+
+[Surya Kunju (Faculty)] 13:55:09
+We're going to build it pretty quickly over here, right?
+
+[Surya Kunju (Faculty)] 13:55:11
+Um, and then you can deploy it directly to
+
+[Surya Kunju (Faculty)] 13:55:14
+to your Cloud Run, or you can, you know, uh…
+
+[Surya Kunju (Faculty)] 13:55:17
+save it to GitHub, and then from there, you know, deploy it to whatever application
+
+[Surya Kunju (Faculty)] 13:55:22
+platform of your choice.
+
+[Surya Kunju (Faculty)] 13:55:24
+I'm gonna pause here.
+
+[Surya Kunju (Faculty)] 13:55:26
+Just to see if this… this made sense, the case study made sense, um, and then, like, this… what you just saw here, um, you understood.
+
+[Surya Kunju (Faculty)] 13:55:34
+like AI Studio as well.
+
+[Surya Kunju (Faculty)] 13:55:45
+Okay. The amount of words that came out of my mouth versus the amount of words that are coming from you do not match.
+
+[Surya Kunju (Faculty)] 13:55:52
+I'm just kidding.
+
+[Surya Kunju (Faculty)] 13:55:54
+But I would appreciate some thoughts or any… any… any questions, or…
+
+[Braulio Cabral .] 13:56:00
+I think this is pretty nice. The only thing that I'm not…
+
+[Braulio Cabral .] 13:56:06
+necessarily agreed with a comment you just made, was that
+
+[Braulio Cabral .] 13:56:11
+Uh, anybody without a programming experience can go ahead and…
+
+[Braulio Cabral .] 13:56:15
+create ideas, uh, using the tools, and…
+
+[Braulio Cabral .] 13:56:18
+That's partially true,
+
+[Braulio Cabral .] 13:56:21
+Where you will see the problem,
+
+[Braulio Cabral .] 13:56:24
+is… and it all depends on the complexity of the system you're building.
+
+[Braulio Cabral .] 13:56:28
+But where you will see the problem is when the…
+
+[Braulio Cabral .] 13:56:33
+agent or, you know, AI coder,
+
+[Braulio Cabral .] 13:56:36
+either make a mistake, or something doesn't work.
+
+[Braulio Cabral .] 13:56:40
+then you really have to… it helps a lot to have a programming background so you can better understand what is going on.
+
+[Surya Kunju (Faculty)] 13:56:47
+Yeah.
+
+[Braulio Cabral .] 13:56:47
+And, um, I've seen it a lot. Right now…
+
+[Braulio Cabral .] 13:56:51
+I have not had the opportunity to…
+
+[Braulio Cabral .] 13:56:54
+implement an agent, because…
+
+[Braulio Cabral .] 13:56:57
+the stuff that I've been doing, it's more on…
+
+[Braulio Cabral .] 13:57:01
+automation kind of thing that… this is not a, uh, you know, the need for the agents, but I want to get to that point.
+
+[Braulio Cabral .] 13:57:07
+But I use a lot of, uh, cursor, and I'm sure you guys are familiar with cursor as, um…
+
+[Braulio Cabral .] 13:57:12
+coding agent.
+
+[Braulio Cabral .] 13:57:14
+And it does great. I gave it access to my AWS environment, and it goes undeployed and do things like that.
+
+[Braulio Cabral .] 13:57:23
+But from time to time, I actually… you mentioned that.
+
+[Braulio Cabral .] 13:57:27
+It loses track, especially when you are interacting with it for a long…
+
+[Braulio Cabral .] 13:57:32
+time on the same chat.
+
+[Surya Kunju (Faculty)] 13:57:33
+Yeah.
+
+[Braulio Cabral .] 13:57:35
+it loses track, and it starts, like, at the beginning.
+
+[Braulio Cabral .] 13:57:39
+And then he tells me, oh, uh, this error is because you didn't do this on your code, and I'm here, like, wait a minute, but you're the one coding, not me. Why didn't you realize that?
+
+[Surya Kunju (Faculty)] 13:57:50
+Yeah.
+
+[Braulio Cabral .] 13:57:51
+And things like that. So, there are, you know, pros and cons that I think it helps a lot if you're a programmer.
+
+[Surya Kunju (Faculty)] 13:57:58
+Yeah.
+
+[Braulio Cabral .] 13:57:58
+A lot of things that you will not waste time, like, creating, um,
+
+[Braulio Cabral .] 13:58:04
+a front-end interface, and things that…
+
+[Braulio Cabral .] 13:58:06
+you saved a lot of time, but my goodness, it gives the developer with experience
+
+[Braulio Cabral .] 13:58:13
+An extremely…
+
+[Braulio Cabral .] 13:58:14
+powerful, uh, capabilities to what you do.
+
+[Surya Kunju (Faculty)] 13:58:17
+Yeah. No, I appreciate you… you saying that, and I totally accept what you said. I think my comment was,
+
+[Surya Kunju (Faculty)] 13:58:26
+more around building a simple UI like this pretty quickly. That's something, you know, which can be done by anybody.
+
+[Surya Kunju (Faculty)] 13:58:33
+And I have, like, made multiple videos on my channel on that, so you're welcome to see, like,
+
+[Surya Kunju (Faculty)] 13:58:38
+The moment I have to assign, like, um, a backend to this,
+
+[Surya Kunju (Faculty)] 13:58:42
+the moment I have to give, like, login and authorization, authentication, sign-in, registration,
+
+[Surya Kunju (Faculty)] 13:58:47
+adding payment system, like, that is a difficult task, and
+
+[Surya Kunju (Faculty)] 13:58:52
+That requires a lot of additional skills. You need to tie it back to the superbase, or some sort of, like, Firebase backend, etc.
+
+[Surya Kunju (Faculty)] 13:58:58
+then how do you kind of tie it together as well, right? So, like, it is not as straightforward as that, and even if you're able to manage to get all of that done, I, again, agree with your comment. It may not be
+
+[Surya Kunju (Faculty)] 13:59:11
+optimized, right? And that's where it helps a lot.
+
+[Surya Kunju (Faculty)] 13:59:15
+have some sort of a programming experience.
+
+[Surya Kunju (Faculty)] 13:59:17
+Um, but at the same point, right, I think…
+
+[Surya Kunju (Faculty)] 13:59:21
+I think we are also seeing a lot of
+
+[Surya Kunju (Faculty)] 13:59:24
+um, evolution when it comes to the coding agents themselves.
+
+[Surya Kunju (Faculty)] 13:59:28
+Um, when you look at Opus 4.5,
+
+[Surya Kunju (Faculty)] 13:59:30
+Um, you know, I think Gemini 3 Pro, some of these models, um, have really evolved.
+
+[Surya Kunju (Faculty)] 13:59:37
+Um, and then there are better ways to sort of, you know, optimize these models as well, right? So, like, for example,
+
+[Surya Kunju (Faculty)] 13:59:45
+Um, let me just open…
+
+[Surya Kunju (Faculty)] 13:59:46
+And this is not something which, um…
+
+[Surya Kunju (Faculty)] 13:59:49
+Which, you know, you guys may not be familiar with, so…
+
+[Surya Kunju (Faculty)] 13:59:53
+Just give me one second, um…
+
+[Surya Kunju (Faculty)] 14:00:00
+So this is, you know, Claude, and this is where you have, like, the capabilities, um, and you can, like, add, you know, a lot of these as skills, and I was talking about skills already, right? It automatically kind of, you know, captures
+
+[Surya Kunju (Faculty)] 14:00:13
+like, your memory and stuff like that.
+
+[Surya Kunju (Faculty)] 14:00:14
+I believe these are some of the ways via which
+
+[Surya Kunju (Faculty)] 14:00:18
+you know, you're gonna make your, um, your coding assistance or coding agents much more efficient, right?
+
+[Surya Kunju (Faculty)] 14:00:26
+Um, so I… I think if you could create a skill, like, so for example, like, this is my…
+
+[Surya Kunju (Faculty)] 14:00:32
+Um, this is my AI news researcher, right? So you can see, like,
+
+[Surya Kunju (Faculty)] 14:00:35
+you know, like, this is what I've given, like, I've given it, like, references, these are my sources, and all of these things, right? So I've kind of given this… this skill, like, like, this is how you should, you know, evolve and evaluate.
+
+[Surya Kunju (Faculty)] 14:00:47
+Um, because I like to show demos a lot in my videos, so, like, how would you do it, right? So, like, I've kind of given
+
+[Surya Kunju (Faculty)] 14:00:53
+it to automatically classify, you know, disqualify, etc., etc. So now, uh, like, I don't have to tell the system, like, 1,000 times the same thing.
+
+[Surya Kunju (Faculty)] 14:01:02
+Because I'm now using this as part of my development methodology as such, right?
+
+[Surya Kunju (Faculty)] 14:01:08
+So, this is not exactly what you're asking, but if you think about using
+
+[Surya Kunju (Faculty)] 14:01:14
+these kind of things when you're coding with your assistants,
+
+[Surya Kunju (Faculty)] 14:01:17
+it gives you superpowers, right? So, yeah, I mean, I do have a little bit of a, you know, programming experience, a background, which, as you can see.
+
+[Surya Kunju (Faculty)] 14:01:24
+Uh, so it definitely helps someone like me, versus, like, absolutely not knowing anything about programming,
+
+[Surya Kunju (Faculty)] 14:01:30
+Um, but you know what? Like, I think in the next 3 to 4 years, you know, things are gonna…
+
+[Surya Kunju (Faculty)] 14:01:35
+change, you know, more for the good, I believe.
+
+[Surya Kunju (Faculty)] 14:01:38
+Okay? Um, so I hope that helped. Behim, you have a question?
+
+[Bheem Singh .] 14:01:43
+So, no question, but some… some additions, what Cabrielle said.
+
+[Bheem Singh .] 14:01:48
+So, programming skills, right? So, I was implementing a few of the…
+
+[Bheem Singh .] 14:01:53
+tasks in the same… same notebook.
+
+[Bheem Singh .] 14:01:55
+shopping cart. So, like, getting buy one.
+
+[Bheem Singh .] 14:01:59
+get one free, some discounts.
+
+[Bheem Singh .] 14:02:02
+And, uh, like, updating the program to…
+
+[Bheem Singh .] 14:02:06
+add number of items right now, it is adding one item at a time, and…
+
+[Bheem Singh .] 14:02:09
+getting off. I don't… I don't want…
+
+[Bheem Singh .] 14:02:12
+Let's say I added 13, I want only 10, so…
+
+[Bheem Singh .] 14:02:14
+Removing 3 items. It takes a lot of time, believe me. So sometimes it…
+
+[Bheem Singh .] 14:02:21
+it messed up a lot of things, right?
+
+[Bheem Singh .] 14:02:23
+So, the data that we have, it doesn't have that stock concept, it is only inventory, not without a stock.
+
+[Bheem Singh .] 14:02:29
+So, adding that thing, it took a lot of… lot of my time, right? Testing this.
+
+[Bheem Singh .] 14:02:34
+Okay, you are asking… you clearly write what I'm looking for.
+
+[Bheem Singh .] 14:02:38
+it'd say, okay, I got it, it's generate this, and when you run this, it is not working as expected.
+
+[Bheem Singh .] 14:02:43
+Believe me, why won't get one? I put 3 different…
+
+[Bheem Singh .] 14:02:47
+very collaborative.
+
+[Bheem Singh .] 14:02:49
+prompt. What it does, why I want to get one on a certain thing, let's say it is saying,
+
+[Surya Kunju (Faculty)] 14:02:50
+Yeah.
+
+[Bheem Singh .] 14:02:55
+even numbers, right, on only this. Okay, you can…
+
+[Bheem Singh .] 14:02:58
+fixed that. Anything that is beyond that, you can get buy one, get one.
+
+[Bheem Singh .] 14:03:02
+the many you will not go. It… it's…
+
+[Bheem Singh .] 14:03:04
+get out, like, half of your items from the cart.
+
+[Bheem Singh .] 14:03:07
+This is how you implement, right? I mean, this is, like, developing this code,
+
+[Bheem Singh .] 14:03:12
+is maybe you think regenerating code,
+
+[Bheem Singh .] 14:03:15
+It is meaningful, it is doing what you are looking for,
+
+[Bheem Singh .] 14:03:18
+It is very tough. Like, developing become nuanced.
+
+[Bheem Singh .] 14:03:21
+Believe me. So this is… this is…
+
+[Surya Kunju (Faculty)] 14:03:22
+Yes. Yeah.
+
+[Bheem Singh .] 14:03:24
+Maybe it is helpful.
+
+[Bheem Singh .] 14:03:26
+without having any programming.
+
+[Bheem Singh .] 14:03:29
+background. Don't try this, believe me.
+
+[Surya Kunju (Faculty)] 14:03:32
+Yeah. No, I appreciate you sharing the, you know, experience, right? I think you said it while you were sharing it.
+
+[Surya Kunju (Faculty)] 14:03:39
+If you are super, super clear right from the get-go on
+
+[Surya Kunju (Faculty)] 14:03:44
+What are the exact functionalities that you want to add?
+
+[Surya Kunju (Faculty)] 14:03:47
+Um, then I think it does… it does a pretty good job, but I've heard this feedback multiple times that debugging
+
+[Surya Kunju (Faculty)] 14:03:54
+becomes a nightmare, and, you know, like, it kind of gets lost in the context loop itself.
+
+[Surya Kunju (Faculty)] 14:04:00
+Um, and that's where, unless and until you're using something like, you know, 4.5, like, max on Cloud Opus,
+
+[Surya Kunju (Faculty)] 14:04:06
+or some, like, you know, really powerful, advanced, uh, level models, which are very expensive, by the way, right?
+
+[Surya Kunju (Faculty)] 14:04:12
+Um, you don't get the same level of performance with
+
+[Surya Kunju (Faculty)] 14:04:15
+with your regular, you know, with your regular model. So I totally get it. Also, like,
+
+[Surya Kunju (Faculty)] 14:04:20
+Some of the models being, right, like, are not really optimized for writing code. So at GPT, I mean, is very, like, generic model, right?
+
+[Surya Kunju (Faculty)] 14:04:29
+that's where I think, like, some of the…
+
+[Surya Kunju (Faculty)] 14:04:31
+Anthropic models, like, really shine.
+
+[Surya Kunju (Faculty)] 14:04:34
+Um, you know, Claude and Sonnet, like, they… they have…
+
+[Surya Kunju (Faculty)] 14:04:38
+purposefully being designed to write code.
+
+[Surya Kunju (Faculty)] 14:04:41
+And those generally do a better job when it comes to coding. I'm sure you guys are aware of LLM Arena,
+
+[Surya Kunju (Faculty)] 14:04:47
+Um, you know, you can always check
+
+[Surya Kunju (Faculty)] 14:04:49
+which ones are the best ones, right, at the moment. So that's another thing which I would say.
+
+[Surya Kunju (Faculty)] 14:04:56
+Okay? Um…
+
+[Surya Kunju (Faculty)] 14:04:58
+see another question.
+
+[Dino Vitale .] 14:05:02
+Sudra, what are your thoughts, just on the topic?
+
+[Dino Vitale .] 14:05:05
+on, like, spec-driven development. It looks like it's another approach to help
+
+[Dino Vitale .] 14:05:10
+you know, kind of put a little bit…
+
+[Dino Vitale .] 14:05:12
+more structure, you know, around this whole, uh, you know, code generation. I haven't, you know, I know there's a couple of tools, you know, there's some toolings, and I just haven't got a chance to really
+
+[Dino Vitale .] 14:05:23
+play with it. I'm just wondering if anybody else has any experience using, uh, that. I think even GitHub has their, uh, like a, like a spec…
+
+[Dino Vitale .] 14:05:32
+has, like, a toolkit for that, I think cursor, too.
+
+[Surya Kunju (Faculty)] 14:05:37
+Yeah, so I think… I think…
+
+[Surya Kunju (Faculty)] 14:05:39
+If you could, before, you know, asking the agent,
+
+[Surya Kunju (Faculty)] 14:05:44
+to start writing the code.
+
+[Surya Kunju (Faculty)] 14:05:47
+ask the agent to come up with a clear plan.
+
+[Surya Kunju (Faculty)] 14:05:50
+Um, you know, with clear tasks. I think anti-gravity, I don't know if you guys have used it, um…
+
+[Surya Kunju (Faculty)] 14:05:55
+it does a really good job in not only creating the specs,
+
+[Surya Kunju (Faculty)] 14:06:00
+but also, like, the set of tasks
+
+[Surya Kunju (Faculty)] 14:06:02
+you know, with checkbox and stuff like that, like, on exactly, like, the steps that it's gonna follow in terms of the…
+
+[Surya Kunju (Faculty)] 14:06:07
+The number of tasks. I think that that is the next level of evolution. I think Claude also does a good job.
+
+[Surya Kunju (Faculty)] 14:06:13
+Um, and going back to what I was saying earlier to Bhim as well, right? Like, I usually…
+
+[Surya Kunju (Faculty)] 14:06:19
+trust this one, which is LM Arena.
+
+[Surya Kunju (Faculty)] 14:06:21
+And you can see, like, for web development, this… these are, you know, the top models right now.
+
+[Surya Kunju (Faculty)] 14:06:26
+Um, so you can see Claude, um, is right on the top, GPT-5.2 followed by Gemini, and all of these other
+
+[Surya Kunju (Faculty)] 14:06:33
+other models. Now, if you look at the overall, you know, for text, for vision and stuff like that, like, you would see
+
+[Surya Kunju (Faculty)] 14:06:41
+different models performing better, but for web development, you know,
+
+[Surya Kunju (Faculty)] 14:06:47
+Claude. Claude is definitely, definitely better. So as part of your…
+
+[Surya Kunju (Faculty)] 14:06:50
+system instruction, you know, like, even when you're interacting with, like, a normal model, you can ask it to give you
+
+[Surya Kunju (Faculty)] 14:06:58
+like, generate the spec first, like, the plan first,
+
+[Surya Kunju (Faculty)] 14:07:00
+provide you the list of the tasks.
+
+[Surya Kunju (Faculty)] 14:07:03
+Um, probably in the next class or something, I'll, like, do a demo of anti-gravity. If you guys have not used it.
+
+[Surya Kunju (Faculty)] 14:07:09
+Um, and you will see an action on how it kind of generates the specs plus tasks and everything together, like an implementation plan. Um, and I have the capability to actually, like, augment the implementation plan itself.
+
+[Surya Kunju (Faculty)] 14:07:20
+So that I don't end up, you know, in a situation like what Behim was talking about, that, hey, like, you don't even think of the scenario, right? So, I can augment the implementation plan right from the get-go,
+
+[Surya Kunju (Faculty)] 14:07:30
+And that way, you know, it is a much better plan to go with.
+
+[James Teeter .] 14:07:35
+I… I usually go… I get the plan from Cloud Code, or…
+
+[James Teeter .] 14:07:39
+from Cloud Code, and I will go back, I will spend hours
+
+[James Teeter .] 14:07:42
+actually revising the plan with other LLMs.
+
+[James Teeter .] 14:07:46
+So I could spend, like, 6 or 7 hours just devising the plan, and it's referencing my system documentation at the same time.
+
+[James Teeter .] 14:07:53
+Before I ever execute.
+
+[Surya Kunju (Faculty)] 14:07:54
+Yeah.
+
+[Angela Johnson .] 14:07:56
+I was about to say something very similar, James. I think we've gotten to that process, too, that…
+
+[Surya Kunju (Faculty)] 14:07:56
+Yeah.
+
+[Angela Johnson .] 14:08:00
+We used to have a lot of ticketing and plan information, you know, and more of a JIRA-like system.
+
+[Angela Johnson .] 14:08:04
+And we've, uh, built something custom that the agents can access, um, because we're asking Opus, basically, to do the high-level planning.
+
+[Angela Johnson .] 14:08:11
+you know, then run them through critical pieces, especially algorithms, like GPT-5's 2 Research Pro is amazing.
+
+[Angela Johnson .] 14:08:17
+If you're getting, like, actual algorithmic or technical problems, and then bounce it back to Opus.
+
+[James Teeter .] 14:08:20
+Mm-hmm.
+
+[Angela Johnson .] 14:08:22
+But I was gonna say, it's actually quite surprising. We were playing around with, uh, you know, some real small models, like Quin30B,
+
+[Angela Johnson .] 14:08:28
+Coder 3 punches way above its weight. Terrible at planning.
+
+[Angela Johnson .] 14:08:32
+But if you have OPAs, do these, uh, these big roadmaps.
+
+[Angela Johnson .] 14:08:35
+having a swarm of those 30B coders attack the problem is, you know, it's almost as good as Opus as at implementation.
+
+[Angela Johnson .] 14:08:42
+Now, solving a problem, you know, it's not graded.
+
+[Angela Johnson .] 14:08:45
+you know, log code that can go out and…
+
+[Angela Johnson .] 14:08:48
+debug something, but doing, like, a first-layer implementation.
+
+[Angela Johnson .] 14:08:51
+And that's practically, hey, practically free, because I can run a 30B model
+
+[Angela Johnson .] 14:08:55
+a couple of them locally to attack it.
+
+[Surya Kunju (Faculty)] 14:08:55
+Yeah.
+
+[Angela Johnson .] 14:08:57
+But it's, uh, it's interesting to me
+
+[Angela Johnson .] 14:09:00
+you know, and I'm curious what others are doing there with coding in particular, because I think one of the biggest takeaways we've shifted to in the last 6 months has been
+
+[Angela Johnson .] 14:09:07
+a little bit of counterintuitive, you know, we've had some…
+
+[Angela Johnson .] 14:09:11
+changes in how we ticket things to make them age and accessible, rather than in standalone systems like we've had in the past.
+
+[Angela Johnson .] 14:09:16
+And we've shifted the coding commentary dramatically, because A-B testing shows
+
+[Angela Johnson .] 14:09:22
+having them be pretty verbose, right? We went from, like, 15% comments up to nearly 40% because the agents are writing their own notes in the code base.
+
+[Angela Johnson .] 14:09:29
+But it changes things dramatically when the agentic coders are the primary ones implementing.
+
+[Angela Johnson .] 14:09:34
+But I'm curious what best practices you're saying, too, Surya, you know, out there.
+
+[Surya Kunju (Faculty)] 14:09:39
+Yeah.
+
+[James Teeter .] 14:09:39
+Yeah, one other thing I would say at the end of the code… when the coding is done,
+
+[James Teeter .] 14:09:44
+It will spend hours updating the code base,
+
+[James Teeter .] 14:09:47
+of the documentation of what was done.
+
+[James Teeter .] 14:09:50
+And then that's the source that I use for the next
+
+[James Teeter .] 14:09:54
+Sprint or whatever that I'm doing.
+
+[James Teeter .] 14:09:56
+Because the code is too big, it's, you know, it could be 11, 20 million lines of code.
+
+[James Teeter .] 14:10:02
+you have to be able to have a source of documentation that describes all those systems.
+
+[James Teeter .] 14:10:08
+And I think that's just the way to go.
+
+[James Teeter .] 14:10:12
+Anyway.
+
+[Surya Kunju (Faculty)] 14:10:12
+Yeah. No, I think that's… thank you for sharing that.
+
+[Surya Kunju (Faculty)] 14:10:17
+with regards to what you said, uh, Angela,
+
+[Surya Kunju (Faculty)] 14:10:21
+I… I feel that there are…
+
+[Surya Kunju (Faculty)] 14:10:24
+like, the way I have been using, um, you know, especially the kind of work that I do,
+
+[Surya Kunju (Faculty)] 14:10:30
+I always need access to…
+
+[Surya Kunju (Faculty)] 14:10:33
+like, the latest kind of information.
+
+[Surya Kunju (Faculty)] 14:10:36
+And that's where, you know, the limitations hit pretty quickly.
+
+[Surya Kunju (Faculty)] 14:10:39
+Because, like, for example, um…
+
+[Surya Kunju (Faculty)] 14:10:42
+you know, like, this whole skills thing, right? Like, uh, so I wanted to kind of create this.
+
+[Surya Kunju (Faculty)] 14:10:47
+But it needs access to the internet so that it can kind of, you know, read through some of the GitHub repository and stuff like that, and then help me kind of come up with
+
+[Surya Kunju (Faculty)] 14:10:55
+with, like, more optimized, uh, kind of code, and that's where the small models, which are local models, kind of struggle a little bit.
+
+[Surya Kunju (Faculty)] 14:11:04
+Unless and early, you know, creating something where you don't need the latest information.
+
+[Surya Kunju (Faculty)] 14:11:09
+then probably you're fine with that, but that's… that's where… that's what I've seen. Some of the other
+
+[Surya Kunju (Faculty)] 14:11:15
+things that I really like, um, like, there is, like, a deep search agent,
+
+[Surya Kunju (Faculty)] 14:11:20
+Um, you know, from Google, like, I think it's open source, which kind of heals itself.
+
+[Surya Kunju (Faculty)] 14:11:25
+Um, in a sense that it will, like, you know, go ahead and kind of recheck the code. It's, uh…
+
+[Surya Kunju (Faculty)] 14:11:31
+open source, I mean, let me just, um, share the link with you guys.
+
+[Surya Kunju (Faculty)] 14:11:36
+Um, so I would, you know, encourage you to look at it as well.
+
+[Surya Kunju (Faculty)] 14:11:41
+Um,
+
+[Surya Kunju (Faculty)] 14:11:42
+But that's, uh…
+
+[Surya Kunju (Faculty)] 14:11:45
+That's a tool one. And then we have, like, there's another one called Jules, uh, J, you know, which could be an interesting one as well.
+
+[Surya Kunju (Faculty)] 14:11:52
+for you to… for you to look at. So these are, like, all…
+
+[Surya Kunju (Faculty)] 14:11:55
+agentic frameworks and, like, which are more focused on
+
+[Surya Kunju (Faculty)] 14:11:59
+Ensuring that, you know, the code is correct.
+
+[Surya Kunju (Faculty)] 14:12:02
+Um,
+
+[Surya Kunju (Faculty)] 14:12:05
+So, within this, there is…
+
+[Angela Johnson .] 14:12:11
+Which is this one you're looking at.
+
+[Surya Kunju (Faculty)] 14:12:13
+So this is ADK, which is my go-to, like, this is like an agentic framework from Google. It's like, you know,
+
+[Surya Kunju (Faculty)] 14:12:19
+focused on code, um, so there's just, like, a ton of samples here.
+
+[Surya Kunju (Faculty)] 14:12:25
+Um, and you can see within the agents,
+
+[Surya Kunju (Faculty)] 14:12:29
+this is the deep search agent.
+
+[Surya Kunju (Faculty)] 14:12:31
+Um, which is the one which I was kind of talking about, right? So…
+
+[Surya Kunju (Faculty)] 14:12:36
+Um, so this, this will kind of go back, and this one is used, like, the example that they have shown is more around research.
+
+[Surya Kunju (Faculty)] 14:12:43
+But you could use this, like, iteratively,
+
+[Surya Kunju (Faculty)] 14:12:46
+you know, for, like, code development as well, right? So that it can, like, find the bugs and automatically, kind of,
+
+[Surya Kunju (Faculty)] 14:12:51
+you know, make sure that, uh, like, the code that is generating is bug-free. So that could be an interesting one as well. And I'm sure you've heard of
+
+[Surya Kunju (Faculty)] 14:13:00
+Jules. Um, so this one is… is a… is it…
+
+[Surya Kunju (Faculty)] 14:13:05
+on, um, you know, uh, which… which is more focused around, like, right, kind of,
+
+[Surya Kunju (Faculty)] 14:13:09
+you know, right quality of code beyond anything else, right? So these are some of the ones which I am
+
+[Surya Kunju (Faculty)] 14:13:15
+familiar with, um, and which I use, you know, quite regularly. So, hoping that this was helpful.
+
+[Surya Kunju (Faculty)] 14:13:22
+I'm going to share the links as well, just in case.
+
+[Angela Johnson .] 14:13:26
+I feel like I've been having a little too much fun with it. Been really into toolchaining and upgrading what my local agents can do since I started building custom swarms.
+
+[Surya Kunju (Faculty)] 14:13:35
+Awesome. Yeah. No, I mean, I think, like,
+
+[Surya Kunju (Faculty)] 14:13:39
+The batch here today, you know, I think I don't usually get, uh…
+
+[Surya Kunju (Faculty)] 14:13:44
+the batch at this level, so… which is… which is a breath of fresh air. But I think we can all kind of learn from each other, right? So…
+
+[Surya Kunju (Faculty)] 14:13:52
+Let me be, like, a little bit transparent here, right? So, I think…
+
+[Surya Kunju (Faculty)] 14:13:56
+The best value I can provide you
+
+[Surya Kunju (Faculty)] 14:13:59
+is more around…
+
+[Surya Kunju (Faculty)] 14:14:01
+the latest, sort of, like, agentic frameworks out there.
+
+[Surya Kunju (Faculty)] 14:14:05
+I don't think I'm gonna add any value to your coding…
+
+[Surya Kunju (Faculty)] 14:14:09
+If that is what you're looking from me, you should tell the program team now.
+
+[Surya Kunju (Faculty)] 14:14:13
+that this is not the guy.
+
+[Surya Kunju (Faculty)] 14:14:16
+But I think if you're looking for…
+
+[Surya Kunju (Faculty)] 14:14:19
+frameworks, the difference between frameworks, um, and, you know, what kind of…
+
+[Surya Kunju (Faculty)] 14:14:27
+things from a production perspective are happening in the industry on all of these kind of agent-based frameworks. For example, like, ADK is my go-to upgrade, like, you know, lots of different agents.
+
+[Surya Kunju (Faculty)] 14:14:37
+creating voice agents, creating RAC-based voice agents. Those are the things which I am, uh…
+
+[Surya Kunju (Faculty)] 14:14:42
+very comfortable with, and I'm just being very open with you guys.
+
+[Surya Kunju (Faculty)] 14:14:45
+Because I don't certainly want to…
+
+[James Teeter .] 14:14:45
+Mm-hmm.
+
+[Surya Kunju (Faculty)] 14:14:47
+not waste your time and my time.
+
+[Surya Kunju (Faculty)] 14:14:49
+Um, in teaching something which you guys already know, and I can totally see and feel from
+
+[Surya Kunju (Faculty)] 14:14:53
+your experience that you guys are pretty solid when it comes to, you know, hardcore programming, so…
+
+[Surya Kunju (Faculty)] 14:14:59
+just sharing it out there, okay?
+
+[Angela Johnson .] 14:15:01
+So I'm not sure what the other experiences are, but that's really helpful for me. I feel like me and my team have been tinkering with an awful lot of things, but having that baseline for
+
+[Angela Johnson .] 14:15:08
+what is industry standard right now? It's a…
+
+[Angela Johnson .] 14:15:11
+It feels like anyone's guess on my team. We built some cool things, and some production things, but…
+
+[Surya Kunju (Faculty)] 14:15:16
+Yeah.
+
+[Angela Johnson .] 14:15:16
+what is really the best practice? Seems like it's moving fast.
+
+[James Teeter .] 14:15:19
+Yeah, same here. Too busy, too busy.
+
+[Bheem Singh .] 14:15:21
+Yeah, but the phrases for Agent A, like me.
+
+[Bheem Singh .] 14:15:25
+So I think I would need, uh, more…
+
+[Bheem Singh .] 14:15:27
+more understanding how we
+
+[Bheem Singh .] 14:15:30
+Together, those agents working together, creating
+
+[Bheem Singh .] 14:15:34
+Uh, you know, the program they work, uh,
+
+[Bheem Singh .] 14:15:37
+for the requirements, like, high level,
+
+[Bheem Singh .] 14:15:39
+framework is not gonna help me, believe me, so I need to dig into how, basically, we can…
+
+[Bheem Singh .] 14:15:45
+we can create programs using multiple agents.
+
+[Bheem Singh .] 14:15:48
+That is needed for me. I'm here for that.
+
+[Surya Kunju (Faculty)] 14:15:52
+Yep, no worries. I'm happy to take the feedback back, um, but I think, you know, this is…
+
+[Surya Kunju (Faculty)] 14:15:59
+Um, this is…
+
+[Surya Kunju (Faculty)] 14:16:02
+in my understanding, we're not gonna…
+
+[Surya Kunju (Faculty)] 14:16:05
+run, like, a ring,
+
+[Surya Kunju (Faculty)] 14:16:07
+exercise in every class. It'll be more around…
+
+[Surya Kunju (Faculty)] 14:16:10
+How do you build RAG agents?
+
+[Surya Kunju (Faculty)] 14:16:12
+Um, you know, using a particular framework.
+
+[Surya Kunju (Faculty)] 14:16:14
+Um, you know, what are the different frameworks available?
+
+[Surya Kunju (Faculty)] 14:16:17
+Um, the assumption is you can use that language models to code, right? So I'm definitely not going to be…
+
+[Surya Kunju (Faculty)] 14:16:24
+write code with you. That's… that's definitely not the intention.
+
+[Surya Kunju (Faculty)] 14:16:28
+Um, so… so, Vim, I'm hoping…
+
+[Surya Kunju (Faculty)] 14:16:31
+we are on the same page there, okay? We'll obviously get into the details of, like, I'm not gonna just say that, hey, look at ADK and
+
+[Surya Kunju (Faculty)] 14:16:38
+just get out of there, but that's obviously not the case. We'll go much more into the details, but I don't think the expectation should be that we are gonna…
+
+[Surya Kunju (Faculty)] 14:16:46
+write the code together.
+
+[Surya Kunju (Faculty)] 14:16:53
+Okay? All right, um, any other, um…
+
+[Surya Kunju (Faculty)] 14:16:57
+discussion that we want to do for today.
+
+[Surya Kunju (Faculty)] 14:17:03
+We have a lot of interesting things I'm just kind of…
+
+[Surya Kunju (Faculty)] 14:17:06
+summarizing it in my head, but sorry, there was… someone was saying something.
+
+[Braulio Cabral .] 14:17:08
+Just a question, um…
+
+[Braulio Cabral .] 14:17:11
+is the expectation that, uh, you're going to be with us through the course, or is this, like, a, let's say next week we're gonna have somebody else, or how does it work?
+
+[Surya Kunju (Faculty)] 14:17:21
+It's… it could be both, um…
+
+[Surya Kunju (Faculty)] 14:17:24
+So, like, in some of my cohorts, I do the whole thing.
+
+[Surya Kunju (Faculty)] 14:17:28
+Um, and in some, you know, also depending on the schedule, like, sometimes, you know, I'm not available, etc.
+
+[Surya Kunju (Faculty)] 14:17:34
+And I've seen both, kind of,
+
+[Surya Kunju (Faculty)] 14:17:37
+different programs have different structures.
+
+[Surya Kunju (Faculty)] 14:17:38
+I don't know what specific this program has.
+
+[Surya Kunju (Faculty)] 14:17:41
+But it could be… it could be both.
+
+[Braulio Cabral .] 14:17:43
+Okay.
+
+[Surya Kunju (Faculty)] 14:17:45
+Yep. Okay, no worries.
+
+[Tridip Ray .] 14:17:51
+Hi, I had a question.
+
+[Surya Kunju (Faculty)] 14:17:54
+Hey
+
+[Tridip Ray .] 14:17:54
+Um, yeah, so…
+
+[Surya Kunju (Faculty)] 14:17:56
+Yes.
+
+[Tridip Ray .] 14:17:57
+Um, I've done a good amount of… of…
+
+[Tridip Ray .] 14:18:00
+programming, um…
+
+[Tridip Ray .] 14:18:02
+Use Python every day for the most part. Um, I use… I use coding agents as part of my workflow,
+
+[Tridip Ray .] 14:18:09
+I haven't built one myself.
+
+[Tridip Ray .] 14:18:11
+So, are there resources… what are the best, kind of, what's the best resource to kind of, like,
+
+[Tridip Ray .] 14:18:17
+kind of helped me kind of, like, on my own, kind of build my first agent and get, like, that
+
+[Tridip Ray .] 14:18:22
+that good kind of grounding, um…
+
+[Tridip Ray .] 14:18:24
+in terms of protocols and standards and whatnot.
+
+[Surya Kunju (Faculty)] 14:18:28
+Yeah, so, great question.
+
+[Surya Kunju (Faculty)] 14:18:32
+different level of abstractions,
+
+[Surya Kunju (Faculty)] 14:18:34
+depending on different level of abstraction, there are different frameworks, different tools available.
+
+[Surya Kunju (Faculty)] 14:18:40
+you know, if you want to go, like, completely no-code, then there are frameworks like
+
+[Surya Kunju (Faculty)] 14:18:45
+you know, NA10, um, you know, which helps you build agents pretty quickly. More around automation, but it has got that agent component as well.
+
+[Surya Kunju (Faculty)] 14:18:55
+Um, then, you know, I think LandGraph just came up with Langgraph Visual Studio, Visual kind of builder.
+
+[Surya Kunju (Faculty)] 14:19:01
+So… so at the topmost, like,
+
+[Surya Kunju (Faculty)] 14:19:05
+completely no-code level of abstraction. You have NATN, Make, Zapier, like, those three…
+
+[Surya Kunju (Faculty)] 14:19:10
+you know, you can make agents pretty quickly. If you want to build wise agents, then there's 11 labs.
+
+[Surya Kunju (Faculty)] 14:19:17
+then, you know, mid-tier kind of, you know, level of abstraction, right? So you have something like Crew AI and all of those kind of things, which will provide you
+
+[Surya Kunju (Faculty)] 14:19:26
+still some level of UI, like Crew.ai, screw AI Studio as well, you are able to build that.
+
+[Surya Kunju (Faculty)] 14:19:31
+And then lower level, uh, you know, which is more…
+
+[Surya Kunju (Faculty)] 14:19:35
+designed for multi-agent systems from the get-go and designed for production.
+
+[Surya Kunju (Faculty)] 14:19:40
+My, you know, most favorite one is Google Agent Development Kit.
+
+[Surya Kunju (Faculty)] 14:19:45
+You know, which also kind of…
+
+[Surya Kunju (Faculty)] 14:19:47
+gives you that whole CI-CD pipeline, and…
+
+[Surya Kunju (Faculty)] 14:19:50
+observability and all of those things, you know, like Terraform and all, like,
+
+[Surya Kunju (Faculty)] 14:19:54
+keeping everything in mind, and it's also, like, designed…
+
+[Surya Kunju (Faculty)] 14:19:57
+to be a multi-agent system from the get-go.
+
+[Surya Kunju (Faculty)] 14:20:00
+Um, it works with MCP, it works with UCP, it works with A2A,
+
+[Surya Kunju (Faculty)] 14:20:04
+Um, so from different protocol perspective, you know, you can look into that as well.
+
+[Surya Kunju (Faculty)] 14:20:09
+if… and, like, I already shared the GitHub repository throughput, so there's a lot of, like, sample agents,
+
+[Surya Kunju (Faculty)] 14:20:15
+Um, so you, you know, you should be able to spin up something pretty quickly. There's something called as Agent Starter Pack.
+
+[Surya Kunju (Faculty)] 14:20:20
+Within Google Agent Development Kit, which allows you to build
+
+[Surya Kunju (Faculty)] 14:20:23
+like, you know, deploy, like, an agent very, very quickly, and…
+
+[Surya Kunju (Faculty)] 14:20:27
+And it's all, like, Python-based, it's also Go-based as well, so depending on, you know, whichever programming language you're
+
+[Surya Kunju (Faculty)] 14:20:33
+you know, more comfortable with, you can create the agents there. So that is going to be the fastest way
+
+[Surya Kunju (Faculty)] 14:20:39
+for you to actually, like, deploy an agent in production, like, you know, like…
+
+[Surya Kunju (Faculty)] 14:20:43
+Google Cloud or any of the cloud, and then call the agent via an API.
+
+[Surya Kunju (Faculty)] 14:20:47
+Um, and point it to your own UI. Like, I think you should give it a go.
+
+[Tridip Ray .] 14:20:52
+Cool, thank you.
+
+[Surya Kunju (Faculty)] 14:20:53
+Yeah, no worries. Sandeep?
+
+[Sanjiv Kumar .] 14:20:56
+Yes, the City of my view is that most of the time, uh, most of the enterprise these days are, like, multi-cloud.
+
+[Sanjiv Kumar .] 14:21:04
+So, when we… does work here in this, um…
+
+[Sanjiv Kumar .] 14:21:08
+When we do build agents, would you be…
+
+[Sanjiv Kumar .] 14:21:13
+Um, showing us to deploy them in production, like in AWS or GCP, or…
+
+[Sanjiv Kumar .] 14:21:17
+it's, um… and then, is there a framework for deployment, like, you know…
+
+[Sanjiv Kumar .] 14:21:23
+Kubernetes or, you know, in the, um…
+
+[Sanjiv Kumar .] 14:21:26
+some kind of containers.
+
+[Sanjiv Kumar .] 14:21:29
+Is that covered in this program as well?
+
+[Surya Kunju (Faculty)] 14:21:31
+So I'm not 100% sure if it is covered in the program, Sanjeev, but I can definitely cover it as part of
+
+[Surya Kunju (Faculty)] 14:21:38
+the discussions. So, for example, uh, when you look at, you know, agent development kit, it's an open source. It's not tied to
+
+[Surya Kunju (Faculty)] 14:21:48
+Uh, I mean, it's obviously from Google, but it's open source, so you can deploy it to wherever you want.
+
+[Surya Kunju (Faculty)] 14:21:53
+Um, it also has, uh, you know, like, the… you talked about Kubernetes, so it has the Terraform,
+
+[Surya Kunju (Faculty)] 14:21:59
+component as well, which basically containerizes it, and you can, again, like, you know, use it as a workload containerized, and then deploy it to any of the cloud of your choice. So we can definitely talk about that. I don't know for sure if it is
+
+[Surya Kunju (Faculty)] 14:22:12
+course. Um, I think, like, a lot of the conversation that we are having, right, it's totally outside the discussion point for today.
+
+[Surya Kunju (Faculty)] 14:22:19
+If, you know, if I had to follow the discussion point, I was supposed to only run the notebook, and then say thank you, so…
+
+[Surya Kunju (Faculty)] 14:22:26
+But then, you know, it doesn't mean that we don't… we can't discuss it. So that's… that's what I would say, Senji.
+
+[Sanjiv Kumar .] 14:22:33
+Yeah, it'll be helpful if you…
+
+[Sanjiv Kumar .] 14:22:36
+I think, I don't know, at least I am interested in maybe others to see how do we take these and deploy
+
+[Sanjiv Kumar .] 14:22:42
+to at least one of the cloud providers. It could be anyone.
+
+[Surya Kunju (Faculty)] 14:22:46
+Yeah.
+
+[Surya Kunju (Faculty)] 14:22:48
+Yeah, absolutely. Um…
+
+[Surya Kunju (Faculty)] 14:22:51
+deploying at least the ADK agent I'm very familiar with, so I can help with that, for sure. We can, like, I can run a demo and show you how to deploy.
+
+[Surya Kunju (Faculty)] 14:22:59
+Um, you know, in various options within Google, as an example.
+
+[Surya Kunju (Faculty)] 14:23:04
+And then we can also probably, like, look at
+
+[Surya Kunju (Faculty)] 14:23:06
+one of the langchain ones and deploy it in different clouds, right? So that's fine. I mean, and you were asking the right questions, Anji, because just building an agent in a POC environment is not going to cut it.
+
+[Surya Kunju (Faculty)] 14:23:17
+you need to deploy it, and probably also, like,
+
+[Surya Kunju (Faculty)] 14:23:20
+pointed to a UI, uh, which you have built, right? So that would be an interesting one as well.
+
+[Dino Vitale .] 14:23:27
+Well, most… most of the framework that we will use during the program will be mostly based on
+
+[Dino Vitale .] 14:23:33
+line-chain in line graph, or there'll be a taste of different…
+
+[Dino Vitale .] 14:23:37
+Because it seems like the predominant one in the market, what I'm hearing,
+
+[Dino Vitale .] 14:23:42
+at least what we're pushing more internally, too, is, like, the line graph quite a bit. It seems like the most, you know, even though…
+
+[Dino Vitale .] 14:23:49
+been notorious for a lot of changes and instability, you know, I think, you know, that was… I'm not sure if that
+
+[Dino Vitale .] 14:23:55
+you know, calm down a little bit, but just curious, uh…
+
+[Surya Kunju (Faculty)] 14:24:00
+Yeah, so I think we'll use a combination, um…
+
+[Surya Kunju (Faculty)] 14:24:04
+I am very familiar deeply with the ADK side of the house.
+
+[Surya Kunju (Faculty)] 14:24:10
+So, I think I can mix and match a little bit, you know, so we'll use both.
+
+[Surya Kunju (Faculty)] 14:24:15
+Um, you know, langchain Plus ADK, so that you get a flavor of both sides.
+
+[Surya Kunju (Faculty)] 14:24:20
+Um, again, like, this doesn't restrict, uh, you know, you to use a specific
+
+[Surya Kunju (Faculty)] 14:24:27
+provider or a specific large language model, both, you know, are frameworks, right? So you can… you're welcome to use, uh, any.
+
+[Surya Kunju (Faculty)] 14:24:33
+I think the way they are designed is a little bit different, so it's a good idea to be familiar with both sides of the house.
+
+[Surya Kunju (Faculty)] 14:24:40
+That's at least what I would try to cover, you know.
+
+[Dino Vitale .] 14:24:42
+Yeah, yeah. Yeah, a lot of the design principles still… will always still apply, right? You know, in terms of…
+
+[Dino Vitale .] 14:24:48
+you know, the context engineering and memory management, you know, it's like just… you just got a different way of…
+
+[Surya Kunju (Faculty)] 14:24:49
+Yeah.
+
+[Dino Vitale .] 14:24:54
+implementing, you know, the implementation may be a little different.
+
+[Dino Vitale .] 14:24:58
+Because I'm thinking the other gentleman, I'm not sure if it was Sridip…
+
+[Dino Vitale .] 14:25:03
+like, I think also it also depends, like, if your predominant place of where you're going to be hosting all your apps, for example, is in GCP, or it's in…
+
+[Dino Vitale .] 14:25:13
+or it's in Azure, then you probably want to…
+
+[Dino Vitale .] 14:25:14
+think about looking at, like, their native
+
+[Surya Kunju (Faculty)] 14:25:17
+Yeah.
+
+[Dino Vitale .] 14:25:17
+tools, too. Like, you know, whether it's, you know, Google Studio, or if you're in Azure, you know, AI, you know, Foundry, and, you know, you gotta make the determination, you know, do I get a lot of value with the past service, and all the capabilities there? Because it can speed up development, deployment, you know, things at scale, versus, you know, building, you know, bringing in your own
+
+[Dino Vitale .] 14:25:40
+framework, and then just deploying it, like, natively on VMs, or on your… on the native Kubernetes, you know, solution.
+
+[Surya Kunju (Faculty)] 14:25:48
+Yeah, I think you're raising a good point, right? So, like, um…
+
+[Surya Kunju (Faculty)] 14:25:52
+So, for example, Google Cloud has Vertex AI Engine, where, you know, I think Sanjeev is familiar, you mentioned GCP a few times, so I'm assuming he's familiar.
+
+[Sanjiv Kumar .] 14:26:02
+Yep
+
+[Surya Kunju (Faculty)] 14:26:02
+So, like, you know, you would deploy, like, that is how you would use the native capabilities of cloud providers, similarly, AWS and Azure,
+
+[Surya Kunju (Faculty)] 14:26:10
+have their own, right? So if you were to…
+
+[Surya Kunju (Faculty)] 14:26:12
+really be contained in the… in that particular cloud vendor, then it's better to use the services available directly in the cloud
+
+[Surya Kunju (Faculty)] 14:26:20
+tenant, but if you were to be building it outside,
+
+[Surya Kunju (Faculty)] 14:26:24
+Um, then it's better to use, like, you know, frameworks like ADK and LangChain, etc., which then can be deployed, uh, you know, to wherever you want, right? So if it is cloud-native,
+
+[Surya Kunju (Faculty)] 14:26:35
+your entire data sits in a particular cloud, and it's more smarter to kind of use
+
+[Surya Kunju (Faculty)] 14:26:40
+the out-of-the-box, you know, native
+
+[Surya Kunju (Faculty)] 14:26:43
+capabilities. You know, you also save a lot of egress and ingress costs there, and, like, also security, etc. So it just makes sense.
+
+[Surya Kunju (Faculty)] 14:26:52
+And most of the cloud vendors also has, like, some sort of, like, an agent garden where you can use, like, any large language models, right? So, most of the cloud vendors have made it very easy now to use and select.
+
+[Surya Kunju (Faculty)] 14:27:02
+So, sense there.
+
+[Dino Vitale .] 14:27:05
+And I feel like on the other side, I feel more of a…
+
+[Dino Vitale .] 14:27:07
+provider, like, you're developing a solution for, you know, for mass consumption, you know,
+
+[Dino Vitale .] 14:27:12
+You probably may want to have a little bit of independence, but, you know, and still say, you know what, me, I'm providing a product, you know, as a, you know, to the market,
+
+[Dino Vitale .] 14:27:21
+My customers may want to use it in AWS, my customers may want to use it in GCP, you know, and then makes probably more sense to have a little bit more
+
+[Dino Vitale .] 14:27:29
+you know, independence and, you know, in being portable.
+
+[Surya Kunju (Faculty)] 14:27:35
+Agreed, yeah. Yeah, and, like, that's where, like, you know, a lot of the software companies that, uh,
+
+[Surya Kunju (Faculty)] 14:27:41
+You know, I also work with… that's…
+
+[Surya Kunju (Faculty)] 14:27:44
+the talk process there, right? So, how do you make it independent? So again,
+
+[Surya Kunju (Faculty)] 14:27:49
+Most of the frameworks, Dino will not restrict you to
+
+[Surya Kunju (Faculty)] 14:27:53
+only one particular, you know, vendor.
+
+[Surya Kunju (Faculty)] 14:27:57
+Um, that's… that's the whole idea of, you know,
+
+[Surya Kunju (Faculty)] 14:28:00
+having a framework, uh, open sourced.
+
+[Surya Kunju (Faculty)] 14:28:02
+Um, because it's, like, you know, you can go and choose, uh, which…
+
+[Surya Kunju (Faculty)] 14:28:07
+want to deploy, uh, like, use in terms of…
+
+[Surya Kunju (Faculty)] 14:28:10
+Um, the… not only just the large language model, but also
+
+[Surya Kunju (Faculty)] 14:28:13
+Um, you know, the language and stuff like that, right? So…
+
+[Surya Kunju (Faculty)] 14:28:17
+Um, but within Link, once you're inside the cloud, um, and you're using, like, the cloud-native services, then I'm assuming there's a reason why you're doing that.
+
+[Surya Kunju (Faculty)] 14:28:25
+Um, so… so that's… that's, like, we'll discuss more, but…
+
+[Surya Kunju (Faculty)] 14:28:30
+I'm definitely familiar with
+
+[Surya Kunju (Faculty)] 14:28:32
+companies who have built on a particular cloud vendor who are serving their end customers who are on multiple cloud vendors. So it's still, like, doesn't restrict
+
+[Surya Kunju (Faculty)] 14:28:41
+restrict that.
+
+[Surya Kunju (Faculty)] 14:28:44
+Okay?
+
+[Dino Vitale .] 14:28:46
+And sometimes what they do propose is also sometimes garbage, too. You know, like, you know, your kind of sucks you in, and, you know, and next thing you know, like, you know, you're sucked into whatever, Microsoft, you know, like, if you're going down the Microsoft Agent,
+
+[Dino Vitale .] 14:29:00
+SDK, you better buy into, you know, you're all in. Like, you know, you're all into…
+
+[Dino Vitale .] 14:29:05
+internal and auto-gen, like, you know, to back out of that, you know, is…
+
+[Dino Vitale .] 14:29:12
+You know, you get that sort of…
+
+[Dino Vitale .] 14:29:14
+you know, I won't call it sliminess, but, you know, they, you know, you kind of want to, you know, they kind of want to get you in, you know, and lock you in a little bit.
+
+[Surya Kunju (Faculty)] 14:29:22
+you know. Well, everybody wants to make money, so…
+
+[Surya Kunju (Faculty)] 14:29:28
+Um, but I think, uh, yeah, like, depending on the use case,
+
+[Surya Kunju (Faculty)] 14:29:32
+you gotta… you gotta decide on, you know, what kind of frameworks that…
+
+[Surya Kunju (Faculty)] 14:29:37
+one to choose. Uh, there are some questions in the chat, let me just, uh, okay, what was the tool website?
+
+[Surya Kunju (Faculty)] 14:29:44
+the records, LLM Arena, let me share that with you.
+
+[Surya Kunju (Faculty)] 14:29:51
+It's Ella Marina, uh, LM…
+
+[Surya Kunju (Faculty)] 14:29:53
+learning that AI.
+
+[Surya Kunju (Faculty)] 14:29:55
+That's the go-to, uh, for always
+
+[Surya Kunju (Faculty)] 14:29:58
+Knowing who is leading,
+
+[Surya Kunju (Faculty)] 14:30:00
+Um, in… in which one, right? So, probably…
+
+[Surya Kunju (Faculty)] 14:30:04
+Always a good idea to know… know that.
+
+[Surya Kunju (Faculty)] 14:30:11
+All right, um, any other questions?
+
+[Sanjiv Kumar .] 14:30:12
+Is there a website that…
+
+[Surya Kunju (Faculty)] 14:30:15
+Right?
+
+[Sanjiv Kumar .] 14:30:16
+There is a website that also tells, like, which is the more popular
+
+[Sanjiv Kumar .] 14:30:19
+agentic framework right now. I know that there was some I saw that crew was leading, and then…
+
+[Sanjiv Kumar .] 14:30:25
+photosen and LangGraph and…
+
+[Sanjiv Kumar .] 14:30:28
+Is there a board for that as well, that says, like, which one is more…
+
+[Surya Kunju (Faculty)] 14:30:29
+Yeah.
+
+[Surya Kunju (Faculty)] 14:30:34
+That's a good question. I actually am not familiar if there is a website to talk about agents.
+
+[Surya Kunju (Faculty)] 14:30:40
+Um, someone shared the Stanford one, that's interesting. I have not seen it, so I'm seeing it for the first time.
+
+[Surya Kunju (Faculty)] 14:30:45
+I'm not familiar, unfortunately.
+
+[Surya Kunju (Faculty)] 14:30:49
+But let me come back to you, uh…
+
+[Surya Kunju (Faculty)] 14:30:52
+you know, on this one, uh…
+
+[Surya Kunju (Faculty)] 14:30:55
+on the frameworks, because I think what I'm familiar with is, obviously, like, the LLM Arena, etc., but
+
+[Surya Kunju (Faculty)] 14:31:01
+Like, which one is a leading framework?
+
+[Surya Kunju (Faculty)] 14:31:05
+they are not familiar. I mean, one way to check…
+
+[Surya Kunju (Faculty)] 14:31:08
+Click on that would be to look at the GitHub repos, uh, like the…
+
+[Surya Kunju (Faculty)] 14:31:12
+you know, the forks and the number of stars, etc. Like, but, you know, that is a manual effort, so…
+
+[Surya Kunju (Faculty)] 14:31:18
+must be a way to figure this out, so I'll come back to you on that.
+
+[Surya Kunju (Faculty)] 14:31:27
+Okay. All right, folks, um…
+
+[Surya Kunju (Faculty)] 14:31:30
+Any other questions?
+
+[Surya Kunju (Faculty)] 14:31:36
+Okay. Alright, so happy to give you some time back. I hope this was a good use of your time on a Saturday.
+
+[Surya Kunju (Faculty)] 14:31:43
+Great to meet you guys. You know, I think we discussed a lot of different things, uh,
+
+[Surya Kunju (Faculty)] 14:31:48
+When you do different tangents, so…
+
+[Surya Kunju (Faculty)] 14:31:50
+I think, like, you know, watch the recording as well, if, you know, you might discover a few things that we talked very quickly.
+
+[Surya Kunju (Faculty)] 14:31:57
+Uh, which could be of interest. Um, so…
+
+[Surya Kunju (Faculty)] 14:31:59
+Um, thank you for your time, thank you for
+

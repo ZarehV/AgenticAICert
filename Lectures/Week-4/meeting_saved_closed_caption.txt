@@ -1,0 +1,5664 @@
+[Faculty (Olympus)] 12:36:12
+So, if I need to do anything on the PowerShell, probably I need the ChatGPT assistant.
+
+[Faculty (Olympus)] 12:36:19
+But that's the great thing, is I'm happy to hear that.
+
+[Faculty (Olympus)] 12:36:22
+Uh, yes, that would be a sell.
+
+[Faculty (Olympus)] 12:36:25
+100%, 100%. WSL, this is the beta talk. Also, I've worked with it.
+
+[Faculty (Olympus)] 12:36:31
+Uh, I'm… I'm a type of guy who likes to have fun, also be the technology. I have a server in home, I have a home lab running,
+
+[Faculty (Olympus)] 12:36:41
+cleavid stuff for myself as well, and uh…
+
+[Faculty (Olympus)] 12:36:44
+I'm not saying I'm a… my background
+
+[Faculty (Olympus)] 12:36:46
+is coming from math and data science, so I'm not a crazy…
+
+[Faculty (Olympus)] 12:36:51
+like a bash expert, or a Linux expert, or server maintainer.
+
+[Faculty (Olympus)] 12:36:55
+But we'll have some understanding, and I hope I can help you also in that regard.
+
+[Faculty (Olympus)] 12:37:00
+One more question is that my other class, obviously,
+
+[Faculty (Olympus)] 12:37:05
+this class is going to be much easier for me.
+
+[Faculty (Olympus)] 12:37:08
+My class, many of them are, uh…
+
+[Faculty (Olympus)] 12:37:11
+lack the Python experience,
+
+[Faculty (Olympus)] 12:37:13
+And also the Bash experience, uh, it's missing from that one, so I needed to spend…
+
+[Faculty (Olympus)] 12:37:19
+much more time with them in the last couple of weeks to set them up.
+
+[Faculty (Olympus)] 12:37:23
+to make them up and running.
+
+[Faculty (Olympus)] 12:37:25
+Uh, is there anyone that have any problem
+
+[Faculty (Olympus)] 12:37:29
+In terms of the setting up,
+
+[Faculty (Olympus)] 12:37:33
+their environment, maybe if you're running locally,
+
+[Faculty (Olympus)] 12:37:37
+or good access to the OpenAI API, or… or running things on the Google Call app,
+
+[Faculty (Olympus)] 12:37:43
+Is there any major…
+
+[Faculty (Olympus)] 12:37:46
+concern or issue from any of you that I can help.
+
+[Faculty (Olympus)] 12:37:50
+At the very beginning.
+
+[Faculty (Olympus)] 12:37:53
+Wow, I love this class, I'm…
+
+[Faculty (Olympus)] 12:37:56
+I have to say, I'm kind of surprised.
+
+[Faculty (Olympus)] 12:38:00
+Okay, by any chance, if any of you are…
+
+[Faculty (Olympus)] 12:38:03
+a little bit shy to say it. I can stay a little bit longer after the class.
+
+[Faculty (Olympus)] 12:38:09
+maybe for 15 minutes this time, but normally I stay for 30 minutes.
+
+[Faculty (Olympus)] 12:38:14
+Um, and if you have any question for setting it up,
+
+[Faculty (Olympus)] 12:38:19
+These are stuff sometimes… I mean, crazy stuff happens, especially when you're working with AI.
+
+[Faculty (Olympus)] 12:38:24
+If you have set up anything at the local, that's going to be more challenging also sometimes.
+
+[Faculty (Olympus)] 12:38:29
+So, again, if you have any questions and problems, let me know.
+
+[Faculty (Olympus)] 12:38:34
+I, uh, normally use the Via Scope.
+
+[Faculty (Olympus)] 12:38:38
+my ID, this is my favorite because of the, like, hands-on, everyone's, uh, been using it for a long time.
+
+[Faculty (Olympus)] 12:38:46
+And there's no paid version, so this is a big plus on my saw… on my side.
+
+[Faculty (Olympus)] 12:38:51
+And, uh, for that reason, I use the VS Code,
+
+[Faculty (Olympus)] 12:38:54
+If you have other preference, let me know.
+
+[Faculty (Olympus)] 12:38:57
+I'm going to share my screen, but normally I run everything both on the Google Call app,
+
+[Faculty (Olympus)] 12:39:03
+And also on the personal computer.
+
+[Faculty (Olympus)] 12:39:05
+The only thing that requires some heavy GPU, uh, I have a very good computer, a very good laptop, this is a gaming laptop, so it can handle some of this stuff, but still…
+
+[Faculty (Olympus)] 12:39:16
+run things if I need any GPU. Normally, I run it on Google Colab,
+
+[Faculty (Olympus)] 12:39:22
+If nothing else, most of the time I run it on the local, meaning that I run it on my VS Code. And if you have any question, as I said,
+
+[Faculty (Olympus)] 12:39:32
+Uh, for…
+
+[Faculty (Olympus)] 12:39:34
+How I'm setting up things, or how I'm running things on my side, just let me know.
+
+[Faculty (Olympus)] 12:39:39
+One more thing is that, uh, if you wanted to get
+
+[Faculty (Olympus)] 12:39:43
+feel free to add me… oh, okay. Over here, I have a… if you go to this, this is my personal portfolio page.
+
+[Faculty (Olympus)] 12:39:50
+I'm not very good at maintaining things to keep… to clean things updated, but uh…
+
+[Faculty (Olympus)] 12:39:55
+you can get all of my information
+
+[Faculty (Olympus)] 12:39:57
+Over here, my GitLab, my LinkedIn account, Google Scholar, everything is over here.
+
+[Faculty (Olympus)] 12:40:03
+If you wanted to follow me, if you, like, send me, like, a, uh…
+
+[Faculty (Olympus)] 12:40:08
+connection, link on LinkedIn, that would be nice to get connected.
+
+[Faculty (Olympus)] 12:40:12
+And feel free to ask me any question, both on any place, on LinkedIn, or the WhatsApp chat,
+
+[Faculty (Olympus)] 12:40:21
+group that we have, and any other places.
+
+[Faculty (Olympus)] 12:40:26
+Uh, the newzi, should he hop on?
+
+[Faculty (Olympus)] 12:40:30
+Okay, okay.
+
+[Faculty (Olympus)] 12:40:33
+And, uh, John, just a soft question. Can you hear me bill?
+
+[Faculty (Olympus)] 12:40:39
+Okay, okay, that sucks.
+
+[Faculty (Olympus)] 12:40:43
+Let me open the chat on the other side, and uh… since…
+
+[Faculty (Olympus)] 12:40:47
+The chat is on my right side, and I'm not seeing it right there. If you have any, uh…
+
+[Faculty (Olympus)] 12:40:53
+question, and you want me…
+
+[Faculty (Olympus)] 12:40:56
+Uh, to answer it right of A, just raise your hand, I'll see that on the screen.
+
+[Faculty (Olympus)] 12:41:01
+Amazing. Uh, today's discussion is going to be about Iraq.
+
+[Faculty (Olympus)] 12:41:06
+And how to access the documents
+
+[Faculty (Olympus)] 12:41:10
+On a Q&A. I made the analogy for, uh, for the other class.
+
+[Faculty (Olympus)] 12:41:15
+And during the semester, during the cohort, I will try to extend it.
+
+[Faculty (Olympus)] 12:41:21
+Uh, the same way, and this is the way that I explain things for my stakeholders. I have a few, few things.
+
+[Faculty (Olympus)] 12:41:28
+Up and running in production.
+
+[Faculty (Olympus)] 12:41:30
+for the different stakeholders, and many of them lacks the technical ability and understanding, especially when it comes to the AI.
+
+[Faculty (Olympus)] 12:41:37
+And this is the way that I explained to it.
+
+[Faculty (Olympus)] 12:41:40
+Suppose that the LLM
+
+[Faculty (Olympus)] 12:41:43
+the artificial intelligence is…
+
+[Faculty (Olympus)] 12:41:46
+is, uh, like a…
+
+[Faculty (Olympus)] 12:41:48
+high school sophomore.
+
+[Faculty (Olympus)] 12:41:50
+And you wanted to tell that student how to do things.
+
+[Faculty (Olympus)] 12:41:55
+If you can explain it to… to some, uh, someone at that level,
+
+[Faculty (Olympus)] 12:42:01
+probably you can get it done.
+
+[Faculty (Olympus)] 12:42:04
+using Della.
+
+[Faculty (Olympus)] 12:42:07
+How does it apply in terms of the rack?
+
+[Faculty (Olympus)] 12:42:09
+Suppose that, uh, you have someone,
+
+[Faculty (Olympus)] 12:42:14
+And that student, you wanted to tell him…
+
+[Faculty (Olympus)] 12:42:18
+that you hand over a very big handbook.
+
+[Faculty (Olympus)] 12:42:21
+And you want to say, if anything happens,
+
+[Faculty (Olympus)] 12:42:25
+If somebody asks you a question, you can open this 1,000-page handbook,
+
+[Faculty (Olympus)] 12:42:31
+And you can find the things that you…
+
+[Faculty (Olympus)] 12:42:34
+who are supposed to, and based on that, you can answer the question.
+
+[Faculty (Olympus)] 12:42:39
+This is the way that we provide context.
+
+[Faculty (Olympus)] 12:42:42
+And that context, sometimes you can train a model
+
+[Faculty (Olympus)] 12:42:46
+You can train a model, you can fine-tune a model,
+
+[Faculty (Olympus)] 12:42:50
+to teach him to teach that student that context, the whole context.
+
+[Faculty (Olympus)] 12:42:55
+But similar to a normal student, sometimes they forget, or they start to do hallucination, and I'm very familiar with that.
+
+[Faculty (Olympus)] 12:43:03
+Let's see. All right.
+
+[Faculty (Olympus)] 12:43:06
+But sometimes you can say this is an open book type of exam, and I wanted to ask you a question.
+
+[Faculty (Olympus)] 12:43:11
+you need to know how to find things
+
+[Faculty (Olympus)] 12:43:14
+in that handbook. Is that clear?
+
+[Faculty (Olympus)] 12:43:18
+Okay, the problem is that…
+
+[Faculty (Olympus)] 12:43:21
+The handbook is… sometimes is too big, or too time-consuming to, uh…
+
+[Faculty (Olympus)] 12:43:27
+to, like, parse it, the whole thousand page all at once. So we have to have…
+
+[Faculty (Olympus)] 12:43:33
+a way to find the specific place.
+
+[Faculty (Olympus)] 12:43:37
+that that query, that question, is being answered.
+
+[Faculty (Olympus)] 12:43:40
+And then we can… we can add that.
+
+[Faculty (Olympus)] 12:43:44
+Towards this one,
+
+[Faculty (Olympus)] 12:43:46
+Uh, there are so many different use cases.
+
+[Faculty (Olympus)] 12:43:51
+that, uh… that we have within the industry.
+
+[Faculty (Olympus)] 12:43:54
+I've been exposed to many of them myself, and I can explain it later on.
+
+[Faculty (Olympus)] 12:43:58
+But over here, suppose that there is a, like, there's a, like, a venture firm, capital firm,
+
+[Faculty (Olympus)] 12:44:07
+And they wanted to analyze reports by the Harvard Business Review how Apple is organized for innovation.
+
+[Faculty (Olympus)] 12:44:16
+But going through the report manually can, uh…
+
+[Faculty (Olympus)] 12:44:21
+can be time-consuming. And since the size is big. So this is not that big, but this is just an example. This is the 11-page things.
+
+[Faculty (Olympus)] 12:44:28
+And we wanted to, uh…
+
+[Faculty (Olympus)] 12:44:31
+So, for that thing, we wanted to use the semantic search and the retrial augmentation, ritual augmented degeneration RAG.
+
+[Faculty (Olympus)] 12:44:39
+to enhance the process and to get the answer from that one.
+
+[Faculty (Olympus)] 12:44:46
+And this one, this…
+
+[Faculty (Olympus)] 12:44:48
+this problem that they explain can be…
+
+[Faculty (Olympus)] 12:44:52
+scale up to anything else.
+
+[Faculty (Olympus)] 12:44:54
+First of all, suppose that instance, as I already mentioned, suppose that instead of the, like, 11 pages that we have on this example.
+
+[Faculty (Olympus)] 12:45:02
+If you're going to review later on?
+
+[Faculty (Olympus)] 12:45:05
+Excuse me. Suppose that you have a thousand, or…
+
+[Faculty (Olympus)] 12:45:10
+100,000 pages of the documents.
+
+[Faculty (Olympus)] 12:45:12
+Suppose that you have pictures, diagrams,
+
+[Faculty (Olympus)] 12:45:15
+You have, uh, multimedia, you have video, we have everything, and you want to find the right things at the very right time.
+
+[Faculty (Olympus)] 12:45:24
+So, we have to be able to, uh, like, scale it up, and the rack is
+
+[Faculty (Olympus)] 12:45:32
+Definitely one of the ways that we can scale up.
+
+[Faculty (Olympus)] 12:45:35
+and provide the proper context to something.
+
+[Faculty (Olympus)] 12:45:40
+The… the other thing is that it's enhancing the competitive analysis, so…
+
+[Faculty (Olympus)] 12:45:47
+uh… scale up our can…
+
+[Faculty (Olympus)] 12:45:48
+team up, suppose that, uh…
+
+[Faculty (Olympus)] 12:45:52
+it gives an edge.
+
+[Faculty (Olympus)] 12:45:54
+to someone with that context, with that capability,
+
+[Faculty (Olympus)] 12:45:58
+for understanding thousands of the pages and provide, like, a…
+
+[Faculty (Olympus)] 12:46:02
+software decision, uh, for… for the question of proper answer for the question.
+
+[Faculty (Olympus)] 12:46:08
+The other thing is that you can automate the compliance and legal document review. This is very popular these days.
+
+[Faculty (Olympus)] 12:46:15
+Um, I've seen it, I've taught with the stakeholders in that venture… in that industry, and many of them are pretty much interested
+
+[Faculty (Olympus)] 12:46:24
+in, uh, finding that and applying that in that sense. Also, personal customer support. This is something I did a few, uh, benchmarks for a few different firms on my side.
+
+[Faculty (Olympus)] 12:46:38
+Doing it, for example, if you're a doctor.
+
+[Faculty (Olympus)] 12:46:42
+to hold for the triage, or even if you… if you don't want to go deep dive on the, like, healthcare side, um, only on the, like, personal side.
+
+[Faculty (Olympus)] 12:46:53
+you wanted to win…
+
+[Faculty (Olympus)] 12:46:56
+customer told the, like,
+
+[Faculty (Olympus)] 12:46:59
+stop by you like a doctor.
+
+[Faculty (Olympus)] 12:47:01
+And they wanted to have an understanding about
+
+[Faculty (Olympus)] 12:47:03
+what is the benefit? What is the… how is the insurance is covering everything?
+
+[Faculty (Olympus)] 12:47:09
+Uh, what is the past history of that, uh, of that person? What is the family history of this one? And there are so many legal
+
+[Faculty (Olympus)] 12:47:17
+And also healthcare-related, uh…
+
+[Faculty (Olympus)] 12:47:21
+question that can be answered based on that person.
+
+[Faculty (Olympus)] 12:47:24
+based on that person, and only…
+
+[Faculty (Olympus)] 12:47:28
+uh, related, uh, problem… related answer can be…
+
+[Faculty (Olympus)] 12:47:34
+provided for, for the decision-making.
+
+[Faculty (Olympus)] 12:47:36
+I myself applied in a different cases also. I applied it for the, as I mentioned,
+
+[Faculty (Olympus)] 12:47:43
+Uh, I applied it in a dentistry,
+
+[Faculty (Olympus)] 12:47:45
+Again, for the case of, uh, um, for the case of, uh,
+
+[Faculty (Olympus)] 12:47:52
+Uh, the insurance parsing,
+
+[Faculty (Olympus)] 12:47:56
+We applied it for the, uh…
+
+[Faculty (Olympus)] 12:47:59
+for the, uh…
+
+[Faculty (Olympus)] 12:48:02
+Oh my goodness, uh, I have it up and running.
+
+[Faculty (Olympus)] 12:48:06
+For a pharmacy, it's called Rxflow.
+
+[Faculty (Olympus)] 12:48:09
+Uh, for the pharmacy to define
+
+[Faculty (Olympus)] 12:48:12
+Uh, what is the legal things we connected with different, uh, truthful sources, and we were able to, like,
+
+[Faculty (Olympus)] 12:48:19
+get the idea about the different drug. If that drug requires, uh…
+
+[Faculty (Olympus)] 12:48:25
+requires, uh, like, uh, doctor approval, orphacy approval,
+
+[Faculty (Olympus)] 12:48:30
+how many… what is the history, if there is a conflict between the drugs, and so many more.
+
+[Faculty (Olympus)] 12:48:35
+In that field. I'm working on a project, my project is in production also, we are working on the wall quarter.
+
+[Faculty (Olympus)] 12:48:44
+for the terms of the maintenance, and everyone that wanted to go, something happens, they submit something,
+
+[Faculty (Olympus)] 12:48:52
+And, uh, the personnel wanted to deploy, to fix the things.
+
+[Faculty (Olympus)] 12:48:56
+And the personnel is being provided with the contextual things from the background, related background.
+
+[Faculty (Olympus)] 12:49:03
+And probably the PCR, we call it the problem-caused Remedy Handbook for that specific problem.
+
+[Faculty (Olympus)] 12:49:09
+that is possible for this one.
+
+[Faculty (Olympus)] 12:49:10
+These are the, like, a small…
+
+[Faculty (Olympus)] 12:49:14
+places. Very small sample of the cases that we can do with RAC, and we can do more.
+
+[Faculty (Olympus)] 12:49:19
+Okay. Any question for that?
+
+[Faculty (Olympus)] 12:49:24
+Amazing. Uh…
+
+[Faculty (Olympus)] 12:49:27
+Pretty quick, uh, for this notebook, you need to set up, uh, you need to have
+
+[Faculty (Olympus)] 12:49:33
+the line chain, Lang Chain Community Core, Text Splitter, OpenAI.
+
+[Faculty (Olympus)] 12:49:38
+install for the line chain, uh, ecosystem.
+
+[Faculty (Olympus)] 12:49:43
+We need the ChromaDB, uh, for the Victor database, we have the TikTok token,
+
+[Faculty (Olympus)] 12:49:49
+We have the PIP PDF,
+
+[Faculty (Olympus)] 12:49:51
+For the case of the loading the PDF,
+
+[Faculty (Olympus)] 12:49:54
+Then finally, we have the DSPI that I explain what it is, and how we can use that.
+
+[Faculty (Olympus)] 12:50:02
+you can install it, you can install all of the packages right over here from the, uh, one of the cells inside your Jupyter notebook.
+
+[Faculty (Olympus)] 12:50:12
+Or, if you have, like me, if you have an environment,
+
+[Faculty (Olympus)] 12:50:17
+Uh, and you can have, uh, the environment set up.
+
+[Faculty (Olympus)] 12:50:22
+You can have the environment, and you can…
+
+[Faculty (Olympus)] 12:50:26
+already installed all of those packages, and everything is going to be applied, so whenever you use
+
+[Faculty (Olympus)] 12:50:32
+that kernel that I have it on the very top.
+
+[Faculty (Olympus)] 12:50:34
+Everything is ready to go.
+
+[Faculty (Olympus)] 12:50:38
+Any question regarding the installation? Any…
+
+[Faculty (Olympus)] 12:50:42
+Everything is good?
+
+[Faculty (Olympus)] 12:50:47
+Awesome.
+
+[Faculty (Olympus)] 12:50:48
+What a great class.
+
+[Faculty (Olympus)] 12:50:51
+Okay. Let's move on to what is the retrieval augmented generation, and uh…
+
+[Faculty (Olympus)] 12:50:58
+I don't want to… I already know that you've already passed, I believe you already watched all of the videos from your courses, and you should be able to understand what is their back. I'm just repeating myself.
+
+[Faculty (Olympus)] 12:51:11
+for the case, but my objective over here is that for you to understand the basics.
+
+[Faculty (Olympus)] 12:51:17
+FII these days, lags are being changed.
+
+[Faculty (Olympus)] 12:51:21
+There are lots of things that are added to the rag because of the sum of the shortcomings and some of the caveats of the racks.
+
+[Faculty (Olympus)] 12:51:27
+But as far as you understand the basics,
+
+[Faculty (Olympus)] 12:51:30
+on how to do the run… to run the basics, you're good to go.
+
+[Faculty (Olympus)] 12:51:35
+you might use the different framework.
+
+[Faculty (Olympus)] 12:51:36
+We are using the, uh, we are using, uh, line chain over here, and LineChain ecosystem.
+
+[Faculty (Olympus)] 12:51:43
+But you use anything.
+
+[Faculty (Olympus)] 12:51:46
+the basics and the steps are identical, and there's no difference between them.
+
+[Faculty (Olympus)] 12:51:50
+Okay?
+
+[Faculty (Olympus)] 12:51:54
+Coming to the rack, which is the retrieval augmented Generation,
+
+[Faculty (Olympus)] 12:52:00
+RAG is an important application of the LLM just to enable to query
+
+[Faculty (Olympus)] 12:52:07
+Honest structure of data using the natural language.
+
+[Faculty (Olympus)] 12:52:10
+This is the way you have a structured data, like a tablet data. It's easy to look upon that table.
+
+[Faculty (Olympus)] 12:52:17
+and find things, but it is so hard…
+
+[Faculty (Olympus)] 12:52:20
+to do it using the natural language.
+
+[Faculty (Olympus)] 12:52:24
+And, uh, for the honest structure, especially for the take space,
+
+[Faculty (Olympus)] 12:52:28
+This is the way that, uh, there's a finding loss of track, uh, traction in the industries, uh, yes.
+
+[Faculty (Olympus)] 12:52:35
+Data is naturally, uh, unstructured data.
+
+[Faculty (Olympus)] 12:52:38
+Let me see, do you see any reason why would you, uh, would…
+
+[Faculty (Olympus)] 12:52:42
+want to fine-tune it? Okay.
+
+[Faculty (Olympus)] 12:52:45
+finding an embedding model, or re-ranker. Yes, we were trying to talk about it.
+
+[Faculty (Olympus)] 12:52:51
+Not sure if that was part of, but I would like to know… okay, just let me answer the first question.
+
+[Faculty (Olympus)] 12:52:57
+Yes, we might have the case of the fine-tuning. I've never seen much of the cases for fine-tuning of the embedding.
+
+[Faculty (Olympus)] 12:53:05
+But the embedding toward the case-to-case is different.
+
+[Faculty (Olympus)] 12:53:08
+If you, uh, we haven't yet to the embedding. Is it okay, uh, Dino, if I explain, if I answer your question when we get to the embedding part?
+
+[Dino Vitale .] 12:53:19
+Sure, sure.
+
+[Faculty (Olympus)] 12:53:20
+Okay, okay. We're going to talk about the embeddings and different types of embeddings. I'm going to show you the, probably,
+
+[Faculty (Olympus)] 12:53:26
+I can go to the leaderboard,
+
+[Faculty (Olympus)] 12:53:28
+of the different embeddings, and we have the fine-tuned version, and you can do fine-tuned
+
+[Faculty (Olympus)] 12:53:34
+the embeddings for different cases.
+
+[Faculty (Olympus)] 12:53:37
+Let me check the other question…
+
+[Faculty (Olympus)] 12:53:40
+Uh, can you walk us through the architecture of the enterprise-grade multi-agent system?
+
+[Faculty (Olympus)] 12:53:44
+you have worked with, uh, like, one you mentioned, like, the drug discovery as the reference case.
+
+[Faculty (Olympus)] 12:53:52
+I'm interested in the central orchestration pattern, how the independent agents, such as the discovery agent using the rack,
+
+[Faculty (Olympus)] 12:53:59
+Okay, okay.
+
+[Faculty (Olympus)] 12:54:02
+Uh, the Please Detail and to end things transpires tagged.
+
+[Faculty (Olympus)] 12:54:08
+Yes, definitely I can do it. Uh, Sanjeev, if I'm pronouncing your name correctly.
+
+[Faculty (Olympus)] 12:54:14
+Uh, but is it okay if we do it afterward? Because it's a very long discussion, I believe at least it's going to take 5 to 10 minutes.
+
+[Faculty (Olympus)] 12:54:22
+I just described it. Like, good news is that some of those, uh, samples…
+
+[Faculty (Olympus)] 12:54:28
+I have the prototype of some of those on my site, up and running, and probably you can
+
+[Faculty (Olympus)] 12:54:33
+you can take a look at it, but…
+
+[Faculty (Olympus)] 12:54:35
+Uh, the, uh…
+
+[Faculty (Olympus)] 12:54:38
+The stacked, uh, it's…
+
+[Faculty (Olympus)] 12:54:39
+pretty much depend on the… on the company, depend on the infrastructure, it could be anything.
+
+[Faculty (Olympus)] 12:54:45
+But I can talk about it.
+
+[Faculty (Olympus)] 12:54:47
+Just remind me, if it is fine, I'll wait, uh, until…
+
+[Faculty (Olympus)] 12:54:52
+I explain everything, and we can go through that.
+
+[Faculty (Olympus)] 12:54:56
+We'll be reviewed the Agentic graph? Yes.
+
+[Faculty (Olympus)] 12:54:59
+Yes. If… even if it is not in your coursework, I'll explain it, and if you give me, like, a moment, probably as soon as I get it to the end,
+
+[Faculty (Olympus)] 12:55:09
+Just remind me…
+
+[Faculty (Olympus)] 12:55:11
+something that is not said. I assume…
+
+[Faculty (Olympus)] 12:55:15
+They're gonna mention it in the future of the course, but just, uh, consider this one.
+
+[Faculty (Olympus)] 12:55:19
+I feel everyone has a good understanding of the route. If I'm mistaken, just let me know.
+
+[Faculty (Olympus)] 12:55:28
+Anyone, everyone has a good understanding of the rack.
+
+[Faculty (Olympus)] 12:55:35
+Okay, still, I'm going to explain, uh, the basic, okay.
+
+[Faculty (Olympus)] 12:55:40
+Amazing, amazing.
+
+[Faculty (Olympus)] 12:55:42
+Uh…
+
+[Faculty (Olympus)] 12:55:44
+The thing is that RAG, the basic RAG, what we call it the basic rank, has some, uh, some caveats.
+
+[Faculty (Olympus)] 12:55:52
+And I explained it.
+
+[Faculty (Olympus)] 12:55:55
+I'll go, if that's the case, it seems that everyone's are pretty good in the context of, uh, context of the rank.
+
+[Faculty (Olympus)] 12:56:02
+I review it pretty quickly.
+
+[Faculty (Olympus)] 12:56:04
+And then I explained what is…
+
+[Faculty (Olympus)] 12:56:06
+The caveats of the basic crap.
+
+[Faculty (Olympus)] 12:56:08
+That's a reason that we are moving many of the firms, including myself,
+
+[Faculty (Olympus)] 12:56:15
+We never use the basic rack as is,
+
+[Faculty (Olympus)] 12:56:17
+in production, because there are so many…
+
+[Faculty (Olympus)] 12:56:21
+problem with that, and you have to…
+
+[Faculty (Olympus)] 12:56:23
+You have to fix those stuff.
+
+[Faculty (Olympus)] 12:56:25
+And we're gonna get to that point.
+
+[Faculty (Olympus)] 12:56:27
+Okay. So, all three questions…
+
+[Faculty (Olympus)] 12:56:30
+Just leave me a moment, go over this one pretty quick, and I go it a little bit faster so that we can have more time at the very end for explaining.
+
+[Faculty (Olympus)] 12:56:40
+Those are stuff. Are we good?
+
+[Faculty (Olympus)] 12:56:44
+Amazing.
+
+[Faculty (Olympus)] 12:56:46
+Okay.
+
+[Faculty (Olympus)] 12:56:49
+RAG…
+
+[Faculty (Olympus)] 12:56:51
+that, or anything…
+
+[Faculty (Olympus)] 12:56:52
+that can give you the, uh, the answer from the context.
+
+[Faculty (Olympus)] 12:56:58
+unstructured data.
+
+[Faculty (Olympus)] 12:57:00
+It gives you an edge, because it's bridging the gap between the generative models and the external knowledge.
+
+[Faculty (Olympus)] 12:57:06
+This is something that we have a problem with the normal LLM.
+
+[Faculty (Olympus)] 12:57:10
+That is zero shot, you know that all of the limbs are being tuned up up to a certain point.
+
+[Faculty (Olympus)] 12:57:16
+And based on the limited data.
+
+[Faculty (Olympus)] 12:57:18
+they're not provided everything, so they don't have an understanding what is the current situation, unless this is provided for them.
+
+[Faculty (Olympus)] 12:57:26
+For example, I don't know, some of the models, the latest date was, like, the October 2024.
+
+[Faculty (Olympus)] 12:57:33
+So, they don't have any understanding what happened after the October 2024. So you have to…
+
+[Faculty (Olympus)] 12:57:40
+provide the external, uh, external knowledge.
+
+[Faculty (Olympus)] 12:57:44
+to that. The second was that the improving the contextual understanding and content generation.
+
+[Faculty (Olympus)] 12:57:53
+Uh, kind of the same.
+
+[Faculty (Olympus)] 12:57:55
+it's… it helps that context, it helps to… to provide more information about the question.
+
+[Faculty (Olympus)] 12:58:03
+And then you provide more context to the situation. You're going to get a better answer.
+
+[Faculty (Olympus)] 12:58:08
+Reducing the bias and misinformation, definitely that's one of the part.
+
+[Faculty (Olympus)] 12:58:14
+Uh, all of the LLMs, they have some bias towards something, and it depends on how you ask the question.
+
+[Faculty (Olympus)] 12:58:20
+They pretty much, they answer the question depending on your, uh… they answer it depending on your question.
+
+[Faculty (Olympus)] 12:58:27
+then you provide the good context, it's going to reduce the bias for that.
+
+[Faculty (Olympus)] 12:58:32
+Flexibility of scalability, as already mentioned that you cannot provide so much information to the model.
+
+[Faculty (Olympus)] 12:58:40
+And the continuous learning and improvement
+
+[Faculty (Olympus)] 12:58:42
+As I said, the models are stopped.
+
+[Faculty (Olympus)] 12:58:46
+In time, they are frozen in time.
+
+[Faculty (Olympus)] 12:58:49
+By certain dates, and they don't have any understanding afterwards.
+
+[Faculty (Olympus)] 12:58:52
+But this one gives the edge so that you can provide more understanding
+
+[Faculty (Olympus)] 12:58:58
+for, uh, for the model.
+
+[Faculty (Olympus)] 12:59:01
+And, uh…
+
+[Faculty (Olympus)] 12:59:03
+This is what we explain.
+
+[Faculty (Olympus)] 12:59:05
+What is the workflow of the rack? And I'll go through it pretty quick.
+
+[Faculty (Olympus)] 12:59:11
+But this is what you need to know for the whole things that you have over here, guys.
+
+[Faculty (Olympus)] 12:59:17
+The main things that you understand is this diagram.
+
+[Faculty (Olympus)] 12:59:20
+And for the agentic fact that Jonathan asked,
+
+[Faculty (Olympus)] 12:59:24
+this one matters, and I explain why.
+
+[Faculty (Olympus)] 12:59:27
+First of all, any…
+
+[Faculty (Olympus)] 12:59:31
+uh… any model.
+
+[Faculty (Olympus)] 12:59:32
+Uh, any…
+
+[Faculty (Olympus)] 12:59:34
+I have to turn off my automatic gesture recognition.
+
+[Faculty (Olympus)] 12:59:42
+very rag-based architecture. They have a first step that is happening once,
+
+[Faculty (Olympus)] 12:59:47
+Unless you need to update the documents, unless you need to update, you need to… you wanted to…
+
+[Faculty (Olympus)] 12:59:55
+update your… your knowledge base.
+
+[Faculty (Olympus)] 12:59:58
+But this is called the indexing or the ingestion. We know it for the both of the sides.
+
+[Faculty (Olympus)] 13:00:03
+And for the indexing, this is the part that is happening on the very top.
+
+[Faculty (Olympus)] 13:00:07
+As I said, you run it once.
+
+[Faculty (Olympus)] 13:00:10
+Unless you want to update the data. You run it once.
+
+[Faculty (Olympus)] 13:00:15
+You have the documents. Suppose that, let's come back to the analogy. You have a thousand-page
+
+[Faculty (Olympus)] 13:00:22
+documents.
+
+[Faculty (Olympus)] 13:00:23
+And you wanted to, uh, do the indexing. The first thing that you do
+
+[Faculty (Olympus)] 13:00:29
+is that you cannot…
+
+[Faculty (Olympus)] 13:00:33
+Completely, and at the same time, uh…
+
+[Faculty (Olympus)] 13:00:36
+embedded, and save it to the vector store. You have to split it to different chops.
+
+[Faculty (Olympus)] 13:00:41
+So, the first things… sorry, the first thing is to load the data.
+
+[Faculty (Olympus)] 13:00:45
+So, obviously, you need to load the data, and the data could be anything.
+
+[Faculty (Olympus)] 13:00:50
+The data could be image, could be PDF, could be Word document, could be text, could be Markdown.
+
+[Faculty (Olympus)] 13:00:56
+Could be videos, could be anything. Literally, could be, like, a structure form, like the JSON.
+
+[Faculty (Olympus)] 13:01:02
+It could be anything. It could be a tabloid data.
+
+[Faculty (Olympus)] 13:01:05
+As you do, as I do.
+
+[Faculty (Olympus)] 13:01:06
+So the first thing that you need is to load the data. The second thing is that you need to chunk it, meaning that you split it to some
+
+[Faculty (Olympus)] 13:01:15
+uh… some part, some partitions.
+
+[Faculty (Olympus)] 13:01:18
+As I… based on my analogy, suppose that you have a thousand page, and you wanted to have every page separated.
+
+[Faculty (Olympus)] 13:01:25
+So every page is being saved separately.
+
+[Faculty (Olympus)] 13:01:30
+is being considered separately.
+
+[Faculty (Olympus)] 13:01:32
+The third part, after the chunking, so we load the documents, we tunk it,
+
+[Faculty (Olympus)] 13:01:38
+We split it to different things. The next part…
+
+[Faculty (Olympus)] 13:01:42
+is the embedding techniques.
+
+[Faculty (Olympus)] 13:01:45
+is the embedded, okay?
+
+[Faculty (Olympus)] 13:01:46
+So, the next part is the embedding, meaning that for every textual things,
+
+[Faculty (Olympus)] 13:01:51
+We have a mathematical vector representation.
+
+[Faculty (Olympus)] 13:01:56
+of that text.
+
+[Faculty (Olympus)] 13:01:58
+Okay? On the Vector store, you don't have any board, or you don't have anything, so you have numbers.
+
+[Faculty (Olympus)] 13:02:06
+But that number is that, uh, help you enable the rack and to find things.
+
+[Faculty (Olympus)] 13:02:11
+So, this is the indexing part.
+
+[Faculty (Olympus)] 13:02:13
+So far, so good. This is… these are the steps that no matter if you're… if you wanted to have a gente crack,
+
+[Faculty (Olympus)] 13:02:19
+or any type of solutions,
+
+[Faculty (Olympus)] 13:02:22
+The indexing or the ingestion is always the same.
+
+[Faculty (Olympus)] 13:02:26
+But let me check the question. From an enterprise architecture perspective, what is the decision framework for choosing different age anti-crack versus the fine-tuned
+
+[Faculty (Olympus)] 13:02:36
+That's a very, very, very good question.
+
+[Faculty (Olympus)] 13:02:40
+Absolutely, I'm gonna answer. I acknowledge that the Bragg introduced you.
+
+[Faculty (Olympus)] 13:02:43
+Retrieval pipelines, big tours, and the requires continuous, uh, data synchronous data ops.
+
+[Faculty (Olympus)] 13:02:48
+However, if the findings also incur operational depths,
+
+[Faculty (Olympus)] 13:02:52
+We're thinking and knowledgeables. Given the trade-off,
+
+[Faculty (Olympus)] 13:02:55
+Okay, let me answer these questions.
+
+[Faculty (Olympus)] 13:02:58
+This is a very good answer. Good question. And the question is that, uh…
+
+[Faculty (Olympus)] 13:03:04
+why, uh, what is the trade-off between the fine-tuning and the RAM?
+
+[Faculty (Olympus)] 13:03:09
+And the fine-tuning, they have to get to that point,
+
+[Faculty (Olympus)] 13:03:13
+I'm happy that you're asking. It means that you have a, uh, you have a good understanding of the question… of the, of the context.
+
+[Faculty (Olympus)] 13:03:20
+fine-tuning is when you get…
+
+[Faculty (Olympus)] 13:03:24
+already developed models. In many cases, this is the open source models, but you can do also the same
+
+[Faculty (Olympus)] 13:03:31
+Uh, for the, uh…
+
+[Faculty (Olympus)] 13:03:33
+Uh, for the Frontier models, like GPT, cloud models, or Gemini, or any other ones, or Grove.
+
+[Faculty (Olympus)] 13:03:40
+And fine-tune it, meaning that you provide external sources
+
+[Faculty (Olympus)] 13:03:44
+You'll add more information, and you train the model,
+
+[Faculty (Olympus)] 13:03:49
+which is the adjusting the hyperparameters, or adding more hyperparameters to this one.
+
+[Faculty (Olympus)] 13:03:55
+which teaches the model about that context.
+
+[Faculty (Olympus)] 13:03:59
+about the new context.
+
+[Faculty (Olympus)] 13:04:01
+There are multiple problems with the fine tuning.
+
+[Faculty (Olympus)] 13:04:04
+Which, normally, we don't go to the fine-tuning. First of all, the fine-tuning costs you a lot.
+
+[Faculty (Olympus)] 13:04:10
+It's a costly…
+
+[Faculty (Olympus)] 13:04:13
+Uh…
+
+[Faculty (Olympus)] 13:04:15
+way to address the things.
+
+[Faculty (Olympus)] 13:04:16
+The second thing is that even if you teach a model,
+
+[Faculty (Olympus)] 13:04:20
+So, Easter, put it in the side.
+
+[Faculty (Olympus)] 13:04:22
+Let me come back to the analogy.
+
+[Faculty (Olympus)] 13:04:25
+you wanted to teach that thousand…
+
+[Faculty (Olympus)] 13:04:29
+Paige's book to the students.
+
+[Faculty (Olympus)] 13:04:32
+He can learn, but you cannot say for sure
+
+[Faculty (Olympus)] 13:04:36
+If you ask a question later on, it can answer on point,
+
+[Faculty (Olympus)] 13:04:41
+referencing everything,
+
+[Faculty (Olympus)] 13:04:42
+without any hallucination.
+
+[Faculty (Olympus)] 13:04:44
+That happens. Similar to the same students, when you read something,
+
+[Faculty (Olympus)] 13:04:50
+It's not the way that you…
+
+[Faculty (Olympus)] 13:04:54
+you later on return it verbatim, word by word.
+
+[Faculty (Olympus)] 13:04:59
+Okay? So, if that, uh, staying on the truth…
+
+[Faculty (Olympus)] 13:05:05
+matters to you. The rag is normally is much better and much superior.
+
+[Faculty (Olympus)] 13:05:09
+We use the fine-tuning in many cases when you wanted to fine-tune the, uh, the…
+
+[Faculty (Olympus)] 13:05:16
+fine-tune the tone, for example.
+
+[Faculty (Olympus)] 13:05:19
+You want to teach your model,
+
+[Faculty (Olympus)] 13:05:22
+to have a professional type of language when it's interacting with specific customers, so…
+
+[Faculty (Olympus)] 13:05:30
+This is a good example of the fine-tuning. We don't use it normally for this one.
+
+[Faculty (Olympus)] 13:05:36
+Ali, any best practices that you feel share for the chunking?
+
+[Faculty (Olympus)] 13:05:42
+Very good question. I was coming to it, absolutely. Uh, this is a very, very important question. Is it popular using the LLM Agency-based trunking to dynamically select the chunking strategy?
+
+[Faculty (Olympus)] 13:05:54
+based on the, yes, uh, I sum using the graph store.
+
+[Faculty (Olympus)] 13:06:00
+Yes.
+
+[Faculty (Olympus)] 13:06:02
+Let me answer this question also. For the Chunking, uh, the question is that, okay,
+
+[Faculty (Olympus)] 13:06:08
+why every page should go to a single chart.
+
+[Faculty (Olympus)] 13:06:12
+Let me tell you, first of all, why we need the chunking.
+
+[Faculty (Olympus)] 13:06:16
+You already know that each of the, uh, models, including the transformers,
+
+[Faculty (Olympus)] 13:06:24
+have a limitation in the input context.
+
+[Faculty (Olympus)] 13:06:27
+You cannot ingest more than that.
+
+[Faculty (Olympus)] 13:06:29
+Okay? There are…
+
+[Faculty (Olympus)] 13:06:33
+limited and set size of the token that you can ingest with any transformer.
+
+[Faculty (Olympus)] 13:06:38
+You cannot ingest more than that.
+
+[Faculty (Olympus)] 13:06:41
+And offered, truthfully, in many cases, if you ingest it,
+
+[Faculty (Olympus)] 13:06:44
+it's not going to fail. You just truncated up to that certain point,
+
+[Faculty (Olympus)] 13:06:48
+And it just, uh, uh, do, uh, the vectorizing, transform it, transform into the vectors, to the numbers,
+
+[Faculty (Olympus)] 13:06:57
+Only for the parts that it can have the context.
+
+[Faculty (Olympus)] 13:07:01
+So, this is one of the main reasons.
+
+[Faculty (Olympus)] 13:07:03
+that you have to do it. The second problem is that, okay,
+
+[Faculty (Olympus)] 13:07:08
+So, we cannot put everything into a single chunk.
+
+[Faculty (Olympus)] 13:07:11
+So we have to split it.
+
+[Faculty (Olympus)] 13:07:14
+The good question is that, should I go…
+
+[Faculty (Olympus)] 13:07:17
+Line by line, may I split it line by line?
+
+[Faculty (Olympus)] 13:07:20
+Should they split it paragraph by paragraph? Should they split it page by page?
+
+[Faculty (Olympus)] 13:07:26
+for chapter by chapter?
+
+[Faculty (Olympus)] 13:07:28
+That's a very good question.
+
+[Faculty (Olympus)] 13:07:30
+And it's pretty much depends on the context, very, very depend on the context.
+
+[Faculty (Olympus)] 13:07:37
+First of all, what is your transformer? What is the limitation on the transformers? I've been using some of the low-capable transformers sometimes with the lower context length.
+
+[Faculty (Olympus)] 13:07:48
+Meaning that my context…
+
+[Faculty (Olympus)] 13:07:50
+Every child should be smaller.
+
+[Faculty (Olympus)] 13:07:53
+Okay, so you have to understand…
+
+[Faculty (Olympus)] 13:07:57
+your, uh…
+
+[Faculty (Olympus)] 13:07:59
+your limitation.
+
+[Faculty (Olympus)] 13:08:00
+The second thing is that…
+
+[Faculty (Olympus)] 13:08:03
+Do you have the structure that takes, for example? If you have a markdown similar to this one,
+
+[Faculty (Olympus)] 13:08:10
+that you have, if you click on this one,
+
+[Faculty (Olympus)] 13:08:12
+You see, there's a bold…
+
+[Faculty (Olympus)] 13:08:15
+Uh, and sometimes you have…
+
+[Faculty (Olympus)] 13:08:19
+But this one, you see this is a headline 2?
+
+[Faculty (Olympus)] 13:08:22
+If you're exposed,
+
+[Faculty (Olympus)] 13:08:25
+Uh, to a document that is a structure, meaning that it has headers, it has sections,
+
+[Faculty (Olympus)] 13:08:31
+It has paragraph, distinct paragraphs.
+
+[Faculty (Olympus)] 13:08:34
+The best way that you can do it
+
+[Faculty (Olympus)] 13:08:36
+is doing it based on the constant context length?
+
+[Faculty (Olympus)] 13:08:39
+do it, uh, based on the structure of the data.
+
+[Faculty (Olympus)] 13:08:43
+that's the best way that you can do it.
+
+[Faculty (Olympus)] 13:08:46
+If it is still too much, or if you are lacking this one, program by paragraph, or you have a multi-paragraph, that would be good.
+
+[Faculty (Olympus)] 13:08:54
+But you won't know it
+
+[Faculty (Olympus)] 13:08:56
+Until you do the iteration.
+
+[Faculty (Olympus)] 13:08:58
+Sometimes, you need to do… consider some…
+
+[Faculty (Olympus)] 13:09:03
+some architecture, meaning that the number of the trunk, and also the embedding techniques that I'm going to talk about it later on.
+
+[Faculty (Olympus)] 13:09:11
+Either you… you use something,
+
+[Faculty (Olympus)] 13:09:14
+You design everything,
+
+[Faculty (Olympus)] 13:09:15
+You took the quality of the answer, is that we are going to talk about the evaluation.
+
+[Faculty (Olympus)] 13:09:19
+And then come back,
+
+[Faculty (Olympus)] 13:09:22
+And change the techniques, change the chunk size, change the, uh, some of the other days.
+
+[Faculty (Olympus)] 13:09:29
+You're gonna see how the evaluation's going on. And obviously, you select the best.
+
+[Faculty (Olympus)] 13:09:33
+iteration in any…
+
+[Faculty (Olympus)] 13:09:35
+My background is data science. Any data science-related, uh, or any AI, the iteration is the key.
+
+[Faculty (Olympus)] 13:09:43
+an experimentation. You have to always do the experimentation to find the best approach.
+
+[Faculty (Olympus)] 13:09:48
+But contextually, as I said, if you have a structured documents, the best way I suggest is based on a separator. Also, you on the… on the…
+
+[Faculty (Olympus)] 13:10:01
+Uh, under code. This is one thing.
+
+[Faculty (Olympus)] 13:10:03
+Any other question? Yeah, the biggest decision point is how dynamic is the data?
+
+[Faculty (Olympus)] 13:10:11
+And you can use the both… that's a very good question, a very good point.
+
+[Faculty (Olympus)] 13:10:15
+Yep, not even drag in the Victor store is also an ongoing process.
+
+[Faculty (Olympus)] 13:10:20
+Correct. Correct.
+
+[Faculty (Olympus)] 13:10:22
+As I said, if the new data is coming, you have to do the same transformation and append it to your vector store.
+
+[Faculty (Olympus)] 13:10:28
+So, if I say…
+
+[Faculty (Olympus)] 13:10:30
+just run it once if you already decided about the embedding, if everything is good, and you run it for the first time. But if anything is added, you have to append it to your vector store.
+
+[Faculty (Olympus)] 13:10:42
+Uh, there was a question about the knowledge graph.
+
+[Faculty (Olympus)] 13:10:46
+So…
+
+[Faculty (Olympus)] 13:10:48
+It's a bit more advanced. Please, uh, maybe wait. I feel we might have that topic inside the, uh, our specialization.
+
+[Faculty (Olympus)] 13:11:00
+Uh, if not, I'll explain it to you. But, uh, it's a little bit different from the way that we have it over here. The knowledge graph is a little bit different.
+
+[Faculty (Olympus)] 13:11:08
+So far, so good. Indexing…
+
+[Faculty (Olympus)] 13:11:12
+thumbs up if everything is good.
+
+[Faculty (Olympus)] 13:11:16
+That makes sense.
+
+[Faculty (Olympus)] 13:11:19
+So, so far, we got to a point that we have a vector store,
+
+[Faculty (Olympus)] 13:11:24
+And that picture store,
+
+[Faculty (Olympus)] 13:11:26
+is having different points.
+
+[Faculty (Olympus)] 13:11:29
+Okay? Suppose that every page or every chunk,
+
+[Faculty (Olympus)] 13:11:35
+Every child that you have, it's a vector.
+
+[Faculty (Olympus)] 13:11:37
+It's a vector. In its simplest form, the vector is the 2D,
+
+[Faculty (Olympus)] 13:11:43
+But, you know, actual… actual vector is going to be MD, sometimes it's going to be around…
+
+[Faculty (Olympus)] 13:11:48
+I believe the OpenAI embedding is around, uh, 786, if I'm not mistaken, 56, something like that.
+
+[Faculty (Olympus)] 13:11:56
+So, every page, or every time that you present to the embeddings, the output is gonna be
+
+[Faculty (Olympus)] 13:12:04
+700 or 800-ish numbers.
+
+[Faculty (Olympus)] 13:12:07
+Okay? So, every chunk is going to be a number vector. It's gonna be a vector.
+
+[Faculty (Olympus)] 13:12:13
+Right?
+
+[Faculty (Olympus)] 13:12:15
+For the sake of simplicity,
+
+[Faculty (Olympus)] 13:12:18
+For the sake of simplicity,
+
+[Faculty (Olympus)] 13:12:21
+We would say, suppose this is 2D.
+
+[Faculty (Olympus)] 13:12:25
+suppose this is… there are two…
+
+[Faculty (Olympus)] 13:12:27
+2D, the vector is 2D, meaning that there are two numbers on it.
+
+[Faculty (Olympus)] 13:12:32
+Okay? And you can put it on a 2D, uh…
+
+[Faculty (Olympus)] 13:12:38
+on a 2D vector store, on a 2D plot, right?
+
+[Faculty (Olympus)] 13:12:42
+This is the way that we can find
+
+[Faculty (Olympus)] 13:12:46
+the similar things later on. Let me come back to this one. So, the indexing happens.
+
+[Faculty (Olympus)] 13:12:52
+If you put it, normally we save the victory tumor somewhere using the… any of the popular Victor store
+
+[Faculty (Olympus)] 13:12:59
+Uh, something happened. We have tons of them.
+
+[Faculty (Olympus)] 13:13:01
+We are using the Chroma DB over here.
+
+[Faculty (Olympus)] 13:13:04
+This is the first one. The second part is the quorum.
+
+[Faculty (Olympus)] 13:13:07
+This is the part that every time that it happens, and we need to work on it, and the agentic part, many of it is happening over here.
+
+[Faculty (Olympus)] 13:13:16
+Worrying means that the first time a user asks a question,
+
+[Faculty (Olympus)] 13:13:20
+Okay? You ask a question…
+
+[Faculty (Olympus)] 13:13:24
+We need to activate the retriever.
+
+[Faculty (Olympus)] 13:13:27
+receiver, what it does,
+
+[Faculty (Olympus)] 13:13:29
+is that it translates, it do the embedding,
+
+[Faculty (Olympus)] 13:13:33
+Of your question,
+
+[Faculty (Olympus)] 13:13:36
+embedded to a… to a… to numbers.
+
+[Faculty (Olympus)] 13:13:39
+And later on, checked that, uh, it's not the distance, but suppose that I check the, uh, check the distance,
+
+[Faculty (Olympus)] 13:13:47
+how close it is to the… to the…
+
+[Faculty (Olympus)] 13:13:49
+each of those chunks on your Victor store.
+
+[Faculty (Olympus)] 13:13:53
+Over here, suppose that you ask a question,
+
+[Faculty (Olympus)] 13:13:57
+Okay, suppose this is your question.
+
+[Faculty (Olympus)] 13:13:59
+And this is the point for your question.
+
+[Faculty (Olympus)] 13:14:02
+Now, these are the numbers.
+
+[Faculty (Olympus)] 13:14:04
+for…
+
+[Faculty (Olympus)] 13:14:07
+Uh, for the, uh…
+
+[Faculty (Olympus)] 13:14:11
+Uh, for the Victor store.
+
+[Faculty (Olympus)] 13:14:12
+Okay?
+
+[Faculty (Olympus)] 13:14:14
+You see this one is closer to these two, rather than this one.
+
+[Faculty (Olympus)] 13:14:19
+Okay? So your retriever is going to retrieve back
+
+[Faculty (Olympus)] 13:14:25
+those two as the retriever for you.
+
+[Faculty (Olympus)] 13:14:28
+Does it make sense? And it means that if you're embedding something, you translate things to numbers,
+
+[Faculty (Olympus)] 13:14:37
+Retriever also translated back to text.
+
+[Faculty (Olympus)] 13:14:43
+Okay? Does it make sense?
+
+[Faculty (Olympus)] 13:14:47
+Any questions so far?
+
+[Sanjiv Kumar .] 13:14:51
+Yeah, I have a question here, um…
+
+[Faculty (Olympus)] 13:14:53
+Uh-huh.
+
+[Sanjiv Kumar .] 13:14:54
+So, what you're saying… what I'm understanding is that…
+
+[Sanjiv Kumar .] 13:14:58
+is this engram…
+
+[Sanjiv Kumar .] 13:15:01
+context, meaning…
+
+[Sanjiv Kumar .] 13:15:03
+Is this based on the chunking itself that says, so if I see these words, camera, glitches, problem issues,
+
+[Sanjiv Kumar .] 13:15:10
+they're scattered, versus if I say camera problems, or camera issues,
+
+[Sanjiv Kumar .] 13:15:15
+or camera glitches,
+
+[Sanjiv Kumar .] 13:15:17
+As the… as I give more, um, like, yeah, you're going down here, where…
+
+[Sanjiv Kumar .] 13:15:23
+These are sentences… so sentences more context.
+
+[Faculty (Olympus)] 13:15:26
+Sentences.
+
+[Faculty (Olympus)] 13:15:28
+Sentences. It's every point
+
+[Sanjiv Kumar .] 13:15:28
+So…
+
+[Faculty (Olympus)] 13:15:31
+Every point, every dot,
+
+[Faculty (Olympus)] 13:15:35
+In that, uh, in that plot, represent one of the trunks.
+
+[Faculty (Olympus)] 13:15:39
+It could be an entire paragraph.
+
+[Faculty (Olympus)] 13:15:42
+It could be an entire page.
+
+[Faculty (Olympus)] 13:15:44
+It could be an image, it could be anything.
+
+[Faculty (Olympus)] 13:15:48
+This is not the ingress.
+
+[Faculty (Olympus)] 13:15:50
+Don't confuse yourself.
+
+[Faculty (Olympus)] 13:15:52
+This is, like, the whole chunk, the whole…
+
+[Faculty (Olympus)] 13:15:56
+tech space in every Chinese translating to one point.
+
+[Faculty (Olympus)] 13:16:01
+into your Walker store, into your vector store.
+
+[Faculty (Olympus)] 13:16:04
+You got it? So, every one of those… suppose that… suppose that we are keeping up the… the one paragraph. So every paragraph…
+
+[Faculty (Olympus)] 13:16:15
+Or, in this case, it's showing sentences. Every sentence represented by one point.
+
+[Faculty (Olympus)] 13:16:22
+Okay? And after you have the different points,
+
+[Faculty (Olympus)] 13:16:27
+You also translate your query, your question,
+
+[Faculty (Olympus)] 13:16:31
+And see, this point is closest to what?
+
+[Faculty (Olympus)] 13:16:36
+Now you return the closest ones as the retriever. This is the retriever works.
+
+[Faculty (Olympus)] 13:16:43
+Does it make sense?
+
+[Sanjiv Kumar .] 13:16:45
+I got it. Actually, I didn't see them betting in between, saying, when these things passes, so…
+
+[Sanjiv Kumar .] 13:16:53
+thing, then they can say which are semantically correlated, and that
+
+[Faculty (Olympus)] 13:16:58
+Correct.
+
+[Sanjiv Kumar .] 13:16:58
+theta in this case is smaller.
+
+[Sanjiv Kumar .] 13:17:00
+And that means they are semantically…
+
+[Sanjiv Kumar .] 13:17:04
+closed in the meaning than the other.
+
+[Faculty (Olympus)] 13:17:07
+Right. That is absolutely correct.
+
+[Faculty (Olympus)] 13:17:10
+So,
+
+[Faculty (Olympus)] 13:17:13
+The reason, the whole reason that we translated to numbers…
+
+[Faculty (Olympus)] 13:17:16
+is that we can find the similarities and find the closeness.
+
+[Faculty (Olympus)] 13:17:22
+to… to the others.
+
+[Faculty (Olympus)] 13:17:24
+And hence, you can retrieve the closest and most related to ones. And the embeddings
+
+[Faculty (Olympus)] 13:17:30
+are the things, are the techniques that understand the semantics
+
+[Faculty (Olympus)] 13:17:35
+of the whole text.
+
+[Faculty (Olympus)] 13:17:37
+This is the way that it works.
+
+[Faculty (Olympus)] 13:17:39
+Right?
+
+[Faculty (Olympus)] 13:17:42
+And uh… this is the time that we say, okay, how do I know which embedding do I have to use? That was the question earlier that I said, just give me a moment, I'm gonna answer that.
+
+[Faculty (Olympus)] 13:17:53
+It depends what is the type of question that you… what is the…
+
+[Faculty (Olympus)] 13:17:57
+what do you have that you wanted to do the embeddings?
+
+[Faculty (Olympus)] 13:18:01
+different embeddings, some of the embeddings are only capable of one language.
+
+[Faculty (Olympus)] 13:18:05
+For example, they can only translate, uh…
+
+[Faculty (Olympus)] 13:18:09
+English. But if you have Espanol, also, you have the, like, a blend of two different languages, so you have multi-languages, you have to have a proper embedding techniques
+
+[Faculty (Olympus)] 13:18:19
+or embedding model that can understand everything semantically.
+
+[Faculty (Olympus)] 13:18:23
+If you wanted to have it translate an image,
+
+[Faculty (Olympus)] 13:18:27
+Okay? If you wanted to translate an image, you have to have a proper embedding model that understands
+
+[Faculty (Olympus)] 13:18:35
+understand that. And, uh…
+
+[Faculty (Olympus)] 13:18:38
+for embedding leaderboard hiding phase.
+
+[Faculty (Olympus)] 13:18:42
+If you take a look at this one,
+
+[Faculty (Olympus)] 13:18:44
+You're gonna see, for different reasons, I hope this is the right one, yes, that's a good one.
+
+[Faculty (Olympus)] 13:18:49
+I hope, uh…
+
+[Faculty (Olympus)] 13:18:55
+This one, it gives you a summary of, uh…
+
+[Faculty (Olympus)] 13:18:59
+how each of them are working fine for a different task.
+
+[Faculty (Olympus)] 13:19:03
+If you're classifying…
+
+[Faculty (Olympus)] 13:19:06
+This is, uh, this is the embeddings that you can use.
+
+[Faculty (Olympus)] 13:19:09
+If you are using the retrieval should be one of them, yes, over here.
+
+[Faculty (Olympus)] 13:19:14
+You see the retrieval?
+
+[Faculty (Olympus)] 13:19:17
+This one is… works the best for the retrieval, for example.
+
+[Faculty (Olympus)] 13:19:21
+is the JAMA 12 billion models.
+
+[Faculty (Olympus)] 13:19:25
+Uh, that is fine-tuned, uh, also.
+
+[Faculty (Olympus)] 13:19:28
+So, there are so many ways that you can understand it, and you find the proper one.
+
+[Faculty (Olympus)] 13:19:34
+But if you are trying to do the images, you have to find the proper image, and uh…
+
+[Faculty (Olympus)] 13:19:41
+If you go to the hugging phase,
+
+[Faculty (Olympus)] 13:19:46
+If you go to the models,
+
+[Faculty (Olympus)] 13:19:49
+When you see there is image to image, text-to-image, image-to-text,
+
+[Faculty (Olympus)] 13:19:54
+you see tons of different…
+
+[Faculty (Olympus)] 13:19:56
+Excuse me. Tons of different, uh…
+
+[Faculty (Olympus)] 13:20:01
+models, these are… the LLM models, and also transformers.
+
+[Faculty (Olympus)] 13:20:05
+that you can use for a different task.
+
+[Faculty (Olympus)] 13:20:08
+And also, you can select it based on the different language, if you wanted to have the English,
+
+[Faculty (Olympus)] 13:20:14
+And, uh, like, Hindi.
+
+[Faculty (Olympus)] 13:20:19
+or Arabic. Or, like…
+
+[Faculty (Olympus)] 13:20:21
+multilingual. These are the ones that can handle this stuff.
+
+[Faculty (Olympus)] 13:20:26
+So, it's pretty much depend on what you have and how you want it to handle things.
+
+[Faculty (Olympus)] 13:20:33
+For sure, what I can tell you is that
+
+[Faculty (Olympus)] 13:20:37
+the embedding should be able to infer and understand the context.
+
+[Faculty (Olympus)] 13:20:41
+of that language. Or that, uh…
+
+[Faculty (Olympus)] 13:20:45
+tech module. If it is the image,
+
+[Faculty (Olympus)] 13:20:47
+It should understand the image. It's the video the same.
+
+[Faculty (Olympus)] 13:20:50
+Any other module, that's the same.
+
+[Faculty (Olympus)] 13:20:53
+Is that clear?
+
+[Faculty (Olympus)] 13:20:56
+So that was the question that, uh, we got it before.
+
+[Faculty (Olympus)] 13:21:00
+the embeddings. And we have a specific, by the way, embedding for the re-ranking
+
+[Faculty (Olympus)] 13:21:06
+I'll explain when it comes to the agentic rank antivirus.
+
+[Faculty (Olympus)] 13:21:12
+Any questions, uh, Sanjeev? I believe you are unmuted.
+
+[Sanjiv Kumar .] 13:21:17
+No, so I wanted to ask is that most of the documents that at least I was working is they have
+
+[Sanjiv Kumar .] 13:21:22
+PDF, which has not only text, but the tables and the images.
+
+[Sanjiv Kumar .] 13:21:28
+Is there a model that excel in those type of
+
+[Faculty (Olympus)] 13:21:29
+Very good question.
+
+[Sanjiv Kumar .] 13:21:33
+creating and maintaining that semantic
+
+[Sanjiv Kumar .] 13:21:36
+context together.
+
+[Faculty (Olympus)] 13:21:38
+it's very amazing question. This is a very advanced question that you're asking. This is exactly how I'm struggling right now.
+
+[Faculty (Olympus)] 13:21:47
+I have to say, um, trying to, these days,
+
+[Faculty (Olympus)] 13:21:51
+I cannot give you, like, a solid answer, because this is an ongoing challenge that every one of us are handling.
+
+[Faculty (Olympus)] 13:21:59
+And I can tell you that…
+
+[Faculty (Olympus)] 13:22:02
+what I'm doing is that I'm splitting things between the different, uh…
+
+[Faculty (Olympus)] 13:22:07
+So, based on the caption, based on the, uh, based on the topics, based on the headings,
+
+[Faculty (Olympus)] 13:22:13
+of splitting things.
+
+[Faculty (Olympus)] 13:22:15
+And uh… embed the tables in the different ways, the images in the different ways, and also the text as a different base.
+
+[Faculty (Olympus)] 13:22:23
+Okay? And I've retrieve from these three separately. So this is the way that I'm handling. I cannot say for sure this is the…
+
+[Faculty (Olympus)] 13:22:32
+Amazing, awesome, final answer.
+
+[Faculty (Olympus)] 13:22:35
+Uh, for this one, but this is a very advanced question that you asked.
+
+[Sanjiv Kumar .] 13:22:41
+Yeah, because in the enterprise… sorry, just to finish my job, because that's the main challenge that I'm seeing.
+
+[James Teeter .] 13:22:43
+I…
+
+[Sanjiv Kumar .] 13:22:47
+Like, there's not a single one that you… that will…
+
+[Sanjiv Kumar .] 13:22:51
+Everything. So I think what you…
+
+[Sanjiv Kumar .] 13:22:54
+separating it out, or chunks into, you know, images separately, but then how do you… how do you generate, like, how do you combine at the end to say, now you have three retrievers, right?
+
+[Sanjiv Kumar .] 13:23:05
+Um, are you running that query against every retriever and then retrieving it, and then…
+
+[Faculty (Olympus)] 13:23:11
+You're right.
+
+[Sanjiv Kumar .] 13:23:12
+consolidated.
+
+[Faculty (Olympus)] 13:23:13
+You're right, I have 3 different vector stores, and I'm retrieving from each of them separately.
+
+[Faculty (Olympus)] 13:23:19
+And I ingest them, all of them at once, uh, to the… to the model to answer the questions.
+
+[Faculty (Olympus)] 13:23:25
+As I said, this is not the final answer that I say this is the best thing, but this is the best way… this is the way that I'm handling this situation, but if I get a better thing, I'll let you know.
+
+[James Teeter .] 13:23:25
+I…
+
+[Sanjiv Kumar .] 13:23:25
+Got it.
+
+[Faculty (Olympus)] 13:23:35
+James?
+
+[James Teeter .] 13:23:36
+I… I was gonna say, I transformed the data before I chunk it, so…
+
+[James Teeter .] 13:23:40
+If you're dealing with, like, a large tabular, and the problem is when you chunk it, you're gonna lose…
+
+[James Teeter .] 13:23:46
+your fields, at least for me.
+
+[James Teeter .] 13:23:48
+So, I actually transform the data,
+
+[James Teeter .] 13:23:50
+To make sure that it retains that…
+
+[James Teeter .] 13:23:52
+you know, that context, and then I chunk it, no matter how size… what size the chunk is, it retains its context.
+
+[James Teeter .] 13:24:00
+So, I just run it through a Python.
+
+[James Teeter .] 13:24:03
+pipeline to do that.
+
+[Faculty (Olympus)] 13:24:04
+Amazing.
+
+[Sanjiv Kumar .] 13:24:04
+Yeah. So, sorry, James, the one thing that I really tried on those tables
+
+[Sanjiv Kumar .] 13:24:10
+is Llama Index. If you try that, Llama Index actually maintains the column header and the…
+
+[Sanjiv Kumar .] 13:24:16
+all the values below it. So it's really…
+
+[Sanjiv Kumar .] 13:24:20
+a smart way to index, uh, sorry, to create those chunks, especially for the tabular data.
+
+[Sanjiv Kumar .] 13:24:27
+I have, uh, at least I tried, and it gave me the…
+
+[Sanjiv Kumar .] 13:24:31
+the best result, I would say, um…
+
+[Sanjiv Kumar .] 13:24:34
+In terms of if you have tables.
+
+[James Teeter .] 13:24:37
+Okay, thank you.
+
+[Faculty (Olympus)] 13:24:39
+If you're… if you're working only on the tabular data, I wouldn't, uh…
+
+[Faculty (Olympus)] 13:24:44
+care much, because, uh, easily…
+
+[Faculty (Olympus)] 13:24:46
+So, if it pretty much depends on the situation.
+
+[Faculty (Olympus)] 13:24:51
+if the… every rows containing lots of information, sometimes a truncate each of them, each of the rows as a one chunk.
+
+[Faculty (Olympus)] 13:25:00
+and I ingested to the things, so I can return the proper one at the very end.
+
+[Faculty (Olympus)] 13:25:04
+And I put it as a text, I transform it to a text base, and then ingest the two things and iterate.
+
+[Faculty (Olympus)] 13:25:10
+This is the way that it works well for me. If I only have the tabular data.
+
+[Faculty (Olympus)] 13:25:15
+But if I have the tabular data on a PDF,
+
+[Faculty (Olympus)] 13:25:19
+that's a different story. I would say maybe that tabular data you just explaining about some statistics, maybe?
+
+[Faculty (Olympus)] 13:25:26
+That's statistic should be understand… should be understood.
+
+[Faculty (Olympus)] 13:25:30
+in context overall, rather than just, like, splitting everything separately. So it pretty much depends on the…
+
+[Faculty (Olympus)] 13:25:38
+problem that you're trying to solve,
+
+[Faculty (Olympus)] 13:25:39
+And it could be very different.
+
+[Faculty (Olympus)] 13:25:42
+But I would say, what I'm, uh…
+
+[Faculty (Olympus)] 13:25:45
+I've been trying different models.
+
+[Faculty (Olympus)] 13:25:48
+And, uh, if you are… if the… if the price is not a limitation for you,
+
+[Faculty (Olympus)] 13:25:54
+And if the security is not the problem, and you have a, like, a enterprise-level access to the ChatGPT or Gemini,
+
+[Faculty (Olympus)] 13:26:03
+I've been using the embeddings from them
+
+[Faculty (Olympus)] 13:26:06
+it's been handling the situation far better than the others.
+
+[Faculty (Olympus)] 13:26:10
+At least through my case.
+
+[Sanjiv Kumar .] 13:26:13
+Yeah.
+
+[Dino Vitale .] 13:26:13
+I found it useful to look at how
+
+[Dino Vitale .] 13:26:18
+Parquet, looking at the Parquet format, and how they represented
+
+[Dino Vitale .] 13:26:22
+Because, you know, Parquet is, you know, has been optimized, you know, for searching, and I really got some good tips
+
+[Dino Vitale .] 13:26:28
+on how you can break up through column chunks and understanding metadata, you know, you can put metadata…
+
+[Dino Vitale .] 13:26:34
+header metadata, footer metadata, that helps you kind of… you know, because a lot of times, a lot of your answers may not be in all-in-one doc, and it's very hard to, you know, if you've got your… if your content both spans across many, many documents, it's very hard to sometimes collapse all that information.
+
+[Dino Vitale .] 13:26:51
+doing, like, ETL all over again, and it's not efficient. So, you know, the system…
+
+[Dino Vitale .] 13:26:57
+crafty ways to kind of look at things like, you know, parent-child relationships and things like that. I mean, it gets pretty complicated on the, on the, on the
+
+[Dino Vitale .] 13:27:06
+on the approaches, but I found that, and… and there was another really cool thing I ran across what they call hypothetical document embeddings.
+
+[Dino Vitale .] 13:27:13
+Which is a pretty… another cool way of how to help find… efficiently find information…
+
+[Dino Vitale .] 13:27:20
+large set of documents across an LLM, but it's… it gets complicated, and so a lot of debt, too, that you take on.
+
+[Dino Vitale .] 13:27:26
+you know,
+
+[Faculty (Olympus)] 13:27:30
+I've never…
+
+[Faculty (Olympus)] 13:27:31
+thought about the embedding of Parquet file, and the Parquet file was already partitions, the size is humongous normally.
+
+[Faculty (Olympus)] 13:27:39
+And, uh, thank you for that. And yes, to your points, I forgot to mention,
+
+[Faculty (Olympus)] 13:27:45
+All of the time spent your embed things, they are…
+
+[Faculty (Olympus)] 13:27:49
+of, uh, metadata across that.
+
+[Faculty (Olympus)] 13:27:51
+that you can translate many of the… many of the columns can be actually addressed as a metadata, rather than the actual using it for the
+
+[Faculty (Olympus)] 13:28:01
+for the actual content of the context. And very useful for finding the things for, uh,
+
+[Faculty (Olympus)] 13:28:08
+pouring the things on a structured way, but…
+
+[Faculty (Olympus)] 13:28:10
+Yeah, it's… bottom line, for the rest of you guys,
+
+[Faculty (Olympus)] 13:28:15
+is that it depends on your problem. It could be anything.
+
+[Faculty (Olympus)] 13:28:20
+He could be literally anything.
+
+[Faculty (Olympus)] 13:28:23
+Okay, uh, we have a little bit, uh…
+
+[Sanjiv Kumar .] 13:28:25
+Just one, sorry, one thing is that the only problem that I face, like, this table that you're showing, if you go back,
+
+[Sanjiv Kumar .] 13:28:31
+Whenever there's a missing data in the table, and you try to chunk
+
+[Sanjiv Kumar .] 13:28:37
+The column shifts upward. So, for example, here is Quinn 1.5, the row number 2,
+
+[Sanjiv Kumar .] 13:28:43
+It is missing the model size and the memory usage, and embedding.
+
+[Sanjiv Kumar .] 13:28:47
+values. So what I have seen in the past is when I chunk it, you know, this…
+
+[Sanjiv Kumar .] 13:28:52
+The next row will shift upward. It doesn't maintain that
+
+[Faculty (Olympus)] 13:28:55
+I see.
+
+[Sanjiv Kumar .] 13:28:57
+column hierarchy. So, whenever there's missing data,
+
+[Sanjiv Kumar .] 13:28:59
+I saw that, uh, when I was testing, too, there was a spreadsheet in the PDF that says this is a sales volume for this country, and when they have a missing values,
+
+[Sanjiv Kumar .] 13:29:10
+It was… and you ask, hey, what…
+
+[Sanjiv Kumar .] 13:29:12
+order for this country, and it… because they're missing value, it will… it was giving me the wrong answer. So I'm like, okay, how do I say…
+
+[Faculty (Olympus)] 13:29:18
+I see.
+
+[Sanjiv Kumar .] 13:29:19
+How do I fix that? So I had to modify it, and, like, I tried zeros, I tried…
+
+[Sanjiv Kumar .] 13:29:24
+Many, many things, but for whatever reason, um…
+
+[Sanjiv Kumar .] 13:29:29
+It wasn't giving me the value that I was looking for.
+
+[Faculty (Olympus)] 13:29:31
+you're saying… you're saying for the Quan did things, because I've done it using the OpenAI, I've never…
+
+[Faculty (Olympus)] 13:29:38
+had a problem like that.
+
+[Faculty (Olympus)] 13:29:40
+I could say maybe our setup is different, maybe our setup is different, but…
+
+[Sanjiv Kumar .] 13:29:40
+Okay. I probably…
+
+[Faculty (Olympus)] 13:29:46
+Uh… but, uh, I've never had it before, to be honest with you.
+
+[Sanjiv Kumar .] 13:29:50
+Got it,
+
+[Faculty (Olympus)] 13:29:51
+Uh, we have a time limitation, guys. Sorry, I have to… I love to stay and talk about different stuff, but let's move on.
+
+[Faculty (Olympus)] 13:29:59
+And after finalizing the things, uh, probably we should, uh, talk about it.
+
+[Faculty (Olympus)] 13:30:05
+Okay, quick, we already talked about it, we have a different embedding techniques, uh, if you wanted to use the semantic search and retrieval eye contact generation,
+
+[Faculty (Olympus)] 13:30:16
+any of the bird family from the Google, including the sentence bird, is, uh,
+
+[Faculty (Olympus)] 13:30:22
+is one of the very good ones.
+
+[Faculty (Olympus)] 13:30:25
+Uh, this model, this embedding, uh, is very good, especially when you wanted to cluster different semantics together. This is the way that I used it before.
+
+[Faculty (Olympus)] 13:30:36
+If you have a general purpose text classification and clustering,
+
+[Faculty (Olympus)] 13:30:40
+Like the one that I meant, uh, distilled bird, or, uh, Robert was, uh, I don't remember what was the RO stands for.
+
+[Faculty (Olympus)] 13:30:49
+But, uh, this is the other way that you can do it.
+
+[Faculty (Olympus)] 13:30:53
+Uh, for the multimodal search or cross-modal, uh, alignments, uh, CLIP,
+
+[Faculty (Olympus)] 13:30:59
+Uh, is a good one, and also the OpenAI, I've used it definitely. OpenAI, uh, vision language models is a very superior one.
+
+[Faculty (Olympus)] 13:31:08
+Uh, for handling the OpenAIs, and by the way, we have also…
+
+[Faculty (Olympus)] 13:31:13
+Uh, the, uh, the embeddings from the Google, which is very strong.
+
+[Faculty (Olympus)] 13:31:18
+Google is very good in terms of, uh,
+
+[Faculty (Olympus)] 13:31:21
+handling the images.
+
+[Faculty (Olympus)] 13:31:23
+Regarding the Chanking, that was a question before that.
+
+[Faculty (Olympus)] 13:31:27
+And kind of, we already talked about it, but it's pretty quick.
+
+[Faculty (Olympus)] 13:31:32
+There are multiple ways that you do the trunkings. If you're…
+
+[Faculty (Olympus)] 13:31:36
+Thanks, is… doesn't have any stoppers, or doesn't have any…
+
+[Faculty (Olympus)] 13:31:42
+uh… any identifier that you can split based on that, and if you wanted to split it only solely based on the length,
+
+[Faculty (Olympus)] 13:31:52
+you will have the chunk size, and you will have the overlap size.
+
+[Faculty (Olympus)] 13:31:56
+Meaning that those 16, uh, tokens, or 16 warrants,
+
+[Faculty (Olympus)] 13:32:01
+It's going to be presented both
+
+[Faculty (Olympus)] 13:32:04
+On the previous one, and on the next chart.
+
+[Faculty (Olympus)] 13:32:08
+On the both sides. And the reason is that not to miss any important information.
+
+[Faculty (Olympus)] 13:32:14
+and keep the relation between the…
+
+[Faculty (Olympus)] 13:32:18
+to differentiate, and that's the reason that we have overlapping chart.
+
+[Faculty (Olympus)] 13:32:21
+But high suggestion from me.
+
+[Faculty (Olympus)] 13:32:24
+Anytime, for any reason, if you can use it based on a structure,
+
+[Faculty (Olympus)] 13:32:29
+use the structured version, not the overlapping triangle.
+
+[Faculty (Olympus)] 13:32:33
+trunk is, like, alternative things.
+
+[Faculty (Olympus)] 13:32:35
+When you don't have it,
+
+[Faculty (Olympus)] 13:32:39
+um… use those as stuff.
+
+[Faculty (Olympus)] 13:32:42
+We already talked about the query and the things. As I said, the query text, when you query the text,
+
+[Faculty (Olympus)] 13:32:49
+It translated to numbers.
+
+[Faculty (Olympus)] 13:32:51
+you, uh, you do the querying and check the…
+
+[Faculty (Olympus)] 13:32:56
+closeness, the similarities between the dues, uh…
+
+[Faculty (Olympus)] 13:33:00
+that query, those numerical representation, and the things that you have already on your vector store.
+
+[Faculty (Olympus)] 13:33:07
+you find the N numbers that we specified before,
+
+[Faculty (Olympus)] 13:33:11
+And that's it, and provided as…
+
+[Faculty (Olympus)] 13:33:15
+as the context URL.
+
+[Faculty (Olympus)] 13:33:18
+Over here, in the evaluation, there are 3 main things that we already checked.
+
+[Faculty (Olympus)] 13:33:24
+Uh, when we are, uh…
+
+[Faculty (Olympus)] 13:33:27
+handling the route.
+
+[Faculty (Olympus)] 13:33:28
+One of them is the groundness and faithfulness, which is the how much of the answer is drawn from the context, not from outside.
+
+[Faculty (Olympus)] 13:33:37
+contextual relevancy is that how relevant, uh, is the retrieval context of the input?
+
+[Faculty (Olympus)] 13:33:44
+And also, the final one is the answer to relevancy.
+
+[Faculty (Olympus)] 13:33:48
+How relevant is your gender response is to the given input.
+
+[Faculty (Olympus)] 13:33:52
+These are the three, uh, very well-known, popular…
+
+[Faculty (Olympus)] 13:33:58
+Uh, like K evaluation that we normally do on the end of the rack, just to make sure that the quality of the output
+
+[Faculty (Olympus)] 13:34:06
+is what we want.
+
+[Faculty (Olympus)] 13:34:08
+Now, let's, uh, work on the implementation.
+
+[Faculty (Olympus)] 13:34:14
+Uh…
+
+[Faculty (Olympus)] 13:34:15
+Any questions so far, by the way?
+
+[Faculty (Olympus)] 13:34:19
+If I may move on to my, uh…
+
+[Faculty (Olympus)] 13:34:22
+VS Code is going to be much easier.
+
+[Faculty (Olympus)] 13:34:26
+So, the first things…
+
+[Faculty (Olympus)] 13:34:29
+Uh, to do.
+
+[Faculty (Olympus)] 13:34:33
+First of all, loading the JSON file, that config that contains all of your config.
+
+[Faculty (Olympus)] 13:34:40
+And I believe you should already be able to do it.
+
+[Faculty (Olympus)] 13:34:46
+Just keep it in the quotation, this is not the best way that I suggest to do.
+
+[Faculty (Olympus)] 13:34:52
+do handle your…
+
+[Faculty (Olympus)] 13:34:53
+environment variable, I suggest to do it, set it up as an environment variable.
+
+[Faculty (Olympus)] 13:34:58
+I believe many of you already have an understanding of the environment variables and how to ingest it.
+
+[Faculty (Olympus)] 13:35:05
+and automatically load every environment variables, and you don't need to…
+
+[Faculty (Olympus)] 13:35:11
+specify things just to… to get things. If you follow
+
+[Faculty (Olympus)] 13:35:16
+the, uh, the, uh…
+
+[Faculty (Olympus)] 13:35:20
+the standards for each of them.
+
+[Faculty (Olympus)] 13:35:22
+If you name it OpenAI-based URL, and OpenAI key, you don't need to rename it, technically.
+
+[Faculty (Olympus)] 13:35:30
+that global variable. Um, so it's going to be much easier to handle, and it's going to be secure,
+
+[Faculty (Olympus)] 13:35:36
+If you don't know it, I can point you to some of my projects that I implemented this way.
+
+[Faculty (Olympus)] 13:35:41
+So, you need to infer the conflict.json that we discussed it, I believe, last week or a couple of weeks ago.
+
+[Faculty (Olympus)] 13:35:49
+And for me, it's…
+
+[Faculty (Olympus)] 13:35:51
+two directory up.
+
+[Faculty (Olympus)] 13:35:53
+for those who doesn't mean, doesn't understand,
+
+[Faculty (Olympus)] 13:35:56
+So, that's a reason that the black dots slash referring that you go up one,
+
+[Faculty (Olympus)] 13:36:03
+directory, and you do it one more time,
+
+[Faculty (Olympus)] 13:36:05
+As you can see, this is under Directory Veek 3. I'll go up, go to the prompt engineering,
+
+[Faculty (Olympus)] 13:36:12
+And say I said, go, ah, one more one, one more directory,
+
+[Faculty (Olympus)] 13:36:16
+Let me be able to find the config.jsaf.
+
+[Faculty (Olympus)] 13:36:19
+relative to the path of this one.
+
+[Faculty (Olympus)] 13:36:21
+Or you can have the absolute, uh… absolute…
+
+[Faculty (Olympus)] 13:36:26
+this one, so you can…
+
+[Faculty (Olympus)] 13:36:28
+As you can see, this is the path. It's the, like, a great learning, a JT, uh, AI, JHU,
+
+[Faculty (Olympus)] 13:36:35
+And the config.json. You put any of those both out there are gonna work.
+
+[Faculty (Olympus)] 13:36:39
+You load this one,
+
+[Faculty (Olympus)] 13:36:42
+you load the chat OpenAI, and we are using the mini,
+
+[Faculty (Olympus)] 13:36:47
+This is important. When we are dealing with RAC, especially if you are… you wanted to absolutely
+
+[Faculty (Olympus)] 13:36:55
+Roundness.
+
+[Faculty (Olympus)] 13:36:57
+on the, uh…
+
+[Faculty (Olympus)] 13:36:59
+On the context.
+
+[Faculty (Olympus)] 13:37:01
+And you want… you don't want any creativity on this one, any hallucination, you put the temperature zero.
+
+[Faculty (Olympus)] 13:37:08
+For some cases,
+
+[Faculty (Olympus)] 13:37:10
+that the, uh, you don't have much at stake, probably you can have it still small, but instead of…
+
+[Faculty (Olympus)] 13:37:19
+Like, zero, you can't have a 0.1.
+
+[Faculty (Olympus)] 13:37:20
+But in many cases, temperature is zero is very normal.
+
+[Faculty (Olympus)] 13:37:24
+Especially when you're dealing with something.
+
+[Faculty (Olympus)] 13:37:27
+And the other stuff is not that much important, but this… we are limited to 500 tokens.
+
+[Faculty (Olympus)] 13:37:34
+Inferring based in the 95 percentile higher than… and this is the frequency of the penalty,
+
+[Faculty (Olympus)] 13:37:39
+And this is the stopper. When you put…
+
+[Faculty (Olympus)] 13:37:43
+some, uh…
+
+[Faculty (Olympus)] 13:37:46
+some prompts. You can, uh, say, this is the stopper, this is the, like, a, uh, like a…
+
+[Faculty (Olympus)] 13:37:53
+like HTML pack that says this is the start-stop of the things.
+
+[Faculty (Olympus)] 13:37:59
+It depends, I… I…
+
+[Faculty (Olympus)] 13:38:02
+Uh, to be honest, I've never installed, uh, implemented on production-based, but it's good to know that you have a limitation, you have something to do over here.
+
+[Faculty (Olympus)] 13:38:12
+Okay, based on what I explained, let's follow the same path. So, I said the first thing is the indexing, or the ingestion,
+
+[Faculty (Olympus)] 13:38:21
+For the indexing and ingestion, I set 3 steps should be done.
+
+[Faculty (Olympus)] 13:38:26
+First is to load.
+
+[Faculty (Olympus)] 13:38:29
+Second is to chunk, meaning they split.
+
+[Faculty (Olympus)] 13:38:33
+When we do it over here, we do both act together,
+
+[Faculty (Olympus)] 13:38:36
+We are using the PIP PDFloader from the line chain,
+
+[Faculty (Olympus)] 13:38:41
+I'd also, if you are using the recursive character takes a splitter,
+
+[Faculty (Olympus)] 13:38:48
+And we are specifying the 512
+
+[Faculty (Olympus)] 13:38:51
+plus the 16.
+
+[Faculty (Olympus)] 13:38:53
+overlap, and if you are loaded and spilling all together,
+
+[Faculty (Olympus)] 13:38:59
+And if you check that, you know that we have a 25…
+
+[Faculty (Olympus)] 13:39:03
+different charts.
+
+[Faculty (Olympus)] 13:39:05
+in your, uh, in your, uh…
+
+[Faculty (Olympus)] 13:39:08
+stuff, and you can…
+
+[Faculty (Olympus)] 13:39:13
+How do I run it? Yes, you can see that. These are the 25 chunks that we have.
+
+[Faculty (Olympus)] 13:39:18
+Before the embeddings,
+
+[Faculty (Olympus)] 13:39:21
+As you can see, the documents…
+
+[Faculty (Olympus)] 13:39:24
+All of them has, uh, the metadata that we already discussed, so that the metadata of this one.
+
+[Faculty (Olympus)] 13:39:30
+And there should be a page content
+
+[Faculty (Olympus)] 13:39:33
+Yes, page content on this one, that contains
+
+[Faculty (Olympus)] 13:39:37
+the description inside. If you wanted to investigate, for example, one, I can say this one,
+
+[Faculty (Olympus)] 13:39:43
+Uh, page content,
+
+[Faculty (Olympus)] 13:39:45
+And if you have wanted to print it nicely,
+
+[Faculty (Olympus)] 13:39:50
+You can print out… this is the text.
+
+[Faculty (Olympus)] 13:39:53
+for this… the first job.
+
+[Faculty (Olympus)] 13:39:56
+Okay?
+
+[Faculty (Olympus)] 13:39:58
+You did the chunking, you did the loading, you did the chunking, the next thing is to embed in it.
+
+[Faculty (Olympus)] 13:40:05
+And we are using the OpenAI embeddings.
+
+[Faculty (Olympus)] 13:40:09
+It's very cheap, very cheap, don't worry about the cost.
+
+[Faculty (Olympus)] 13:40:14
+Uh, you're anyway using the, uh, the great learning, uh, but even if you do it on your side, it's very cheap, don't worry about using it.
+
+[Faculty (Olympus)] 13:40:22
+I believe it's, like…
+
+[Faculty (Olympus)] 13:40:24
+maybe…
+
+[Faculty (Olympus)] 13:40:27
+million tokens is like a, uh, like 10 cent, something like that.
+
+[Faculty (Olympus)] 13:40:32
+So…
+
+[Faculty (Olympus)] 13:40:35
+I define my embedding model,
+
+[Faculty (Olympus)] 13:40:38
+And also, I define the chroma vector store as my resource vector store. I would say…
+
+[Faculty (Olympus)] 13:40:45
+These are the chunks.
+
+[Faculty (Olympus)] 13:40:46
+This is the model that we wanted to use for the embeddings, and I wanted to name it.
+
+[Faculty (Olympus)] 13:40:51
+And if I run the retriever… if I run the vector store, this is the one that, uh, save everything, so those numerical representations, it goes to your vector store.
+
+[Faculty (Olympus)] 13:41:05
+The next one, we use the same vector store as the retriever. You remember.
+
+[Faculty (Olympus)] 13:41:12
+I said before,
+
+[Faculty (Olympus)] 13:41:14
+that you need to use the same embedding
+
+[Faculty (Olympus)] 13:41:17
+You need to use the same…
+
+[Faculty (Olympus)] 13:41:21
+Uh, same VICTOR score, so be able to
+
+[Faculty (Olympus)] 13:41:24
+bring back everything to life.
+
+[Faculty (Olympus)] 13:41:27
+And this is the way that's used. If you use…
+
+[Faculty (Olympus)] 13:41:31
+different embeddings when you wanted to retrieve,
+
+[Faculty (Olympus)] 13:41:34
+You're not going to retrieve the proper one.
+
+[Faculty (Olympus)] 13:41:36
+you're not going to retrieve, actually, something sane. It's going to be, uh, gibberish, and it's not gonna work. So, just make sure that…
+
+[Faculty (Olympus)] 13:41:44
+You're using the same things.
+
+[Faculty (Olympus)] 13:41:47
+Something I forgot to mention, and we are not using it over here. Normally,
+
+[Faculty (Olympus)] 13:41:52
+We persisted somewhere. These Victor stores being saved to disk, or being saved and persisted on some places,
+
+[Faculty (Olympus)] 13:42:00
+When you put it aside, and anytime that you want to use it, you just load the vectors to it.
+
+[Faculty (Olympus)] 13:42:05
+Okay?
+
+[Faculty (Olympus)] 13:42:08
+So, in this case, we are not saving the vector store.
+
+[Faculty (Olympus)] 13:42:12
+But we wanted to also define the retriever. The retriever is being defined,
+
+[Faculty (Olympus)] 13:42:17
+And I'm saying how to search…
+
+[Faculty (Olympus)] 13:42:22
+within the ChromaDB, inside the vector store,
+
+[Faculty (Olympus)] 13:42:24
+And I'm saying, arbitrarily over here, by completely arbitrarily,
+
+[Faculty (Olympus)] 13:42:30
+bring me the top K-fold, similar to the query.
+
+[Faculty (Olympus)] 13:42:34
+So it's going to return every time that they ask a question and bring back the five different
+
+[Faculty (Olympus)] 13:42:40
+context for that question.
+
+[Faculty (Olympus)] 13:42:43
+So, this is the first step.
+
+[Faculty (Olympus)] 13:42:46
+that we gonna do. The next step is to do…
+
+[Faculty (Olympus)] 13:42:51
+Uh, the prompt engineering for the wrap.
+
+[Faculty (Olympus)] 13:42:54
+We have a Q&A system message?
+
+[Faculty (Olympus)] 13:42:55
+that, uh, your assistant, uh, whose work is to review the report and provide the appropriate answer for the context,
+
+[Faculty (Olympus)] 13:43:04
+We will input, uh, the user input will have the context required by you to answer the core question. This context will begin.
+
+[Faculty (Olympus)] 13:43:12
+With token, this one.
+
+[Faculty (Olympus)] 13:43:15
+the context contained reference to a specific portion of…
+
+[Faculty (Olympus)] 13:43:21
+This user question will begin with the tokens, this one.
+
+[Faculty (Olympus)] 13:43:24
+And asked her the question, if the answer is not found in the context response, I don't know.
+
+[Faculty (Olympus)] 13:43:29
+That's a very important phase.
+
+[Faculty (Olympus)] 13:43:31
+And this is the template, so you import the context over here, and then…
+
+[Faculty (Olympus)] 13:43:36
+you put the question.
+
+[Faculty (Olympus)] 13:43:39
+Okay?
+
+[Faculty (Olympus)] 13:43:43
+And…
+
+[Faculty (Olympus)] 13:43:45
+Then…
+
+[Faculty (Olympus)] 13:43:48
+Let's work on this retrieval. This is the user question.
+
+[Faculty (Olympus)] 13:43:53
+you have a sentence, you have a query.
+
+[Faculty (Olympus)] 13:43:56
+We use the retriever to get to relevant documents.
+
+[Faculty (Olympus)] 13:44:00
+But as I mentioned, what it does behind the scene is that it translates this one to the numerical representation,
+
+[Faculty (Olympus)] 13:44:08
+we find the closest things to this one,
+
+[Faculty (Olympus)] 13:44:10
+I returned the Type 5 as we specified before on the retriever, uh…
+
+[Faculty (Olympus)] 13:44:16
+function, module,
+
+[Faculty (Olympus)] 13:44:18
+to bring the best five
+
+[Faculty (Olympus)] 13:44:20
+coming back for me. And when I run it, you see it's returning the 5…
+
+[Faculty (Olympus)] 13:44:26
+different documents. You can investigate what are those documents,
+
+[Faculty (Olympus)] 13:44:33
+These are the five documents. You remember that we have the 25.
+
+[Faculty (Olympus)] 13:44:37
+When I can investigate even…
+
+[Faculty (Olympus)] 13:44:40
+Okay?
+
+[Faculty (Olympus)] 13:44:45
+leather print?
+
+[Faculty (Olympus)] 13:44:49
+Okay? This is one of the times that he was, uh…
+
+[Faculty (Olympus)] 13:44:54
+brought back. And what is the question? Who are the authors of this article and co-published this article?
+
+[Faculty (Olympus)] 13:45:00
+And as you can see, there are some names over here.
+
+[Faculty (Olympus)] 13:45:05
+Okay? Organizational, these are the numbers. Then the authors, it's…
+
+[Faculty (Olympus)] 13:45:10
+very good, uh, very good retrieval. Even we investigated the first one.
+
+[Faculty (Olympus)] 13:45:15
+Let's check the second one…
+
+[Faculty (Olympus)] 13:45:19
+Uh, it seems that this is the, uh, the chunk afterward.
+
+[Faculty (Olympus)] 13:45:23
+And, doesn't matter.
+
+[Faculty (Olympus)] 13:45:28
+As I showed it in a different day, uh, how to… how to investigate the, uh, the first one. I used this one, this is using the for loop just to show
+
+[Faculty (Olympus)] 13:45:39
+Uh, the charts.
+
+[Faculty (Olympus)] 13:45:41
+Now you have the chance.
+
+[Faculty (Olympus)] 13:45:43
+Okay? You'd retrieve this.
+
+[Faculty (Olympus)] 13:45:46
+But this is a list.
+
+[Faculty (Olympus)] 13:45:49
+you want to put together as a single context text.
+
+[Faculty (Olympus)] 13:45:53
+Okay? You use it this one.
+
+[Faculty (Olympus)] 13:45:56
+And if you're not familiar with this one, this is called the Least Comprehension.
+
+[Faculty (Olympus)] 13:46:02
+I'm saying for every…
+
+[Faculty (Olympus)] 13:46:05
+relevant documents.
+
+[Faculty (Olympus)] 13:46:07
+go find this, bring the page content. This is exactly what I did over here.
+
+[Faculty (Olympus)] 13:46:12
+Okay. And I put… I'm making the list of this one.
+
+[Faculty (Olympus)] 13:46:16
+Then I said,
+
+[Faculty (Olympus)] 13:46:19
+Append each of those lists. This is the join.
+
+[Faculty (Olympus)] 13:46:23
+that it's gonna convert the, uh, convert the list to a text.
+
+[Faculty (Olympus)] 13:46:28
+to a core person of attacks.
+
+[Faculty (Olympus)] 13:46:30
+And put the dot and a space between each other.
+
+[Faculty (Olympus)] 13:46:35
+So if you see at the very end,
+
+[Faculty (Olympus)] 13:46:38
+This is… oops.
+
+[Faculty (Olympus)] 13:46:41
+It's…
+
+[Faculty (Olympus)] 13:46:42
+Better to print it.
+
+[Faculty (Olympus)] 13:46:44
+This is the text that we have, overall, so the all five has been returned, as you can see,
+
+[Faculty (Olympus)] 13:46:51
+As a single context.
+
+[Faculty (Olympus)] 13:46:53
+Now you have the context
+
+[Faculty (Olympus)] 13:46:56
+The easier things that you can do is that you ingest that context to the model.
+
+[Faculty (Olympus)] 13:47:01
+But for the sake of simplicity, and we've… since we wanted to do it every time,
+
+[Faculty (Olympus)] 13:47:06
+We put together this one.
+
+[Faculty (Olympus)] 13:47:08
+It's a function that I'm doing the same thing. So, I'm retrieving the relevant documents,
+
+[Faculty (Olympus)] 13:47:15
+I'm getting the page content of those documents, I join it just to make a context single text,
+
+[Faculty (Olympus)] 13:47:23
+then I create the prompt.
+
+[Faculty (Olympus)] 13:47:26
+with a system prompt, and then this is the…
+
+[Faculty (Olympus)] 13:47:30
+Uh, this is the user prompt, which is the context.
+
+[Faculty (Olympus)] 13:47:34
+And then I ingested it to a model, which we already defined as the OpenAI model.
+
+[Faculty (Olympus)] 13:47:41
+And we invoke to get the response.
+
+[Faculty (Olympus)] 13:47:43
+Okay? And then from the response, we get the content of the response, so we do that.
+
+[Faculty (Olympus)] 13:47:49
+And, uh, we say if something goes wrong, sorry, encounter some following error.
+
+[Faculty (Olympus)] 13:47:55
+Right?
+
+[Faculty (Olympus)] 13:47:57
+Let's activate it. So, who are the author of this article? Who published this article? The author of this part, uh, the article is, uh, Joel M.
+
+[Faculty (Olympus)] 13:48:07
+And the following daughter, too, it was published in Harvard Business Review.
+
+[Faculty (Olympus)] 13:48:11
+That's a very good answer to the questions.
+
+[Faculty (Olympus)] 13:48:14
+If I ask that other question…
+
+[Faculty (Olympus)] 13:48:17
+is that, uh, lease down the three leadership characteristics in bullet points and explain each of them characteristics under two lines.
+
+[Faculty (Olympus)] 13:48:27
+Deep expertise, immersion in the detail, willingness to collaboratively depends.
+
+[Faculty (Olympus)] 13:48:34
+That's a nice answer as well. So, as you can see, based on the quote…
+
+[Faculty (Olympus)] 13:48:40
+We got the answer.
+
+[Faculty (Olympus)] 13:48:42
+So, so far, this is the wrap.
+
+[Faculty (Olympus)] 13:48:46
+Quickly, let's work on the evaluation, and I'm sorry if I'm moving a little bit fast, because, uh…
+
+[Faculty (Olympus)] 13:48:52
+have to finish up the other stuff.
+
+[Faculty (Olympus)] 13:48:54
+for the DS-Pi.
+
+[Faculty (Olympus)] 13:48:58
+For the evaluation, as you remember, I said, uh, darn…
+
+[Faculty (Olympus)] 13:49:01
+three different, uh, criteria that we check for the… for the racks, normally.
+
+[Faculty (Olympus)] 13:49:06
+And those three criterias are the groundness and
+
+[Faculty (Olympus)] 13:49:12
+Less, the first one?
+
+[Faculty (Olympus)] 13:49:13
+The way that we are doing
+
+[Faculty (Olympus)] 13:49:15
+This is the ground is, uh, message template, so we have the question.
+
+[Faculty (Olympus)] 13:49:19
+We have the context, and we have the answer. So all the three that we got on the top,
+
+[Faculty (Olympus)] 13:49:25
+is being provided.
+
+[Faculty (Olympus)] 13:49:27
+And then we ask, you are tasked
+
+[Faculty (Olympus)] 13:49:31
+with rating AI-generated answers to question,
+
+[Faculty (Olympus)] 13:49:34
+posed by the users. You are presented a…
+
+[Faculty (Olympus)] 13:49:37
+context used by the AI system to generate the answer, and AI-generated an answer to the question.
+
+[Faculty (Olympus)] 13:49:42
+In the input, the question will begin with the question, the context with context, and age generatively the answers.
+
+[Faculty (Olympus)] 13:49:49
+And we are rating it, uh, 1 to 5. If this is not following, it's gonna be 1. If it is completely followed,
+
+[Faculty (Olympus)] 13:49:57
+We're gonna rate you as far as.
+
+[Faculty (Olympus)] 13:49:59
+And the answer should be drive only from the information presented in the context. There are some instruction over here just to make the…
+
+[Faculty (Olympus)] 13:50:10
+make the prompting more robust,
+
+[Faculty (Olympus)] 13:50:13
+And just to make sure everything is good.
+
+[Faculty (Olympus)] 13:50:16
+Now, if I run it,
+
+[Faculty (Olympus)] 13:50:19
+run the same thing. This one is the groundless prompt. That is, like, we are putting these two together.
+
+[Faculty (Olympus)] 13:50:25
+system prompt, and also the user prompts using the template.
+
+[Faculty (Olympus)] 13:50:29
+And we are doing… context is the context prompt the query, question is the evaluation test question,
+
+[Faculty (Olympus)] 13:50:36
+Answer is the default answer.
+
+[Faculty (Olympus)] 13:50:37
+Default passers coming from here.
+
+[Faculty (Olympus)] 13:50:41
+And we do it…
+
+[Faculty (Olympus)] 13:50:42
+And if you run it, you're gonna get…
+
+[Faculty (Olympus)] 13:50:47
+Uh… what is that? Uh, step, step to answer… okay, this score adheres to is 5, so it's absolutely following
+
+[Faculty (Olympus)] 13:50:56
+Completely following the context.
+
+[Faculty (Olympus)] 13:50:57
+That's a good thing.
+
+[Faculty (Olympus)] 13:51:00
+The second metrics that we discuss is the context relevance, very similar, I'm not going to read everything, but very similar. You have the question and the context.
+
+[Faculty (Olympus)] 13:51:10
+And you wanted to see if the context that is… was, like, retrieved is
+
+[Faculty (Olympus)] 13:51:17
+Related to the question.
+
+[Faculty (Olympus)] 13:51:19
+And if we do it and…
+
+[Faculty (Olympus)] 13:51:21
+scale is up, uh, 1 to 5.
+
+[Faculty (Olympus)] 13:51:25
+As you can see, this score is 3.
+
+[Faculty (Olympus)] 13:51:28
+Meaning that it's…
+
+[Faculty (Olympus)] 13:51:31
+like, half an hour, he's like, what is the criteria for the three? It means that the context is relevant,
+
+[Faculty (Olympus)] 13:51:37
+to a good extent.
+
+[Faculty (Olympus)] 13:51:39
+But it's not completely, uh, relevant to the context. So there are some things…
+
+[Faculty (Olympus)] 13:51:44
+expect, because we have some of the…
+
+[Faculty (Olympus)] 13:51:47
+Part of the context
+
+[Faculty (Olympus)] 13:51:50
+That is not following the…
+
+[Faculty (Olympus)] 13:51:53
+following the best practice of the contents.
+
+[Faculty (Olympus)] 13:51:56
+And this is one of the things that we will try
+
+[Faculty (Olympus)] 13:52:00
+to address it in the agentic way.
+
+[Faculty (Olympus)] 13:52:03
+The last one, if the question is being answered,
+
+[Faculty (Olympus)] 13:52:10
+And if the answer is relevant to the… relevant to the question,
+
+[Faculty (Olympus)] 13:52:14
+We have this… another metric that we can assume, we can measure using the LLM,
+
+[Faculty (Olympus)] 13:52:21
+And I'm running it, and for this one, it says the answer is completely answering.
+
+[Faculty (Olympus)] 13:52:27
+answering the question.
+
+[Faculty (Olympus)] 13:52:29
+So,
+
+[Faculty (Olympus)] 13:52:31
+This is the basic implementation of the rep.
+
+[Faculty (Olympus)] 13:52:35
+I promise you that I'm going to touch on, uh, touch on the Gentic rag.
+
+[Faculty (Olympus)] 13:52:40
+And let me describe, one by one, some of the implementation, some of the…
+
+[Faculty (Olympus)] 13:52:46
+more things that you can do
+
+[Faculty (Olympus)] 13:52:49
+Over here. What are the caveats of the rack? In many cases,
+
+[Faculty (Olympus)] 13:52:55
+Well, especially when it comes to the similarities.
+
+[Faculty (Olympus)] 13:52:57
+It doesn't matter.
+
+[Faculty (Olympus)] 13:53:01
+If you have… suppose that the… we specify bring back 5
+
+[Faculty (Olympus)] 13:53:07
+different, uh, five-related chart, right?
+
+[Faculty (Olympus)] 13:53:10
+But who knows that every time the 5 is the number?
+
+[Faculty (Olympus)] 13:53:14
+Maybe for some of the question,
+
+[Faculty (Olympus)] 13:53:17
+we have only one chunk.
+
+[Faculty (Olympus)] 13:53:20
+related. Maybe for another question, we have the 10 chance related.
+
+[Faculty (Olympus)] 13:53:25
+So, this is one caveat. The first caveat.
+
+[Faculty (Olympus)] 13:53:30
+of the… of the rack, and we have to address it, and I'll tell you exactly how to address it.
+
+[Faculty (Olympus)] 13:53:37
+The… the second thing is that sometimes, semantically,
+
+[Faculty (Olympus)] 13:53:42
+Something could be confusing.
+
+[Faculty (Olympus)] 13:53:45
+Okay? Uh, I… I had a… I played you something…
+
+[Faculty (Olympus)] 13:53:51
+before the GenAI, my main, uh, expertise was using… was on the forecasting.
+
+[Faculty (Olympus)] 13:53:58
+And you know the forecasting means the different things in different contexts.
+
+[Faculty (Olympus)] 13:54:03
+In a general context, forecasting means the weather forecast. How's the temperature? What is the perception?
+
+[Faculty (Olympus)] 13:54:10
+Expectation. But in our domain, in my domain, the forecasting means that it's gonna be the outcome.
+
+[Faculty (Olympus)] 13:54:17
+Uh, for example, for the… in the retail domain, what is the demand for the… demand forecasting?
+
+[Faculty (Olympus)] 13:54:24
+Or if you're talking about a different domain, the forecasting in something else. Sometimes…
+
+[Faculty (Olympus)] 13:54:31
+The question of the user
+
+[Faculty (Olympus)] 13:54:33
+is missing, or misleading, or confusing, and then you retrieve something from the embedding,
+
+[Faculty (Olympus)] 13:54:40
+it retrieves something related to the general context of the… of the con… of the context, of the question.
+
+[Faculty (Olympus)] 13:54:48
+Rather than the specific things to the question.
+
+[Faculty (Olympus)] 13:54:52
+So, these are the two things
+
+[Faculty (Olympus)] 13:54:55
+two main stuff that we have.
+
+[Faculty (Olympus)] 13:54:57
+On the first one, there are a few that I'm gonna name after.
+
+[Faculty (Olympus)] 13:55:00
+There are a few that I'll… I'll let you know.
+
+[Faculty (Olympus)] 13:55:03
+How do you address the first one?
+
+[Faculty (Olympus)] 13:55:06
+Anyone knows? I… one of you put something that, uh, I know that you already know some of the way to address that.
+
+[Faculty (Olympus)] 13:55:16
+And…
+
+[Faculty (Olympus)] 13:55:18
+We have an extra here.
+
+[Faculty (Olympus)] 13:55:21
+We have multiple layers beforehand.
+
+[Faculty (Olympus)] 13:55:24
+of the retriever and generation, and something…
+
+[Faculty (Olympus)] 13:55:27
+After the generation, just to make draws.
+
+[Faculty (Olympus)] 13:55:30
+Beforehand, one of the things that we do is that
+
+[Faculty (Olympus)] 13:55:36
+Which retrieve sometimes way more than what we need.
+
+[Faculty (Olympus)] 13:55:39
+Meaning that, for example,
+
+[Faculty (Olympus)] 13:55:41
+If you're… if you have, like, a thousand…
+
+[Faculty (Olympus)] 13:55:45
+For 10,000 chunk available.
+
+[Faculty (Olympus)] 13:55:47
+I retrieve 100 charts.
+
+[Faculty (Olympus)] 13:55:49
+Then, by ingested to another agent before not,
+
+[Faculty (Olympus)] 13:55:55
+to rewriting. They're re-ranking could happen using the LLM, so simply you can have, like, a… similar to the metrics that we provided, we created.
+
+[Faculty (Olympus)] 13:56:05
+You can have an agent in between.
+
+[Faculty (Olympus)] 13:56:09
+just that, uh, you say this is the question.
+
+[Faculty (Olympus)] 13:56:12
+These are the contexts.
+
+[Faculty (Olympus)] 13:56:15
+Tell me which one is relevant, which one is not relevant.
+
+[Faculty (Olympus)] 13:56:19
+Okay? And it parsed through it…
+
+[Faculty (Olympus)] 13:56:22
+based on the question, based on the context given to it, that, for example, this is talk… when we are saying forecasting, we are talking about the forecasting.
+
+[Faculty (Olympus)] 13:56:31
+Please don't bring up anything related to weather.
+
+[Faculty (Olympus)] 13:56:36
+Adding parse it through those 100, and maybe one time it says only 3 of them are relevant, maybe…
+
+[Faculty (Olympus)] 13:56:43
+15 of them are relevant, so it makes it more dynamic.
+
+[Faculty (Olympus)] 13:56:48
+Or you can use a transformer. We have a specific transformers for re-rankings.
+
+[Faculty (Olympus)] 13:56:53
+Meaning that, uh, based on the question, based on the things, it re-ramps, it shuffled the order,
+
+[Faculty (Olympus)] 13:57:01
+of the…
+
+[Faculty (Olympus)] 13:57:03
+of the retrieved documents, put the most relevant on the very top,
+
+[Faculty (Olympus)] 13:57:07
+put the least relevant on the very bottom, and say, okay,
+
+[Faculty (Olympus)] 13:57:12
+I only picked the top 5 or top 3, or top 10.
+
+[Faculty (Olympus)] 13:57:17
+Okay?
+
+[Faculty (Olympus)] 13:57:19
+So, this is one architecture of the agentic rack that, uh, probably is very useful.
+
+[Faculty (Olympus)] 13:57:25
+The second thing is that
+
+[Faculty (Olympus)] 13:57:27
+Regarding the second problem that I explained,
+
+[Faculty (Olympus)] 13:57:31
+Sometimes…
+
+[Faculty (Olympus)] 13:57:35
+sometimes the question from the user is not appropriate the
+
+[Faculty (Olympus)] 13:57:41
+uh, like, uh, described.
+
+[Faculty (Olympus)] 13:57:44
+So, one of the techniques is that we have a…
+
+[Faculty (Olympus)] 13:57:48
+Uh, later on the first patch, or sometimes as a feedback loop,
+
+[Faculty (Olympus)] 13:57:53
+we go back and paraphrase, uh, paraphrase the, uh,
+
+[Faculty (Olympus)] 13:57:58
+Big question, okay?
+
+[Faculty (Olympus)] 13:58:00
+So, if I'm asking…
+
+[Faculty (Olympus)] 13:58:04
+How's the forecast? What is the forecast?
+
+[Faculty (Olympus)] 13:58:06
+for that example that I made,
+
+[Faculty (Olympus)] 13:58:09
+it's going to be paraphrased to…
+
+[Faculty (Olympus)] 13:58:12
+What is the demand forecasting?
+
+[Faculty (Olympus)] 13:58:14
+Okay? Then, based on the new tax, you go and retrieve your documents. And normally, that retrieval is
+
+[Faculty (Olympus)] 13:58:24
+more robust and more, I mean, much better retrieval.
+
+[Faculty (Olympus)] 13:58:27
+in the prophase version.
+
+[Faculty (Olympus)] 13:58:30
+Okay? These are the two things that we do before that regarding the agenticraft.
+
+[Faculty (Olympus)] 13:58:37
+And there are tons that you can do, I'm just mentioning a few famous ones.
+
+[Faculty (Olympus)] 13:58:43
+On the after of this one…
+
+[Faculty (Olympus)] 13:58:47
+Uh, for the pulse generation, you can measure those three metrics, and you already have the metrics.
+
+[Faculty (Olympus)] 13:58:54
+You can say, if the metrics are low,
+
+[Faculty (Olympus)] 13:58:58
+you need to go back,
+
+[Faculty (Olympus)] 13:59:00
+you have a feedback loop. You have to go back to the very top,
+
+[Faculty (Olympus)] 13:59:05
+retrieve more documents.
+
+[Faculty (Olympus)] 13:59:08
+Or, paraphrase the documents and come back.
+
+[Faculty (Olympus)] 13:59:11
+or after, maybe, sometimes I would say after 3 rounds, you go to the… to a loop. After 3 rounds, if you couldn't pass all of the criterias,
+
+[Faculty (Olympus)] 13:59:21
+you would simply say, sorry, I couldn't find proper context to this one.
+
+[Faculty (Olympus)] 13:59:25
+And I cannot answer the question based on the context provided.
+
+[Faculty (Olympus)] 13:59:30
+Okay? These are the few stuff that we do, and there are tons of techniques also that we have for the, uh, for the agentic rack, uh, for the, sorry.
+
+[Faculty (Olympus)] 13:59:42
+Uh, like a knowledge graph, like the, uh, React, and there are so many things that we can do on top of it.
+
+[Faculty (Olympus)] 13:59:48
+Just to make it robust. But there are a few steps
+
+[Faculty (Olympus)] 13:59:51
+very popular, as I mentioned, those are stuff that I…
+
+[Faculty (Olympus)] 13:59:56
+Okay, any question regarding those?
+
+[Faculty (Olympus)] 14:00:01
+we have 30 minutes to deep dive on the DSPY, and I try my best.
+
+[Faculty (Olympus)] 14:00:06
+There are a few more questions, uh… oh…
+
+[Faculty (Olympus)] 14:00:10
+missed out, I believe, in Angeport for production.
+
+[Faculty (Olympus)] 14:00:14
+What are some of the ranks, evaluation framework? Did you try?
+
+[Faculty (Olympus)] 14:00:19
+I would say, uh, for… I've always used those three metrics, for sure.
+
+[Faculty (Olympus)] 14:00:25
+And, uh, maybe I describe it in a different way, but uh…
+
+[Faculty (Olympus)] 14:00:30
+These three metrics, I used it…
+
+[Faculty (Olympus)] 14:00:31
+the same vein. These are the bell valves.
+
+[Faculty (Olympus)] 14:00:34
+And measure the retrieval quality, context, precision, recall. Yes, that side are the things that I'll tell you.
+
+[Faculty (Olympus)] 14:00:41
+in a moment…
+
+[Faculty (Olympus)] 14:00:43
+Yes. If you're familiar with the classification,
+
+[Faculty (Olympus)] 14:00:48
+metrics, so…
+
+[Faculty (Olympus)] 14:00:50
+suppose that you classify things.
+
+[Faculty (Olympus)] 14:00:54
+And based on the classification, you have a yay or nay.
+
+[Faculty (Olympus)] 14:00:59
+you can have a golden data set sometimes that you test the model.
+
+[Faculty (Olympus)] 14:01:05
+So, you have, like, 100, uh, questions already provided.
+
+[Faculty (Olympus)] 14:01:09
+And you can test your pipeline based on that. The golden data set,
+
+[Faculty (Olympus)] 14:01:14
+you check the… how many times…
+
+[Faculty (Olympus)] 14:01:18
+it was properly to say yay or nay.
+
+[Faculty (Olympus)] 14:01:22
+And based on that, you can calculate the precision recall accuracy F1 score,
+
+[Faculty (Olympus)] 14:01:27
+all of those metrics.
+
+[Faculty (Olympus)] 14:01:29
+But for the context of retrieval, we normally don't…
+
+[Faculty (Olympus)] 14:01:34
+I use it, uh, there are… one of the use cases of the LLM is normally, and also the RAG,
+
+[Faculty (Olympus)] 14:01:41
+is for doing the classification.
+
+[Faculty (Olympus)] 14:01:44
+But when you are doing the classification or clustering, that would be a very good metric.
+
+[Faculty (Olympus)] 14:01:50
+Uh, that other question…
+
+[Faculty (Olympus)] 14:01:53
+Uh, from Zara is in the Python environment that I'm at, 3.2, the latest version of the Alpine lovers are using.
+
+[Faculty (Olympus)] 14:02:02
+This does not working…
+
+[Faculty (Olympus)] 14:02:04
+This does not work. It trivial.
+
+[Faculty (Olympus)] 14:02:08
+Okay.
+
+[Faculty (Olympus)] 14:02:10
+That is true. That is true. I noticed this one.
+
+[Faculty (Olympus)] 14:02:14
+And I noticed, I didn't want to say it, but uh…
+
+[Faculty (Olympus)] 14:02:18
+your students are so good, uh,
+
+[Faculty (Olympus)] 14:02:21
+There are some differences.
+
+[Faculty (Olympus)] 14:02:25
+Uh, if I wanted to write those line of code, probably I would write it in an element
+
+[Faculty (Olympus)] 14:02:29
+in a different way, but I can tell you a couple of them. For example, when I wanted to load this one,
+
+[Faculty (Olympus)] 14:02:36
+I would load it directly,
+
+[Faculty (Olympus)] 14:02:39
+PDF, uh, PDF loader.
+
+[Faculty (Olympus)] 14:02:42
+Oops, sorry, go ahead. EDF hello there.
+
+[Faculty (Olympus)] 14:02:46
+That load…
+
+[Faculty (Olympus)] 14:02:48
+And I would load it, and I'd put it as a… as a loaded document, so you can load everything. So, you see this is 11 of them?
+
+[Faculty (Olympus)] 14:02:56
+Because you have 11 pages for the PDF.
+
+[Faculty (Olympus)] 14:02:59
+Then I separately use the Texas Splitter
+
+[Faculty (Olympus)] 14:03:03
+And you don't use this, uh, this module of it, you directly use it
+
+[Faculty (Olympus)] 14:03:08
+then you have more stuff, and uh… you do this split detects.
+
+[Faculty (Olympus)] 14:03:14
+There's a module on that, it says it's a split document.
+
+[Faculty (Olympus)] 14:03:18
+Then you use it. This is one thing…
+
+[Faculty (Olympus)] 14:03:21
+I probably do it differently.
+
+[Faculty (Olympus)] 14:03:23
+Uh, I would use the chroma also a little bit different, and I believe what you're saying, that's right, uh, Zara.
+
+[Faculty (Olympus)] 14:03:32
+Do I pronounce it correctly?
+
+[Faculty (Olympus)] 14:03:36
+Cereviscus?
+
+[Faculty (Olympus)] 14:03:39
+Okay, amazing. What are they standard… industry standard at the graduate framework capable of the securing the full input-output sandwich of the Enterprise LM?
+
+[Faculty (Olympus)] 14:03:50
+Uh, inputs, Act Firewall against the prompt injection.
+
+[Faculty (Olympus)] 14:03:55
+That's the different topics, just, uh, let me answer it. If you get a chance, I can stay and answer this question.
+
+[Faculty (Olympus)] 14:04:02
+Yeah, I'm familiar with this one.
+
+[Faculty (Olympus)] 14:04:05
+But sometimes the security…
+
+[Faculty (Olympus)] 14:04:07
+stack only for the cybersecurity stuff, or the problem ingestion?
+
+[Faculty (Olympus)] 14:04:13
+it's going to be more challenging when you're exposed to a…
+
+[Faculty (Olympus)] 14:04:17
+for example, in a healthcare…
+
+[Faculty (Olympus)] 14:04:21
+you wanted to have the HIPAA compliance, you have to have the complete audit visibility,
+
+[Faculty (Olympus)] 14:04:28
+you shouldn't expose any PII data,
+
+[Faculty (Olympus)] 14:04:31
+I've worked on the credit card information,
+
+[Faculty (Olympus)] 14:04:34
+Uh, my company…
+
+[Faculty (Olympus)] 14:04:35
+very challenging.
+
+[Faculty (Olympus)] 14:04:39
+the use of the LLM, the…
+
+[Faculty (Olympus)] 14:04:41
+all of the guardrail that you have to put
+
+[Faculty (Olympus)] 14:04:43
+very challenging, and it's…
+
+[Faculty (Olympus)] 14:04:46
+It's not the easy things, because if you make a mistake,
+
+[Faculty (Olympus)] 14:04:50
+everyone's gonna be, uh, in trouble. Normally, we do everything just simple things that I can tell you.
+
+[Faculty (Olympus)] 14:04:56
+Everything is running on-prem.
+
+[Faculty (Olympus)] 14:05:00
+We don't use any… even though this is an enterprise-level access that we have,
+
+[Faculty (Olympus)] 14:05:05
+Still, we don't use it. We provision open source models on the Gemini cluster.
+
+[Faculty (Olympus)] 14:05:10
+on the Google cluster, and we use that as our model.
+
+[Faculty (Olympus)] 14:05:16
+Rather than, uh, using the… any of the frontier models. That's one of the things that we do.
+
+[Faculty (Olympus)] 14:05:24
+Uh, okay.
+
+[Faculty (Olympus)] 14:05:25
+Let's move, uh, pretty quick.
+
+[Faculty (Olympus)] 14:05:29
+For your understanding,
+
+[Faculty (Olympus)] 14:05:33
+You have a…
+
+[Faculty (Olympus)] 14:05:34
+We have a framework, and to be honest with you, I…
+
+[Faculty (Olympus)] 14:05:39
+I haven't heard about it until a few months ago.
+
+[Faculty (Olympus)] 14:05:43
+This is a framework.
+
+[Faculty (Olympus)] 14:05:46
+that, uh, University of, uh… oh my god, Stanford University.
+
+[Faculty (Olympus)] 14:05:52
+created that.
+
+[Faculty (Olympus)] 14:05:53
+And it's very good because of the several reasons.
+
+[Faculty (Olympus)] 14:05:57
+One of the challenging that we have
+
+[Faculty (Olympus)] 14:06:00
+On the prompt engineering is that the prompt engineering is…
+
+[Faculty (Olympus)] 14:06:04
+not flexible. Sometimes.
+
+[Faculty (Olympus)] 14:06:07
+Meaning that when you put something on the pipeline,
+
+[Faculty (Olympus)] 14:06:12
+Your prompt is ecstatic. It's not moving. But the context given to the prompt
+
+[Faculty (Olympus)] 14:06:18
+always moving, and it's a dynamic one.
+
+[Faculty (Olympus)] 14:06:22
+What is the challenge of it here? Is that sometimes the context that you're providing to your model
+
+[Faculty (Olympus)] 14:06:28
+is not… sorry, the prompt is not properly designed for that context.
+
+[Faculty (Olympus)] 14:06:35
+If that makes sense.
+
+[Faculty (Olympus)] 14:06:37
+So… excuse me.
+
+[Faculty (Olympus)] 14:06:41
+So…
+
+[Faculty (Olympus)] 14:06:44
+The context…
+
+[Faculty (Olympus)] 14:06:45
+And the prompts are not properly… properly designed to together.
+
+[Faculty (Olympus)] 14:06:54
+And our, uh…
+
+[Faculty (Olympus)] 14:06:56
+Sometimes they're maintaining the prompting.
+
+[Faculty (Olympus)] 14:07:00
+iterating on the prompts. Uh, we have the prompt, uh, iteration, and we have the versioning of the prompts.
+
+[Faculty (Olympus)] 14:07:07
+A-B testing.
+
+[Faculty (Olympus)] 14:07:09
+is not, uh…
+
+[Faculty (Olympus)] 14:07:11
+It's not the easy task to do, to be honest.
+
+[Faculty (Olympus)] 14:07:16
+And also…
+
+[Faculty (Olympus)] 14:07:17
+One of the other challenges that I myself had in so many times is that we design
+
+[Faculty (Olympus)] 14:07:23
+In Pipeline, the entire agility graph
+
+[Faculty (Olympus)] 14:07:26
+based on a model. Then, they said,
+
+[Faculty (Olympus)] 14:07:30
+Okay, this is not the model that we are using. We are changing from…
+
+[Faculty (Olympus)] 14:07:34
+OpenAI for Gemini.
+
+[Faculty (Olympus)] 14:07:37
+And initially, I developed it using the open source Llama 3.2, for example, which is the less capable model.
+
+[Faculty (Olympus)] 14:07:43
+Then we moved it to OpenAI, then we moved it to Gemini.
+
+[Faculty (Olympus)] 14:07:47
+The problem is that…
+
+[Faculty (Olympus)] 14:07:49
+With prompt engineering that we did was mostly suited for the first one.
+
+[Faculty (Olympus)] 14:07:54
+Not for the latter one.
+
+[Faculty (Olympus)] 14:07:56
+And it's, like, causing problem for us. So every time that we are moving, though the line chain is providing amazing, uh…
+
+[Faculty (Olympus)] 14:08:03
+platform for doing so,
+
+[Faculty (Olympus)] 14:08:06
+the quality of the answer is not exactly what it should be.
+
+[Faculty (Olympus)] 14:08:10
+Because the A-B testing, everything was happened based on a different…
+
+[Faculty (Olympus)] 14:08:14
+So…
+
+[Faculty (Olympus)] 14:08:17
+There is a… there's a framework that is making it a little bit easier for you
+
+[Faculty (Olympus)] 14:08:23
+This framework is… I highly suggest to use it
+
+[Faculty (Olympus)] 14:08:27
+If you have a good programming
+
+[Faculty (Olympus)] 14:08:30
+background, and you don't have the…
+
+[Faculty (Olympus)] 14:08:33
+having, uh, challenges.
+
+[Faculty (Olympus)] 14:08:34
+It's gonna be amazing, so technically, the prompt engineering,
+
+[Faculty (Olympus)] 14:08:38
+is going to be translated and converted to, uh…
+
+[Faculty (Olympus)] 14:08:45
+Uh, to more software engineering.
+
+[Faculty (Olympus)] 14:08:47
+package engineering. So everything is going to be…
+
+[Faculty (Olympus)] 14:08:50
+it's going to be different in terms of the orchestration. It's gonna be…
+
+[Faculty (Olympus)] 14:08:55
+robust. And by the way, some of the things that many of the things, almost everything that you do with the DSPI, you can do it with the line chain,
+
+[Faculty (Olympus)] 14:09:05
+or langchain ecosystem in a different day.
+
+[Faculty (Olympus)] 14:09:08
+On the line chain, we have chains.
+
+[Faculty (Olympus)] 14:09:11
+on DSM, we have workflows.
+
+[Faculty (Olympus)] 14:09:14
+Okay? And on the workflows,
+
+[Faculty (Olympus)] 14:09:18
+we have the databases, that data sets,
+
+[Faculty (Olympus)] 14:09:22
+Similar to anything.
+
+[Faculty (Olympus)] 14:09:24
+This doesn't matter much.
+
+[Faculty (Olympus)] 14:09:26
+Uh, what matters is that we have the signature,
+
+[Faculty (Olympus)] 14:09:30
+optimize your ant evaluation.
+
+[Faculty (Olympus)] 14:09:33
+signature on DSPI is about what?
+
+[Faculty (Olympus)] 14:09:36
+what is the… is… is the, uh, is the key points.
+
+[Faculty (Olympus)] 14:09:41
+modules are how
+
+[Faculty (Olympus)] 14:09:45
+Optimizer, you already know, it's obvious, is to optimize the output.
+
+[Faculty (Olympus)] 14:09:50
+And the evaluation is for the evaluation.
+
+[Faculty (Olympus)] 14:09:53
+And this is amazing. You saw for the evaluation metrics,
+
+[Faculty (Olympus)] 14:09:58
+Uh, we need to create the metrics, we need to create a prompt, put things, everything together.
+
+[Faculty (Olympus)] 14:10:04
+It's already baked in over here.
+
+[Faculty (Olympus)] 14:10:06
+So, you don't need to create new stuff. We already have it.
+
+[Faculty (Olympus)] 14:10:11
+those in the evaluation.
+
+[Faculty (Olympus)] 14:10:15
+And, uh, ha, Javier, uh, learning about the prompt engineering, and in the next year,
+
+[Faculty (Olympus)] 14:10:21
+So it wouldn't be used… losing the Espa. No, I… I didn't mean that, uh…
+
+[Faculty (Olympus)] 14:10:29
+I didn't mean that the prompts engineering is not good.
+
+[Faculty (Olympus)] 14:10:32
+Even on the DSPI, under the…
+
+[Faculty (Olympus)] 14:10:34
+And at the comments, you should provide enough information.
+
+[Faculty (Olympus)] 14:10:39
+But, uh, since 2025, it's less than a year,
+
+[Faculty (Olympus)] 14:10:43
+that, uh, before that, everyone, we were talking about the prompt engineering.
+
+[Faculty (Olympus)] 14:10:48
+These days, everyone I'm talking about the context engineering.
+
+[Faculty (Olympus)] 14:10:53
+Okay, that's the two big different things.
+
+[Faculty (Olympus)] 14:10:55
+And what I mentioned is that mostly about the context engineering. It doesn't mean that the prompt engineering doesn't
+
+[Faculty (Olympus)] 14:11:02
+work, or you shouldn't know about it, it means that there's a more complex layer into the prompts that you have to consider.
+
+[Faculty (Olympus)] 14:11:11
+If you are talking about the zero shots, chain of thoughts, everything is good, but when you started to, uh, to provide context here to your tools,
+
+[Faculty (Olympus)] 14:11:20
+fewer, uh, models.
+
+[Faculty (Olympus)] 14:11:21
+That's the part that is getting harder and harder.
+
+[Faculty (Olympus)] 14:11:24
+Okay.
+
+[Faculty (Olympus)] 14:11:28
+So, as I said, the signatures…
+
+[Faculty (Olympus)] 14:11:32
+Uh, under DSPI is the what?
+
+[Faculty (Olympus)] 14:11:36
+on… on your level. And, uh…
+
+[Faculty (Olympus)] 14:11:40
+We have the same way, as I said, on the… on LanChain, using the Pydantic,
+
+[Faculty (Olympus)] 14:11:47
+Uh, we call it the data models over there.
+
+[Faculty (Olympus)] 14:11:50
+But over here, we call it the signature, and the signature are the classes
+
+[Faculty (Olympus)] 14:11:55
+that you define, and you say the inputs, as you can say, we have the input field,
+
+[Faculty (Olympus)] 14:12:01
+sentences, the input fields, and the output field is the sentiment.
+
+[Faculty (Olympus)] 14:12:06
+Which is the Boolean. In this case, it could be true or false.
+
+[Faculty (Olympus)] 14:12:11
+True, if it's positive.
+
+[Faculty (Olympus)] 14:12:14
+Which is negative. Or you can have a different signature, it's the QA signature.
+
+[Faculty (Olympus)] 14:12:20
+And context is the input.
+
+[Faculty (Olympus)] 14:12:22
+Paul puts his, uh… I'm sorry, question is also the input, and the output is the answer.
+
+[Faculty (Olympus)] 14:12:27
+Which is the string format.
+
+[Faculty (Olympus)] 14:12:29
+Let me just say, answer the question strictly using the context provided.
+
+[Faculty (Olympus)] 14:12:35
+And the summarization signature. So, there are so many things that we tell
+
+[Faculty (Olympus)] 14:12:40
+What should be done? What is the input? What is the output?
+
+[Faculty (Olympus)] 14:12:44
+This is the… this is the things about the signature.
+
+[Faculty (Olympus)] 14:12:48
+And the module, though…
+
+[Faculty (Olympus)] 14:12:49
+We're talking about the how.
+
+[Faculty (Olympus)] 14:12:53
+And, uh…
+
+[Faculty (Olympus)] 14:12:56
+On the module, we say predicted.
+
+[Faculty (Olympus)] 14:12:58
+we can say, use the chain of thought,
+
+[Faculty (Olympus)] 14:13:02
+You can say program of thoughts, uh, you can say, do they react? This is very famous. If you don't reasoning and actions in iteration.
+
+[Faculty (Olympus)] 14:13:12
+So, you do a tradition, this is a famous, uh, article that was, like, a couple of years ago, was brought in.
+
+[Faculty (Olympus)] 14:13:21
+And he was, uh, very good for the reasoning and answering and action.
+
+[Faculty (Olympus)] 14:13:28
+several times to get the best answer.
+
+[Faculty (Olympus)] 14:13:30
+And also about the multi-chain comparison.
+
+[Faculty (Olympus)] 14:13:33
+This is the how, and I believe there are a couple of mores that we are not saying it's over here.
+
+[Faculty (Olympus)] 14:13:40
+Example of this, uh, for the case of the summarization,
+
+[Faculty (Olympus)] 14:13:43
+You see, we have the documents, we have the summarizer, we say de-SPY the chain of thoughts.
+
+[Faculty (Olympus)] 14:13:51
+And we say the documents in and this…
+
+[Faculty (Olympus)] 14:13:55
+is out.
+
+[Faculty (Olympus)] 14:13:56
+And then easily rerun it… run the summarizer on the documents, which is the documents over here,
+
+[Faculty (Olympus)] 14:14:03
+In summary.smary…
+
+[Faculty (Olympus)] 14:14:05
+It's gonna print out the output that you're looking for.
+
+[Faculty (Olympus)] 14:14:10
+Okay? An example, uh, let's work on something. Okay.
+
+[Faculty (Olympus)] 14:14:16
+One thing that I already mentioned…
+
+[Faculty (Olympus)] 14:14:19
+was that the DS-Pi difference is that you consider the context about which model you are using,
+
+[Faculty (Olympus)] 14:14:27
+And as you can see, initially, for the LM,
+
+[Faculty (Olympus)] 14:14:31
+It's DSPY.LM, you identify that we are using the Gemini 4.0 Mini,
+
+[Faculty (Olympus)] 14:14:37
+with the temperature zero.
+
+[Faculty (Olympus)] 14:14:38
+This is a good context about the things.
+
+[Faculty (Olympus)] 14:14:42
+This spot, consider that one, when it's working on the other steps.
+
+[Faculty (Olympus)] 14:14:49
+And, uh…
+
+[Faculty (Olympus)] 14:14:50
+We have the structured output extraction, it's very easy.
+
+[Faculty (Olympus)] 14:14:55
+Uh, to keep everything…
+
+[Faculty (Olympus)] 14:14:57
+on point, make sure that the output is exactly what we want.
+
+[Faculty (Olympus)] 14:15:02
+We have this one in the, uh, in the langchain. We call it the output parser.
+
+[Faculty (Olympus)] 14:15:09
+And we have the different output parser that we can use.
+
+[Faculty (Olympus)] 14:15:13
+But over here, you can use the signatures
+
+[Faculty (Olympus)] 14:15:17
+And we specify exactly how things should look like as an input-output. For example,
+
+[Faculty (Olympus)] 14:15:23
+We're saying we have an input variable, input, uh, things given, which is the email.
+
+[Faculty (Olympus)] 14:15:29
+We have the output, which is the subject. We wanted to spit out.
+
+[Faculty (Olympus)] 14:15:35
+output field, which is the subject,
+
+[Faculty (Olympus)] 14:15:37
+We want the priority, and we limited that the priority could be only low, medium, high.
+
+[Faculty (Olympus)] 14:15:44
+It's the push-put the guardrail.
+
+[Faculty (Olympus)] 14:15:46
+I believe you had a question before that.
+
+[Faculty (Olympus)] 14:15:49
+It's to put the girls on our staff that nothing else can be… can be out.
+
+[Faculty (Olympus)] 14:15:56
+On this one. Then we have the product.
+
+[Faculty (Olympus)] 14:16:00
+And we explained what is the product. The product referenced output an empty string if I'm not.
+
+[Faculty (Olympus)] 14:16:06
+So, we give a specific direction,
+
+[Faculty (Olympus)] 14:16:10
+All should be the product, and then finally,
+
+[Faculty (Olympus)] 14:16:13
+It's a Boolean, true or false, if the sentiment is negative.
+
+[Faculty (Olympus)] 14:16:18
+Okay? Description, true or false.
+
+[Faculty (Olympus)] 14:16:20
+But the bullion over here is limited, so specifically for these two,
+
+[Faculty (Olympus)] 14:16:25
+The output always going to stay on the low, medium, high, and for this one, it's going to be always true or false.
+
+[Faculty (Olympus)] 14:16:32
+That's the beautiful things about this one.
+
+[Faculty (Olympus)] 14:16:37
+The predict…
+
+[Faculty (Olympus)] 14:16:39
+Uh, the predictor, uh…
+
+[Faculty (Olympus)] 14:16:42
+signature, the project module, sorry.
+
+[Faculty (Olympus)] 14:16:45
+Uh, it's a callable things that you just wanted to… it's like an invoke underlying chain. It's kind of like an invoke. So, it invokes everything for you on the DSPI pipeline.
+
+[Faculty (Olympus)] 14:16:56
+for the input-output.
+
+[Faculty (Olympus)] 14:16:59
+And if we wanted to take a look at an example, so these are the sample email examples. So we have the three…
+
+[Faculty (Olympus)] 14:17:07
+email. This is the subject, high support, this is my, uh, this is the second…
+
+[Faculty (Olympus)] 14:17:13
+And this is the third one.
+
+[Faculty (Olympus)] 14:17:16
+And if you run this one on the sample, and we say extract ticket, which extract tickets, we define it as a DSPY predict on the support email, which support email is the class that's defined in the Vertile?
+
+[Faculty (Olympus)] 14:17:29
+on the signature. As you can see, you have a structured output, easily, that you can access as an output.
+
+[Faculty (Olympus)] 14:17:37
+As you can see, for the first one, this object is missing, accessories in the packages,
+
+[Faculty (Olympus)] 14:17:43
+Priority high,
+
+[Faculty (Olympus)] 14:17:45
+product, uh, Betafone 5, and the negative, uh, sentiment. The second one…
+
+[Faculty (Olympus)] 14:17:51
+Also a negative one for the… with the high priority. And the last one is the…
+
+[Faculty (Olympus)] 14:17:58
+Uh, is the low priority, but this one is a positive sentiment, and we can check that. I love using the… this one.
+
+[Faculty (Olympus)] 14:18:06
+It would be awesome if you add the dark mode, keep up with the… obviously, this is… I think this is a good reference that is a low priority. The deposit…
+
+[Faculty (Olympus)] 14:18:16
+statement.
+
+[Faculty (Olympus)] 14:18:20
+Um…
+
+[Faculty (Olympus)] 14:18:21
+One good thing that you can do on the DS-Pi is you can
+
+[Faculty (Olympus)] 14:18:26
+access and inspect the historic how things are being progressed over here.
+
+[Faculty (Olympus)] 14:18:32
+And for this case, for example,
+
+[Faculty (Olympus)] 14:18:35
+We are seeing this is the system prompt that was created by the DS5.
+
+[Faculty (Olympus)] 14:18:41
+It says, your input fields are email, subject, priority, product, negative sentiment, all interaction will be structured in the following way.
+
+[Faculty (Olympus)] 14:18:51
+with the appropriate value filled in.
+
+[Faculty (Olympus)] 14:18:54
+being, like, nicely organized.
+
+[Faculty (Olympus)] 14:18:58
+And we have, uh… we have a note comments over here that it should be low, medium, high.
+
+[Faculty (Olympus)] 14:19:04
+Very beautiful. Then we have the user message, which is the email given.
+
+[Faculty (Olympus)] 14:19:11
+And the response is, like, uh, the subject, the priority, the products, the negative sentiment, and this is the complaint.
+
+[Faculty (Olympus)] 14:19:20
+Let me see if we have anything else over here.
+
+[Faculty (Olympus)] 14:19:24
+This is another example using the chain of thought, and if you want to take a look at
+
+[Faculty (Olympus)] 14:19:32
+Uh, so this is given.
+
+[Faculty (Olympus)] 14:19:34
+I want us to check the history for this one.
+
+[Faculty (Olympus)] 14:19:37
+Well, beautiful things that also you can do is that that can handle extra
+
+[Faculty (Olympus)] 14:19:42
+parameter, extra input.
+
+[Faculty (Olympus)] 14:19:46
+that you didn't define.
+
+[Faculty (Olympus)] 14:19:47
+But you can add it to the, uh, to your DSPY, uh, signature, uh, on fly.
+
+[Faculty (Olympus)] 14:19:54
+And it can do the prediction based on that. So, we have a reasoning for this case.
+
+[Faculty (Olympus)] 14:20:00
+Uh, the credit score is 680, it's, uh… it's…
+
+[Faculty (Olympus)] 14:20:04
+It's up, the annual income is good, the existing debt is 4D,
+
+[Faculty (Olympus)] 14:20:08
+I believe this should be approved.
+
+[Faculty (Olympus)] 14:20:12
+Yes, the approved is true, low-risk, uh, loan risk is medium. I agree with that.
+
+[Faculty (Olympus)] 14:20:18
+But this is what matters to us. Take a look at how it reasons.
+
+[Faculty (Olympus)] 14:20:23
+Uh, this is the system prompt.
+
+[Faculty (Olympus)] 14:20:27
+Uh, low-risk, approved.
+
+[Faculty (Olympus)] 14:20:30
+Uh, respond with the corresponding outputs…
+
+[Faculty (Olympus)] 14:20:33
+Starting with this one, uh, there should be something over here.
+
+[Faculty (Olympus)] 14:20:39
+Okay, reasoning. Mark Risve has a credit score of the 680, uh, which is generally considered fair to good. His annual income is this one. As you can see,
+
+[Faculty (Olympus)] 14:20:50
+It uses the chain of thought,
+
+[Faculty (Olympus)] 14:20:52
+Step by step, went through the understanding, and based on that, inferred that the loan
+
+[Faculty (Olympus)] 14:21:00
+the medium risk, and it approves it.
+
+[Faculty (Olympus)] 14:21:04
+Okay?
+
+[Faculty (Olympus)] 14:21:06
+And the last one is easy to go if you wanted to do it on the point without doing any previous signature setup, you can use this one.
+
+[Faculty (Olympus)] 14:21:17
+to follow LLM, technically a zero shot.
+
+[Faculty (Olympus)] 14:21:20
+And, uh, you wanted to communicate with this one. This is similar in Langchain, that you…
+
+[Faculty (Olympus)] 14:21:26
+Define time, then you, uh, have the invoke method.
+
+[Faculty (Olympus)] 14:21:32
+It's all about. So far, so good.
+
+[Faculty (Olympus)] 14:21:35
+Any question regarding VSpot?
+
+[Faculty (Olympus)] 14:21:41
+Okay. Since we have less than 10 minutes, I'm gonna jump in this one.
+
+[Faculty (Olympus)] 14:21:46
+So, you learned…
+
+[Faculty (Olympus)] 14:21:49
+On the previous introduction,
+
+[Faculty (Olympus)] 14:21:52
+What is DSPI, and few different use cases.
+
+[Faculty (Olympus)] 14:21:56
+Another use case of the DS-Pi
+
+[Faculty (Olympus)] 14:21:59
+is when it comes to the rank.
+
+[Faculty (Olympus)] 14:22:01
+And it makes everything easier for us.
+
+[Faculty (Olympus)] 14:22:05
+On the implementation of the rack,
+
+[Faculty (Olympus)] 14:22:08
+in a way that, first of all,
+
+[Faculty (Olympus)] 14:22:11
+So, we have the LLM,
+
+[Faculty (Olympus)] 14:22:15
+be fine. ChatGPT4O meanie, with the temperature zero, that's very important for the RAM.
+
+[Faculty (Olympus)] 14:22:22
+Similar to Retriever, that's, uh… oh, oh, okay, here, over here, we retrieve everything.
+
+[Faculty (Olympus)] 14:22:29
+Uh, this is the king, this is retrieving the chunks, and create the relevant chunks.
+
+[Faculty (Olympus)] 14:22:36
+Let's, uh, work on the signature, uh, so…
+
+[Faculty (Olympus)] 14:22:41
+we use it as a… as an endpoint that I said.
+
+[Faculty (Olympus)] 14:22:45
+It says the predict on the context and the question provided and gives us the answer.
+
+[Faculty (Olympus)] 14:22:53
+And the context is by the retriever. Uh, it's retrieverting questions.
+
+[Faculty (Olympus)] 14:22:58
+And the result is the, uh, response function,
+
+[Faculty (Olympus)] 14:23:02
+providing the input of the context and the question.
+
+[Faculty (Olympus)] 14:23:06
+And if you run it, you see the author of the article is… this is the same question that they had before.
+
+[Faculty (Olympus)] 14:23:14
+And as you can see, was able to, uh, to provide the answer.
+
+[Faculty (Olympus)] 14:23:18
+And you can inspect the history by that.
+
+[Faculty (Olympus)] 14:23:23
+Uh, one more thing, these are the other example of the same things that you can see, uh, also, you can see the response.
+
+[Faculty (Olympus)] 14:23:32
+Sometimes you can add the reasoning…
+
+[Faculty (Olympus)] 14:23:35
+On the right, you can add the reasoning, so if you added, like, a signature of the reasoning,
+
+[Faculty (Olympus)] 14:23:40
+You can't get the reasoning, uh…
+
+[Faculty (Olympus)] 14:23:43
+how you are getting this one.
+
+[Faculty (Olympus)] 14:23:47
+One more thing, sorry, uh, sorry the DSPI is going over my head. I haven't used it, I'm not familiar with it.
+
+[Faculty (Olympus)] 14:23:55
+Don't worry about it, I didn't use it.
+
+[Faculty (Olympus)] 14:23:57
+I don't have anything in production using the DSPY. It's a nice-to-have.
+
+[Faculty (Olympus)] 14:24:03
+And nice to have an understanding of it.
+
+[Faculty (Olympus)] 14:24:06
+It takes a little bit of time to digest, uh, comparing to the other veins, especially with the line chain.
+
+[Faculty (Olympus)] 14:24:11
+And that makes sense, especially because you don't see
+
+[Faculty (Olympus)] 14:24:15
+things on the… on the background.
+
+[Faculty (Olympus)] 14:24:17
+But, as I mentioned in the very beginning of the introduction,
+
+[Faculty (Olympus)] 14:24:21
+If you are programmer savvy,
+
+[Faculty (Olympus)] 14:24:24
+VSPY is…
+
+[Faculty (Olympus)] 14:24:26
+Crazy. It's amazing.
+
+[Faculty (Olympus)] 14:24:30
+If I may finish up, one of the best things…
+
+[Faculty (Olympus)] 14:24:34
+especially when you're working on an agentic approach,
+
+[Faculty (Olympus)] 14:24:38
+It is about the metrics.
+
+[Faculty (Olympus)] 14:24:40
+And, uh, we already discussed about the metrics, but…
+
+[Faculty (Olympus)] 14:24:44
+the metrics is kind of… defining the metrics, I'm working with the metrics is going to be much easier.
+
+[Faculty (Olympus)] 14:24:50
+And this one. And suppose that we define a signature class,
+
+[Faculty (Olympus)] 14:24:55
+Uh, and they say this is the question.
+
+[Faculty (Olympus)] 14:24:59
+context and answer.
+
+[Faculty (Olympus)] 14:25:01
+And this is the output field, this is the evaluation step, so we wanted to understand how things are working step by step.
+
+[Faculty (Olympus)] 14:25:10
+Uh, we want to explain…
+
+[Faculty (Olympus)] 14:25:13
+We want to store, uh, score, and this is the rational.
+
+[Faculty (Olympus)] 14:25:17
+So, we do this step-by-step explanation of the groundless,
+
+[Faculty (Olympus)] 14:25:23
+Find our numeric to score 1 to 5,
+
+[Faculty (Olympus)] 14:25:25
+And one paragraph rationale for this course.
+
+[Faculty (Olympus)] 14:25:30
+And we can easily use the predict methods to invoke it.
+
+[Faculty (Olympus)] 14:25:35
+And you will have everything based on what you are looking for. So, as you can see,
+
+[Faculty (Olympus)] 14:25:41
+for this question, which is the, who are the author of this article published?
+
+[Faculty (Olympus)] 14:25:45
+What is the opinion of the author about the organization?
+
+[Faculty (Olympus)] 14:25:50
+The evaluation steps to identify the author, step by step, it's, uh, it's define the evaluation steps,
+
+[Faculty (Olympus)] 14:25:57
+Explanation, score is 5, and the rational is that the answer is fully grounded in the context provided.
+
+[Faculty (Olympus)] 14:26:04
+It correctly identified
+
+[Faculty (Olympus)] 14:26:05
+this one. He sees the way that you create the metrics,
+
+[Faculty (Olympus)] 14:26:10
+On the…
+
+[Faculty (Olympus)] 14:26:15
+AudioLM.
+
+[Faculty (Olympus)] 14:26:18
+You remember someone asked me about the, uh, Dimetrix, the classification metrics, like the precision recall,
+
+[Faculty (Olympus)] 14:26:26
+The precision recalls, to my understanding, I have never used it, already baked in, and we have a predefined metrics already available.
+
+[Faculty (Olympus)] 14:26:35
+for those stuff, if you want to go through it.
+
+[Faculty (Olympus)] 14:26:38
+So it's going to be easy…
+
+[Faculty (Olympus)] 14:26:40
+If you're working on a classification problem,
+
+[Faculty (Olympus)] 14:26:43
+getting those metrics spit out.
+
+[Faculty (Olympus)] 14:26:46
+from the VSpot is very easy.
+
+[Faculty (Olympus)] 14:26:49
+Comparing to, uh…
+
+[Faculty (Olympus)] 14:26:51
+Comparing to other, uh, other techniques, including the lang chains.
+
+[Faculty (Olympus)] 14:26:56
+Okay, I believe, uh, sorry about going through the DS pipe fast.
+
+[Faculty (Olympus)] 14:27:04
+Is there any question? We are at the time, but I'm gonna stay at least for 15 minutes. If you have any more questions, I…
+
+[Faculty (Olympus)] 14:27:11
+you have a lot more questions.
+
+[Faculty (Olympus)] 14:27:14
+If you have any questions for the DSPI, or anything regarding the rack, or anything beyond that,
+
+[Faculty (Olympus)] 14:27:20
+I would be more than happy to stay and talk about it.
+
+[Faculty (Olympus)] 14:27:22
+But before that, any question?
+
+[Faculty (Olympus)] 14:27:25
+like, pretty quick, if you wanted to jump out.
+
+[Faculty (Olympus)] 14:27:28
+I would be more than happy to answer.
+
+[Jonathan Beckford .] 14:27:30
+Are you aware if we're going to be using DSPI going forward, like, in…
+
+[Jonathan Beckford .] 14:27:35
+Each of the modules, or are we gonna stick to LangChain?
+
+[Faculty (Olympus)] 14:27:39
+I believe you're gonna stick to line chain, mostly.
+
+[Faculty (Olympus)] 14:27:42
+To my understanding, to be honest with you, I thought…
+
+[Faculty (Olympus)] 14:27:48
+other forces before, but not the agentic crack.
+
+[Faculty (Olympus)] 14:27:51
+agentic, uh… AI.
+
+[Faculty (Olympus)] 14:27:54
+This is the first time, so I don't have a full…
+
+[Faculty (Olympus)] 14:27:59
+comprehension about what is… what is common.
+
+[Faculty (Olympus)] 14:28:02
+the detail. I know that the main topics, but I don't have the detail.
+
+[Faculty (Olympus)] 14:28:06
+And I highly suggest to stick to Lam Chain.
+
+[Faculty (Olympus)] 14:28:10
+Because everybody knows it.
+
+[Faculty (Olympus)] 14:28:13
+On the very job documents and the job description, the line chain and line graph are the two things that they're announcing. So,
+
+[Faculty (Olympus)] 14:28:22
+I highly recommend to stick to Langchain.
+
+[Faculty (Olympus)] 14:28:25
+And if you stay, probably I can give you a little bit few tricks.
+
+[Faculty (Olympus)] 14:28:29
+that can… that the line chain can do the same thing, similar to DS function.
+
+[Faculty (Olympus)] 14:28:35
+This is not Tanya Korsberg, I wanted to tell you.
+
+[Faculty (Olympus)] 14:28:38
+Okay, how much time should we invest on DSPI given so much more to learn? Rather, with the Llama Index Core Rag, I don't know anyone using the DS5.
+
+[Faculty (Olympus)] 14:28:48
+As I said, my Llama Index is very popular, too.
+
+[Faculty (Olympus)] 14:28:52
+I've never used it, but Llama Index is very popular. DSPI is not that popular comparing to the other framework.
+
+[Faculty (Olympus)] 14:29:02
+Um… as I already mentioned, I highly suggest to stick to Lang Chin and Langraph. Lang Chin and LandGraph during the last
+
+[Faculty (Olympus)] 14:29:12
+A year and a half, to my knowledge,
+
+[Faculty (Olympus)] 14:29:15
+is getting fairly popular, and it's… the hype around this is pretty high.
+
+[Faculty (Olympus)] 14:29:22
+Uh, I don't know any of my friends or my…
+
+[Faculty (Olympus)] 14:29:25
+that use the DSPY in production.
+
+[Faculty (Olympus)] 14:29:27
+I am myself working on a, like, a bench trunk.
+
+[Faculty (Olympus)] 14:29:32
+on one of my pipeline into production for the DS-Pi.
+
+[Faculty (Olympus)] 14:29:37
+And probably in a couple of weeks, I can give you your feedbacks regarding the DS5 Hydeforks, and that's a classification that I mentioned.
+
+[Faculty (Olympus)] 14:29:45
+any other question?
+
+[Faculty (Olympus)] 14:29:54
+Okay, amazing. Uh, feel free to jump.
+
+[Faculty (Olympus)] 14:29:58
+If you have more questions beyond the coursework, or for any setup problem that you have,
+
+[Faculty (Olympus)] 14:30:06
+I would stay for 15 minutes.
+
+[Faculty (Olympus)] 14:30:11
+And for those who are
+
+[Faculty (Olympus)] 14:30:13
+Uh, I wanted to quickly mention this one.
+
+[Faculty (Olympus)] 14:30:16
+So, you remember I mentioned…
+
+[Faculty (Olympus)] 14:30:20
+Let me adjust this screen first.
+
+[Zareh Vazquez .] 14:30:25
+I think Ali, in…
+
+[Faculty (Olympus)] 14:30:26
+Uh, for those…
+
+[Faculty (Olympus)] 14:30:27
+Yeah, go on.
+
+[Zareh Vazquez .] 14:30:28
+Yeah, sorry, sorry. I think those tips and tricks that you mentioned that you can give us about, uh…
+
+[Zareh Vazquez .] 14:30:35
+Unchained land graph, they're gonna be fantastic.
+
+[Zareh Vazquez .] 14:30:37
+Is this something you're planning to…?
+
+[Faculty (Olympus)] 14:30:37
+Yes.
+
+[Zareh Vazquez .] 14:30:40
+Today? I'm gonna be good.
+
+[Faculty (Olympus)] 14:30:41
+Couple of them. Top of them.
+
+[Zareh Vazquez .] 14:30:41
+Okay.
+
+[Faculty (Olympus)] 14:30:44
+One thing is that, uh, the one thing is regarding the line chain hub.
+
+[Faculty (Olympus)] 14:30:50
+Lang Chain Hub,
+
+[Faculty (Olympus)] 14:30:54
+You have so many, uh… this is technically on the Langsmith, and by the way, if you don't know,
+
+[Faculty (Olympus)] 14:31:01
+We have the whole ecosystem of the line chain. It doesn't mean that all of them are lying chain.
+
+[Faculty (Olympus)] 14:31:07
+So, technically, the three main, uh, part of the line chain ecosystem
+
+[Faculty (Olympus)] 14:31:13
+are the land chain, line graph, and Landsmith.
+
+[Faculty (Olympus)] 14:31:18
+LandChain is what you're learning.
+
+[Faculty (Olympus)] 14:31:21
+LineGraph is specifically for the graph and designing the workflow.
+
+[Faculty (Olympus)] 14:31:26
+It's very handy when it comes to the agentic, and I'm…
+
+[Faculty (Olympus)] 14:31:30
+It's kind of certain that we're going to go over that.
+
+[Faculty (Olympus)] 14:31:34
+Um, inside the…
+
+[Faculty (Olympus)] 14:31:38
+inside of the coursework. Langsman.
+
+[Faculty (Olympus)] 14:31:41
+Is that other capable things that you can do on the side?
+
+[Faculty (Olympus)] 14:31:45
+to track everything, so when you wanted to keep track of, uh, how things are working in step-by-step.
+
+[Faculty (Olympus)] 14:31:53
+Everything that is happening behind the scenes,
+
+[Faculty (Olympus)] 14:31:55
+You can keep the track of it through the linesmith.
+
+[Faculty (Olympus)] 14:31:59
+One of the things that we have…
+
+[Faculty (Olympus)] 14:32:02
+You remember I mentioned, uh, the line…
+
+[Faculty (Olympus)] 14:32:06
+Uh, we have the line chain hub.
+
+[Faculty (Olympus)] 14:32:11
+And… one of the things that you can do, instead of, uh…
+
+[Faculty (Olympus)] 14:32:17
+Let me describe this way. Instead of you create the template,
+
+[Faculty (Olympus)] 14:32:22
+There are so many people that work on those templates to fine-tune
+
+[Faculty (Olympus)] 14:32:28
+template for you, and they already created for you, and they put it over there.
+
+[Faculty (Olympus)] 14:32:33
+So, instead of you create that template,
+
+[Faculty (Olympus)] 14:32:37
+You can easily create a client Linesmith client.
+
+[Faculty (Olympus)] 14:32:42
+It's a very easy setup. There are, like, few criteria. When you go to the linesmith,
+
+[Faculty (Olympus)] 14:32:47
+You can easily set this up, and you can see there's a, like,
+
+[Faculty (Olympus)] 14:32:50
+PI key from the Lansmith. If you create your account,
+
+[Faculty (Olympus)] 14:32:54
+it's gonna pop up, you need to create a project based on the project this one, this is given.
+
+[Faculty (Olympus)] 14:32:59
+Okay? Very easy to set up.
+
+[Faculty (Olympus)] 14:33:01
+If you want to do it on your side, do it. If you run into any issue, let me know.
+
+[Faculty (Olympus)] 14:33:06
+There are four things that is going to be given to you, but the main thing is the Langsmith API key,
+
+[Faculty (Olympus)] 14:33:13
+And then you have that, you can easily, you can easily go and say,
+
+[Faculty (Olympus)] 14:33:20
+pull the prompt for the React for me.
+
+[Faculty (Olympus)] 14:33:23
+Okay? Or the pull from the, uh, the rack for me.
+
+[Faculty (Olympus)] 14:33:27
+And as you can see, the chat, the template is that your assistant of the question answering task,
+
+[Faculty (Olympus)] 14:33:34
+And the following piece of the retrieved content,
+
+[Faculty (Olympus)] 14:33:36
+Ask a question. If you don't have the answer. So, everything, instead of you writing those stuff line by line,
+
+[Faculty (Olympus)] 14:33:43
+He's already there, so you don't need to create those installs.
+
+[Faculty (Olympus)] 14:33:47
+One more time. And uh…
+
+[Faculty (Olympus)] 14:33:53
+using that, technically, you don't need to, uh…
+
+[Faculty (Olympus)] 14:33:58
+keep the context of, uh, like, uh…
+
+[Faculty (Olympus)] 14:34:02
+Let me go to my GitHub, probably I would, uh… let me think about it. Where do I have it? Should be over here.
+
+[Faculty (Olympus)] 14:34:10
+Uh, this is one of the sample projects that they did almost a year ago… if I found it for you, Chains…
+
+[Faculty (Olympus)] 14:34:20
+I'll retrie trigger, uh…
+
+[Faculty (Olympus)] 14:34:23
+not the greater, sorry.
+
+[Faculty (Olympus)] 14:34:28
+Confidence Batch Creator, answer, grades, document, writing, career, generation, English, and perfect.
+
+[Faculty (Olympus)] 14:34:34
+Craigs, Pandora.
+
+[Faculty (Olympus)] 14:34:39
+I'll show you one of the examples, just give me a second.
+
+[Faculty (Olympus)] 14:34:44
+Uh…
+
+[Faculty (Olympus)] 14:34:47
+Great external, oh my god.
+
+[Faculty (Olympus)] 14:34:48
+My eyes are irritating. Sorry.
+
+[Faculty (Olympus)] 14:34:57
+If I can remember…
+
+[Faculty (Olympus)] 14:35:03
+Generation… yes, it should be over here.
+
+[Faculty (Olympus)] 14:35:05
+Yeah. You see this one?
+
+[Faculty (Olympus)] 14:35:08
+So, for me, on this one, rather than going…
+
+[Faculty (Olympus)] 14:35:14
+Rather than creating the prompts, similar to the… like this one,
+
+[Faculty (Olympus)] 14:35:18
+You see, this one, I created the, like, a system prompt,
+
+[Faculty (Olympus)] 14:35:23
+Uh, I created… I put everything together. Just look at the length of everything.
+
+[Faculty (Olympus)] 14:35:29
+Compare it to this one.
+
+[Faculty (Olympus)] 14:35:31
+So, instead of doing so, I'm creating… I'm pulling the prompt, and I'm just invoking it, as easy as you can get.
+
+[Faculty (Olympus)] 14:35:41
+This is one thing that I mentioned it to you,
+
+[Faculty (Olympus)] 14:35:44
+that you can use, uh…
+
+[Faculty (Olympus)] 14:35:48
+underlying chain.
+
+[Faculty (Olympus)] 14:35:49
+I bet we're gonna have some of those coming in the coursework, but if you wanted to have a heads up, this is the way. The second things that I mentioned to you
+
+[Faculty (Olympus)] 14:35:57
+is that the line chain
+
+[Faculty (Olympus)] 14:36:01
+whole ecosystem, the line chain works well with the line graph, and also with the Langsmith.
+
+[Faculty (Olympus)] 14:36:06
+We have a structure output.
+
+[Faculty (Olympus)] 14:36:09
+So, if you want to get this string,
+
+[Faculty (Olympus)] 14:36:13
+As the output of the parser,
+
+[Faculty (Olympus)] 14:36:15
+You can get it. So, this one…
+
+[Faculty (Olympus)] 14:36:18
+Okay. This one, the output of the LLM in a general sense, is going to be a…
+
+[Faculty (Olympus)] 14:36:24
+It's not going to be as direct string. It's going to combine some attributes.
+
+[Faculty (Olympus)] 14:36:29
+to strip that, and only get the…
+
+[Faculty (Olympus)] 14:36:31
+the final page content, the final answer, the string,
+
+[Faculty (Olympus)] 14:36:36
+You can parse it.
+
+[Faculty (Olympus)] 14:36:38
+But think about this one.
+
+[Faculty (Olympus)] 14:36:40
+You can parse a table out of it. You can parse it, parse a JSON, you can parse a YAML file out of it.
+
+[Faculty (Olympus)] 14:36:47
+So the output of this one, rather than being a class,
+
+[Faculty (Olympus)] 14:36:52
+and a module, and directly
+
+[Faculty (Olympus)] 14:36:54
+get the output in a desired format. And, uh, if you type langchain,
+
+[Faculty (Olympus)] 14:37:03
+Lang Chain Output Parser.
+
+[Faculty (Olympus)] 14:37:07
+You can easily find how many parsers do we have. Let me…
+
+[Faculty (Olympus)] 14:37:14
+Uh, apple partiers… very thin list.
+
+[Faculty (Olympus)] 14:37:21
+There should be somewhere…
+
+[Faculty (Olympus)] 14:37:27
+Positive and divertile.
+
+[Faculty (Olympus)] 14:37:39
+Let me search for…
+
+[Sanjiv Kumar .] 14:37:42
+It was on your right. Remember the… it's a structured document, so you are seeing the JSON parser, so…
+
+[Faculty (Olympus)] 14:37:49
+Mm-hmm.
+
+[Sanjiv Kumar .] 14:37:49
+If you slow that down, or minimize that, you'll see.
+
+[Faculty (Olympus)] 14:37:52
+Oh, gotcha.
+
+[Faculty (Olympus)] 14:37:54
+I have your faces on top of that.
+
+[Faculty (Olympus)] 14:37:58
+Uh…
+
+[Faculty (Olympus)] 14:38:00
+You're talking about this, but yes, Aqua parsers…
+
+[Faculty (Olympus)] 14:38:04
+Let me see…
+
+[Faculty (Olympus)] 14:38:08
+there should be a list. It's very easy.
+
+[Faculty (Olympus)] 14:38:11
+comments to pray through.
+
+[Faculty (Olympus)] 14:38:13
+JSON…
+
+[Faculty (Olympus)] 14:38:19
+CR…
+
+[Faculty (Olympus)] 14:38:23
+It should be inside the optical parsers, do-do-do-do…
+
+[Faculty (Olympus)] 14:38:29
+we have so many of them, I bet.
+
+[Faculty (Olympus)] 14:38:38
+I can ask, uh…
+
+[Faculty (Olympus)] 14:38:43
+I can go to the…
+
+[Faculty (Olympus)] 14:38:45
+AI mode.
+
+[Faculty (Olympus)] 14:38:50
+deep dive.
+
+[Faculty (Olympus)] 14:38:52
+Can you give me…
+
+[Faculty (Olympus)] 14:38:59
+I'll put parser.
+
+[Faculty (Olympus)] 14:39:01
+From…
+
+[Faculty (Olympus)] 14:39:04
+from LangChain…
+
+[Faculty (Olympus)] 14:39:07
+examples.
+
+[Faculty (Olympus)] 14:39:11
+As I said, we have the table format, we have the Pandas data frame parser, we have the YAML, we have
+
+[Faculty (Olympus)] 14:39:20
+this string, date time output parser,
+
+[Faculty (Olympus)] 14:39:24
+comma separated least output parser.
+
+[Faculty (Olympus)] 14:39:26
+identical parts, so this is very famous, I forgot about it.
+
+[Faculty (Olympus)] 14:39:30
+That's very bad, because I use this so many times.
+
+[Faculty (Olympus)] 14:39:33
+JSON output parser, as I mentioned. So, if you want to get something out of it,
+
+[Faculty (Olympus)] 14:39:38
+You have to specify how the format should look like,
+
+[Faculty (Olympus)] 14:39:42
+on your prompt, and later on, you can, uh…
+
+[Faculty (Olympus)] 14:39:47
+Uh, you can also use the parser, so the output is going to be in that format.
+
+[Faculty (Olympus)] 14:39:52
+So, so far, two things that I already mentioned to you. This is, uh, the one using the Langchain hub,
+
+[Faculty (Olympus)] 14:39:59
+use it, their reach, uh, repository of a different prompt. The second one is the output parser.
+
+[Faculty (Olympus)] 14:40:06
+The third one I wanted to mention it to you, and it's going to be my last, I promise,
+
+[Faculty (Olympus)] 14:40:11
+Uh, since we don't have much of a time…
+
+[Faculty (Olympus)] 14:40:14
+This is the very, uh…
+
+[Faculty (Olympus)] 14:40:18
+The way that he described about the signature,
+
+[Faculty (Olympus)] 14:40:22
+The way that we describe about the signature…
+
+[Faculty (Olympus)] 14:40:24
+We can do the same.
+
+[Faculty (Olympus)] 14:40:27
+underlying chain, as a matter of fact, in anything,
+
+[Faculty (Olympus)] 14:40:31
+In anything in Python, using the Pytantic, uh, basic model.
+
+[Faculty (Olympus)] 14:40:35
+then you can define the data model over here,
+
+[Faculty (Olympus)] 14:40:39
+And I said, the similar vape.
+
+[Faculty (Olympus)] 14:40:42
+This is the document in text.
+
+[Faculty (Olympus)] 14:40:45
+is going to be integer.
+
+[Faculty (Olympus)] 14:40:48
+that is relevant is going to be Boolean, and the confidence is going to be afloat between the 0 to 1.
+
+[Faculty (Olympus)] 14:40:55
+And, uh…
+
+[Faculty (Olympus)] 14:40:57
+This is the score. I say this is the interesting things. You remember we had the lead role?
+
+[Faculty (Olympus)] 14:41:04
+On the very top on the previous example, on the… on the DS-Pi.
+
+[Faculty (Olympus)] 14:41:08
+So, I have a specific list.
+
+[Faculty (Olympus)] 14:41:12
+I'll find it for you.
+
+[Faculty (Olympus)] 14:41:14
+This is the specifics that I'm saying,
+
+[Faculty (Olympus)] 14:41:18
+that document should be over here, the score should be unlocked there.
+
+[Faculty (Olympus)] 14:41:21
+This is the system prompt, so in the system prompt, I express everything,
+
+[Faculty (Olympus)] 14:41:26
+But by a proper system prompt, by having the question,
+
+[Faculty (Olympus)] 14:41:31
+and the documents to the grade. This is the documents to text.
+
+[Faculty (Olympus)] 14:41:36
+This way, when I run everything, the output
+
+[Faculty (Olympus)] 14:41:42
+The output of this one is going to be on the desired format that I'm looking for.
+
+[Faculty (Olympus)] 14:41:48
+Okay? This is the same way that you can…
+
+[Faculty (Olympus)] 14:41:51
+you can do… this is a, like, I'm trying… let me find, like, a…
+
+[Faculty (Olympus)] 14:41:58
+easier, uh, this is the… this is a better… this is a much easier way to comprehend.
+
+[Faculty (Olympus)] 14:42:02
+So, I wanted to have the confidence score. As I said, we use those metrics all over the places.
+
+[Faculty (Olympus)] 14:42:09
+And I have the confidence to score, and this is the reasoning,
+
+[Faculty (Olympus)] 14:42:13
+And I say LLM with the structure output.
+
+[Faculty (Olympus)] 14:42:17
+Okay? Venue on a line chain, you define that, and I would say this is the output, this is the structure that I'm expecting.
+
+[Faculty (Olympus)] 14:42:27
+Then, the rest is similar to the normal line chain invoking chains.
+
+[Faculty (Olympus)] 14:42:32
+And instead of the normal LLM, you say this structured LLM scorer,
+
+[Faculty (Olympus)] 14:42:38
+The output is going to be exactly the desired wave, meaning that the output
+
+[Faculty (Olympus)] 14:42:42
+is going to be two things. One is the confidence score between the 0 to 1.
+
+[Faculty (Olympus)] 14:42:47
+That is the reasoning, because it's coming as a stroke.
+
+[Faculty (Olympus)] 14:42:51
+And this is the third thing… third thing that I can tell you
+
+[Faculty (Olympus)] 14:42:55
+regarding the line change. And there are so many more that, uh…
+
+[Faculty (Olympus)] 14:42:59
+Maybe we can touch on later on, but these are the three things, so if you don't want to use the DSPY,
+
+[Faculty (Olympus)] 14:43:05
+But you wanted to enjoy some of the benefits of the DSBI. Many of them can be handled through the line chain this way.
+
+[Faculty (Olympus)] 14:43:13
+But at the end of the day, that optimization that we have.
+
+[Faculty (Olympus)] 14:43:18
+on the… on the DSPY is… is amazing, I can say that.
+
+[Sanjiv Kumar .] 14:43:23
+So, Oli, this is where I was asking, sorry, the question before is that. So, you can build your…
+
+[Faculty (Olympus)] 14:43:24
+Amazing.
+
+[Faculty (Olympus)] 14:43:26
+Uh-huh.
+
+[Sanjiv Kumar .] 14:43:29
+So, in this case, the framework is LLM as a judge, right? So you are trying… you are trying to say…
+
+[Sanjiv Kumar .] 14:43:35
+Uh, but the judge is only on the retreat.
+
+[Sanjiv Kumar .] 14:43:38
+sorry, generation side, because…
+
+[Sanjiv Kumar .] 14:43:40
+You're telling that, you know, this is how it should answer in terms of groundness, faithfulness, answer relevancy.
+
+[Sanjiv Kumar .] 14:43:46
+What about retrieval side, to say, hey,
+
+[Sanjiv Kumar .] 14:43:49
+Did the retriever… retrieve the right…
+
+[Sanjiv Kumar .] 14:43:52
+document or write chunks, number one. And then, did he use the…
+
+[Faculty (Olympus)] 14:43:58
+Right.
+
+[Sanjiv Kumar .] 14:43:58
+the retrieve documented it to use properly? And this is where I was asking, like, frameworks like RAGADs or any other framework that you have used that give you a score.
+
+[Faculty (Olympus)] 14:44:06
+It's right, I mean, completely by accident, this is right on the page that you're seeing.
+
+[Sanjiv Kumar .] 14:44:06
+rather than doing it yourself
+
+[Faculty (Olympus)] 14:44:13
+I use something… let me see if I have, uh…
+
+[Faculty (Olympus)] 14:44:18
+I created this one so long ago, I haven't touched it for a long time. Let me see, there should be a… not the legacy one.
+
+[Faculty (Olympus)] 14:44:26
+the graph, uh… not this one.
+
+[Faculty (Olympus)] 14:44:29
+launching, uh, what is the PNG, the graph?
+
+[Faculty (Olympus)] 14:44:32
+You see this one?
+
+[Faculty (Olympus)] 14:44:34
+For these projects, you retrieve it with something, you retrieve something, you grade the documents, which is relevant or not relevant.
+
+[Faculty (Olympus)] 14:44:44
+This is happening prior to the generation.
+
+[Faculty (Olympus)] 14:44:48
+we haven't seen the generation. We are not talking about the generation. We are just…
+
+[Faculty (Olympus)] 14:44:53
+retrieving something, then we grade the documents and only feed the relative documents to the generation.
+
+[Faculty (Olympus)] 14:45:00
+But you have a conditional, what if you don't have any documents graded as irrelevant?
+
+[Faculty (Olympus)] 14:45:07
+Right? You have to have a conditional pathway. This is more… more complex.
+
+[Sanjiv Kumar .] 14:45:08
+Correct.
+
+[Faculty (Olympus)] 14:45:14
+Uh, then we are talking about the agendicraft.
+
+[Faculty (Olympus)] 14:45:17
+And this is so hard to do it solely on the line chain. I don't suggest to do it solely on the line chain.
+
+[Faculty (Olympus)] 14:45:23
+graph is a beautiful thing, so as you can see, it can create graphs for you.
+
+[Faculty (Olympus)] 14:45:27
+But this is happening prior to that, and re-ranker,
+
+[Faculty (Olympus)] 14:45:31
+I don't have the transformers on top of my head,
+
+[Faculty (Olympus)] 14:45:35
+let me think about it. Uh…
+
+[Faculty (Olympus)] 14:45:38
+But re-rank your transform as a re-ranker is that other way that we can do it. But these are things… this stuff is happening before the generation.
+
+[Faculty (Olympus)] 14:45:47
+Is that the answer that you were looking for?
+
+[Sanjiv Kumar .] 14:45:50
+Right, so in this case, right, I saw that you generated the graph using LandGraph, uh, when you compiled it.
+
+[Faculty (Olympus)] 14:45:55
+Uh-huh.
+
+[Sanjiv Kumar .] 14:45:56
+My question is that there are frameworks out there, right, that does this for you, and…
+
+[Sanjiv Kumar .] 14:46:02
+give you a consolidated matrix if you import.
+
+[Sanjiv Kumar .] 14:46:06
+that library into your code. For example,
+
+[Sanjiv Kumar .] 14:46:10
+like you showed, like, you… this is how you install DS…
+
+[Sanjiv Kumar .] 14:46:14
+Pi or any other library,
+
+[Sanjiv Kumar .] 14:46:16
+I was asking, is there a framework that you have used
+
+[Sanjiv Kumar .] 14:46:19
+that give those more…
+
+[Sanjiv Kumar .] 14:46:21
+out of the bat, so you don't have to worry about
+
+[Sanjiv Kumar .] 14:46:25
+this type of thing, framework or the library does the heavy lifting for you.
+
+[Faculty (Olympus)] 14:46:31
+The only thing that I used before, and I used it heavily, actually, before, is the re-ranker for the transformation. So, I got a transformer just to re-rank the order of the documents,
+
+[Sanjiv Kumar .] 14:46:43
+Mm-hmm.
+
+[Faculty (Olympus)] 14:46:44
+And instead of degrading everything,
+
+[Faculty (Olympus)] 14:46:47
+Uh, I would create it. So, you wanted to…
+
+[Faculty (Olympus)] 14:46:50
+more comprehensive, this one.
+
+[Faculty (Olympus)] 14:46:52
+Before the great documents, you put a re-ranker, you load, like, 100 pages,
+
+[Faculty (Olympus)] 14:46:59
+We ranked 100 page.
+
+[Faculty (Olympus)] 14:47:01
+get the top 10, then pass the only top 10 to the great documents,
+
+[Faculty (Olympus)] 14:47:06
+And then grade everything and past all the most absolutely relevant things.
+
+[Faculty (Olympus)] 14:47:13
+your… to your generation.
+
+[Faculty (Olympus)] 14:47:15
+I use the transformer pretty much.
+
+[Faculty (Olympus)] 14:47:17
+But I'd like to be…
+
+[Faculty (Olympus)] 14:47:21
+This is a personal preference, and I'm not saying this is a good one or bad one. This is, like, the way that I like…
+
+[Faculty (Olympus)] 14:47:26
+I wanted to be free. I wanted to be…
+
+[Faculty (Olympus)] 14:47:29
+I don't want it to be stuck.
+
+[Faculty (Olympus)] 14:47:32
+specific platform or a specific framework.
+
+[Faculty (Olympus)] 14:47:34
+So, if something is limiting me, I don't like it.
+
+[Faculty (Olympus)] 14:47:38
+And by the way, on a line graph,
+
+[Faculty (Olympus)] 14:47:41
+You can use… you can incorporate some of the DSPY, so you can have a DSPY agent
+
+[Faculty (Olympus)] 14:47:48
+in between. I've never implemented that.
+
+[Faculty (Olympus)] 14:47:51
+But you can have it. As far as…
+
+[Faculty (Olympus)] 14:47:54
+Input-output. You can plug it to the previous one, you can plug it to the after one, to the next one, to the next agent.
+
+[Faculty (Olympus)] 14:48:01
+you're good to go. Anything. Any way that you wanted to do it. You wanted to create your own classwork module,
+
+[Faculty (Olympus)] 14:48:07
+Feel free to do it. So…
+
+[Faculty (Olympus)] 14:48:10
+Yeah, uh…
+
+[Faculty (Olympus)] 14:48:13
+That's the answer that I have for you right now.
+
+[Sanjiv Kumar .] 14:48:18
+Oh, thank you.
+
+[Faculty (Olympus)] 14:48:20
+Any other questions?
+
+[Zareh Vazquez .] 14:48:21
+And just a comment based on what you just mentioned.
+
+[Zareh Vazquez .] 14:48:24
+And I think that's what makes it difficult, right?
+
+[Zareh Vazquez .] 14:48:26
+Because there is no best practices. I mean, there is…
+
+[Zareh Vazquez .] 14:48:30
+way somehow everybody do it.
+
+[Zareh Vazquez .] 14:48:32
+And it's difficult to understand exactly.
+
+[Zareh Vazquez .] 14:48:35
+And because it's evolving every day.
+
+[Faculty (Olympus)] 14:48:36
+It…
+
+[Zareh Vazquez .] 14:48:37
+It's very difficult to understand exactly
+
+[Zareh Vazquez .] 14:48:41
+how it should be done.
+
+[Faculty (Olympus)] 14:48:42
+Hi.
+
+[Faculty (Olympus)] 14:48:43
+I 100% agree with you, and one of the challenges with the AI in general is that
+
+[Faculty (Olympus)] 14:48:52
+Uh, for me, the 2025 may be… there's so many things happen in 2025, especially from the February… early
+
+[Faculty (Olympus)] 14:49:02
+Late January 2025 up to maybe mid-summer,
+
+[Faculty (Olympus)] 14:49:07
+There are so many models, so many new stuff happening.
+
+[Faculty (Olympus)] 14:49:11
+At the same time, we had multiple models, including the deep-seek, lots of Chinese models, came to market on open sources,
+
+[Faculty (Olympus)] 14:49:20
+we had the clock code, we had the co-pilot,
+
+[Faculty (Olympus)] 14:49:24
+change to the way that it is right now.
+
+[Faculty (Olympus)] 14:49:27
+And then it started to change. It wasn't like that before that. Everything was, like, completely drastically changed.
+
+[Faculty (Olympus)] 14:49:33
+But I would say this one, uh…
+
+[Faculty (Olympus)] 14:49:36
+If you learn the basic, the rest is easy.
+
+[Faculty (Olympus)] 14:49:40
+And you need to…
+
+[Faculty (Olympus)] 14:49:42
+have the domain understanding where you're implementing.
+
+[Faculty (Olympus)] 14:49:46
+it matters if you're implemented in a retail for a specific
+
+[Faculty (Olympus)] 14:49:53
+context problem.
+
+[Faculty (Olympus)] 14:49:55
+you have to know, you have to have a proper understanding of this one. If you don't have it, it doesn't matter how much you know about the LLM.
+
+[Faculty (Olympus)] 14:50:02
+It's not gonna work. So…
+
+[Faculty (Olympus)] 14:50:06
+I wouldn't, uh…
+
+[Faculty (Olympus)] 14:50:09
+get stressed over, uh, like, the different practices.
+
+[Faculty (Olympus)] 14:50:13
+I would say, if you know the basics, how things are working together, and why this is working, the rest is going to be absolutely easy.
+
+[Faculty (Olympus)] 14:50:23
+I've missed 3… let me see… thank you, I need to draw, okay?
+
+[Faculty (Olympus)] 14:50:27
+Pleasure is mine, yeah, likewise. You all have a nice week.
+
+[Faculty (Olympus)] 14:50:31
+I'm staying maybe for a few more minutes for more questions.
+
+[Faculty (Olympus)] 14:50:36
+Any other questions?
+
+[Faculty (Olympus)] 14:50:40
+Did they answer your questions there?
+
+[Zareh Vazquez .] 14:50:44
+Yes, you did, and at the end, the expectation to come into this kind of…
+
+[Zareh Vazquez .] 14:50:49
+certification.
+
+[Zareh Vazquez .] 14:50:51
+is to… to get some…
+
+[Zareh Vazquez .] 14:50:55
+Pat. A path.
+
+[Zareh Vazquez .] 14:50:56
+right on how to navigate in all this, because we all can go…
+
+[Zareh Vazquez .] 14:51:00
+and research and look into different blogs and stuff like that.
+
+[Zareh Vazquez .] 14:51:03
+And there are 100 ways to do the same thing.
+
+[Zareh Vazquez .] 14:51:05
+So, I mean, just looking forward to continue…
+
+[Zareh Vazquez .] 14:51:09
+seeing what you're gonna… you guys gonna show us in this… in this training.
+
+[Zareh Vazquez .] 14:51:14
+to at least have a path that is proven.
+
+[Zareh Vazquez .] 14:51:17
+And it's working.
+
+[Faculty (Olympus)] 14:51:20
+I agree, I cannot agree more, and specifically when it comes to AI.
+
+[Faculty (Olympus)] 14:51:26
+It could be a little bit brutal when I say,
+
+[Faculty (Olympus)] 14:51:30
+Don't expect to be, like, an AI engineer by the end of this course.
+
+[Faculty (Olympus)] 14:51:35
+This is an unrealistic, uh, expectation, if you have it.
+
+[Faculty (Olympus)] 14:51:41
+And for the AI,
+
+[Faculty (Olympus)] 14:51:43
+Everyone's their new, that's a good thing.
+
+[Faculty (Olympus)] 14:51:46
+Everyone. The most experience that I have is more than 2 years on this specific field.
+
+[Faculty (Olympus)] 14:51:52
+But consider this one. Everyone is new.
+
+[Faculty (Olympus)] 14:51:55
+Everyone is new. We're still learning, we still applying things on a new project. Every project that I'm applying, I'm learning new stuff.
+
+[Faculty (Olympus)] 14:52:04
+And I'm trying to move that to the next project that I'm implementing.
+
+[Faculty (Olympus)] 14:52:09
+So, uh…
+
+[Faculty (Olympus)] 14:52:12
+Don't stress out, as I mentioned.
+
+[Faculty (Olympus)] 14:52:14
+We need to learn the basic. This is a new path, and this is a learning path, and you have to keep updated afterwards. There are so many things that I'm sure that we're not going to cover.
+
+[Faculty (Olympus)] 14:52:25
+But at least I try my best to at least go to the stuff that I know.
+
+[Faculty (Olympus)] 14:52:31
+the title, so that you can go look up for yourself and learn for yourself.
+
+[Faculty (Olympus)] 14:52:37
+Awesome.
+
+[Angela Johnson .] 14:52:37
+Hey, can I ask you a tangential question, then?
+
+[Faculty (Olympus)] 14:52:40
+Sure, Angela. What?
+
+[Angela Johnson .] 14:52:41
+Are there certain, um, courses, tutorials, things, uh, like that, that are more hands-on that you found that, uh, work well?
+
+[Faculty (Olympus)] 14:52:50
+Um…
+
+[Faculty (Olympus)] 14:52:52
+If you're asking more hands-on, no, I don't know anything better than what you're getting right now. One of the things that I love about this certification, I've worked with a great learning on other certifications,
+
+[Faculty (Olympus)] 14:53:08
+This is stuff are the best because of the projects, and because of the hands-on experience that you are exposed to.
+
+[Angela Johnson .] 14:53:15
+Hey, maybe I should have reframed that, because I was thinking from your question more on… you'd said, like, more machine learning and data science-oriented.
+
+[Faculty (Olympus)] 14:53:16
+And…
+
+[Faculty (Olympus)] 14:53:22
+No, no, no. The machine learning, uh, so right now, people are in the AI field,
+
+[Faculty (Olympus)] 14:53:30
+the same years ago on the data science, because we didn't have a data science major beforehand,
+
+[Faculty (Olympus)] 14:53:37
+And people on the data science field, all of them are either coming from the engineering,
+
+[Faculty (Olympus)] 14:53:42
+mathematics, statistic,
+
+[Faculty (Olympus)] 14:53:44
+business domain. So, many of them are coming from that field.
+
+[Faculty (Olympus)] 14:53:47
+That wasn't, like, emerged, but after that, we got a, like, a specific path,
+
+[Faculty (Olympus)] 14:53:51
+to, uh, to train a specific, like, data scientist.
+
+[Faculty (Olympus)] 14:53:56
+This is the same right now for the AI, so people who are working on the AI,
+
+[Faculty (Olympus)] 14:54:01
+Mostly coming from the background of the software engineering, data engineering,
+
+[Faculty (Olympus)] 14:54:08
+a full stack data science.
+
+[Faculty (Olympus)] 14:54:11
+Uh, at least I'm seeing
+
+[Faculty (Olympus)] 14:54:13
+Of those who are under, like, a frontier of design.
+
+[Faculty (Olympus)] 14:54:16
+And when we're talking about when we go to the fine-tuning, the…
+
+[Faculty (Olympus)] 14:54:21
+the understanding of the… some of the data science portion,
+
+[Faculty (Olympus)] 14:54:25
+machine learning, deep learning,
+
+[Faculty (Olympus)] 14:54:27
+how things are working behind the scene.
+
+[Faculty (Olympus)] 14:54:31
+Could… could be handy.
+
+[Faculty (Olympus)] 14:54:32
+But it's not, like, I say, if you don't have it, you're gonna miss a lot, because
+
+[Faculty (Olympus)] 14:54:39
+main thing on the AI are, like, uh…
+
+[Faculty (Olympus)] 14:54:43
+Intuitive, so…
+
+[Faculty (Olympus)] 14:54:46
+This is a generic public stuff. You can… you can infer that, you can understand it, and it's not going to be that hugely
+
+[Faculty (Olympus)] 14:54:54
+Uh, hugely challenging.
+
+[Angela Johnson .] 14:54:56
+I always feel like I come at it from an odd angle. My background's more in…
+
+[Angela Johnson .] 14:54:59
+old-school natural language processing and linguistics.
+
+[Angela Johnson .] 14:55:03
+hey, but I manage a team of true DevOps people, so I feel like I'm always bridging the gap to
+
+[Angela Johnson .] 14:55:07
+you know, the DevOps, the real production side of the world, where I'm more…
+
+[Angela Johnson .] 14:55:11
+formally trained in academic kind of data science.
+
+[Faculty (Olympus)] 14:55:15
+You absolutely have forgot to mention the NLP. My former boss, also, they're coming from the same things, he…
+
+[Faculty (Olympus)] 14:55:22
+He had a PhD in that, that one, and I learned so much from him.
+
+[Faculty (Olympus)] 14:55:29
+And… no, your path is one of the best, Pao.
+
+[Faculty (Olympus)] 14:55:33
+I totally forgot about mentioning that. Many of the things that these days…
+
+[Faculty (Olympus)] 14:55:37
+are handling using the LLM technically can be done with a much simpler way in Python, using the NLP technique, so…
+
+[Faculty (Olympus)] 14:55:46
+If you can…
+
+[Angela Johnson .] 14:55:46
+Hey, and I feel like some of… some of my stuff is, you know, I'm really good at tinkering with things, too, but when it gets hands-on, uh,
+
+[Angela Johnson .] 14:55:52
+hey, I know enough Docker to be dangerous, and I know what Kubernetes is, but actually getting something that's gonna run in production infrastructure
+
+[Angela Johnson .] 14:55:59
+I'm pretty reliant on my team and trying to get a little deeper on that side of the world.
+
+[Faculty (Olympus)] 14:56:05
+Absolutely, absolutely. And don't expect yourself, ah, at least,
+
+[Faculty (Olympus)] 14:56:10
+I'm this way, I had the pleasure working with the great teams.
+
+[Faculty (Olympus)] 14:56:13
+And, uh, I don't know every detail of everything. I just know the overall of everything. I don't know how to put things, like you're saying.
+
+[Faculty (Olympus)] 14:56:23
+I know Kubernetia, I've worked with the Kubernetia a lot, but if you ask me, oh my god, can you provision a Kubernetes cluster on a very beginning, set up everything?
+
+[Faculty (Olympus)] 14:56:31
+Sorry, that's not my field.
+
+[Angela Johnson .] 14:56:33
+That's how I am, right? I know who to go ask, right? And enough to talk about it in the project meeting.
+
+[Faculty (Olympus)] 14:56:37
+And that's the big…
+
+[Angela Johnson .] 14:56:37
+Now, I appreciate the insights, though, and always open to suggestions on this more hands-on pieces.
+
+[Faculty (Olympus)] 14:56:42
+Absolutely.
+
+[Angela Johnson .] 14:56:42
+you know, I appreciate the hands-on course pieces in this course, too.
+
+[Faculty (Olympus)] 14:56:46
+Sure.
+
+[Faculty (Olympus)] 14:56:48
+Amazing. I think that's time to wrap up. Uh, thank you so much all, and you
+

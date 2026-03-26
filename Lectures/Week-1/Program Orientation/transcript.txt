@@ -1,0 +1,1941 @@
+[[ GL-PO Sejal ]] 09:01:53
+Good morning, good afternoon, and good evening. Thank you so much for joining us today.
+
+[[ GL-PO Sejal ]] 09:01:59
+from different parts of the world. I hope you all are doing well and keeping safe. A warm welcome.
+
+[[ GL-PO Sejal ]] 09:02:06
+And thanks for joining the program orientation for the certificate program in Agentic AI with John Hopkins University, Whiting School of Engineering.
+
+[[ GL-PO Sejal ]] 09:02:15
+delivered in collaboration with great learning. We are very excited to have professionals.
+
+[[ GL-PO Sejal ]] 09:02:20
+from different geographies and industries, join us on board from the program.
+
+[[ GL-PO Sejal ]] 09:02:26
+My name is Sejal, and I'm from the Program Office team at Great Learning.
+
+[[ GL-PO Sejal ]] 09:02:31
+I will be your presenter and host for today. In addition to the other panelists for today's session, a few members of the program office team are also present with us.
+
+[[ GL-PO Sejal ]] 09:02:43
+Before we move forward, I would like to inform you that I will be the program manager for some of you.
+
+[[ GL-PO Sejal ]] 09:02:48
+And for the others, Shamia will be the program manager. Hi Shamia, could you please say a quick hi?
+
+[[ GL-PO | Shaumya ]] 09:02:55
+Hi, hi everyone. Uh, thank you, Sejal. I'm one of the program manager for some of you, and I want to extend a very warm welcome to all of you.
+
+[[ GL-PO | Shaumya ]] 09:03:05
+As we officially begin this journey together today. I am looking forward to connecting with you all over the upcoming week. Wishing you all the very best.
+
+[[ GL-PO | Shaumya ]] 09:03:14
+for a great learning journey experience ahead. Thank you all.
+
+[[ GL-PO | Shaumya ]] 09:03:17
+Uh, over to you, Sejal.
+
+[[ GL-PO Sejal ]] 09:03:19
+Thank you, Shomya, for your introduction. Please be rest assured that our program office team is here to ensure everything runs smoothly during the session.
+
+[[ GL-PO Sejal ]] 09:03:30
+Even in the event of any technical difficulties.
+
+[[ GL-PO Sejal ]] 09:03:37
+Let's now look at some session-related guidelines. You will all be in the listen-only mode.
+
+[[ GL-PO Sejal ]] 09:03:43
+This is to ensure that the session runs smoothly without interruptions, and that we can cover everything within the scheduled time frame.
+
+[[ GL-PO Sejal ]] 09:03:52
+Second, feel free to direct any questions for the Q&A box, and our program office and academic team will be able to answer them in real time.
+
+[[ GL-PO Sejal ]] 09:04:01
+Finally, I kindly ask that you post questions in the interest of the larger audience.
+
+[[ GL-PO Sejal ]] 09:04:08
+Please get in touch with a program manager following the session if you have any queries that are specific to you.
+
+[[ GL-PO Sejal ]] 09:04:15
+or submit a support request through the Olympus dashboard.
+
+[[ GL-PO Sejal ]] 09:04:18
+Please be rest assured, if there will be any unanswered questions, we will be sharing the answers for all in the coming weeks.
+
+[[ GL-PO Sejal ]] 09:04:27
+The recording and the slides for this session will be available for you after 6 hours.
+
+[[ GL-PO Sejal ]] 09:04:31
+Under the Program Overview section on your Olympus dashboard.
+
+[[ GL-PO Sejal ]] 09:04:36
+Lastly, this session is in a listen-only mode, which is a webinar format.
+
+[[ GL-PO Sejal ]] 09:04:42
+The upcoming sessions, which will be the mentored learning sessions, which will be starting from the coming weekend.
+
+[[ GL-PO Sejal ]] 09:04:49
+These sessions will be in the meeting format, and these will be interactive sessions where you will be able to unmute yourself.
+
+[[ GL-PO Sejal ]] 09:05:02
+Let's now set the agenda for this session. First, we will discuss the AI, its overall landscape.
+
+[[ GL-PO Sejal ]] 09:05:09
+We will talk about the program overview. After that, we will talk about our learning philosophy and the partnership between JHU and Great Learning.
+
+[[ GL-PO Sejal ]] 09:05:18
+We will next go over the specifics of the program.
+
+[[ GL-PO Sejal ]] 09:05:23
+How it is structured for you, and tips on how to get the most out of your experience, and then we will move towards the Q&A at the end.
+
+[[ GL-PO Sejal ]] 09:05:36
+I'm happy to introduce Dr. William Gray Ronke. Doctor Gray Ronkel is a principal research scientist at John Hopkins Applied Physics Laboratory with over 20 years of experience working across neuroscience.
+
+[[ GL-PO Sejal ]] 09:05:52
+AI, machine learning, and healthcare. His research focuses on understanding brain networks at the synaptic level.
+
+[[ GL-PO Sejal ]] 09:06:01
+and rapid scene analysis. He is a leading expert in connectomics.
+
+[[ GL-PO Sejal ]] 09:06:07
+And has co-authored high-impact research, including a Nature paper on mapping brain connectivity at nanoscale resolution.
+
+[[ GL-PO Sejal ]] 09:06:16
+He is also passionate about mentoring. And has guided near 500 students through various STEM initiatives.
+
+[[ GL-PO Sejal ]] 09:06:25
+We are excited to have him with us today.
+
+[[ GL-PO Sejal ]] 09:06:28
+Please welcome Dr. William Gray Ronggel.
+
+[Faculty (Olympus)] 09:06:40
+Good morning, everybody. Hopefully you can hear me okay, it looks like you can hear and see me.
+
+[[ GL-PO Sejal ]] 09:07:42
+Hi, Doctor William, yes, we can see you.
+
+[Faculty (Olympus)] 09:07:54
+And do you want me to take over screen sharing, or do you want to do the next couple slides?
+
+[[ GL-PO Sejal ]] 09:08:02
+Yes, I can stop presenting the screen, and you can share that.
+
+[Faculty (Olympus)] 09:08:06
+Perfect. I just wanted to make sure not to… not to cut you off.
+
+[Faculty (Olympus)] 09:08:14
+Alright, so ignore the 5 billion tabs. Great. Um…
+
+[[ GL-PO Sejal ]] 09:08:16
+You can present your screen.
+
+[Faculty (Olympus)] 09:08:24
+So let me just go into sideshow… Okay, awesome.
+
+[Faculty (Olympus)] 09:08:27
+So, um… Thank you for… for having me, I'm really excited to… Um, to be here, I really like these, uh, these welcome sessions, you know, it's a chance for us to get to know each other a little bit, a chance to answer some questions.
+
+[Faculty (Olympus)] 09:08:43
+Um, and then, of course, to get all of the logistics from the great learning team, I've been working with them.
+
+[Faculty (Olympus)] 09:08:49
+Um, gosh, for almost a year now, and it's really wonderful, like, you know, I get… I get stuck sometimes, for sure, um… And some of the details of how the, um, the course operates and the different pieces of getting content to you, and they are, like.
+
+[Faculty (Olympus)] 09:09:05
+just immediately responsive and I think truly. are in this because they want to help you succeed, so… Um, definitely, definitely if this is new to you, this sort of hybrid, uh, learning course, uh, you know, I think you can definitely count on… count on them to help, and to…
+
+[Faculty (Olympus)] 09:09:21
+Um, help facilitate your questions to wherever they need to go.
+
+[Faculty (Olympus)] 09:09:26
+Um, so, um, again, I'm Will Gray Ronkel, I'm an electrical engineer. Um, I… Did my undergraduate degree at Vanderbilt University, then I went out to California because it was warm and there was a beach, and I worked there for a little bit, and I did my master's degree in electrical engineering.
+
+[Faculty (Olympus)] 09:09:42
+I'm thinking a lot about computer vision and wavelets and all these kinds of things, and then… Um, moved east, uh, my wife took a job on the East Coast, and I tried commuting for a while, and that was no good, so…
+
+[Faculty (Olympus)] 09:09:54
+Um, I moved to, uh, Columbia, Maryland, which is just outside of Baltimore.
+
+[Faculty (Olympus)] 09:09:59
+And, um, I've been there since 200 and. I did my PhD at Johns Hopkins in computer science doing.
+
+[Faculty (Olympus)] 09:10:11
+I would say a mix of computer science and computer vision and machine learning.
+
+[Faculty (Olympus)] 09:10:17
+Um, and computational neuroscience, so I was really interested in understanding how the brain works, and so we.
+
+[Faculty (Olympus)] 09:10:24
+had this opportunity to put together, um. these… these large data volumes, so a couple petabytes of data that represent about a millimeter, um, cubed of, um… Of real brain tissue, in this case mouse. So you can see the brain at the level of single synapse, so you can see, like.
+
+[Faculty (Olympus)] 09:10:45
+at 4 nanometer resolution, all of the neurons, all the synapses, the connections between them, and as a human, you can sort of read off, like, this is the map of connections that are.
+
+[Faculty (Olympus)] 09:10:55
+that are in the brain, but it would take you forever, right? There's 86 billion neurons in a human brain.
+
+[Faculty (Olympus)] 09:11:00
+And so, um, basically we taught computers to, um, to do this for us, and then.
+
+[Faculty (Olympus)] 09:11:08
+figured out how to calibrate and proofread the data in a way that.
+
+[Faculty (Olympus)] 09:11:12
+created what we call a connectome for this part of the brain, um, that.
+
+[Faculty (Olympus)] 09:11:18
+is as good as we could do at that point. You know, I think the proofreading effort is always ongoing, but you find these common motifs across the.
+
+[Faculty (Olympus)] 09:11:26
+the different parts of visual cortex in this case, and start to look at how mice see and think and extrapolate that to humans.
+
+[Faculty (Olympus)] 09:11:36
+So, and I can, I can put pointers to these links before we go. Um… So, you know, I've always sort of been in that… I give you that example, because I've always sort of been in that applied space. Um, you know, I like the theory, you know, I'm, uh…
+
+[Faculty (Olympus)] 09:11:52
+Math is nice, because it's unambiguous, and there's a right answer. Um, I've been really excited to take.
+
+[Faculty (Olympus)] 09:11:57
+kind of that, um… Idea of artificial intelligence and think about how to apply it to problems.
+
+[Faculty (Olympus)] 09:12:04
+That actually work, and I think we've tried to do that in this course where we're mixing, you know, theory and theory with practice, and we're giving you.
+
+[Faculty (Olympus)] 09:12:13
+some of the conceptual ideas of, like, React frameworks and, um… you know, the different kinds of.
+
+[Faculty (Olympus)] 09:12:22
+architectures and orchestrations and reason behind things, but also trying to make sure that you.
+
+[Faculty (Olympus)] 09:12:27
+Um, leave this program where you can deploy agents, and you can do that in a safe way, and you can do that in a way that is debuggable and usable and, um… ultimately succeeds at your.
+
+[Dr. William Gray-Roncal] 09:12:41
+at your chosen task, whether that's in the commercial space or government space or, um… or a research space. Um… So, you know, I think that we are typically at that level where… where it's like, let's learn how to do this. I think we are…
+
+[Dr. William Gray-Roncal] 09:12:58
+Um, we'll touch on… Um, some of the higher level, like… ideas behind AI and agentic systems, and try to give you enough context that if you were, for example, managing a team of people and you needed to justify, like.
+
+[Dr. William Gray-Roncal] 09:13:13
+why agents do what they do, um… then… then you could do that, um, but we want to make sure that you're actually, like, building things and trying things out yourself.
+
+[Dr. William Gray-Roncal] 09:13:23
+Um, a little bit, I guess, about me, me personally. So, um.
+
+[Dr. William Gray-Roncal] 09:13:27
+like I say, I live in Columbia, Maryland. I have two dogs, um, I have a little, uh, little dude, a 6-year-old, his name's Julian.
+
+[Dr. William Gray-Roncal] 09:13:36
+Um, sometimes he comes and visits, he's not supposed to, but sometimes he comes and visits.
+
+[Dr. William Gray-Roncal] 09:13:41
+Um, my wife's a neuroimmunologist at Hopkins, finishing up her fellowship, she was an engineer and decided she wanted to go back to medical school, so she's.
+
+[Dr. William Gray-Roncal] 09:13:49
+Now, in the middle of her second career treating patients and saving the world.
+
+[Dr. William Gray-Roncal] 09:13:54
+Um, I like to hike, I like to mentor and teach. I think this is one of my favorite things. I really, really like the idea of us all.
+
+[Dr. William Gray-Roncal] 09:14:04
+Coming together across borders and countries and places in the world, um.
+
+[Dr. William Gray-Roncal] 09:14:09
+To me, this is one of the best parts of Zoom and all the technology stuff.
+
+[Dr. William Gray-Roncal] 09:14:14
+Um, where we can all talk together and think big thoughts. So, um, again, welcome, um.
+
+[Dr. William Gray-Roncal] 09:14:20
+I'm happy, as we get to the end of the session here this morning, I'm happy to answer questions. You know, I've worked.
+
+[Dr. William Gray-Roncal] 09:14:28
+In, um, in government, I've worked in healthcare, I've worked in.
+
+[Dr. William Gray-Roncal] 09:14:34
+space and, uh, robots and all the things. So, um.
+
+[Dr. William Gray-Roncal] 09:14:40
+happy to… happy to share anything I can to… to make your lives better.
+
+[Dr. William Gray-Roncal] 09:14:44
+I teach this class… alright, back to slides. So, I teach this class with, uh, Dr. Shelby Wilson.
+
+[Dr. William Gray-Roncal] 09:14:51
+She is a mathematician who has done a lot of work. She did a lot of the work behind, if you, if you remember, the, um.
+
+[Dr. William Gray-Roncal] 09:15:00
+GHU COVID dashboard. She was one of the leading scientists on that effort, and so I think we come together really nicely in this class with our different expertise.
+
+[Dr. William Gray-Roncal] 09:15:13
+Um, Ian McCullough, you'll see some lectures from him, and Ian, uh… Kushenk, um, will do some of the earlier lectures, uh, Ian McCullough is, um, the driving force behind a lot of the Hopkins Great Learning Partnership.
+
+[Dr. William Gray-Roncal] 09:15:26
+Um, so you should definitely know him, and I think the original conception for this class was his.
+
+[Dr. William Gray-Roncal] 09:15:34
+Um… so, I'm gonna give you a quick overview, as you heard, a quick overview of kind of where we are, and… Um, a little bit more about what this class is, um… For a few minutes, um…
+
+[Dr. William Gray-Roncal] 09:15:47
+And then we'll have some time for questions, and go back to program logistics to make sure everybody feels comfortable and knows what's going on.
+
+[Dr. William Gray-Roncal] 09:15:55
+You'll have a lot of. time to ask questions of us and, um, learn from us, right? So we have.
+
+[Dr. William Gray-Roncal] 09:16:04
+Those, um, recorded lectures that we've put together, um.
+
+[Dr. William Gray-Roncal] 09:16:09
+over the last, um, several months, and we've worked really hard to keep them current, so, you know, I think we've gone through 2 or 3 different.
+
+[Dr. William Gray-Roncal] 09:16:19
+Um, updates of the course material, because the world of Agenda Kai keeps changing so much, um… But you will see me… a couple more times, and you'll see Dr. Shelby a couple of times for master classes, right, so these 2-hour sessions where we can.
+
+[Dr. William Gray-Roncal] 09:16:37
+really dive into some of these practical and pragmatic topics, as well as, of course, the videos and everything else, so… Um, one of the things I like about this program is that there are these… all these touchpoints, um…
+
+[Dr. William Gray-Roncal] 09:16:48
+So today's just, like, sort of that first taste, if you will.
+
+[Dr. William Gray-Roncal] 09:16:52
+So, as you guys know, AI's been here for a long time. I think there's… there's much of the… many of the, um… 8 billion people on the planet are ignoring this altogether, but for those of them.
+
+[Dr. William Gray-Roncal] 09:17:05
+for those of. those people who are paying attention, I think that, um, there's a big group, uh, like, like my parents that are like, oh, look, AI exists now, isn't that cool? Um, and, and of course.
+
+[Dr. William Gray-Roncal] 09:17:19
+you know, it has all of the… we're definitely in the hype cycle, um, but it's important to remember that.
+
+[Dr. William Gray-Roncal] 09:17:28
+Then AI goes back to, you know, the, depending on, on who you ask, like.
+
+[Dr. William Gray-Roncal] 09:17:33
+early 40s, late 40s, early 50s, where you started to think about, uh, machines acting with autonomy and solving problems and pattern recognition systems and whatnot.
+
+[Dr. William Gray-Roncal] 09:17:45
+Um, you know, often, often these, these started in well-defined areas where you think about, like, plain checkers, or you think about early decision trees, thinking about, um… uh, like, medical diagnosis and whatnot, and so people got really excited.
+
+[Dr. William Gray-Roncal] 09:18:02
+Um, there's this big boom in the 80s, and I think what you sort of see is this AI summer, big investment in AI winter, where.
+
+[Dr. William Gray-Roncal] 09:18:13
+Um, you know, perhaps it hasn't lived up to its potential.
+
+[Dr. William Gray-Roncal] 09:18:17
+Um, and… then we have to go develop new technologies and solve those problems, and then there's another boom, and so on and so forth, and so… you know, I think over the years, we've solved brittleness problems and generalizability problems, um…
+
+[Dr. William Gray-Roncal] 09:18:31
+I think what's really special about. Um, where we are now.
+
+[Dr. William Gray-Roncal] 09:18:37
+is this idea of, um. the technology, the computation catching up, and then this, um, ability of attention networks, transformers to… Um, come together and… and.
+
+[Dr. William Gray-Roncal] 09:18:55
+make conclusions and learn patterns, um… by, uh… choosing where to look by… through the attention layers where… We don't have to do this giant amount of, um… labeling and curation of data, right? We sort of…
+
+[Dr. William Gray-Roncal] 09:19:15
+give the machine a lot of data, which we have, um.
+
+[Dr. William Gray-Roncal] 09:19:18
+And then it… it decides what's important, rather than having to, um… you know, train on just a little bit of data and do hand-tuned heuristic features and all that. I think the third part that we will also talk about is…
+
+[Dr. William Gray-Roncal] 09:19:32
+you know, we all live on our computers, I would assume, with ChatGPT and Claude and… Gemini and all the rest, I'm not, I'm not picking on any particular billion dollar company.
+
+[Dr. William Gray-Roncal] 09:19:46
+Um, but the, um, that UI and the tuning that's happened where people feel like they're in a relationship with their… with their GPT is, uh, also new in that… that human interaction, uh, UI piece, um, has taken AI from something where, you know, I remember in grad school, I was like.
+
+[Dr. William Gray-Roncal] 09:20:07
+trying to directly program the GPU, and there's all this horrible stuff in CUDA.
+
+[Dr. William Gray-Roncal] 09:20:13
+In VI and all of that, and you kept trying to figure out, like, how Nvidia had put things together, um… to now, where it's, you know, just.
+
+[Dr. William Gray-Roncal] 09:20:21
+Like, everybody can use it, right? You go to a website on your phone, and everything's great, or not.
+
+[Dr. William Gray-Roncal] 09:20:26
+But accessible in any case. Um… So, you have those sort of, in my opinion, those three things coming together, that… that new… algorithmic approach, the technology where we can.
+
+[Dr. William Gray-Roncal] 09:20:39
+Even though it's very expensive, you know, we can build these giant computational.
+
+[Dr. William Gray-Roncal] 09:20:45
+data centers and server environments, um, and then the ability to access that information.
+
+[Dr. William Gray-Roncal] 09:20:54
+Um… I often have this debate with my high school students and my… so this is, like, folks from.
+
+[Dr. William Gray-Roncal] 09:21:03
+uh, say, 15 to 18 year old. 18 years old, you know, about, like, should we use AI, and how does this work, and… Is AI good or bad? And I think something that is important, um, at least from my perspective, is, like.
+
+[Dr. William Gray-Roncal] 09:21:16
+you know, it's happening, right? Like… people are using AI, and so I think the question is, how do we use AI well?
+
+[Dr. William Gray-Roncal] 09:21:24
+How do we use AI safely? Um, how do we, um, harness the power of this, right? So, you think about.
+
+[Dr. William Gray-Roncal] 09:21:35
+Um, you know, I imagine some of you are here to learn, because learning is awesome. Um, maybe many of you are here to learn because you're thinking about upskilling for jobs, or you have this idea for a project, and you wanted some.
+
+[Dr. William Gray-Roncal] 09:21:48
+information and knowledge to sort of accelerate that. Um… you know, I think as you… Um, as you, as you do upskill, I think you become.
+
+[Dr. William Gray-Roncal] 09:22:03
+very powerful, right? Because you can do things much faster, you can do things in a much more… Um… uh… accelerated way, you know, and I know that applications within, you know, applications that we used to take, like, a team of software engineers, you know, I can build a…
+
+[Dr. William Gray-Roncal] 09:22:22
+Um, a quick prototype in, like, an afternoon sometimes, right? And it's not… You know, it's not always, like, fully hardened and documented and unit tested and all the things, um, but it is a proof of concept, and we can see if it's a good idea or not quickly.
+
+[Dr. William Gray-Roncal] 09:22:36
+I would encourage you, as you think about. Um, the tools and technologies, and we actually talk a lot about this in the class, um, thinking about responsible AI, not as just, like, the last module, but something that's infused throughout. Um, thinking about how to make sure that your systems are safe and they are working within ethical frameworks and regulatory frameworks and.
+
+[Dr. William Gray-Roncal] 09:23:00
+Working in the way that you intend, you know, something when you delegate a lot of power to your.
+
+[Dr. William Gray-Roncal] 09:23:07
+Um, to your agents, and they are able to make decisions, um.
+
+[Dr. William Gray-Roncal] 09:23:12
+You know, it's hard to really mind meld with a machine that is doing pattern recognition, and so.
+
+[Dr. William Gray-Roncal] 09:23:18
+Um, it's easy for. for you to get these emergent behaviors that might be destructive or might not behave in the way that you wanted it to.
+
+[Dr. William Gray-Roncal] 09:23:29
+Um… So, maybe, maybe just as a quick silly example, you know, maybe you say, like, anytime you see a flight less than $100 to… from the US to Europe, book it.
+
+[Dr. William Gray-Roncal] 09:23:42
+And so maybe there's a glitch on American Airlines' website or something, and it sees this… this $89 flight.
+
+[Dr. William Gray-Roncal] 09:23:50
+And so, it grabs it for you, so that's good news, but you didn't properly explain that you only wanted one flight.
+
+[Dr. William Gray-Roncal] 09:23:59
+per day with a maximum of 2 flights or something, right? And so now it has booked planes full of.
+
+[Dr. William Gray-Roncal] 09:24:05
+of tickets for you, um… Which is maybe not what you were looking for.
+
+[Dr. William Gray-Roncal] 09:24:09
+So, you know, I think there's a lot of… a lot of care, um.
+
+[Dr. William Gray-Roncal] 09:24:15
+To be had both in doing things ethically, but also doing things that actually accomplish your goal.
+
+[Dr. William Gray-Roncal] 09:24:21
+I worry, you know, a little bit about AI and kind of some of the things that we see coming out, but I also see a lot of potential, right? Like I say, there's a lot of opportunity for.
+
+[Dr. William Gray-Roncal] 09:24:32
+um, acceleration, you know, I think healthcare is a big one that's on here, but just to highlight that, you know, kind of looking at patterns across really, really large data sets can find some of these latent patterns that maybe we.
+
+[Dr. William Gray-Roncal] 09:24:43
+Um, we don't know, um, you see some of the AI systems that are embedded in, um… Like, uh, the… the Apple AirPods that can do real-time translation.
+
+[Dr. William Gray-Roncal] 09:24:58
+you know, these kinds of things, I think, are really, really cool and, um.
+
+[Dr. William Gray-Roncal] 09:25:03
+make me optimistic. So, maybe diving in a little bit deeper, I made a comment about this earlier, but there are various statistics about this. As you might imagine, but… Um, the one that Ian McCullough likes to… likes to use is this one of 80% of AI initiatives fail. Um, I've seen numbers as high as 95%. I think a lot of it depends on what you mean by.
+
+[Dr. William Gray-Roncal] 09:25:31
+fail, um… you know, I think that there are lots of good things that happen in AI, obviously, but I think here we're thinking about when does the hype of AI not match the.
+
+[Dr. William Gray-Roncal] 09:25:44
+actual product that was produced for the users, right?
+
+[Dr. William Gray-Roncal] 09:25:47
+And so, here are the three, so the first is incorrect use cases, so this is where.
+
+[Dr. William Gray-Roncal] 09:25:54
+You know, you want something that, like, looks good and shows up well in a PowerPoint, um, but maybe doesn't exactly match the business goals of.
+
+[Dr. William Gray-Roncal] 09:26:04
+your company, um… Or is generally, like, non-revenue producing. So it looks good, but there's not actually a stakeholder, and so it kind of sits there and looks good, and then the model falls out of alignment, and then you shut it off.
+
+[Dr. William Gray-Roncal] 09:26:17
+Um, the second is poor data. We see a lot of issues in getting data to the level of, like.
+
+[Dr. William Gray-Roncal] 09:26:25
+You know, it doesn't have to be perfect, but some sort of standard and some sort of data lake or environment that can be accessed, um… Making sure that whatever labels you have are… reasonably consistent, that you have enough data, that you have representative data.
+
+[Dr. William Gray-Roncal] 09:26:42
+Um, and you know, this can really lead to model drift. It can really lead to issues where, like, you train your data and you go through all of the… exhaustive sort of safety testing, um, work, and then at the end, um…
+
+[Dr. William Gray-Roncal] 09:26:57
+It doesn't really apply to your… your domain well, and you see this a lot across industry, but you see this, again, like, in health.
+
+[Dr. William Gray-Roncal] 09:27:04
+care where there might be, um, depending on where in the world you are, regulations of various sorts around sharing large-scale patient data.
+
+[Dr. William Gray-Roncal] 09:27:15
+Um, and then the third, which is sort of the… always the engineering problem of, um… of communication, right? So, you think about what does… What does your customer need? What do they want? Um, can people actually use it? You know, I'm working with a customer now, and they…
+
+[Dr. William Gray-Roncal] 09:27:33
+have heard all about Agentic AI, and they want to use it, um, but they don't have very much sort of on-prem.
+
+[Dr. William Gray-Roncal] 09:27:41
+tech support, right? So you basically have some very smart, but not computer science people who want to use this AI tool.
+
+[Dr. William Gray-Roncal] 09:27:49
+And I think what we're talking with them a lot about is, like, how do we maintain it, right? Is there… Is there an operations maintenance contract? Are you going to hire someone?
+
+[Dr. William Gray-Roncal] 09:27:59
+You know, do you want to use something that's more commercial, and we show you how to build a… a knowledge store at RAG.
+
+[Dr. William Gray-Roncal] 09:28:06
+Um, but can often lead to frustration, you know, I think in a lot of industries, you'll have, um.
+
+[Dr. William Gray-Roncal] 09:28:14
+vendors or engineers have come in over the last 20 years and said.
+
+[Dr. William Gray-Roncal] 09:28:17
+Hey, you should use this, it's gonna make your life easier, and then it doesn't make their life easier, and so you get that kind of.
+
+[Dr. William Gray-Roncal] 09:28:24
+Negative feedback loop, where it's hard to get people to believe in your solution.
+
+[Dr. William Gray-Roncal] 09:28:30
+you know, I guess the last thing that's not on here, I think of engineering as the… art of problem solving under constraints, and I think people forget about that under constraints part.
+
+[Dr. William Gray-Roncal] 09:28:40
+And so, you know. if you have the best system in the world, but it's gonna cost billions of dollars, uh, depending on who you are, um… That may not be viable, right? So, making sure that you fit within the cost and schedule and, um…
+
+[Dr. William Gray-Roncal] 09:28:58
+constraint envelope that you're working within. Um, so we're gonna do a bunch of stuff in this class. Um, I hope you're excited, I'm excited. Um… So, you know, walking through, you know, from in the early weeks, from making sure that people are comfortable, um, in…
+
+[Dr. William Gray-Roncal] 09:29:16
+Writing code, expressing their ideas in code, understanding, um… uh, what artificial intelligence is, what generative artificial intelligence is, you know, transformers and weights and LLMs and all these things.
+
+[Dr. William Gray-Roncal] 09:29:30
+Um, prompt engineering, and then starting to move into the core of Agentic AI, you know, and I think that, um, there is some… Um… conceptual overlap, especially now early in 2026, that I think wasn't maybe there a year ago, where people will sometimes use agentic AI with foundation models, um.
+
+[Dr. William Gray-Roncal] 09:29:55
+LLMs interchangeably, and of course. They're not the same, although Agendigai uses, um, foundation models, um.
+
+[Dr. William Gray-Roncal] 09:30:04
+And so, you know, we want to make sure that we understand the building blocks, and then that we are using them in a way that, um, we're really getting into the agency and decision-making processes and, um.
+
+[Dr. William Gray-Roncal] 09:30:17
+architectures that make agentic AI particularly powerful. Um, and talking about… Different… different paradigms for using it, and also paradigms for not using it, right? Like, if… You can answer your question by making a single call to, um, ChatGPT, like, you might not need Agenda KI for that particular application, and so kind of walking through what to use and when.
+
+[Dr. William Gray-Roncal] 09:30:41
+Um, I think that, um… We'll continue to talk about this, um… As we go, but just to put what I just said in sort of words on a slide, or electrons on a slide.
+
+[Dr. William Gray-Roncal] 09:30:57
+Uh, you know, we start in this first part, um.
+
+[Dr. William Gray-Roncal] 09:31:02
+with that… that sort of onboarding AI, um, I say AI basics, but I think there's a lot of good applied things that will hopefully be interesting to you.
+
+[Dr. William Gray-Roncal] 09:31:12
+Um, and then we really get into, kind of, those core, um… Agendigai concepts and some of the really big points about, um, how you do planning and reasoning and agency, um, and then we get into some of the more advanced topics, thinking about the multi-agent systems reinforcement learning, um, interaction and embodiment.
+
+[Dr. William Gray-Roncal] 09:31:33
+Um, like I said, you know, we have been very thoughtful in trying to, um.
+
+[Dr. William Gray-Roncal] 09:31:40
+stay up-to-date with the current, um, the current world as it evolves. You could imagine that over the last months, as we've been teaching and building materials.
+
+[Dr. William Gray-Roncal] 09:31:51
+Um… that we keep seeing new technologies emerge, and we've done.
+
+[Dr. William Gray-Roncal] 09:31:57
+a variety of recordings where we have updated slides, and we've added, you know, extra hands-on practical slides to make sure that we are… we are tracking things, and so I think in a course like this, you know, if I were a learner, the thing I would be most worried about is, like, how do I… how do I make sure that this isn't stale, right? And I think we've spent, um…
+
+[Dr. William Gray-Roncal] 09:32:20
+a lot of energy… a lot of energy and a lot of thought into… into, uh, solving that for you.
+
+[Dr. William Gray-Roncal] 09:32:26
+Um, and, you know, and then things that emerge sometimes, like, even during the course, we will handle in master classes and whatnot.
+
+[Dr. William Gray-Roncal] 09:32:35
+Um, you'll see here these projects in dark blue, um… I think these are really exciting, you know, we, again, want you to leave not just having heard about Agentic AI, but having… having done it, having built it.
+
+[Dr. William Gray-Roncal] 09:32:49
+Um, so you'll have these projects, you'll have the facilitated learning sessions, and then… Um, we added to each of the modules a walkthrough that is not always, but often, um, a Jupyter notebook that you, of course, will also get.
+
+[Dr. William Gray-Roncal] 09:33:03
+Um, where we walk through, um, you know, in, like, real code hands on keyboard, how to.
+
+[Dr. William Gray-Roncal] 09:33:10
+construct an example that is demonstrating the topic of the week. So, so again, sort of.
+
+[Dr. William Gray-Roncal] 09:33:16
+uh, forcing… forcing you and forcing us to… to wrestle with the.
+
+[Dr. William Gray-Roncal] 09:33:21
+implementation details, um… I see Amkar here. Amkar is, um… my, uh, Shelby and my partner in all things Agentic AI, um, he works for Great Learning and has been a really wonderful driver for.
+
+[Dr. William Gray-Roncal] 09:33:37
+Uh, looking out for all of your interests, and he is, uh… uh, again, been a partner and put together a lot of the, um, the practical examples. You know, I think we… we meet every week and talk through them in lots of detail and go back and forth, but has been…
+
+[Dr. William Gray-Roncal] 09:33:55
+The man behind the curtain, as it was to, um.
+
+[Dr. William Gray-Roncal] 09:33:58
+To make sure that you have that really positive experience. So, I just wanted to acknowledge him, he's here on the call with us this morning.
+
+[Dr. William Gray-Roncal] 09:34:05
+I didn't know we'd see him, but I would have said nice things about him either way.
+
+[Dr. William Gray-Roncal] 09:34:13
+Okay. And I… I… I think that was my last slide.
+
+[[ GL - AO Omkar ]] 09:34:13
+Thank you.
+
+[Dr. William Gray-Roncal] 09:34:20
+I want to make sure I don't… I don't step on great learning folks' slides here.
+
+[[ GL-PO Sejal ]] 09:34:35
+Thank you, Doctor William. For explaining the concepts in detail.
+
+[[ GL-PO Sejal ]] 09:34:42
+I'm presenting my slides, and… Now we will answer… Some of the queries.
+
+[Dr. William Gray-Roncal] 09:35:12
+Let me see… yeah, so… I think the… easiest way for us to help.
+
+[Dr. William Gray-Roncal] 09:35:19
+triage questions, I think, is if you put things into chat, if you will also put them into the Q&A.
+
+[Dr. William Gray-Roncal] 09:35:27
+Um, box… Is that right, Sigil?
+
+[[ GL-PO Sejal ]] 09:35:32
+Yes, absolutely. So, you can… write a queries in the Q&A box, and we will answer it.
+
+[[ GL-PO Sejal ]] 09:35:40
+And, uh, let's start with some of the queries.
+
+[[ GL-PO Sejal ]] 09:35:46
+Um, so we have the first question. 80% of AI initiatives fail.
+
+[[ GL-PO Sejal ]] 09:35:53
+Is this failure to launch or failure to succeed, or both?
+
+[[ GL-PO Sejal ]] 09:35:57
+Curious if there are recurring or common friction themes.
+
+[Dr. William Gray-Roncal] 09:36:02
+Yeah, no, it's a great question. I think, um… we use that 80% to think about, um, not launching, but actually achieving goals. Um, so, you know, you… Obviously, we all work in sort of different, um, different environments, but you think about, kind of, conceptually, you have a customer that says, I have a problem, and you say, you as the developer say.
+
+[Dr. William Gray-Roncal] 09:36:26
+I am going to solve your problem with the Gentic AI, and so you… they give you money, and you build a solution, and ultimately it doesn't solve the problem they're trying to solve.
+
+[Dr. William Gray-Roncal] 09:36:38
+Um, I think, you know, we talked some about the friction points. I think a lot of it is… getting people to understand.
+
+[Dr. William Gray-Roncal] 09:36:46
+Um, what technology can do and what technology can't do.
+
+[Dr. William Gray-Roncal] 09:36:50
+And, um, you know, I talked a little bit about operations and maintenance, um, thinking about, like.
+
+[Dr. William Gray-Roncal] 09:36:56
+what the system requirements are, which can be, um… challenging, you know, I think I have… Lots of experience and examples of this, like, where, um… you know, you're explaining something from an engineering perspective, but, like, for example, I work with, um…
+
+[Dr. William Gray-Roncal] 09:37:15
+I have an academic appointment in the School of Education, right? And the words, they're brilliant humans, and the words that they use are completely different than the words that.
+
+[Dr. William Gray-Roncal] 09:37:24
+engineers use, and so figuring out, like, what does everybody mean, and what do they want, and how do you be clear about that is… Um, an ongoing challenge, and I think we… Um, in practice, solve this by just doing whatever we can to be very clear and transparent about what.
+
+[Dr. William Gray-Roncal] 09:37:42
+can happen and what, um, isn't, um… isn't possible, right? So, for example, um… I… I will sometimes get a customer that will say, um.
+
+[Dr. William Gray-Roncal] 09:37:57
+I want to use AI, I've heard a lot of things, but my application's important, so I need it to never make mistakes.
+
+[Dr. William Gray-Roncal] 09:38:05
+And I'm like, I don't know. how to do that. I would like that, but I don't know how to do that. And so, um, you know, kind of calibrating people so they understand what does it mean to delegate agency.
+
+[Dr. William Gray-Roncal] 09:38:17
+Um, often a nice thing to do, and something that I've been really excited about with, um.
+
+[Dr. William Gray-Roncal] 09:38:23
+With the emergence of, like, the codeine assistance, um… I like, uh, VS Code with, like, a cursor overlay, just as a personal choice.
+
+[Dr. William Gray-Roncal] 09:38:35
+But, um, I mean, I've used, like. Maybe all the things at this point. Um… is that you can build these early prototypes, right? And so, you know, I think we spend a lot of time thinking about, like, what the use cases are, how users are going to use it, what do the users know.
+
+[Dr. William Gray-Roncal] 09:38:51
+You know, are we around to fix things if there's ah.
+
+[Dr. William Gray-Roncal] 09:38:56
+knowledge gap, or does it have to stand? Um… stand on its own. Um, we try to educate our customers in thinking about.
+
+[Dr. William Gray-Roncal] 09:39:07
+agents and comparing them, you'll hear me do this in the videos a lot, um, comparing agents, uh, that are in software to agents that are embodied in, like, robots to agents that are… Uh, humans, right? So, like.
+
+[Dr. William Gray-Roncal] 09:39:18
+you know, humans make mistakes, and. Um, I don't always understand why humans make the decisions that they make, and so I think that analogy is good.
+
+[Dr. William Gray-Roncal] 09:39:28
+Um, with the advent of these AI-assisted coding regimes, I think what's nice is.
+
+[Dr. William Gray-Roncal] 09:39:34
+you can build prototypes very quickly, um, is what I wanted to say. And so, um… often you can get some very tangible, very concrete.
+
+[Dr. William Gray-Roncal] 09:39:44
+Uh, things out to the… customer to react to, and you're like, hey, this is what I think I heard.
+
+[Dr. William Gray-Roncal] 09:39:50
+What do you think? And sometimes we're right on, and sometimes we're wildly divergent, and it gives us a chance to.
+
+[Dr. William Gray-Roncal] 09:39:59
+try things, you know, in kind of an, um… modified agile way that is, um, lets us… lets us make sure that we're in sync before we build the thing and harden it.
+
+[[ GL-PO Sejal ]] 09:40:14
+Thank you. Thank you, Doctor William, for… explaining this so clearly.
+
+[Dr. William Gray-Roncal] 09:40:16
+Ah.
+
+[[ GL-PO Sejal ]] 09:40:22
+Now we have next question. What are your thoughts on the ethical, privacy and security implications of AI's evolution?
+
+[[ GL-PO Sejal ]] 09:40:32
+And how can it be controlled?
+
+[Dr. William Gray-Roncal] 09:40:37
+Yeah, um… That is a hard question, um, and an important one. I think that, um.
+
+[Dr. William Gray-Roncal] 09:40:46
+there is… is obviously, and I think it's interesting on, um… You know, we have, whoa, 306 people! Um, that's great. Um… on the call from all over the world, and you know, we all are in different, um.
+
+[Dr. William Gray-Roncal] 09:41:01
+uh, sort of legal society, um. environments and structures, you know, I think that.
+
+[Dr. William Gray-Roncal] 09:41:11
+Um, you know, there's obviously some sort of regulatory or, I guess, obvious to me, some sort of regulatory.
+
+[Dr. William Gray-Roncal] 09:41:20
+enforcement or part of this puzzle, you know, I think there's lots of debate over how much, or… Uh, what's appropriate there. Um, you know, but some of this is, like, just because an AI can do something, should it do something? And you can think of this in terms of, um, sensitive content. You can think of this in terms of.
+
+[Dr. William Gray-Roncal] 09:41:40
+reuse of copyrighted, uh, creative materials, these sorts of things.
+
+[Dr. William Gray-Roncal] 09:41:46
+You know, but… so… so I think… I think some of it is that… that regulation aspect. Um, some of that is trying to understand how.
+
+[Dr. William Gray-Roncal] 09:41:55
+how people with different opinions on this, sort of… how do you reconcile that, right? So if… If I say, all art is derivative, so just put all of the… all of everybody's artwork into ChatGPT, and now everybody can create things. Um, there's some group of people that would really agree with that, and some people who think I've just exploited all of the.
+
+[Dr. William Gray-Roncal] 09:42:16
+creative people of the world, um… And so, you know, I think.
+
+[Dr. William Gray-Roncal] 09:42:21
+one of the challenges is to get us to even decide what we're trying to do.
+
+[Dr. William Gray-Roncal] 09:42:26
+Um, but to use regulation to protect some of the.
+
+[Dr. William Gray-Roncal] 09:42:31
+Um… some of the things, you know, that, like, maybe we don't want LLMs to build, um… nuclear weapons or sensitive content kinds of things.
+
+[Dr. William Gray-Roncal] 09:42:43
+Um, and maybe we can get to some agreement there.
+
+[Dr. William Gray-Roncal] 09:42:46
+I think that the other piece of this is, um… thinking about, um… What… you allow systems to do, so this is, you know, less in a sort of… Geopolitical sense and more in a, like, I am a software developer and I can actually control these things since.
+
+[Dr. William Gray-Roncal] 09:43:09
+Um, and so we think a lot about, um.
+
+[Dr. William Gray-Roncal] 09:43:12
+you know, biased, responsible AI kind of topics when we build things. Um, with Agentic AI, you know, so some of these, and I saw a comment, you know, some of these are… Um… apply across many engineering disciplines, you know, something that I think is special with Agentic AI is…
+
+[Dr. William Gray-Roncal] 09:43:29
+that it is, um… very, uh… you're delegating agency, right? You… and so it… is sometimes stochastic in a way that you're not expecting, and so you can imagine that if you have.
+
+[Dr. William Gray-Roncal] 09:43:46
+agents talking to each other and making decisions that you can get into a space that.
+
+[Dr. William Gray-Roncal] 09:43:51
+Um, you didn't expect to be in, right? And so I think that if we're deploying something, you know, sometimes we're in a research space, sometimes we're in production. If we're in.
+
+[Dr. William Gray-Roncal] 09:44:00
+research space, we usually tolerate this, right? And we do some testing, and we try it out, and we're, you know, trying to.
+
+[Dr. William Gray-Roncal] 09:44:07
+Label neurons in this brain tissue, and if it fails, it fails, and it's fine, and we have a kill switch for spending all of our money.
+
+[Dr. William Gray-Roncal] 09:44:14
+Um, but if we're in a production environment, um… you know, we need a lot of testing, a lot of logging, a lot of tracing, and we'll get into this in the lectures, but… Um, making sure that.
+
+[Dr. William Gray-Roncal] 09:44:25
+We don't accidentally empower agents to do things or take decisions that they shouldn't take, right? And you can think of this as, like, leading to.
+
+[Dr. William Gray-Roncal] 09:44:35
+Um, health information leaks or security sensitive leaks or.
+
+[Dr. William Gray-Roncal] 09:44:41
+Um… spending all the money on your credit card, or what have you, right? But where, where you've imagined that these are the 4 or 5 things that might happen, but as the agents build on each other, that you get.
+
+[Dr. William Gray-Roncal] 09:44:54
+This behavior you never anticipated.
+
+[[ GL-PO Sejal ]] 09:45:01
+For the detailed explanation. Uh, coming to the next question. I have done and completed the pre-work course.
+
+[[ GL-PO Sejal ]] 09:45:09
+Material on Python. As someone without significant prior knowledge of coding, I'm concerned that this is my limit, my performance on this course, and how much I can really digest and get from it.
+
+[[ GL-PO Sejal ]] 09:45:21
+How much of the course material relies on coding?
+
+[[ GL-PO Sejal ]] 09:45:25
+Is the material from the pre-course material sufficient grounding?
+
+[Dr. William Gray-Roncal] 09:45:31
+Yeah, I think you're gonna do great. Um… That's my short answer.
+
+[Dr. William Gray-Roncal] 09:45:37
+you know, I think that the… Uh, we thought a lot about the pre-course material, you know, what we've tried to do throughout is to, in those… those examples that.
+
+[Dr. William Gray-Roncal] 09:45:47
+Um, Amkar and Shelby and I put together, um… We've tried to give you sort of those design patterns and templates so that you can build from those, um, as you… as you complete your work, and then you, of course, have the mentor to Learning sessions that will.
+
+[Dr. William Gray-Roncal] 09:46:02
+Also, give you that chance to dive in. We spend a lot of time trying to make sure you understand the what and the why.
+
+[Dr. William Gray-Roncal] 09:46:09
+Um, and then the hands-on, so… so I think that… Um, you know, we've had.
+
+[Dr. William Gray-Roncal] 09:46:16
+gosh, it's crazy how fast this goes. We've had, you know, hundreds of people, I think there have been many people that are, um… coding gurus, and many people who are coding novices, um… And I think… I think it… people have gotten a lot out of it from both perspectives.
+
+[[ GL-PO Sejal ]] 09:46:38
+She had the clarity, thank you. Oh, we will come to the next question. Would it be possible to provide guidance in terms of links and online resources, and how can I build the knowledge around that myself?
+
+[Dr. William Gray-Roncal] 09:46:54
+I didn't hear the first part of the question, I'm sorry.
+
+[Dr. William Gray-Roncal] 09:46:59
+Could you just repeat?
+
+[[ GL-PO Sejal ]] 09:47:00
+Will it be possible to quiet? Yeah, sure. Will it be possible to provide some guidance on A2A?
+
+[[ GL-PO Sejal ]] 09:47:08
+In terms of lengths, and online resources. And how can I build the knowledge?
+
+[[ GL-PO Sejal ]] 09:47:15
+Around that myself.
+
+[Dr. William Gray-Roncal] 09:47:19
+Yeah, so we can, um… Umcar and I can take that and think through, um, the best way to get you, um… get you, and I would say that in general, like, as you have emerging topics that you want addressed, um, you know, I think we're happy to take those both.
+
+[Dr. William Gray-Roncal] 09:47:37
+As, um, you know, if it's a question that I can answer and point you to things, I'm happy to do that. Um, the great learning team's also really good at supporting that.
+
+[Dr. William Gray-Roncal] 09:47:47
+And then, you know, questions in masterclasses, um… But… but I will, um, take a… take… take a note on that one in particular. Um, you know, I think we… I'll say more generally in, pedagogically, like, we've tried to cover, um…
+
+[Dr. William Gray-Roncal] 09:48:04
+The ideas that we think are enduring, and then the tools.
+
+[Dr. William Gray-Roncal] 09:48:10
+That seemed to be most popular and most used and requested across.
+
+[Dr. William Gray-Roncal] 09:48:15
+And I don't know if anybody from Great Learning wants to add to that, but I think we've tried very hard, like, MCP came out in the middle of all of this, and so we built some MCP materials, just as an example, to scaffold and make sure people had what they needed.
+
+[[ GL-PO Sejal ]] 09:48:36
+Thank you, thank you, Doctor William. Now we have another question.
+
+[[ GL-PO Sejal ]] 09:48:40
+How is the regulatory scenario in pharma industry related to AI products?
+
+[[ GL-PO Sejal ]] 09:48:47
+And special the challenges on how to escalate to patients.
+
+[Dr. William Gray-Roncal] 09:48:55
+Yeah, I mean… It's… it's… the regulatory questions are hard, um… in an international environment, because it's just all so different. Um, but I will say… for, um… for the United States, um…
+
+[Dr. William Gray-Roncal] 09:49:12
+Um, we often… Um, so I do, I do work with healthcare systems with Hopkins and others, and um.
+
+[Dr. William Gray-Roncal] 09:49:19
+you know, I think we are… Um… often very conservative.
+
+[Dr. William Gray-Roncal] 09:49:25
+because of regulation and what we… the data that we can use to train?
+
+[Dr. William Gray-Roncal] 09:49:32
+Or to use to inform our models, and also the escalation to patient care.
+
+[Dr. William Gray-Roncal] 09:49:36
+Um, and so there's a lot of thought, you know, and I think this is, you know.
+
+[Dr. William Gray-Roncal] 09:49:41
+good and bad, right? I think there's a lot of thought about making sure that we're not… sending things to… Patients too early and confusing them, I think that, um.
+
+[Dr. William Gray-Roncal] 09:49:53
+Obviously, that can sometimes delay getting good solutions out to patients.
+
+[Dr. William Gray-Roncal] 09:49:58
+But there is a, you know, I think wherever you are, there's typically, like, you know, I know you said patient, so I'm thinking healthcare, um… Um, you know, there's typically a pretty well-established process, right? So, um…
+
+[Dr. William Gray-Roncal] 09:50:10
+for us in, um, healthcare, we're thinking about, you know, you prove your… you find some test data.
+
+[Dr. William Gray-Roncal] 09:50:18
+You go through and you build an algorithm and you say, hey, this works on my… on my, um… retrospective data, and then you would do a prospective trial, you know, throughout your consulting with the regulatory folks. We use institutional review boards that will make sure you're doing this in an ethical way.
+
+[Dr. William Gray-Roncal] 09:50:34
+And then, as it passes those gates, you would go through, um, a government approval to say, hey, we're going to use this live with a patient.
+
+[Dr. William Gray-Roncal] 09:50:44
+Um, during the study phase, you will often be able to.
+
+[Dr. William Gray-Roncal] 09:50:50
+Put your tools out in a limited way, so you'll have clinician partners that will test with consent from the patients and whatnot.
+
+[Dr. William Gray-Roncal] 09:50:57
+So I would say that in these, these, um… Uh, I'm not sure what word I want, sensitive environments, you think of finance, or government, or healthcare, which is… is maybe… a lot of the work that exists. You know, there are rules, and we gotta follow the rules, um, and it's, it's just sort of something that's baked into the development plan and process, is the way I think of it.
+
+[[ GL-PO Sejal ]] 09:51:22
+I appreciate the clear explanation. Now we have the next question.
+
+[[ GL-PO Sejal ]] 09:51:26
+Will we cover hot topic of agent evaluation and guardrails?
+
+[[ GL-PO Sejal ]] 09:51:31
+so many new vulnerabilities introduced.
+
+[Dr. William Gray-Roncal] 09:51:35
+Yeah, so we talk throughout, you know, I think, um… using… using these tools responsibly is something that's, you know, really important to me, really important to Shelby, and so we… Um, we tried to put that in throughout the course, um…
+
+[Dr. William Gray-Roncal] 09:51:50
+you know, both from a, hey, here are specific tools that you might do in terms of traceability and audits and… Managing, um… the agency of your… of your tools.
+
+[Dr. William Gray-Roncal] 09:52:04
+Um, but then also. you know, sort of the… the conceptual parts and, like, how you might think of this as… as new threats emerge and new risks emerge, but… I mean, at a high level, I think that.
+
+[Dr. William Gray-Roncal] 09:52:19
+Um, you know, we're seeing guardrails are pretty brittle, um… And that's kind of scary, right? That there's all these, um… Seems like every day there's some… some major problem that somebody has figured out how to exploit.
+
+[Dr. William Gray-Roncal] 09:52:35
+Um, because you have your raw model outputs, and then.
+
+[Dr. William Gray-Roncal] 09:52:40
+you know, the answer that is biased or dangerous or what have you, is just being masked, and so… Um… you know, there's a lot of good work, um… a foot in something called mechanistic interpretability. Um, so we've done a little bit of work there.
+
+[Dr. William Gray-Roncal] 09:52:58
+Um… Where, you know, you can go through and actually look at where bias is accumulating, for example, in which layers and which nodes, and you can think about, um.
+
+[Dr. William Gray-Roncal] 09:53:11
+ablating them and removing that… those nodes from the picture. Um, that typically works with open models and, um, non-real-time, so that's a bummer. Um, but there's lots of thoughts about this. I think, in general, you know, you have to… really be thinking about this at the design phase. I think if you're relying on guardrails, um…
+
+[Dr. William Gray-Roncal] 09:53:34
+it's just… it's a… it's a very hard problem. Um… But yeah, we think a lot and talk a lot about it.
+
+[[ GL-PO Sejal ]] 09:53:44
+Thank you. Now we have the next question. Could agentic AI systems potentially replace customer relationship management system?
+
+[Dr. William Gray-Roncal] 09:53:58
+Um… to… We don't know. I mean, I know that, um… you know, what I think I see consistently in.
+
+[[ GL-PO Sejal ]] 09:54:04
+Oh, you know. Good. Go ahead.
+
+[Dr. William Gray-Roncal] 09:54:08
+January 2026 is that… you know, agents work in a lot of cases for a lot of things, and then they break.
+
+[Dr. William Gray-Roncal] 09:54:18
+Right? So, you know, in my… in my travels of dealing with, you know, Amazon customer service and.
+
+[Dr. William Gray-Roncal] 09:54:25
+the phone company customer service and the retailer customer service, like.
+
+[Dr. William Gray-Roncal] 09:54:32
+almost always now, I am talking to an agent, or… some AI something, um, for a while.
+
+[Dr. William Gray-Roncal] 09:54:40
+Right? And you have to figure out, like, what the keywords are to, like, hey, you… after 17 tries, you still didn't solve my problem. Can I please talk to a real person?
+
+[Dr. William Gray-Roncal] 09:54:50
+Um, and then they send you to an agent that is better and sounds like a person, but um… I think it depends on what you're trying to do. I think that if you have a fairly clear set of guidelines and you can delegate enough autonomy where it's like, you know, you think of a model where, like, if customer complains for more than 5 minutes, give them a refund.
+
+[Dr. William Gray-Roncal] 09:55:08
+Um, and the stakes are fairly low. I think that those can be pretty well automated, and I think a lot of them.
+
+[Dr. William Gray-Roncal] 09:55:13
+It's not even a question of, like, can it be done? I think it is being done.
+
+[Dr. William Gray-Roncal] 09:55:18
+I think that, you know, the higher touch places are places where people are expecting very individualized support, and… Um, to not sit and wait in a queue for the next AI agent. I think that, um, we currently don't know how to replicate that human touch.
+
+[Dr. William Gray-Roncal] 09:55:35
+in January 2026.
+
+[[ GL-PO Sejal ]] 09:55:37
+That was… That was helpful. Thank you.
+
+[[ GL-PO Sejal ]] 09:55:41
+Now, coming to the next question. With all of the agent platforms coming out.
+
+[[ GL-PO Sejal ]] 09:55:47
+How soon will this tech move from export-built to consumer-built?
+
+[[ GL-PO Sejal ]] 09:55:52
+Or will this always require a developer or engineer to implement.
+
+[[ GL-PO Sejal ]] 09:55:58
+Or is there a mix?
+
+[Dr. William Gray-Roncal] 09:56:02
+I think it's a mix, you know, I think that, um… We, um… One of the reasons my first slide, um.
+
+[Dr. William Gray-Roncal] 09:56:11
+after talking about people was about AI is not new, is for this kind of reason, is that I think we can see.
+
+[Dr. William Gray-Roncal] 09:56:20
+Um… you know, the movement, like, I mean, we were tracking… I mean, attention network 2017, but like… you know, my research group was tracking… Uh, GPU-accelerated machine learning, and like.
+
+[Dr. William Gray-Roncal] 09:56:37
+at least 2010? 2011? Uh, maybe before that, that's what I… that's when I remember it.
+
+[Dr. William Gray-Roncal] 09:56:44
+Even though, like, you know, kind of the general public wasn't thinking about this at all until 2023 or something, right?
+
+[Dr. William Gray-Roncal] 09:56:50
+And so I think that there is always this… this tech value, uh, tech… maturation cycle, right? I know that, um… OpenAI has, you know, in… maybe a year ago? Maybe a little bit more?
+
+[Dr. William Gray-Roncal] 09:57:06
+Um, they had the idea of the custom GPTs, so you could say, like, I'm going to put in.
+
+[Dr. William Gray-Roncal] 09:57:12
+Um… I'm gonna put in an expert writings, and then you can ask them questions as though you were talking to this person, um, and you, you know, you do that with, like, no code, and just, uh, writing, essentially, like, a good system prompt and, uh, persona.
+
+[Dr. William Gray-Roncal] 09:57:29
+Um, and so I think we'll continue to see that. I know that there are some early agentic tools that do similar things, um, that you can say, like, I want an agent that is going to go look for.
+
+[Dr. William Gray-Roncal] 09:57:41
+flight prices, so places like Expedia have started to kind of look at this, um… you know, it's not like a fologenic framework, but it's like.
+
+[Dr. William Gray-Roncal] 09:57:50
+People are using agents, um… And I think it just kind of keeps pushing, and you know, on the more tech side, think about, um… what coding programming has looked like over the last even decade, right?
+
+[Dr. William Gray-Roncal] 09:58:06
+Certainly two decades where you went from, like, hey, I'm, you know, writing everything, and I mean, I remember, like, assembly code and all the things, um, but, like, you're writing things and trying to get your… C library to compile in the right way and all this stuff, and, you know, to then the, um…
+
+[Dr. William Gray-Roncal] 09:58:23
+you know, languages like Python or MATLAB, and IDEs, and, you know, moving into this, uh, now… then there were, like, things that would do doc strings for you, and then there were, um… you know, the code completion agents, the early versions of, like, Copilot, and now, you know, you have, like, the Vibe coding and the no-code, um, ideas that, you know, admittedly don't always work great.
+
+[Dr. William Gray-Roncal] 09:58:50
+Um, but they… you know, we are pushing more to.
+
+[Dr. William Gray-Roncal] 09:58:56
+Um, to broader adoption, right? And, you know, I think the question of, like, is someone who is totally not technical going to, like.
+
+[Dr. William Gray-Roncal] 09:59:05
+build an agent from scratch, maybe no, but are they using agents? I would say yes. Um, and I think it's just there's a… You know, like in the case of.
+
+[Dr. William Gray-Roncal] 09:59:15
+GPU-informed machine learning, there was, like, a 12-year gap.
+
+[Dr. William Gray-Roncal] 09:59:20
+Um, from, you know, and I mean, our lab was not the first adopter of this, right? Like, so, 12, 15, 20-year gap.
+
+[Dr. William Gray-Roncal] 09:59:27
+Um… And, and, you know, I think we'll see a similar pattern here.
+
+[[ GL-PO Sejal ]] 09:59:36
+Thank you, thank you for covering this so clearly.
+
+[[ GL-PO Sejal ]] 09:59:39
+Now, coming to next… How do you see automation and agentic AI together?
+
+[Dr. William Gray-Roncal] 09:59:48
+Yeah, so… I think that… Gentic AI… Could be an example of… automation, but I think we often, you know, and people will use these words slightly differently.
+
+[Dr. William Gray-Roncal] 10:00:05
+Um… I often think of automation as something that is, you know.
+
+[Dr. William Gray-Roncal] 10:00:10
+turning a process from one that requires human intervention to one that does not.
+
+[Dr. William Gray-Roncal] 10:00:16
+Um, as I teach more and more, I try to figure out how to, like, explain these things to myself, too.
+
+[Dr. William Gray-Roncal] 10:00:20
+Um, and so automation often could be… Um, you know, my first job, um… out of college, I was working in a furniture assembly plant.
+
+[Dr. William Gray-Roncal] 10:00:31
+Um, and, um… rural America, and, um, we were, like, pressing the aluminum and the metal, and most of that pipeline was really done.
+
+[Dr. William Gray-Roncal] 10:00:42
+by hand, right? Like, I had a job where for, like, 8 hours I stickers on boxes, right? Um… Among many other things. And, you know, that's an example of, like, something that you could automate by, like, having a machine that, like.
+
+[Dr. William Gray-Roncal] 10:00:55
+put a sticker on that is not particularly using AI or machine learning or anything. And so… You know, depending on if you're in, like, an embodied world, a factory, or in knowledge space, or.
+
+[Dr. William Gray-Roncal] 10:01:11
+pharma space, or what have you, I think that, um… you know, I think that the solution depends, but I mean, I would take a… I think there are many cases where automation without agents makes a lot of sense, right? If you have a well-defined task with well-defined rules, and you have.
+
+[Dr. William Gray-Roncal] 10:01:33
+Um, control of your environment. Right? So, like, I have… A team of 10 people and we want something to.
+
+[Dr. William Gray-Roncal] 10:01:41
+happen in a particular way, and you don't have people being nefarious or introducing crazy new use cases.
+
+[Dr. William Gray-Roncal] 10:01:48
+Like, often, often automation without AI is great, right? Because it's very dependable, it will do the thing, it's not thinking.
+
+[Dr. William Gray-Roncal] 10:01:56
+Um, and then it's, you know, and so, so I guess.
+
+[Dr. William Gray-Roncal] 10:02:00
+Just to give you one more point on that, if you… Um… I think that there is a good axiom in engineering of, like, you want, um, the simplest system that's going to work for you, but no simpler.
+
+[Dr. William Gray-Roncal] 10:02:14
+Somebody said something… somebody said that in a wiser way, but um… you know, if a non-thinking system will solve your problem, it is going to be more robust and… more transparent and easier for your customer to maintain and understand.
+
+[Dr. William Gray-Roncal] 10:02:31
+And as you need to deal with. more complexity and more up-to-date problems, you know, you move to, like.
+
+[Dr. William Gray-Roncal] 10:02:40
+decision trees that can be brittle, and to, um… and we walk through this in one of the earlier, um, lectures, kind of the evolution of AI, and you start to look at, like, okay, now I'm doing, like.
+
+[Dr. William Gray-Roncal] 10:02:52
+machine learning, supervised learning, unsupervised learning, clustering, pattern recognition, and that's cool, and then you say, okay, now I'm using… Um, deep learning, and that, that's cool for some things. Now I'm using transformers and LLMs and foundations.
+
+[Dr. William Gray-Roncal] 10:03:06
+Models, and that has its pros and cons, and then you have agents where, and I mean, that is the sort of.
+
+[Dr. William Gray-Roncal] 10:03:11
+implicit hierarchy, in my mind, is now you are delegating authority, and you are asking, um… your AI to think for you, right, and to make decisions for you. I guess not just think, but to.
+
+[Dr. William Gray-Roncal] 10:03:25
+to make decisions for you, and um… I think it is tremendously powerful and saves us a tremendous amount of time and opens up all kinds of new frontiers, and I.
+
+[Dr. William Gray-Roncal] 10:03:35
+But I don't think everything is in a Jenta AI problem.
+
+[[ GL-PO Sejal ]] 10:03:40
+That helps, thank you. Coming to next, can you give me an example of use case that failed in agentic AI, and why?
+
+[[ GL-PO Sejal ]] 10:03:50
+Maybe explain what should be a correct approach?
+
+[Dr. William Gray-Roncal] 10:03:55
+Yeah, um… gosh, there's a bunch of them. Um… I think, um…
+
+[Dr. William Gray-Roncal] 10:04:07
+I think a couple of cases, kind of, in my mind, um…
+
+[Dr. William Gray-Roncal] 10:04:13
+I'm trying to decide which story I want to tell you. Um… The… you know… I guess two big problems across the last three or four things that.
+
+[Dr. William Gray-Roncal] 10:04:26
+I've seen, and often I'll, like, jump in, and at this point in my career, I'll jump in and try to fix.
+
+[Dr. William Gray-Roncal] 10:04:32
+things that are broken. Um… A big one is customer expertise, um, and not in a way that I'm, like.
+
+[Dr. William Gray-Roncal] 10:04:40
+blaming the customer, right? But it's more in a way of, like, um, people don't know what they don't know, and so they will.
+
+[Dr. William Gray-Roncal] 10:04:48
+imagine… agentic AI, right? And sometimes this is our fault in selling it, is like, they imagine this is a solution that's gonna.
+
+[Dr. William Gray-Roncal] 10:04:56
+You know, make all of their problems go away, and so it's like sort of oversold.
+
+[Dr. William Gray-Roncal] 10:05:02
+And so, when you actually go out into the real world, you know, it solves a particular subset, but not all of the cases.
+
+[Dr. William Gray-Roncal] 10:05:10
+And so I think that is a very common failure mode. It's also one that's very hard to fix because, you know, you would, you know, you go from sort of a smaller system, and if you want to handle.
+
+[Dr. William Gray-Roncal] 10:05:21
+You know, like, the, the principal the. You get 20% of the effort to do 80% of the work, but then that last part is very hard.
+
+[Dr. William Gray-Roncal] 10:05:30
+And so if they really wanted a 90% solution and not an 80% solution, like, making good on that is hard, and so… really calibrating the users up front, I think, is one big failure mode. I think the other one that we see in regulated environments is…
+
+[Dr. William Gray-Roncal] 10:05:48
+Um, we sort of have to use the data that we can get in many cases, and so I think the appropriate way to do that is then to build a model.
+
+[Dr. William Gray-Roncal] 10:05:57
+Or, uh, you know, use model generically, like an agentic system or machine learning model, and… Um… You know, it just doesn't generalize well, right? Either because the… the data changes and the distributions change in the real world, or, um…
+
+[Dr. William Gray-Roncal] 10:06:20
+you know, there are some other assumptions about the real world that aren't governed in our simulation.
+
+[Dr. William Gray-Roncal] 10:06:26
+And, um… I think that.
+
+[Dr. William Gray-Roncal] 10:06:31
+often the solution there is to build in that testing and deployment time.
+
+[Dr. William Gray-Roncal] 10:06:36
+Right, so if, like, on the last day of your contract, you're like, here's your system, good luck, bye!
+
+[Dr. William Gray-Roncal] 10:06:41
+Um, everything breaks, right? Um, and you see this also in internal development, where, you know, you have, like, money from your company to develop the system.
+
+[Dr. William Gray-Roncal] 10:06:51
+And, you know, you don't really build the test in as you go and you don't get your stakeholders on board with what it's doing as you go. The rework is just too big, and the time that.
+
+[Dr. William Gray-Roncal] 10:07:01
+that you have. I think those are… are two really common cases.
+
+[Dr. William Gray-Roncal] 10:07:05
+I think what is comforting to me is a lot of this, and I saw a couple comments.
+
+[Dr. William Gray-Roncal] 10:07:10
+So, there's a lot of this is… Um, true not just for agentic AI.
+
+[Dr. William Gray-Roncal] 10:07:15
+Um, so I think that if you have sort of a solid engineering background or mind, um, and working through this, I think.
+
+[Dr. William Gray-Roncal] 10:07:24
+Um, you know, there are new things that you need to adapt to and think about, but it's not a… it's not a totally new idea, right? Like, it's… it's just an extension of… Um, of that. The big things that are different are the…
+
+[Dr. William Gray-Roncal] 10:07:37
+Um, stochasticity, right? So sometimes people will ask for, like, guarantees of performance, and we don't.
+
+[Dr. William Gray-Roncal] 10:07:43
+you know, you can make it better. With grounding your agents, your LLMs, you could make it better by limiting autonomy and having human review, but it's, it's, you know, it's that emergence and that delegation of autonomy.
+
+[Dr. William Gray-Roncal] 10:08:00
+or a delegation of authority that I think really.
+
+[Dr. William Gray-Roncal] 10:08:04
+are the two agentic-specific things to watch for.
+
+[[ GL-PO Sejal ]] 10:08:10
+Thank you, Doctor Williams. down so clearly. Moving on.
+
+[[ GL-PO Sejal ]] 10:08:16
+Will we be able to produce agents that are functional for our own scope of work.
+
+[[ GL-PO Sejal ]] 10:08:22
+Or are they predefined by the program?
+
+[Dr. William Gray-Roncal] 10:08:28
+Um, so… You know, I think we've thought a lot about that. We've tried to cover in the.
+
+[Dr. William Gray-Roncal] 10:08:36
+Um… in the sort of hands-on pieces, um… the design patterns that will extend really directly to the work you're doing.
+
+[Dr. William Gray-Roncal] 10:08:46
+Obviously, there's a translation, you know, like. We can't use, you know, so for example, I… I updated one of the modules, and I recorded a, um… Uh… a hands-on that went into a lot of depth around, like, uh, multiple sclerosis diagnosis from a big patient cohort, right? And so I think that that.
+
+[Dr. William Gray-Roncal] 10:09:08
+paradigm of, like, clinical decision support tools, um, would be something that if you worked in that space, you could lift pretty directly.
+
+[Dr. William Gray-Roncal] 10:09:15
+Um, and you should, like, I mean, certainly any code I wrote, you should borrow and.
+
+[Dr. William Gray-Roncal] 10:09:21
+Use as, as you like. Um, with no warranty.
+
+[Dr. William Gray-Roncal] 10:09:27
+Um, but the, you know, obviously the, there's going to be details in.
+
+[Dr. William Gray-Roncal] 10:09:33
+Dealing with whatever your particular problem is that you'll have to… you'll have to work through, but… but I think we've tried to hit a lot of these sort of canonical cases, you know, the actor-critic models and the healthcare models, and uh… researchy models and, um.
+
+[Dr. William Gray-Roncal] 10:09:48
+Those sorts of things, social media models and customer care models and, you know, so we've tried to give you that diversity of topic that.
+
+[Dr. William Gray-Roncal] 10:09:57
+that help, and I would say that, like, the A2A question, I think that… as there is demand signal, you know, if there are things that we can do quickly to fill in gaps, um… We're happy to, and then I think we use your feedback very much to continue to track and update the course as we go.
+
+[Dr. William Gray-Roncal] 10:10:14
+Um, and that's led to a lot of new content, as people, uh, help us track what's happening in the world. Because, I mean, there's, like.
+
+[Dr. William Gray-Roncal] 10:10:20
+Probably there have been 3 neogintic discoveries since we've been talking.
+
+[Dr. William Gray-Roncal] 10:10:24
+Right? Like, it's just how it works.
+
+[[ GL-PO Sejal ]] 10:10:29
+Thank you for the explanation. Moving on. Humans do make mistakes, but businesses know who is accountable.
+
+[[ GL-PO Sejal ]] 10:10:38
+Who do you make accountable? An agent makes a mistake.
+
+[[ GL-PO Sejal ]] 10:10:44
+And how to make stakeholders comfortable with that, especially in a highly regulated finance domain.
+
+[Dr. William Gray-Roncal] 10:10:52
+Yeah, um… I mean, I would argue that non… Humans cannot be responsible, um, in that, you know, like, it's gotta trace back to a person, a company, uh, like.
+
+[Dr. William Gray-Roncal] 10:11:04
+I don't think you can, like, sue an agent. Um… I mean, I think it is… it is more of a regulatory policy question than a technical question.
+
+[Dr. William Gray-Roncal] 10:11:16
+I… I tend to… just, I mean, so now this is… in will opinion land. Um, but I tend to blame the users. Like, I think that if you are using agents, you are responsible for the things that they're doing, and you are choosing to…
+
+[Dr. William Gray-Roncal] 10:11:34
+Um… to employ that. And, you know, it's sort of a hot take, and I don't know that it applies everywhere, but I think of, like.
+
+[Dr. William Gray-Roncal] 10:11:43
+Um… I don't know, like, a hot topic of, like, um… like Tesla's, um… AI or pseudo-AI driving system, right? If I am tired and I turn on that self-driving system.
+
+[Dr. William Gray-Roncal] 10:11:59
+And it crashes. Like, maybe there's a negligence argument against Tesla or Tesla engineers, or something, but I tend to think that, like, I as a human have decided to.
+
+[Dr. William Gray-Roncal] 10:12:12
+turn that system on, and, you know, if there's, like.
+
+[Dr. William Gray-Roncal] 10:12:16
+clear negligence and fraud or something, I think that.
+
+[Dr. William Gray-Roncal] 10:12:19
+I would hold the developer liable, but otherwise, I think it's like.
+
+[Dr. William Gray-Roncal] 10:12:23
+I am a user, right? And so, like, if I am using AI to, um… help me brainstorm ideas for a paper.
+
+[Dr. William Gray-Roncal] 10:12:31
+And those ideas are bad, or plagiarized, or something. Like, I think that's on me, right? Like, I don't think I get to go back and say, like, well, ChatGPT told me it was original, so it's fine, right? Like, ChatGPT can't agree to be an author.
+
+[Dr. William Gray-Roncal] 10:12:44
+Um, I think in the very regulated environments, I think, um, again, it's a… it's a policy choice, and so… Um, that's why I'm sort of in opinion space, because I think it's, like.
+
+[Dr. William Gray-Roncal] 10:12:56
+the person responsible is whoever… society decides is responsible. I think there's arguments on both sides, but I think that.
+
+[Dr. William Gray-Roncal] 10:13:04
+You know, like, if you were… Um, a doctor to dispensing medication and your AI told you to give somebody a dose that was lethal, I think you're still the doctor. Like, there's got to be a human.
+
+[Dr. William Gray-Roncal] 10:13:17
+with authority that says, I'm signing off on this. And I think that.
+
+[Dr. William Gray-Roncal] 10:13:23
+Um… I feel like, especially in regulatory environments, systems that are fully autonomous with no human in the loop, I think are… Um, not, not ready.
+
+[Dr. William Gray-Roncal] 10:13:34
+I think that, like, these high-stakes things, you need somebody to, like, press the button.
+
+[Dr. William Gray-Roncal] 10:13:38
+Um, and if people choose to delegate that power to a machine, I think they're still responsible.
+
+[Dr. William Gray-Roncal] 10:13:45
+Again, that's an opinion, um… The lawyers have to… have to decide, I don't know.
+
+[[ GL-PO Sejal ]] 10:13:46
+Understood.
+
+[[ GL-PO Sejal ]] 10:13:53
+Thank you. Next question. Authentic AI is already moving towards maturity.
+
+[[ GL-PO Sejal ]] 10:14:01
+One thing will be the next wave in AI.
+
+[[ GL-PO Sejal ]] 10:14:04
+Over the next 1 to 2 years.
+
+[Dr. William Gray-Roncal] 10:14:10
+Um… so… I don't think we are at maturity yet for agentic AI. I think we're gonna be here for a little bit.
+
+[Dr. William Gray-Roncal] 10:14:19
+you know, I think that… There is an interesting… there's an interesting question, um… about… sort of, you know, I think the big debate right now is… how, if these pattern recognition systems are able to really think, right? I think that's the question. So, like, the place where we would see.
+
+[Dr. William Gray-Roncal] 10:14:46
+a lot of acceleration is if you're, you know, like.
+
+[Dr. William Gray-Roncal] 10:14:48
+you have AI that is starting to. in so many words, like, build new AI. Um, I think that's where… Um, there is… a lot of thought about the next advances, you know, and that this would lead to superintelligence or, um…
+
+[Dr. William Gray-Roncal] 10:15:07
+AGI or whatever buzzword you'd like to use. Um… I think the competing view of that is that we've exhausted a lot of the available training data, we are using billions of dollars on compute and data centers.
+
+[Dr. William Gray-Roncal] 10:15:23
+And, you know, we maybe are starting to plateau in terms of things that are actually creating new value, and we see these… these… Sort of catastrophic failures where the AI is clearly not thinking in the way that a human would think.
+
+[Dr. William Gray-Roncal] 10:15:36
+Um… I don't know, right? I think there are arguments on both sides, and I was like, well, we're tapped out on data centers, and there was that article, like, two weeks ago where.
+
+[Dr. William Gray-Roncal] 10:15:44
+I think it was the Google CEO said that we're building data centers in space.
+
+[Dr. William Gray-Roncal] 10:15:50
+Um, in the near future, right? And so, I think it's interesting, like, I think people have a lot of strong opinions, and I think they have reasons for their opinions.
+
+[Dr. William Gray-Roncal] 10:16:01
+Um… I haven't seen, personally, something that convinces me that.
+
+[Dr. William Gray-Roncal] 10:16:07
+like AGI is around the corner. But I also think that there's an awful lot of stuff happening, and um… I always come back to, like.
+
+[Dr. William Gray-Roncal] 10:16:16
+You know, we think about, like, the Wright brothers and learning to build airplanes and.
+
+[Dr. William Gray-Roncal] 10:16:22
+you know, the… if you look at their early prototypes, like, they tried to build airplanes like birds, right? But jet engines don't work at all like birds, right? And they're much heavier than… than air and all the things and so, you know, what I am thinking of is AGI might not be the way AGI emerges in a.
+
+[Dr. William Gray-Roncal] 10:16:42
+in a system, um… I think places that we will see.
+
+[Dr. William Gray-Roncal] 10:16:47
+Um, maturity are these agentic patterns start to solidify, you know, where right now I think it's, you know, often.
+
+[Dr. William Gray-Roncal] 10:16:55
+a little bit bespoke and a little bit, um… In controlled environments, I think we'll start to see people get more comfortable with that, more comfortable with, uh… the risk and the agency patterns as people succeed, you know, I think we learn from each other, and I think that there are big teams at places like Google and Amazon and OpenAI that are building out tools. You think of, like, um…
+
+[Dr. William Gray-Roncal] 10:17:17
+AWS Bedrock, for example, where, you know, you sort of are taking best practices and putting them into one place that people can just use as services.
+
+[Dr. William Gray-Roncal] 10:17:25
+Um, to commodifying some of these things, um… I think we'll see big advances there. I think the other thing.
+
+[Dr. William Gray-Roncal] 10:17:32
+And… I hesitate to speculate here, because it's been true for 20 years that it's around the corner, but.
+
+[Dr. William Gray-Roncal] 10:17:39
+Um, more and more embodied systems, more and more things in the real world.
+
+[Dr. William Gray-Roncal] 10:17:44
+Right, so I think software's one thing, hardware's another thing.
+
+[Dr. William Gray-Roncal] 10:17:48
+Um, and, um. you know, you started to see this, like, I mean, we're, what, year 15 or so of, um, robotic vacuum cleaners?
+
+[Dr. William Gray-Roncal] 10:17:56
+And so I think you'll start to see more intelligent home devices where we're able to take some of these tools and apply them. Um, so it's combining the AI.
+
+[Dr. William Gray-Roncal] 10:18:07
+technologies with. Um, some of the sensing and perception and actuation technologies in a way that's robust enough for consumer use.
+
+[Dr. William Gray-Roncal] 10:18:17
+Um, we do, by the way, I think. Yeah, I was just gonna say, I think one of the masterclasses, um, that we reserve is for… Um, the latest emerging technologies, and so we go through this in more detail, but we also…
+
+[[ GL-PO Sejal ]] 10:18:18
+Noted, thank you. Hmm.
+
+[Dr. William Gray-Roncal] 10:18:34
+Um, when we do this class, we go back through.
+
+[Dr. William Gray-Roncal] 10:18:38
+the big AI companies and some of the latest conferences, and we pull, like.
+
+[Dr. William Gray-Roncal] 10:18:43
+basically what, um. Yoshua Bingio and Jan Lacun and.
+
+[Dr. William Gray-Roncal] 10:18:50
+Um, the CEOs of the AI companies, uh, will say to their investors and in companies and at conferences, and we will sort of synthesize that together for you and say, like, hey.
+
+[Dr. William Gray-Roncal] 10:19:01
+Um, because, you know, like. You've known me for.
+
+[Dr. William Gray-Roncal] 10:19:05
+an hour and 19 minutes, maybe, and like. you know, my ideas might be good. I mean, I think they're founded in lots of things, but we want to give you that diversity of perspective across the industry, so that you're able to track and learn from everybody.
+
+[[ GL-PO Sejal ]] 10:19:22
+Thank you.
+
+[Dr. William Gray-Roncal] 10:19:22
+Um, I see the comment, um… Yeah, it's called a husband. I would argue it's called a 6-year-old. I have, like, the most expensive robotic vacuum ever. Um, his name is Julian.
+
+[Dr. William Gray-Roncal] 10:19:34
+Um, he's really good at it.
+
+[Dr. William Gray-Roncal] 10:19:47
+I'm gonna drop into chat. This is, um… just, I want to make sure I do the thing that, um, I said I would do.
+
+[Dr. William Gray-Roncal] 10:19:58
+This is the, um. the nature special issue that we wrote, um, on the brain mapping org.
+
+[Dr. William Gray-Roncal] 10:20:06
+Um, like, 300 people involved in it. I mean, it's this massive, massive thing.
+
+[Dr. William Gray-Roncal] 10:20:12
+But I think really neat, um, and I think, uh, maybe an example of, you know, we talk a lot about the regular.
+
+[Dr. William Gray-Roncal] 10:20:19
+regulatory environments and chatbots and the customer support, I think this is an example of how we started to use.
+
+[Dr. William Gray-Roncal] 10:20:26
+Um, I guess precursors, we didn't have agents at this point, um… But precursors to the current technologies at scale, um… in a more researchy academic, um, make the world a better place way.
+
+[[ GL-PO Sejal ]] 10:20:45
+That was, again, helpful. Um, next. Well, this course.
+
+[[ GL-PO Sejal ]] 10:20:50
+Help me build AI agents for trading who can do the trading automatically without manual interview.
+
+[Dr. William Gray-Roncal] 10:21:01
+Um, so, I think if we're using…
+
+[Dr. William Gray-Roncal] 10:21:07
+I'm not sure I totally understand the question. I think sort of a common design pattern, um, that we employ is to… is… Yeah, I think the short answer is yes.
+
+[Dr. William Gray-Roncal] 10:21:17
+Um, what I mean by that is that we would take, um… typically a… Um… Well, I think we would start with just your LLMs, and usually, like, if I'm looking at a problem, let me…
+
+[Dr. William Gray-Roncal] 10:21:31
+take a second and do this, actually. So, usually if we're looking at a problem, the first thing I will do, if it is.
+
+[Dr. William Gray-Roncal] 10:21:37
+Um, either with, like, a LLM that is, like, on my laptop or in a sort of.
+
+[Dr. William Gray-Roncal] 10:21:45
+uh… intranet, firewall environment for, for, um, sensitive things, or ChatGPT if it's, uh, sort of public data.
+
+[Dr. William Gray-Roncal] 10:21:53
+is I will literally just ask the LLM. my question, with no… No context. Um, and see how close it is to the answer I'm looking for.
+
+[Dr. William Gray-Roncal] 10:22:05
+And I think that, uh, we were doing a project over the summer where we were trying to understand.
+
+[Dr. William Gray-Roncal] 10:22:14
+what was in a picture, basically, or a video.
+
+[Dr. William Gray-Roncal] 10:22:17
+Um, and reason over it, and I had a bunch of grad students working with me, um, I host.
+
+[Dr. William Gray-Roncal] 10:22:22
+3 or 4 dozen grad students every summer. Um, in my lab, and um… Everybody kept building these cool computer vision models, and I was like… Okay, cool. And so I put the…
+
+[Dr. William Gray-Roncal] 10:22:35
+I put the images into ChatGPT with no training or anything, and… It basically did as well as the students' algorithms did, and I said, hey, what do you think about this? And they were all very sad. Um, but my point was, don't be sad, like, use the tools you have.
+
+[Dr. William Gray-Roncal] 10:22:51
+Um, before you try to do all of these… all these complex training, um… all this, all this sort of hand-labeling and complex training routine.
+
+[Dr. William Gray-Roncal] 10:23:03
+Um, so that's thing one. I think thing 2 then is to say, okay, now let me.
+
+[Dr. William Gray-Roncal] 10:23:10
+be smart about my LM query, right? Like, um… I at least heard growing up, like, good engineers are lazy, right? So what's the the next easiest thing to do is to now.
+
+[Dr. William Gray-Roncal] 10:23:21
+Work through a good system prompt and a good, um.
+
+[Dr. William Gray-Roncal] 10:23:27
+agent or foundation model prompt where you go through and you say, okay, like, you are an expert in computer vision, and it is important to you that you understand these things.
+
+[Dr. William Gray-Roncal] 10:23:36
+Um, and see what happens, right? The next thing that's helpful is to now say… Let me, um… gather a set of documents that explain how to do the task, right? And exemplars of doing the task, and you build them into a knowledge store, um.
+
+[Dr. William Gray-Roncal] 10:23:56
+typically that happens through something like a, um… Uh, through retrieval augmented Generation, so you build a vector store on your documents.
+
+[Dr. William Gray-Roncal] 10:24:06
+Um, and we can talk through this. Um, the modern tools can do this on the fly, actually, which is pretty cool.
+
+[Dr. William Gray-Roncal] 10:24:11
+Um, and you see if that helps. And I think only after that would you go through.
+
+[Dr. William Gray-Roncal] 10:24:19
+a big manual training effort, um… I find in practice that it is… it is fairly.
+
+[Dr. William Gray-Roncal] 10:24:27
+Rare that we have to do… a huge amount of labeling.
+
+[Dr. William Gray-Roncal] 10:24:32
+Um, we do sometimes, right? I mean, there's definitely those cases, um, especially if you're very… in a very domain-specific way, like, we have to do this for some of the electron microscopy data.
+
+[Dr. William Gray-Roncal] 10:24:45
+Yeah. But I think in general, like, the idea is don't spend a ton of time trying to.
+
+[Dr. William Gray-Roncal] 10:24:55
+Um… to do… to build training data, because it will make us sad until we try to find other ways.
+
+[Dr. William Gray-Roncal] 10:25:01
+And I don't think you need to.
+
+[[ GL-PO Sejal ]] 10:25:08
+Well, that was really very engaging and informative. I wanted to take a moment to say thanks to Dr. William for today's fantastic presentation.
+
+[[ GL-PO Sejal ]] 10:25:19
+On the AI landscape. And for answering the questions.
+
+[[ GL-PO Sejal ]] 10:25:23
+Your insights would not only informative, but also incredibly engaging.
+
+[[ GL-PO Sejal ]] 10:25:31
+Thank you for answering the questions. We were able to cover most of them today.
+
+[[ GL-PO Sejal ]] 10:25:36
+And for the ones we couldn't address, we'll get back to you within a week.
+
+[[ GL-PO Sejal ]] 10:25:40
+Now, I will be presenting the slides to discuss about the collaboration between Johns Hopkins University and Great Learning.
+
+[[ GL-PO Sejal ]] 10:25:48
+Just give me a moment.
+
+[Dr. William Gray-Roncal] 10:25:50
+Awesome. Yeah, thank you guys, everybody. I really, um, appreciate the engagement and the good questions.
+
+[Dr. William Gray-Roncal] 10:25:55
+If there's things that you need from me, I think Great Learning knows how to.
+
+[Dr. William Gray-Roncal] 10:26:01
+how to find me, um… And I don't know, like, I love the… Um, excitement. You know, I think the best part about teaching is when people want to learn, and so… Um, I'm grateful for…
+
+[Dr. William Gray-Roncal] 10:26:14
+For you guys all being here and eager to learn, and if I can do anything for you as we go through, you know, certainly I'll see you throughout the course, but feel free to reach out in the meantime.
+
+[[ GL-PO Sejal ]] 10:26:28
+Thank you so much, Dr. William. I'm sharing my screen now.
+
+[[ GL-PO Sejal ]] 10:26:48
+Let's begin with John Hopkins. They are academy collaborator. The curriculum and academic content throughout the course.
+
+[[ GL-PO Sejal ]] 10:26:58
+have been designed by JHU, ensuring academic rigor, relevance, and research-backed insights at every step.
+
+[[ GL-PO Sejal ]] 10:27:07
+You'll learn through high-quality recorded lectures. Thoughtfully curated case studies.
+
+[[ GL-PO Sejal ]] 10:27:13
+And product-based learnings that affect real-world applications. Now, to complement this, creating steps in as the Delive collaborator.
+
+[[ GL-PO Sejal ]] 10:27:23
+Our focus is on making your learning experience seamless, engaging, and practical.
+
+[[ GL-PO Sejal ]] 10:27:28
+We bring in industry experts. data science and AI leaders who engage with you each week, offering insights.
+
+[[ GL-PO Sejal ]] 10:27:38
+Answering your questions and building on what you have learned to bridge the gap between theory and industry practice.
+
+[[ GL-PO Sejal ]] 10:27:51
+I hope my screen is visible.
+
+[[ GL-PO Sejal ]] 10:28:04
+Are you able to see my screen now?
+
+[[ GL-PO Sejal ]] 10:28:11
+Thank you. Now, I would like to talk about art learning philosophy. We have a structured learning journey.
+
+[[ GL-PO Sejal ]] 10:28:20
+And why is that successful? Because self-paced learning does not work for 95% of people worldwide.
+
+[[ GL-PO Sejal ]] 10:28:28
+Because learning is a hard and continuous process that needs consistent attention to give tangible learning outcomes.
+
+[[ GL-PO Sejal ]] 10:28:36
+The first 3 things, credible content, learning, and hands-on learning are absolutely essential and critical for a meaningful learning journey, but this is not in.
+
+[[ GL-PO Sejal ]] 10:28:48
+Oh, beyond having access to quality content, you will also need regular guidance from experts.
+
+[[ GL-PO Sejal ]] 10:28:54
+Who have implemented what you are learning in the industry to solve practical business problems.
+
+[[ GL-PO Sejal ]] 10:29:02
+Track your progress and to continuously improve, you also need to get personalized feedback to calibrate your learning.
+
+[[ GL-PO Sejal ]] 10:29:10
+Lastly, remember that you are not alone as you go through your learning journey.
+
+[[ GL-PO Sejal ]] 10:29:16
+You have a support ecosystem built with keeping you and your learning outcomes at its heart to ensure you see the journey.
+
+[[ GL-PO Sejal ]] 10:29:23
+through uncompleted. Moving on, let's talk about the approach to learning that we follow. We follow flipped classroom approach.
+
+[[ GL-PO Sejal ]] 10:29:33
+over a traditional classroom approach. In this, the instructor records the video lectures outside of class.
+
+[[ GL-PO Sejal ]] 10:29:40
+And the in-class time can be utilized in higher-order thinking tasks and applied learning.
+
+[[ GL-PO Sejal ]] 10:29:47
+In this approach, you also get a collaborative environment, which is a lot beneficial for working professionals like yourself.
+
+[[ GL-PO Sejal ]] 10:29:55
+As it forms a supportive network to enhance your journey.
+
+[[ GL-PO Sejal ]] 10:30:01
+Let's quickly walk through what a typical week in the program looks like.
+
+[[ GL-PO Sejal ]] 10:30:06
+So you know exactly what to expect and how to get the most out of it.
+
+[[ GL-PO Sejal ]] 10:30:12
+Every week, you will have around 2 hours of recorded lectures.
+
+[[ GL-PO Sejal ]] 10:30:17
+Plus some pre-reads and practical exercises. These materials are designed to help you build a solid foundation.
+
+[[ GL-PO Sejal ]] 10:30:25
+Before the live sessions, it's really important to go through them in advance before your mentor learning session.
+
+[[ GL-PO Sejal ]] 10:30:32
+These MLS sessions. Are held on weekends and run for about 2 hours.
+
+[[ GL-PO Sejal ]] 10:30:37
+This is your time to ask questions, clarify concepts, and hear the industry perspective on the topic from.
+
+[[ GL-PO Sejal ]] 10:30:44
+experienced mentors who have worked on real-world problems. To help reinforce your learnings, you'll also have weekly assessments.
+
+[[ GL-PO Sejal ]] 10:30:54
+These could be quizzes, or hands-on projects. They're not just about testing you, but helping you track your understanding and keep progressing week by week.
+
+[[ GL-PO Sejal ]] 10:31:10
+While your personal learning time may depend on your work schedule, we have designed a weekly learning rhythm.
+
+[[ GL-PO Sejal ]] 10:31:17
+That's been shaped by the success patterns of thousands of loaners before you.
+
+[[ GL-PO Sejal ]] 10:31:23
+people like you, balancing work and life. While building new skills.
+
+[[ GL-PO Sejal ]] 10:31:28
+Here's how it works. Every Thursday, you will receive content for the upcoming week.
+
+[[ GL-PO Sejal ]] 10:31:35
+These are flexible and self-paced, so you can fit them into your schedule and cover them from Monday to Friday.
+
+[[ GL-PO Sejal ]] 10:31:41
+On weekends, we will shift gears with live mental learning sessions conducted by industry experts. These sessions are interactive and designed to help you connect the dots.
+
+[[ GL-PO Sejal ]] 10:31:53
+applying what you have learned, asking questions, and gaining real-world perspectives.
+
+[[ GL-PO Sejal ]] 10:31:57
+To help you stay on track, each module includes weekly assessments, like including graded quizzes and 3 projects submissions across the program.
+
+[[ GL-PO Sejal ]] 10:32:09
+The mentor learning sessions will be conducted by industry professionals.
+
+[[ GL-PO Sejal ]] 10:32:13
+Even though each session will have its own session plan, but broadly, this is the structure that the mentor follows.
+
+[[ GL-PO Sejal ]] 10:32:21
+the mentor begins with introduction, outcomes of the session, and structure.
+
+[[ GL-PO Sejal ]] 10:32:26
+A comprehensive discussion on the session score concepts followers for about 20 minutes.
+
+[[ GL-PO Sejal ]] 10:32:33
+The bulk of the session is dedicated to the practical application of knowledge.
+
+[[ GL-PO Sejal ]] 10:32:38
+Through a life case study, helping everyone understand real-world industrial applications.
+
+[[ GL-PO Sejal ]] 10:32:44
+This session concludes with a summary of covered topics and an opportunity to ask.
+
+[[ GL-PO Sejal ]] 10:32:50
+additional questions. It's important to note that MLS sessions are interactive in nature, allowing learners to engage with both the mentor and their peers.
+
+[[ GL-PO Sejal ]] 10:32:59
+Fostering a collaborative learning environment.
+
+[[ GL-PO Sejal ]] 10:33:05
+As you move through this 16-week program, assessments play a key role in helping you apply what you have learned.
+
+[[ GL-PO Sejal ]] 10:33:13
+And track your progress. To be eligible for this certificate, you'll need to complete all mandatory courses.
+
+[[ GL-PO Sejal ]] 10:33:19
+With a minimum score of 60% in each. Here's what your assessment journey will look like.
+
+[[ GL-PO Sejal ]] 10:33:27
+weekly quizzas, each learning week includes one quiz to help you reinforce key concepts and test your understanding.
+
+[[ GL-PO Sejal ]] 10:33:34
+projects. You'll work on 3 major projects. We will look at their placement in the upcoming slides.
+
+[[ GL-PO Sejal ]] 10:33:43
+For every assessment, we'll provide clear guidelines. So you know exactly what's the expected and how to approach it.
+
+[[ GL-PO Sejal ]] 10:33:52
+How you are graded, assessments across each course account for 90% of your total score.
+
+[[ GL-PO Sejal ]] 10:34:00
+attendance and live session account for around. For remaining 10%.
+
+[[ GL-PO Sejal ]] 10:34:08
+Let's take a look at the program learning schedule for the January 2026 batch now.
+
+[[ GL-PO Sejal ]] 10:34:14
+We have developed a delivery schedule that functions similarly to a calendar or timetable for you all.
+
+[[ GL-PO Sejal ]] 10:34:21
+Enabling you to plan for the upcoming 16 weeks, the delivery schedule will keep you informed for all the upcoming sessions and the assessment deadlines as well.
+
+[[ GL-PO Sejal ]] 10:34:33
+This schedule is updated in the program overview course on the dashboard.
+
+[[ GL-PO Sejal ]] 10:34:38
+We recommend that you also download it to keep it handy for future reference.
+
+[[ GL-PO Sejal ]] 10:34:43
+If you need any further clarification concerning the learning schedule, please connect with your program manager post the session.
+
+[[ GL-PO Sejal ]] 10:34:51
+I have also seen some of the questions related to when we will be creating the mentored learning session groups.
+
+[[ GL-PO Sejal ]] 10:34:57
+So I would like to highlight it, that we will be creating it coming week by Monday, Tuesday.
+
+[[ GL-PO Sejal ]] 10:35:04
+And we will share about the groups with you. We will also be creating WhatsApp groups, and we'll add you to the WhatsApp groups.
+
+[[ GL-PO Sejal ]] 10:35:15
+And next… We all can agree that a strong support ecosystem is a much-needed pillar in an online program.
+
+[[ GL-PO Sejal ]] 10:35:24
+You will receive plenty of support during this program via a variety of channels. Allow me to walk you through the ecosystem of support.
+
+[[ GL-PO Sejal ]] 10:35:32
+that we have built. First and foremost is the Olympus Learning Management System, which serves as both your dashboard and a channel for communication with our in-house academic.
+
+[[ GL-PO Sejal ]] 10:35:45
+experts who can assist you with any academic concern. You can raise a support request from the dashboard using the question mark option.
+
+[[ GL-PO Sejal ]] 10:35:53
+And our program team will be able to provide you with the resolution to your concern within the first 24 to 48.
+
+[[ GL-PO Sejal ]] 10:36:01
+offers. Apart from this.
+
+[[ GL-PO Sejal ]] 10:36:04
+We also share certain announcements throughout the program. Which you will be notified of through the dashboard.
+
+[[ GL-PO Sejal ]] 10:36:11
+I will give you an Olympus overview towards the end of the session.
+
+[[ GL-PO Sejal ]] 10:36:17
+Those of you who need help with navigation on Olympus can stay back for that.
+
+[[ GL-PO Sejal ]] 10:36:24
+Next is WhatsApp. Which we use as an ad hoc communication channel. We will create a WhatsApp group for peer-to-peer interaction.
+
+[[ GL-PO Sejal ]] 10:36:34
+And mentor will also be a part of this group.
+
+[[ GL-PO Sejal ]] 10:36:37
+The next channel is, of course, your program manager. They will be your primary point of contact throughout your learning journey.
+
+[[ GL-PO Sejal ]] 10:36:45
+You can reach out to them by email, SMS, and WhatsApp, in addition to phone calls.
+
+[[ GL-PO Sejal ]] 10:36:53
+They will be available during the office hours. Now.
+
+[[ GL-PO Sejal ]] 10:36:56
+While they may not be an academic or a technical expert, but they will most definitely be able to redirect your query to the right channel, so I request you all to connect with your program manager in case of any queries.
+
+[[ GL-PO Sejal ]] 10:37:12
+The last channel is the program office email ID. You can make a note of this email address.
+
+[[ GL-PO Sejal ]] 10:37:18
+It… it is also updated in the program overview course.
+
+[[ GL-PO Sejal ]] 10:37:22
+You can write to us over email.
+
+[[ GL-PO Sejal ]] 10:37:48
+and GL community. Glade is your AI learning companion.
+
+[[ GL-PO Sejal ]] 10:37:54
+Helping you understand complex. Concepts.
+
+[[ GL-PO Sejal ]] 10:38:05
+Average time commitment for this program is around 6-8 hours per week.
+
+[[ GL-PO Sejal ]] 10:38:11
+This is just a prescription from our end, depending on how much you know about AI.
+
+[[ GL-PO Sejal ]] 10:38:18
+and the field you may need to dedicate lesser.
+
+[[ GL-PO Sejal ]] 10:38:22
+Or more time than this. As everyone learns at a different pace.
+
+[[ GL-PO Sejal ]] 10:38:27
+So this is a rough estimate. These are the guidelines that will help you succeed.
+
+[[ GL-PO Sejal ]] 10:38:34
+Commit is the key word here. As a working professional, it can get hard, but if you follow these and commit.
+
+[[ GL-PO Sejal ]] 10:38:41
+You will be able to succeed in the program.
+
+[[ GL-PO Sejal ]] 10:38:46
+Consume all the content shared every week. So that the learning is not getting piled up.
+
+[[ GL-PO Sejal ]] 10:38:52
+Think about how to apply them in the real world.
+
+[[ GL-PO Sejal ]] 10:38:55
+Prepare your questions before the sessions, attending all the sessions.
+
+[[ GL-PO Sejal ]] 10:39:00
+participate during the session, ask, discuss, answer. Spend time working on assignments. Some of them are deep and will help.
+
+[[ GL-PO Sejal ]] 10:39:10
+evolve your thinking and grow as an AI leader.
+
+[[ GL-PO Sejal ]] 10:39:15
+complete all the assignments. Very important to stay on track with the timely submissions.
+
+[[ GL-PO Sejal ]] 10:39:22
+Reach out for support to enhance your learning journey.
+
+[[ GL-PO Sejal ]] 10:39:25
+Ask questions. Don't let questions or any discomfort sit with you.
+
+[[ GL-PO Sejal ]] 10:39:31
+We are here to help and support you. share feedback with us. Our work weeks are driven by feedback, and we try to serve your learning journey within the scope of the program.
+
+[[ GL-PO Sejal ]] 10:39:45
+Moving on, I would like to inform you that the Great Learning team will be reaching out to you from time to time for a lot of feedback, and we will do, because these feedbacks are important for continuous improvement.
+
+[[ GL-PO Sejal ]] 10:39:59
+And therefore, we discuss those in our weekly leadership meetings.
+
+[[ GL-PO Sejal ]] 10:40:05
+As we are an online learning platform, we are solely dependent on your feedback to understand the areas that are going good.
+
+[[ GL-PO Sejal ]] 10:40:14
+And the areas where there is a scope of improvement.
+
+[[ GL-PO Sejal ]] 10:40:18
+We ask the feedbacks. After every session to know how did the sessions go.
+
+[[ GL-PO Sejal ]] 10:40:24
+We also ask for feedbacks in the mid of the program.
+
+[[ GL-PO Sejal ]] 10:40:28
+For any course correction or improvement. And lastly, the feedback at the end of the program.
+
+[[ GL-PO Sejal ]] 10:40:35
+To access your overall 16 weeks journey. I request you to keep these points in mind while you share your feedback.
+
+[[ GL-PO Sejal ]] 10:40:44
+Take your time to detail down your feedback, as I mentioned, these feedbacks are.
+
+[[ GL-PO Sejal ]] 10:40:50
+Then worked upon and discussed in our leadership meetings.
+
+[[ GL-PO Sejal ]] 10:40:54
+Let us know how your learning can be improved. Be very specific with the help of examples or instances. And lastly, please be realistic as we are balancing the entire class needs here.
+
+[[ GL-PO Sejal ]] 10:41:12
+Let's now take a moment to discuss the next steps into the program.
+
+[[ GL-PO Sejal ]] 10:41:17
+Log in on to the Olympus dashboard and. Update your profile. Please ensure your name, time zone, and contact details are well updated on the platform.
+
+[[ GL-PO Sejal ]] 10:41:38
+Now, you can have some questions. Related to program offers, and we will answer that.
+
+[[ GL-PO Sejal ]] 10:41:55
+I have to inform you that, um, you drop your questions in the chat box and Q&A box, and we will be noting them down, and we will be sharing the answers with you within a week.
+
+[[ GL-PO Sejal ]] 10:42:12
+That was all from my end. Thank you so much, everyone, for joining in today. Please do not forget to share your valuable feedback
+
