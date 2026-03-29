@@ -1,0 +1,3 @@
+### Traditional LLM Prompt (Reactive)
+
+This is a typical prompt for a traditional LLM - simple, reactive, and passive.

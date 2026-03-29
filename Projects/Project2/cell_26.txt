@@ -1,0 +1,7 @@
+---
+
+# Section 1.1: The Goal (Proactiveness)
+
+## From Passive LLM to Proactive Agent
+
+The key difference between a traditional LLM and an autonomous agent is **proactiveness**. Let's see this in action.
