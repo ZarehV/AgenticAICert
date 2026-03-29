@@ -1,0 +1,4611 @@
+[Faculty (Olympus)] 12:40:16
+difference between the… between the implementation.
+
+[Faculty (Olympus)] 12:40:20
+We have four tools.
+
+[Faculty (Olympus)] 12:40:23
+on the first section.
+
+[Faculty (Olympus)] 12:40:24
+The first section, the… we're gonna have the four tools, it consist of the get stock price, get history of that, uh, stock,
+
+[Faculty (Olympus)] 12:40:34
+search financial news, and also analyze the sentiments of that news.
+
+[Faculty (Olympus)] 12:40:38
+Okay? And we're gonna put some constraint on error handling on it, like autonomy and reactiveness.
+
+[Faculty (Olympus)] 12:40:45
+So, define the behavior constraint on the system calls. You're going to see, we literally put them
+
+[Faculty (Olympus)] 12:40:52
+Um, on the system prompts.
+
+[Faculty (Olympus)] 12:40:55
+First of all, for the proactive behavior rules, always get a comprehensive data, not just what's explicitly requested.
+
+[Faculty (Olympus)] 12:41:03
+Always check the 3 years, so this is… these are the proactive approach that we are giving to our agent.
+
+[Faculty (Olympus)] 12:41:11
+then define their reactive behaviors for the error handling,
+
+[Faculty (Olympus)] 12:41:15
+if something happens to the tools and tools return a null, immediately try the alternative approach.
+
+[Faculty (Olympus)] 12:41:22
+And so on and so forth.
+
+[Faculty (Olympus)] 12:41:25
+Autonomy behavior and transparency, so we wanted to make sure that if data is missing, explicitly state the gap in the reports.
+
+[Faculty (Olympus)] 12:41:35
+I must cite the source.
+
+[Faculty (Olympus)] 12:41:36
+for every factual claim with the timestamp. This is very important, so we wanted to make sure that
+
+[Faculty (Olympus)] 12:41:42
+Everything is consistently what you want.
+
+[Faculty (Olympus)] 12:41:48
+Um, the Landgriff, um, agent architecture you're gonna use is kind of identical to what we had last… last week.
+
+[Faculty (Olympus)] 12:41:56
+it's a better implementation. You remember last week, at the end of the session, I described some of the possible changes that I could have done.
+
+[Faculty (Olympus)] 12:42:07
+to that architecture.
+
+[Faculty (Olympus)] 12:42:09
+you… you're gonna see some of those implementation over here in these notebooks, and uh…
+
+[Faculty (Olympus)] 12:42:15
+I… I like that. There are extra stuff that is happening over here.
+
+[Faculty (Olympus)] 12:42:19
+But similarly, we're gonna have an agent node, we're gonna have a tool node, we're gonna have a conditional routing,
+
+[Faculty (Olympus)] 12:42:27
+And the architecture, as I mentioned, is completely identical to the last
+
+[Faculty (Olympus)] 12:42:31
+Last week. We're gonna do some comparing the testing between the traditional basic goals and the full autonomous agent goal.
+
+[Faculty (Olympus)] 12:42:40
+And error handling, and uh… takeaways, we're going to talk about it later on.
+
+[Faculty (Olympus)] 12:42:46
+Okay, so far…
+
+[Faculty (Olympus)] 12:42:50
+Uh, this is the, uh, this is the overall understanding of the project.
+
+[Faculty (Olympus)] 12:42:56
+For this project,
+
+[Faculty (Olympus)] 12:42:57
+you need, uh…
+
+[Faculty (Olympus)] 12:42:59
+You've seen all of the things over here. You… Yahoo Finance for the… getting the stock markets, uh, the… the history, and also in the info.
+
+[Faculty (Olympus)] 12:43:12
+heavily for the search, PDPI, PDF for loading,
+
+[Faculty (Olympus)] 12:43:15
+ChromaDB for the vector store,
+
+[Faculty (Olympus)] 12:43:18
+And, uh, obviously Langchen and Langgraph were making our identities.
+
+[Faculty (Olympus)] 12:43:24
+The only difference that…
+
+[Faculty (Olympus)] 12:43:26
+And this is one of them, um, that we are making, and remember, again, that was one of the, probably, probably the first thing that I complained about last week.
+
+[Faculty (Olympus)] 12:43:37
+Especially when it comes to the, um, productionizing things, and if you wanted to deploy it,
+
+[Faculty (Olympus)] 12:43:43
+We don't use the print statement. Print statement is dumb.
+
+[Faculty (Olympus)] 12:43:48
+It's not going to work in production.
+
+[Faculty (Olympus)] 12:43:50
+And there are multiple other reasons that we don't want to have that. So…
+
+[Faculty (Olympus)] 12:43:55
+For the first time over here, we're going to use the actual law game.
+
+[Faculty (Olympus)] 12:44:01
+Um, for…
+
+[Faculty (Olympus)] 12:44:02
+for our implementation. So, the format you're gonna have…
+
+[Faculty (Olympus)] 12:44:08
+is you're gonna put the level name, the message, and the timing of that one.
+
+[Faculty (Olympus)] 12:44:14
+And the daytime format is the hour, minutes, and the seconds. So, you notice there's no dates on it, so we just wanted to know
+
+[Faculty (Olympus)] 12:44:22
+what is the time?
+
+[Faculty (Olympus)] 12:44:24
+Um, of that margin.
+
+[Faculty (Olympus)] 12:44:26
+And you see the levels is equal to info.
+
+[Faculty (Olympus)] 12:44:30
+Let me pause for a moment and discuss what is the logging.
+
+[Faculty (Olympus)] 12:44:34
+So, as I mentioned, the print function is not going to work on the… on your terminal.
+
+[Faculty (Olympus)] 12:44:41
+Uh, when you deploy something. So, it's kind of… everything is gonna be…
+
+[Faculty (Olympus)] 12:44:46
+gone after every run.
+
+[Faculty (Olympus)] 12:44:48
+For the proper, uh, logging, for proper printing,
+
+[Faculty (Olympus)] 12:44:52
+And, uh, notification, we use the logging.
+
+[Faculty (Olympus)] 12:44:57
+When they're logging, one of the things that we have, there are so many flexibilities that we have on the login, but we don't have it on the printing function.
+
+[Faculty (Olympus)] 12:45:04
+Even if you wanted to use it on… on the, um…
+
+[Faculty (Olympus)] 12:45:09
+Um, on a notebook.
+
+[Faculty (Olympus)] 12:45:10
+One of the best things that you can use is that…
+
+[Faculty (Olympus)] 12:45:14
+Uh, you define the level. And as you can see,
+
+[Faculty (Olympus)] 12:45:17
+Over here, it says the info.
+
+[Faculty (Olympus)] 12:45:20
+So, when you define the login, and then… let me show you one of the logins, if I may.
+
+[Faculty (Olympus)] 12:45:29
+Let me find one…
+
+[Faculty (Olympus)] 12:45:33
+Let me find one…
+
+[Faculty (Olympus)] 12:45:36
+White job, where is that?
+
+[Faculty (Olympus)] 12:45:39
+Okay. Login, as you can see,
+
+[Faculty (Olympus)] 12:45:43
+Sometimes, when we define the logger, we say logger.info. So it says this print message, this statement.
+
+[Faculty (Olympus)] 12:45:51
+is at the info level.
+
+[Faculty (Olympus)] 12:45:53
+When we say…
+
+[Faculty (Olympus)] 12:45:56
+air, it means, like, this is on an error state.
+
+[Faculty (Olympus)] 12:46:00
+Then we are saying the debug is a different state. How does it work?
+
+[Faculty (Olympus)] 12:46:06
+Do I have that? Yes. So…
+
+[Faculty (Olympus)] 12:46:10
+Um… consider these are the levels of the… of the logging that we have, and some of them are kind of a little bit new, or it's not being used, um,
+
+[Faculty (Olympus)] 12:46:24
+Uh, like a… like a typically.
+
+[Faculty (Olympus)] 12:46:27
+When we are just consider this one, when we put the level of the logging to info level, it means that you're not gonna see
+
+[Faculty (Olympus)] 12:46:36
+get debugged and the node set.
+
+[Faculty (Olympus)] 12:46:39
+of the previous one. If you put it on the error level, you're not going to see any warning or any info, or any debug, or any nulls. So…
+
+[Faculty (Olympus)] 12:46:49
+This is something that you have to notice, and this is good because
+
+[Faculty (Olympus)] 12:46:54
+There are many print statements, um, same print statement, just to make sure that you understand what I'm saying.
+
+[Faculty (Olympus)] 12:47:01
+Sometimes, you don't want to see every detail.
+
+[Faculty (Olympus)] 12:47:04
+But you wanted to see when something is happened, or you wanted to trace back something.
+
+[Faculty (Olympus)] 12:47:11
+So you put that print statement, you put that…
+
+[Faculty (Olympus)] 12:47:15
+statement on a debug level.
+
+[Faculty (Olympus)] 12:47:18
+But you're not… you're not… it's not going to show it to you unless you change the login level.
+
+[Faculty (Olympus)] 12:47:25
+But when it is in the production, it's going to give you the info level.
+
+[Faculty (Olympus)] 12:47:30
+Okay? And you're gonna realize everything.
+
+[Faculty (Olympus)] 12:47:35
+Sometimes, one of the benefits of using the login is that it's going to show it at your terminal,
+
+[Faculty (Olympus)] 12:47:41
+At the same time, you can, which we call it this streaming,
+
+[Faculty (Olympus)] 12:47:46
+Also, we can persist it in the memory, so you can save those logins somewhere.
+
+[Faculty (Olympus)] 12:47:52
+And these two are two different stuff.
+
+[Faculty (Olympus)] 12:47:54
+You can put the debugging for those stuff that is being saved
+
+[Faculty (Olympus)] 12:47:59
+Meaning that, luck for a bit, if something happened in production,
+
+[Faculty (Olympus)] 12:48:04
+You chase that login just doesn't exist. You go to that saved logins, and you have put it on the debug mode, and you can see
+
+[Faculty (Olympus)] 12:48:13
+Exactly what happened.
+
+[Faculty (Olympus)] 12:48:16
+On these certain level, something weird happens, and you can easily trace it back.
+
+[Faculty (Olympus)] 12:48:21
+to, uh, to the level that you want.
+
+[Faculty (Olympus)] 12:48:23
+Okay?
+
+[Faculty (Olympus)] 12:48:25
+And this is a good thing. This is a good thing that we want to see that, and we want to make sure that this is properly set up. So,
+
+[Faculty (Olympus)] 12:48:35
+This is the way that we use it.
+
+[Faculty (Olympus)] 12:48:38
+So, the logging, as I mentioned, I believe this… that was last week… was this…
+
+[Faculty (Olympus)] 12:48:46
+class that somebody asked me, maybe, maybe no.
+
+[Faculty (Olympus)] 12:48:48
+Maybe not. Maybe that was the other class that they have.
+
+[Faculty (Olympus)] 12:48:51
+somebody asked me regarding the projectionalizing, regarding how to deploy that, and I said there are small stuff that you have to consider.
+
+[Faculty (Olympus)] 12:49:00
+And that small stuff, one of them is the logging. So, print function,
+
+[Faculty (Olympus)] 12:49:05
+No to fringe functions.
+
+[Faculty (Olympus)] 12:49:07
+From now on, probably…
+
+[Faculty (Olympus)] 12:49:09
+It's better to use the proper logging
+
+[Faculty (Olympus)] 12:49:13
+And, uh, you're gonna have everything.
+
+[Faculty (Olympus)] 12:49:15
+And by the way, this stuff is flexible, so you can define it whatever you want. You can put any information that you like.
+
+[Faculty (Olympus)] 12:49:23
+in that. And, uh, this is a benefit of it. By the way, you see print function, those print functions are not
+
+[Faculty (Olympus)] 12:49:31
+inside the functions. These are for the cell to print something, but this is not actually
+
+[Faculty (Olympus)] 12:49:39
+Nothing special happening over here.
+
+[Faculty (Olympus)] 12:49:41
+So…
+
+[Faculty (Olympus)] 12:49:43
+We do that, we load the configs, I believe so far everything is familiar, except the logging.
+
+[Faculty (Olympus)] 12:49:50
+I wanted to pause for a moment. Any question?
+
+[Faculty (Olympus)] 12:49:58
+Okay, no question also.
+
+[Faculty (Olympus)] 12:50:02
+Here…
+
+[Faculty (Olympus)] 12:50:06
+No question, should I move on?
+
+[Faculty (Olympus)] 12:50:11
+Okay.
+
+[Faculty (Olympus)] 12:50:14
+As I mentioned, we have four tools in the…
+
+[Faculty (Olympus)] 12:50:19
+On the first, um, on the first one,
+
+[Faculty (Olympus)] 12:50:24
+on the first part. We have four tools. We're gonna have the extra tool on the next part, which is the rack tool.
+
+[Faculty (Olympus)] 12:50:31
+But over here, we have 4 tools to define, and we wanted to define those tools
+
+[Faculty (Olympus)] 12:50:37
+Uh, those tools over here.
+
+[Faculty (Olympus)] 12:50:40
+Forget about this one, I'm gonna come back to these, uh, these two, uh, uh, and you're gonna understand why I'm not explaining these to you. I'll come back to it.
+
+[Faculty (Olympus)] 12:50:50
+So the tools are here.
+
+[Faculty (Olympus)] 12:50:53
+Let's just start defining the tools. And by the way, this 10 marks, 6 marks of it is coming from this section.
+
+[Faculty (Olympus)] 12:51:01
+The first tool is to get the stock price.
+
+[Faculty (Olympus)] 12:51:05
+And you've seen it before.
+
+[Faculty (Olympus)] 12:51:07
+This is a tool, so we have a proper decorator, everything is similar, except you have a…
+
+[Faculty (Olympus)] 12:51:14
+bigger stuff, you're… you have more stuff to call.
+
+[Faculty (Olympus)] 12:51:19
+from it. The only part that you need to specify in this part, so you create your stock,
+
+[Faculty (Olympus)] 12:51:27
+And if you remember that was a stock.something that you gotta invoke.
+
+[Faculty (Olympus)] 12:51:31
+you're gonna put here, so that you have the info for that, uh, for that price.
+
+[Faculty (Olympus)] 12:51:36
+For that stuff. And you're going to retain everything.
+
+[Faculty (Olympus)] 12:51:40
+The other part that you need to change over here for these two is the exception, and uh…
+
+[Faculty (Olympus)] 12:51:48
+I gotta mention, I wanted to explain that, uh…
+
+[Faculty (Olympus)] 12:51:52
+This is… since we have a one accept function.
+
+[Faculty (Olympus)] 12:51:56
+This is a general exception. This is not a specific concert exception. Sometimes we have multiple except…
+
+[Faculty (Olympus)] 12:52:05
+Uh, Tara?
+
+[Faculty (Olympus)] 12:52:07
+It means that if the certain type of error happens,
+
+[Faculty (Olympus)] 12:52:13
+go to that, uh, go to that road and do something, versus some… some other error happens.
+
+[Faculty (Olympus)] 12:52:20
+And this one, everything is going to stay the same, so we have a generic one.
+
+[Faculty (Olympus)] 12:52:26
+And technically, you don't need anything
+
+[Faculty (Olympus)] 12:52:30
+If you didn't have that E.
+
+[Faculty (Olympus)] 12:52:33
+Which is the air, uh…
+
+[Faculty (Olympus)] 12:52:35
+Error message. So, if you didn't want it to print that error message, you didn't,
+
+[Faculty (Olympus)] 12:52:45
+you need to put something
+
+[Faculty (Olympus)] 12:52:47
+And that exception, I believe you're gonna have it, like, 4, 5, 6 times across the notebook. So every time that you seek exception,
+
+[Faculty (Olympus)] 12:52:56
+It's gonna be a generic…
+
+[Faculty (Olympus)] 12:52:59
+general, uh, exception.
+
+[Faculty (Olympus)] 12:53:02
+This is the first one. The second tool…
+
+[Faculty (Olympus)] 12:53:05
+is that you have to put something here.
+
+[Faculty (Olympus)] 12:53:09
+You have it at the… at the…
+
+[Faculty (Olympus)] 12:53:11
+And the Cell Evolve, actually.
+
+[Faculty (Olympus)] 12:53:13
+So, it's gonna be, uh, pretty easy to understand what it is.
+
+[Faculty (Olympus)] 12:53:18
+You know that you need to put some Python decorator, and before that, using that sign,
+
+[Faculty (Olympus)] 12:53:24
+So, you already know how to… how to change it, and what… what should have come here.
+
+[Faculty (Olympus)] 12:53:30
+Similarly, Yahoo Finance, this time, we wanted to get the, uh, the history.
+
+[Faculty (Olympus)] 12:53:36
+But invoking the stock is kind of the same.
+
+[Faculty (Olympus)] 12:53:39
+Uh, you have something over here, but the inside is different.
+
+[Faculty (Olympus)] 12:53:44
+And again, stock, that's something…
+
+[Faculty (Olympus)] 12:53:48
+for this period, which I believe I was, uh, 3 years, it says by default 1 year, but I believe that the one that we want for this one is the 3 years data.
+
+[Faculty (Olympus)] 12:54:00
+And you define that.
+
+[Faculty (Olympus)] 12:54:02
+Exception handling, identical to what we have on the previous cell. So everything is the same.
+
+[Faculty (Olympus)] 12:54:10
+So, so far…
+
+[Faculty (Olympus)] 12:54:12
+you… two of the tools that you have is that, uh, get the instant, um,
+
+[Faculty (Olympus)] 12:54:18
+price for a specific stock, and also get the history of that stock.
+
+[Faculty (Olympus)] 12:54:24
+for…
+
+[Faculty (Olympus)] 12:54:25
+For certain ones.
+
+[Faculty (Olympus)] 12:54:27
+The third tool that we have…
+
+[Faculty (Olympus)] 12:54:31
+is the financial needs.
+
+[Faculty (Olympus)] 12:54:34
+And, uh, we've worked with this one.
+
+[Faculty (Olympus)] 12:54:36
+Before, this is the Towerly search result.
+
+[Faculty (Olympus)] 12:54:41
+I should mention, again, if you were kind of out
+
+[Faculty (Olympus)] 12:54:46
+of last week, um, for using the thyroid search, you are supposed to have a
+
+[Faculty (Olympus)] 12:54:52
+proper config file.
+
+[Faculty (Olympus)] 12:54:58
+config that example, if I find it…
+
+[Faculty (Olympus)] 12:55:02
+Over here, so you need to have an API called, uh, Cavali API Key,
+
+[Faculty (Olympus)] 12:55:09
+And you have to import it on the top, okay?
+
+[Faculty (Olympus)] 12:55:13
+This is, uh, this is important.
+
+[Faculty (Olympus)] 12:55:17
+for you to, uh, to invoke, it will happen.
+
+[Faculty (Olympus)] 12:55:20
+Sorry, not this fault, this one.
+
+[Faculty (Olympus)] 12:55:23
+Okay? We are defining the time of the search, we wanted to have the 5, use the advanced one, include the answer, but don't include the raw, and also don't include the images.
+
+[Faculty (Olympus)] 12:55:35
+And uh… these search, based on a certain query,
+
+[Faculty (Olympus)] 12:55:40
+And the only thing that you need to do is that you remember when we are using Taverly,
+
+[Faculty (Olympus)] 12:55:46
+OnlineChain.
+
+[Faculty (Olympus)] 12:55:48
+you need to dot something.
+
+[Faculty (Olympus)] 12:55:52
+be for the core inside the parentheses. So, this is the only one that's, uh, you need to put in DAS in this form.
+
+[Faculty (Olympus)] 12:56:00
+Okay? And by the way, exception handling…
+
+[Faculty (Olympus)] 12:56:03
+somehow is giving you the answer for the previous sales.
+
+[Faculty (Olympus)] 12:56:09
+The last part, the last part, the last tool, is the tool to analyze the sentiment. For the analyzing the sentiment.
+
+[Faculty (Olympus)] 12:56:20
+Um, the… the answer we wanted to see if the sentiment is positive, negative, or neutral.
+
+[Faculty (Olympus)] 12:56:27
+So we wanted to analyze the sentiment of the financial text using the OpenAI.
+
+[Faculty (Olympus)] 12:56:32
+The tool analyzed the sentiments, uh, positive, negative, natural,
+
+[Faculty (Olympus)] 12:56:37
+of the news articles. So the things that we got from the previous step,
+
+[Faculty (Olympus)] 12:56:41
+We wanted to see if it is a positive, negative, or something else.
+
+[Faculty (Olympus)] 12:56:44
+Okay? That's the whole purpose of this tool.
+
+[Faculty (Olympus)] 12:56:48
+Easy peasy, you've done it so many times for the model, I already mentioned, that was on the top.
+
+[Faculty (Olympus)] 12:56:55
+You need to use the ChatGPT4 Mini,
+
+[Faculty (Olympus)] 12:56:59
+And you already know
+
+[Faculty (Olympus)] 12:57:02
+the other hyperparameters, the other variables that you need to put to define that.
+
+[Faculty (Olympus)] 12:57:08
+So, this is gonna come over here.
+
+[Faculty (Olympus)] 12:57:11
+then you're going to have the prompt, there prompt side that you need to do.
+
+[Faculty (Olympus)] 12:57:16
+then you're gonna use that prompt… sorry, that model and prompt,
+
+[Faculty (Olympus)] 12:57:22
+to get their response.
+
+[Faculty (Olympus)] 12:57:25
+Okay?
+
+[Faculty (Olympus)] 12:57:27
+we've seen it so many times again. Similar… similar way.
+
+[Faculty (Olympus)] 12:57:31
+you have it. And one more time, the exception.
+
+[Faculty (Olympus)] 12:57:35
+One more time, the exception. It's the same.
+
+[Faculty (Olympus)] 12:57:38
+What is these exceptions?
+
+[Faculty (Olympus)] 12:57:40
+It's saying if something happens, and I couldn't provoke,
+
+[Faculty (Olympus)] 12:57:46
+the, uh…
+
+[Faculty (Olympus)] 12:57:48
+the model, the ChatGPT OpenAI model,
+
+[Faculty (Olympus)] 12:57:52
+Uh, please go do something. It's a fallback method, so if it contains something like a growth, profit, gain, success, all, positive, strong,
+
+[Faculty (Olympus)] 12:58:03
+go for a positive. It will contain something like a loss, decline, down, decrease concerning negative.
+
+[Faculty (Olympus)] 12:58:11
+Go for the negative.
+
+[Faculty (Olympus)] 12:58:13
+Okay?
+
+[Faculty (Olympus)] 12:58:15
+And it gives a score.
+
+[Faculty (Olympus)] 12:58:17
+Uh, for the sentiment analysis. So, this is one of the fallbacks that we wanted to have.
+
+[Faculty (Olympus)] 12:58:23
+Uh, for this one.
+
+[Faculty (Olympus)] 12:58:25
+just one thing that I mentioned it, if I were to design it, and
+
+[Faculty (Olympus)] 12:58:31
+we should have it. This is one of the points that I already mentioned, and so I'm repeating myself from last week, especially.
+
+[Faculty (Olympus)] 12:58:38
+that if I were to design, and…
+
+[Faculty (Olympus)] 12:58:41
+And, uh, you know, API issue happens in the production,
+
+[Faculty (Olympus)] 12:58:46
+If I were to design, I would put something else first as a fallback, meaning that, for example, if the OpenAI
+
+[Faculty (Olympus)] 12:58:54
+Um, got an issue.
+
+[Faculty (Olympus)] 12:58:57
+go to the Gemini. Eat the Gemini also, uh, couldn't, uh…
+
+[Faculty (Olympus)] 12:59:01
+you couldn't call the API properly, probably something happens to your network.
+
+[Faculty (Olympus)] 12:59:07
+at least you have, like, a local LLM, like a Llama 3.2, very easy.
+
+[Faculty (Olympus)] 12:59:12
+very lightbait, or recently Quinn 3.20.
+
+[Faculty (Olympus)] 12:59:18
+You can put it very light pate, it's, like, very small in a sense that you can fit in into any server, very small server.
+
+[Faculty (Olympus)] 12:59:28
+And it's going to be used as a fallback, so every time something happens,
+
+[Faculty (Olympus)] 12:59:32
+you'd still be able to produce some results for your, uh, for your customer.
+
+[Faculty (Olympus)] 12:59:37
+Obviously, the strength of these two are not going to be comparable,
+
+[Faculty (Olympus)] 12:59:41
+But it can get the job done. I believe if those stuff fails,
+
+[Faculty (Olympus)] 12:59:46
+then you can go to these sorts of, uh…
+
+[Faculty (Olympus)] 12:59:53
+like a fallback method. Let's…
+
+[Faculty (Olympus)] 12:59:55
+Understanding the fallbacks,
+
+[Faculty (Olympus)] 12:59:57
+That's a key, key concept that you need to do.
+
+[Faculty (Olympus)] 13:00:00
+And you need to confront it. Other than that, the way that we do it, again, I have my preference, but also this is good. If I'm supposed to do sentiment analysis like that,
+
+[Faculty (Olympus)] 13:00:12
+like, old days, at least I could, uh…
+
+[Faculty (Olympus)] 13:00:15
+a few extra lines.
+
+[Faculty (Olympus)] 13:00:17
+Uh, for…
+
+[Faculty (Olympus)] 13:00:18
+For example, making it lower, if you already have the lower, excuse me.
+
+[Faculty (Olympus)] 13:00:23
+Uh, probably enrich the positive boards with few more.
+
+[Faculty (Olympus)] 13:00:28
+enriched in negative word bag, uh, also, just to make sure that we have a better one.
+
+[Faculty (Olympus)] 13:00:34
+Okay? So…
+
+[Faculty (Olympus)] 13:00:37
+Next is… so we define four tools, and we want to test them. For testing them…
+
+[Faculty (Olympus)] 13:00:44
+I specifically emphasized on it last week.
+
+[Faculty (Olympus)] 13:00:48
+I said, normal function,
+
+[Faculty (Olympus)] 13:00:50
+Then you want to test it,
+
+[Faculty (Olympus)] 13:00:53
+You pass the input variables,
+
+[Faculty (Olympus)] 13:00:55
+And it's gonna run. When you are defining it with that tool,
+
+[Faculty (Olympus)] 13:01:01
+with this one.
+
+[Faculty (Olympus)] 13:01:03
+the tool decorator.
+
+[Faculty (Olympus)] 13:01:07
+you test a different way, and um…
+
+[Faculty (Olympus)] 13:01:10
+I explained about it last week.
+
+[Faculty (Olympus)] 13:01:12
+And, uh, this is very easy.
+
+[Faculty (Olympus)] 13:01:15
+This is very easy, and you're gonna have it from the last week, but take a look at it, probably you already know that.
+
+[Faculty (Olympus)] 13:01:22
+We are testing two of the, uh, two of the tools. One, get stock price, and also the historical this stock price for the 3 years.
+
+[Faculty (Olympus)] 13:01:31
+And here we go. So, the output is in a proper format, everything is good.
+
+[Faculty (Olympus)] 13:01:36
+Okay.
+
+[Faculty (Olympus)] 13:01:39
+For a moment, pause, uh, to see if there's any question.
+
+[Faculty (Olympus)] 13:01:49
+No question on the chat as well.
+
+[Faculty (Olympus)] 13:01:54
+I believe this is straightforward, and um…
+
+[Faculty (Olympus)] 13:01:58
+And go on. Any question?
+
+[Dino Vitale .] 13:01:59
+I had a question just in general.
+
+[Dino Vitale .] 13:02:03
+From a design perspective,
+
+[Dino Vitale .] 13:02:05
+Right, so we're creating the… we're creating tools, and then we're going to have the agents invoke the tools.
+
+[Dino Vitale .] 13:02:10
+Right? And it'll, you know, the LM will select it. I'm just wondering, where do you draw the line, like, because what about taking the other approach? Well, you know what? Make my tool an agent.
+
+[Dino Vitale .] 13:02:20
+And I'm just wondering, like, is there… like, I see some, like, debates in the community, like, you know, like, you know, having… calling the tools and having, you know, your agent workflow versus making the agent the actual tool itself.
+
+[Dino Vitale .] 13:02:33
+Is there, like, any, you know, I don't know if maybe there's, like, a link or something, just trying to get your view, like, where do you see, like, sort of, like, the, you know, kind of like, hey, when is one approach make sense versus another?
+
+[Faculty (Olympus)] 13:02:48
+The question, and probably some of your question is going to be answered next week. Not literally next week. The week 12, when, uh, you're going to learn about the movie.
+
+[Faculty (Olympus)] 13:02:57
+pH, and multi-agent's specifically designed for… so instead of doing everything on a single strength,
+
+[Faculty (Olympus)] 13:03:03
+We're gonna do it multiple steps. But consider this.
+
+[Faculty (Olympus)] 13:03:09
+pools is not doing any analysis. It just directly gives you something.
+
+[Faculty (Olympus)] 13:03:13
+Okay? The tool is literally the name of the tool. It's like screwdriver, that is, like, uh…
+
+[Dino Vitale .] 13:03:14
+Great.
+
+[Faculty (Olympus)] 13:03:21
+It's a tool, but it's not going to fix your stuff.
+
+[Faculty (Olympus)] 13:03:26
+The agent is the one that is using that tool.
+
+[Faculty (Olympus)] 13:03:29
+So, this is a raw data. This is a raw…
+
+[Faculty (Olympus)] 13:03:34
+Information.
+
+[Faculty (Olympus)] 13:03:35
+I'm saying information because probably some compute happened on it, similar to the, uh, to the tab releaser.
+
+[Faculty (Olympus)] 13:03:41
+So, something happens to it, some level of, like,
+
+[Faculty (Olympus)] 13:03:46
+curation happens on it, but this is not the…
+
+[Faculty (Olympus)] 13:03:49
+This is not the analyst… I'm analyzing it. This is not on the…
+
+[Faculty (Olympus)] 13:03:56
+on the, uh, like, finalizing everything. This is just a raw input.
+
+[Faculty (Olympus)] 13:04:01
+The agent is doing that for you.
+
+[Faculty (Olympus)] 13:04:05
+Give the question, which is a very valid question, and actually in an actual scenario, many times you wanted to
+
+[Faculty (Olympus)] 13:04:12
+segregate these stuff, so you're gonna have an agent for collecting, for example, the get price and stock history,
+
+[Faculty (Olympus)] 13:04:22
+another agent to do the financial news and do the more comprehensive searches.
+
+[Faculty (Olympus)] 13:04:27
+And that other one, for example, for the rag,
+
+[Faculty (Olympus)] 13:04:32
+So, it probably we can't think about it. In this case, so far, probably you can split it to one agent to do the first two tools,
+
+[Faculty (Olympus)] 13:04:41
+give one agent to use to take care of the other two, and from, you know, compile everything.
+
+[Faculty (Olympus)] 13:04:49
+And, uh, then…
+
+[Faculty (Olympus)] 13:04:51
+provided that to the main engines. And this is exactly, you're going to learn in the multi-agent. So, you're going to have
+
+[Faculty (Olympus)] 13:04:58
+like, uh… we have a different architecture.
+
+[Faculty (Olympus)] 13:05:01
+Yeah, we have a star, we have the DAG, we have the, um…
+
+[Faculty (Olympus)] 13:05:06
+supervisor.
+
+[Faculty (Olympus)] 13:05:07
+And there is a… in terms of the supervisors, like, if you're using the cloud code, it's like your main agent, and you're gonna have a sub-agent, and those sub-agents are gonna do something, and it's gonna pass it to the… to the main agent, and the main agent is doing it.
+
+[Faculty (Olympus)] 13:05:24
+But yes, this is, uh, this is a valid question, and this is a valid way to design the architecture.
+
+[Faculty (Olympus)] 13:05:32
+you're gonna get to Intuit. I believe, uh, your… many of your… this question is going to be answered next week.
+
+[Faculty (Olympus)] 13:05:39
+But the fine line is that 2 is a raw data, the agent is…
+
+[Faculty (Olympus)] 13:05:45
+She's the performer of and the caller of that tool.
+
+[Faculty (Olympus)] 13:05:48
+I just wanted to distinct these two.
+
+[Faculty (Olympus)] 13:05:51
+Does it make sense, Tina?
+
+[Dino Vitale .] 13:05:51
+Thank you. Yeah, yeah, thank you.
+
+[Faculty (Olympus)] 13:05:54
+You're gonna learn that. I think many of your question is going to be answered next week.
+
+[Dino Vitale .] 13:06:00
+It almost seems like there's no really right or wrong answer. It's like, you know, I mean, so it really…
+
+[Dino Vitale .] 13:06:05
+kind of the answer is, like, it depends, like, it sounds like…
+
+[Dino Vitale .] 13:06:07
+Depends on how complexity of… of how shared state needs to be.
+
+[Dino Vitale .] 13:06:12
+propagated versus, you know, like, you know, versus just a function call, like here, like, a tool is, you know, is on its own. Like, it's got no memory, it's got no, you know, it's…
+
+[Dino Vitale .] 13:06:22
+You know, there's nothing from a coordination perspective. You gotta worry about. Okay. Cool, cool.
+
+[Faculty (Olympus)] 13:06:27
+Absolutely. I mean, the cost that I'm mentioning those and stuff, the cost, the latency, the customer feedbacks, because at the end of the day, your customer, many of your customers,
+
+[Dino Vitale .] 13:06:28
+Alright, thanks.
+
+[Faculty (Olympus)] 13:06:39
+Doesn't know, doesn't care, and in, like, most of the cases, they don't even have any understanding of the backend LLM.
+
+[Faculty (Olympus)] 13:06:47
+So, they wanted to get the job done. They wanted to get their question answered. They don't care if you put it, like, a multi-agent, you're a single agent, if you wanted to have a base CLLM call. You… we have to get the job done on the… in the highest quality, shortest amount of time,
+
+[Faculty (Olympus)] 13:07:03
+And the cheapest way that we can do it.
+
+[Faculty (Olympus)] 13:07:05
+Yeah.
+
+[Dino Vitale .] 13:07:06
+Because the reason why I bring it up is because
+
+[Dino Vitale .] 13:07:09
+you know, I can see already the danger, like, in our places, like, everything is an agent, next thing you know, we're gonna have, like, 800,000 agents, and there's overhead.
+
+[Dino Vitale .] 13:07:18
+There's, like, organizational and governance overhead, because everybody's going crazy, oh, an agent's gotta have an identity, an agent's gotta get registered, like, you know, all this extra stuff is coming on just because of agents, and like, okay, well, if you go to pools, it's an API, we don't have to worry about it. Like, okay, you know, like, it's
+
+[Faculty (Olympus)] 13:07:18
+Uh, no.
+
+[Dino Vitale .] 13:07:33
+It's pretty comical at times.
+
+[Faculty (Olympus)] 13:07:37
+Let me say, let me… let me be honest with you. Sometimes, and you've…
+
+[Faculty (Olympus)] 13:07:42
+Probably you've done it before. I've done it before. And in many of the companies, this is like that.
+
+[Faculty (Olympus)] 13:07:47
+you create some simple architecture, but just to present it in a nice way, you say, oh, multi-agent architecture of this one, and that one, and this one, but technically,
+
+[Faculty (Olympus)] 13:07:57
+behind the scenes, nothing but, like, a simple workflow.
+
+[Faculty (Olympus)] 13:08:01
+And many times, there is no agent in it now.
+
+[Faculty (Olympus)] 13:08:04
+Regent has… you remember, I discussed it because the older days, we set the agent has memory, the agent called tools,
+
+[Faculty (Olympus)] 13:08:14
+And the agent, uh, has, uh, what was the memory tools?
+
+[Faculty (Olympus)] 13:08:20
+What was the other one? Oh my goodness.
+
+[Faculty (Olympus)] 13:08:22
+Oh, the LLM components, the brain components, and
+
+[Faculty (Olympus)] 13:08:26
+Many cases, this is not the agent.
+
+[Faculty (Olympus)] 13:08:29
+This is that, like, a simple workflow.
+
+[Faculty (Olympus)] 13:08:31
+And also, I mentioned it to you that if you can get the job done most of the time with a simple workflow,
+
+[Faculty (Olympus)] 13:08:38
+It's… it's an overkill.
+
+[Faculty (Olympus)] 13:08:40
+to go be the LLM agents. It's, like, too much. Why should you? I mean, why should you do that?
+
+[Faculty (Olympus)] 13:08:47
+This is… this is… keep in mind, this is for the learning… this is a learning material. This is not going to be, like, a sample project that you can go and copy and paste it. Just keep in mind.
+
+[Faculty (Olympus)] 13:08:58
+Have your critical thinking on these type of notebooks. But as we are progressing, what I'm seeing and noticing
+
+[Faculty (Olympus)] 13:09:05
+is that the quality of the notebooks is getting better,
+
+[Faculty (Olympus)] 13:09:09
+in terms that probably you can use it in a more, like, use it as a sample.
+
+[Faculty (Olympus)] 13:09:16
+I'm seeing the actual progress. I'm super happy about the progress.
+
+[Faculty (Olympus)] 13:09:20
+But, again, still keep your…
+
+[Faculty (Olympus)] 13:09:23
+Good to call thinking off.
+
+[Faculty (Olympus)] 13:09:25
+Okay. Amazing. Any other question?
+
+[Faculty (Olympus)] 13:09:33
+Today is one of those days since the material is not too much. We have more time for the Q&A.
+
+[Faculty (Olympus)] 13:09:40
+If you have any questions, feel free to jump in.
+
+[Faculty (Olympus)] 13:09:43
+Okay.
+
+[Jonathan Beckford .] 13:09:44
+Sorry, one quick question. Any reason why we're not…
+
+[Faculty (Olympus)] 13:09:46
+Go on Johnson.
+
+[Jonathan Beckford .] 13:09:47
+we're not implementing these tools using MCP, since we already learned.
+
+[Faculty (Olympus)] 13:09:52
+It's, again, it's… it's…
+
+[Jonathan Beckford .] 13:09:52
+How about MCP, I mean?
+
+[Faculty (Olympus)] 13:09:54
+It's a good question, but that would be for if you wanted to use the MCP, it's going to be overkill, because technically, at the end of the day, the MCP is to standardize something.
+
+[Faculty (Olympus)] 13:10:04
+So that you can use it across multiple places, multiple users, multiple projects, right?
+
+[Jonathan Beckford .] 13:10:11
+Like, multiple agents to it.
+
+[Faculty (Olympus)] 13:10:11
+But, uh…
+
+[Faculty (Olympus)] 13:10:14
+Sorry?
+
+[Jonathan Beckford .] 13:10:15
+Um, multiple agents, too, or just…
+
+[Faculty (Olympus)] 13:10:17
+Yeah, multiple agents. Anything…
+
+[Faculty (Olympus)] 13:10:21
+MCP can do anything behind the scenes, so the MCP, mostly for the… providing the common prompts,
+
+[Faculty (Olympus)] 13:10:31
+The common tools, the common, uh…
+
+[Faculty (Olympus)] 13:10:34
+Um, the databases and information.
+
+[Faculty (Olympus)] 13:10:36
+So that can be done, but the MCP E5 would do it for the tools, it would be, like, a tool definition.
+
+[Faculty (Olympus)] 13:10:45
+That's a good use case that you're saying, because those tools that we define, the, um…
+
+[Faculty (Olympus)] 13:10:53
+technically we define it the same way, on top of my head. So, the Taverly,
+
+[Faculty (Olympus)] 13:10:56
+You had it last week, you had it this week, uh, probably we're gonna see it more times.
+
+[Faculty (Olympus)] 13:11:02
+Uh, same way for this stock, for the stocky store, probably you can publish it as a MCP.
+
+[Faculty (Olympus)] 13:11:09
+MCP tools, and you just…
+
+[Faculty (Olympus)] 13:11:11
+Connect to your server and, uh, bring it back.
+
+[Faculty (Olympus)] 13:11:13
+But for the sake of this one, it's the… it's, like, too much.
+
+[Faculty (Olympus)] 13:11:19
+It's too much. But on a confident level, on a personal level, if you think this is, like,
+
+[Jonathan Beckford .] 13:11:19
+Got it.
+
+[Faculty (Olympus)] 13:11:25
+you're using it so many times, please feel free to do it, and these days, the code assistance is very pleasant to implement those.
+
+[Dino Vitale .] 13:11:34
+There's actually some really great debates going on. If you Google, just Google the death of MCP,
+
+[Jonathan Beckford .] 13:11:35
+Okay.
+
+[Dino Vitale .] 13:11:40
+There's a lot of companies, like… it was very public, Perplexity, um, Google, they're moving away, actually, from MC… and going back to plain old API, and going back to…
+
+[Dino Vitale .] 13:11:50
+plain old APIs, I think it's… I think it's hysterical.
+
+[Dino Vitale .] 13:11:57
+this is good articles. If you go… yeah, it's good. There's a lot of…
+
+[Faculty (Olympus)] 13:11:58
+Bye.
+
+[Faculty (Olympus)] 13:12:00
+the whole thing…
+
+[Faculty (Olympus)] 13:12:01
+I gotta… I… I said it, this is a big disclaimer, um, I'm…
+
+[Faculty (Olympus)] 13:12:06
+pretty sure I take many of your backgrounds in this class, and I know that most of you have, uh, like, very good background in tech, and
+
+[Faculty (Olympus)] 13:12:16
+very good on the programming before.
+
+[Faculty (Olympus)] 13:12:19
+And I'm certain that you've seen these patterns before in the auto stuff. Then something is new, and AI is very new comparing to the other stuff.
+
+[Faculty (Olympus)] 13:12:26
+that we knew. It's, uh, we don't have, like, a certain consensus of the… how to do things, but…
+
+[Faculty (Olympus)] 13:12:35
+At least comparing to a couple of years ago, I see something is different. Something… we have more consensus about the sum of the tools, we have more consensus about the…
+
+[Faculty (Olympus)] 13:12:44
+about the sum of the framework, but uh…
+
+[Faculty (Olympus)] 13:12:47
+But yet, we are not there. That's the reason they published something and they realize that
+
+[Faculty (Olympus)] 13:12:53
+This is not for two phones, and they say, oh my god.
+
+[Faculty (Olympus)] 13:12:56
+One of the things that I predict, and I kind of am seeing it, is that
+
+[Faculty (Olympus)] 13:13:03
+VR, advertising, and the more usage of the AI,
+
+[Faculty (Olympus)] 13:13:06
+But I don't think yet we have the enough
+
+[Faculty (Olympus)] 13:13:10
+infrastructure, and we have… we… we have… we don't have enough hardware.
+
+[Faculty (Olympus)] 13:13:16
+actually…
+
+[Faculty (Olympus)] 13:13:17
+And, uh, probably you've seen, um,
+
+[Faculty (Olympus)] 13:13:20
+If… if you were using it, uh…
+
+[Faculty (Olympus)] 13:13:23
+It was a few weeks ago,
+
+[Faculty (Olympus)] 13:13:26
+less than a month ago that we kind of had a kind of an outrage on the cloud model.
+
+[Faculty (Olympus)] 13:13:33
+It's happening somehow,
+
+[Faculty (Olympus)] 13:13:35
+I've never seen any… anything on the news, but from my usage, I would say
+
+[Faculty (Olympus)] 13:13:42
+we have some problem in the last couple of days on the GitHub co-pilot in all of the models, but again,
+
+[Faculty (Olympus)] 13:13:50
+mostly on the clock model.
+
+[Faculty (Olympus)] 13:13:52
+So, things are happening.
+
+[Faculty (Olympus)] 13:13:55
+Uh, let me read, there are a couple of things on the, um… okay.
+
+[Faculty (Olympus)] 13:14:00
+Zara said, maybe adding MCP will be meaningful?
+
+[Faculty (Olympus)] 13:14:03
+If they will be running in the different runtimes and be accessed over the network,
+
+[Faculty (Olympus)] 13:14:08
+If everything is on the same runtime,
+
+[Faculty (Olympus)] 13:14:11
+I agree, 100% I agree. If something is… we wanted to share that,
+
+[Faculty (Olympus)] 13:14:17
+Uh, over time. That would be great. I know, put some medium…
+
+[Faculty (Olympus)] 13:14:23
+Take any, I thank you for sharing that, uh, you know, let me open it. I'm gonna read it later on.
+
+[Faculty (Olympus)] 13:14:32
+Um…
+
+[Faculty (Olympus)] 13:14:34
+Anything, Zara? If you want to say, maybe?
+
+[Faculty (Olympus)] 13:14:38
+In fact, in fact…
+
+[Zareh Vazquez .] 13:14:40
+Yeah, just the comment is that… sorry, I have some people here.
+
+[Faculty (Olympus)] 13:14:45
+That's fine.
+
+[Zareh Vazquez .] 13:14:47
+Yeah, MCP runs on top of…
+
+[Zareh Vazquez .] 13:14:51
+rest. It's interesting, that blog, that deal shows.
+
+[Faculty (Olympus)] 13:14:52
+Mm-hmm.
+
+[Faculty (Olympus)] 13:14:56
+Mm-hmm, mm-hmm. I agree.
+
+[Faculty (Olympus)] 13:15:00
+that if you're familiar with the REST API, in most of the cases, REST API is a much better solution.
+
+[Faculty (Olympus)] 13:15:07
+Um, I agree. I hugely agree.
+
+[Faculty (Olympus)] 13:15:12
+Okay. Let me move on, and now I'll tell you… you remember I skipped a couple of, um…
+
+[Faculty (Olympus)] 13:15:22
+pop-off cells on the top.
+
+[Faculty (Olympus)] 13:15:24
+And I want to tell you why I skipped that, and this is the way that I like to teach.
+
+[Faculty (Olympus)] 13:15:30
+So…
+
+[Faculty (Olympus)] 13:15:32
+We mentioned on the, um…
+
+[Faculty (Olympus)] 13:15:35
+And the goal is that we wanted to put 3 different…
+
+[Faculty (Olympus)] 13:15:39
+Hypaw architecture on the… on the LLM.
+
+[Faculty (Olympus)] 13:15:42
+One of them is, uh…
+
+[Faculty (Olympus)] 13:15:46
+One of them is the traditional LLM prompts, so…
+
+[Faculty (Olympus)] 13:15:50
+You see, the prompt of that is this one, the system prompt that you're getting, is that you're a helpful assistant,
+
+[Faculty (Olympus)] 13:15:57
+Answer the user question about this dark information.
+
+[Faculty (Olympus)] 13:16:00
+And that's it. Okay?
+
+[Faculty (Olympus)] 13:16:02
+That's it. This second way is to…
+
+[Faculty (Olympus)] 13:16:07
+have, like, a system prompt for your agent,
+
+[Faculty (Olympus)] 13:16:10
+using the goal-oriented and being proactive. So you're saying your autonomous financial research analysts specializing in AI-focused companies.
+
+[Faculty (Olympus)] 13:16:20
+you define the primary goals,
+
+[Faculty (Olympus)] 13:16:23
+And the primary goals is here, nice, and taking initiatives to gather all the information. So…
+
+[Faculty (Olympus)] 13:16:30
+Generally, you describe everything. So, this is the second way.
+
+[Faculty (Olympus)] 13:16:34
+that you have it in this notebook. The third way…
+
+[Faculty (Olympus)] 13:16:38
+is the full, we call it the full…
+
+[Faculty (Olympus)] 13:16:42
+Uh, the full agent characteristic, this one.
+
+[Faculty (Olympus)] 13:16:45
+But as you can see, this is more comprehensive. We have the same, uh, like, persona at the very beginning, comparing to the second one.
+
+[Faculty (Olympus)] 13:16:56
+But you see, you have a clear definition of the primary mission.
+
+[Faculty (Olympus)] 13:17:01
+We, like always, we provide the available tools
+
+[Faculty (Olympus)] 13:17:06
+we define the proactive behaviors that we expecting
+
+[Faculty (Olympus)] 13:17:11
+Uh, for our agents to do.
+
+[Faculty (Olympus)] 13:17:14
+Both the… all of the things that you should do, and it's never… you shouldn't do. Never stop surface-level data, never provide analysis without supporting evidence.
+
+[Faculty (Olympus)] 13:17:26
+This is stuff, very generic, and you can put it in almost any prompts.
+
+[Faculty (Olympus)] 13:17:31
+Then you can… you have the reactive one. So, you take the initiatives, you do this one, and something happens,
+
+[Faculty (Olympus)] 13:17:38
+You have to have a reactive behaviors for the error handling.
+
+[Faculty (Olympus)] 13:17:43
+Okay? And for your error handling,
+
+[Faculty (Olympus)] 13:17:47
+you describe exactly what happens if a tool fails. It's talk about it, okay?
+
+[Faculty (Olympus)] 13:17:53
+how to do it. Also, when data is missing, what you should do.
+
+[Faculty (Olympus)] 13:17:59
+Then you're going to describe the autonomous behavior, how independently
+
+[Faculty (Olympus)] 13:18:04
+Um, do the things.
+
+[Faculty (Olympus)] 13:18:06
+So, we do the data gap and transparency, citing that this is very important. This is… it's called the mandatory, also.
+
+[Faculty (Olympus)] 13:18:15
+Citing the… citing the sources.
+
+[Faculty (Olympus)] 13:18:18
+This is very important. It's even provide what's going to be the
+
+[Faculty (Olympus)] 13:18:27
+the way that you wanted to have it, and it's providing a few shots over here.
+
+[Faculty (Olympus)] 13:18:31
+It's like, okay, this is the app whole source is getting stocked at this time.
+
+[Faculty (Olympus)] 13:18:38
+And, uh, confidence and the nuances that you put. And finally, the final quality standards that you, you want to. So you see these three different prompts?
+
+[Faculty (Olympus)] 13:18:48
+And we're going to implement it, and we're gonna use it so you…
+
+[Faculty (Olympus)] 13:18:52
+would see the differences. And by the way, the observation of the differences that you're going to see is something that you're going to report at the end of your project. I wanted to make sure that you understand that.
+
+[Faculty (Olympus)] 13:19:05
+Okay? Now…
+
+[Faculty (Olympus)] 13:19:07
+We have everything. We have the tools, we have the prompts.
+
+[Faculty (Olympus)] 13:19:11
+we need to define
+
+[Faculty (Olympus)] 13:19:14
+the line graph, uh, architecture.
+
+[Faculty (Olympus)] 13:19:16
+And for any line graph,
+
+[Faculty (Olympus)] 13:19:18
+First, you need to define your state.
+
+[Faculty (Olympus)] 13:19:22
+And in that sense, the state
+
+[Faculty (Olympus)] 13:19:26
+is a class that you define on the very top.
+
+[Faculty (Olympus)] 13:19:28
+You should have it.
+
+[Faculty (Olympus)] 13:19:30
+And you've seen it.
+
+[Faculty (Olympus)] 13:19:32
+I wanted to give you a little bit hint.
+
+[Faculty (Olympus)] 13:19:34
+And, uh, because that could be a little bit confusing if you really wanted to do it in…
+
+[Faculty (Olympus)] 13:19:40
+If you want to do it yourself,
+
+[Faculty (Olympus)] 13:19:43
+you might confuse it.
+
+[Faculty (Olympus)] 13:19:46
+Before that, in the previous classes,
+
+[Faculty (Olympus)] 13:19:50
+Um, technically giving you the answer.
+
+[Faculty (Olympus)] 13:19:53
+Before that, we were using the Pydantic.
+
+[Faculty (Olympus)] 13:19:57
+to define our, um, our state, right?
+
+[Faculty (Olympus)] 13:20:03
+I'm mentioning to you that instead of the pedantic, you can use the typing.
+
+[Faculty (Olympus)] 13:20:10
+Loop Library, and you can use it, uh, typed it.
+
+[Faculty (Olympus)] 13:20:15
+instead of the base model.
+
+[Faculty (Olympus)] 13:20:17
+I explain exactly what is the difference between these two.
+
+[Faculty (Olympus)] 13:20:20
+I said the Pydantic is enforcing.
+
+[Faculty (Olympus)] 13:20:24
+the, uh, the output?
+
+[Faculty (Olympus)] 13:20:27
+The Pi Day, it's… it's giving the hints, but if something happens, and this is not compliant,
+
+[Faculty (Olympus)] 13:20:34
+to the…
+
+[Faculty (Olympus)] 13:20:36
+Uh, to the one that you have,
+
+[Faculty (Olympus)] 13:20:38
+It's not gonna fail.
+
+[Faculty (Olympus)] 13:20:40
+Okay?
+
+[Faculty (Olympus)] 13:20:43
+If you go back to the last week, based on… this is the hint that you're gonna get that over here is not using the Pydantic, it's using the typing.
+
+[Faculty (Olympus)] 13:20:54
+Okay? And this is the way… you remember we had an operator.add?
+
+[Faculty (Olympus)] 13:21:00
+And we had the base message, uh, we had the, like, uh, yes, face message, and then the…
+
+[Faculty (Olympus)] 13:21:07
+operator.add. That was for the Python. This one is using something else.
+
+[Faculty (Olympus)] 13:21:12
+And just keep in mind. So, you are familiar with both of them, and you need to be familiar with both of them.
+
+[Faculty (Olympus)] 13:21:19
+And uh… this is the one that you put here. So, one more time, if you're seeing the…
+
+[Faculty (Olympus)] 13:21:27
+The way that we are defining the state for the messages is different from the last week.
+
+[Faculty (Olympus)] 13:21:32
+That's the reason.
+
+[Faculty (Olympus)] 13:21:33
+kind of I gave you the answer.
+
+[Faculty (Olympus)] 13:21:37
+Okay, you define…
+
+[Dino Vitale .] 13:21:39
+I had a quick question on that.
+
+[Faculty (Olympus)] 13:21:39
+Mm-hmm. Absolutely.
+
+[Dino Vitale .] 13:21:40
+If you want to augment… if you want to augment it, like, let's say you want to add, like, for the sake of arguments, a little bit more metadata as part of what's being…
+
+[Dino Vitale .] 13:21:50
+as part of what's being added, can you override that with your… can you override addMessage and put your own function, or is there a way to…
+
+[Faculty (Olympus)] 13:21:57
+you're kind of override it, yes.
+
+[Dino Vitale .] 13:21:59
+Yeah, okay.
+
+[Faculty (Olympus)] 13:21:59
+If you don't… you have two options.
+
+[Faculty (Olympus)] 13:22:03
+probably you can do something conditional, but you should be manually provide the logic.
+
+[Faculty (Olympus)] 13:22:09
+Let's two things gonna happen. Either you're appending
+
+[Faculty (Olympus)] 13:22:13
+On the bottom of the previous one.
+
+[Faculty (Olympus)] 13:22:15
+Or are you replacing the one message with the previous ones?
+
+[Faculty (Olympus)] 13:22:19
+Okay? So, keep in mind, you have the two options.
+
+[Faculty (Olympus)] 13:22:23
+And since this is… this could be, like, a conversational,
+
+[Faculty (Olympus)] 13:22:27
+And also, you wanted to keep track of the previous messages, meaning that…
+
+[Faculty (Olympus)] 13:22:32
+Uh, what happened to the previous estate? You wanted to add to it.
+
+[Faculty (Olympus)] 13:22:36
+all of the tools, everything that is… you're doing, all of the AI, human…
+
+[Faculty (Olympus)] 13:22:41
+You wanted to append it, alternatively,
+
+[Faculty (Olympus)] 13:22:45
+Uh, one by one.
+
+[Faculty (Olympus)] 13:22:47
+If you don't add it, if you don't append it, you replace it, your model is going to lose the context.
+
+[Faculty (Olympus)] 13:22:55
+Okay? So make sure for this one, you put the context, but…
+
+[Faculty (Olympus)] 13:23:02
+Another thing…
+
+[Faculty (Olympus)] 13:23:03
+that I can give you, is that
+
+[Faculty (Olympus)] 13:23:05
+You can have…
+
+[Faculty (Olympus)] 13:23:07
+So, when you are defining the line graph, and this is a little bit more advanced topic in the line graph,
+
+[Faculty (Olympus)] 13:23:15
+For the line graph, you can have multiple states,
+
+[Faculty (Olympus)] 13:23:18
+You can have, like, an input state, you can have an output state, you can have…
+
+[Faculty (Olympus)] 13:23:24
+like, something that is happening in between, and depending on your agent, you can say,
+
+[Faculty (Olympus)] 13:23:32
+for… um… I mean, by the agent, I mean the node.
+
+[Faculty (Olympus)] 13:23:36
+you say, for this node,
+
+[Faculty (Olympus)] 13:23:39
+It only needs to understand the input state,
+
+[Faculty (Olympus)] 13:23:42
+That's it. For the auto agent, you want to say,
+
+[Faculty (Olympus)] 13:23:46
+what matters to this one is to… to… to know the…
+
+[Faculty (Olympus)] 13:23:50
+The auto-state plus the input state.
+
+[Faculty (Olympus)] 13:23:53
+Okay? For the final note, you can say you need to only access to the output state plus the medium state. So, something like that, and you can add augmented it with the other stuff.
+
+[Faculty (Olympus)] 13:24:08
+we had the step count plastic, right?
+
+[Faculty (Olympus)] 13:24:11
+Yeah, I'm working on so many things that sometimes I could confuse that out, and apologize for it.
+
+[Faculty (Olympus)] 13:24:17
+Um, we had this thief count.
+
+[Dino Vitale .] 13:24:17
+You could… because I was thinking along the lines…
+
+[Dino Vitale .] 13:24:20
+I was thinking of the lines, like, I'm not sure if I need to, like, if you want to add, like, a, like…
+
+[Faculty (Olympus)] 13:24:21
+Mm-hmm.
+
+[Dino Vitale .] 13:24:25
+like, some type of session ID or something, so you can associate
+
+[Faculty (Olympus)] 13:24:28
+You can.
+
+[Dino Vitale .] 13:24:28
+like, a set of messages, like, as part of a session, and then maybe later on you can analog… you know, if you're tracing it, you could kind of analyze
+
+[Dino Vitale .] 13:24:36
+my, you know, my multi-turn sessions.
+
+[Dino Vitale .] 13:24:39
+to see if there's any, you know…
+
+[Dino Vitale .] 13:24:43
+gets to see that behavior.
+
+[Dino Vitale .] 13:24:44
+Does that make sense? I don't know.
+
+[Faculty (Olympus)] 13:24:47
+Um… are you saying…
+
+[Faculty (Olympus)] 13:24:50
+then some conversation is finalized, you wanted to persist the summers for the later and…
+
+[Dino Vitale .] 13:24:55
+Yeah, I probably…
+
+[Faculty (Olympus)] 13:24:55
+I mean, later on…
+
+[Dino Vitale .] 13:24:57
+Yeah, I'm thinking, like, probably, like, if we had Langsmithsmith, right, I want to keep the trait, I want to… I want to log the traces.
+
+[Dino Vitale .] 13:25:04
+Right? But I want to add the concept of a session.
+
+[Faculty (Olympus)] 13:25:04
+I love that. They, they, they…
+
+[Dino Vitale .] 13:25:07
+Oh, sorry, sorry.
+
+[Faculty (Olympus)] 13:25:08
+they don't… dinner.
+
+[Faculty (Olympus)] 13:25:09
+I'm gonna ex… I'm gonna show you the linesmith. Literally, it's over here. You see? I… I told you, I promised you, I'm gonna show it to you, and uh… just wait.
+
+[Dino Vitale .] 13:25:18
+Okay, okay, thank you.
+
+[Faculty (Olympus)] 13:25:19
+If this is about the Langsmith, I want to mention it.
+
+[Faculty (Olympus)] 13:25:22
+Like, I wanted to show it to you last week, I couldn't because we didn't have enough time.
+
+[Faculty (Olympus)] 13:25:28
+But, uh, this is the topic that you asked several other students asked, so I wanted to show it to you, so…
+
+[Faculty (Olympus)] 13:25:35
+just… just hold up. Just until… when I'm finished, I'm gonna show you the, uh…
+
+[Faculty (Olympus)] 13:25:42
+the likesmith. Okay.
+
+[Faculty (Olympus)] 13:25:43
+Sorry that I interrupted you. I just wanted to make sure that, uh, Reagan addressed.
+
+[Faculty (Olympus)] 13:25:49
+Okay, any other questions?
+
+[Faculty (Olympus)] 13:25:56
+So… now, we have this state,
+
+[Faculty (Olympus)] 13:26:01
+And, uh, most of the steps that you are seeing is kind of identical to last week, so don't freak out.
+
+[Faculty (Olympus)] 13:26:09
+Everything is simple.
+
+[Faculty (Olympus)] 13:26:11
+we need to have the… you see there are 3 different prompt maps, so we have the traditional, we have the basic, and we have the full, and I showed you three all together, just to make sure that you understand why we have it
+
+[Faculty (Olympus)] 13:26:23
+This way, you are…
+
+[Faculty (Olympus)] 13:26:27
+Defining the system prompt, getting it from here.
+
+[Faculty (Olympus)] 13:26:30
+And over here, you need to…
+
+[Faculty (Olympus)] 13:26:34
+name all of the tools that you have.
+
+[Faculty (Olympus)] 13:26:37
+you need to define your model. ChatGPT4 or Mini, you already know a lot.
+
+[Faculty (Olympus)] 13:26:42
+you have to provide that tools that you put here,
+
+[Faculty (Olympus)] 13:26:47
+in the buying tools, so you're providing it to your model,
+
+[Faculty (Olympus)] 13:26:51
+So your model understands what is the tool,
+
+[Faculty (Olympus)] 13:26:56
+then you're going to define the agent node. Very easy, and…
+
+[Faculty (Olympus)] 13:27:01
+Last week, I… I hadn't seen the snow cook, and I literally explained that if I were to change it,
+
+[Faculty (Olympus)] 13:27:09
+I change it this way. You see their structure is slightly different.
+
+[Faculty (Olympus)] 13:27:13
+Please unmute yourself, go and compare this one.
+
+[Faculty (Olympus)] 13:27:17
+Read the previous week, and you're gonna see different…
+
+[Faculty (Olympus)] 13:27:21
+different architecture.
+
+[Faculty (Olympus)] 13:27:22
+And I way, way more prefer this one rather than the last one. The last week probably was more for your learning purposes,
+
+[Faculty (Olympus)] 13:27:30
+Just to teach you how to communicate between different states. But this is a much cleaner one.
+
+[Faculty (Olympus)] 13:27:37
+still there are some room for improvement on this one, but this is a much better implementation.
+
+[Faculty (Olympus)] 13:27:42
+I want to say it. Okay?
+
+[Faculty (Olympus)] 13:27:46
+So,
+
+[Faculty (Olympus)] 13:27:48
+agent node is, uh…
+
+[Faculty (Olympus)] 13:27:52
+as the, like, a system message?
+
+[Faculty (Olympus)] 13:27:56
+Logging, and uh… it's checking… we had it last week.
+
+[Faculty (Olympus)] 13:28:01
+If your response has an attribute to calling,
+
+[Faculty (Olympus)] 13:28:05
+It says, and the two calling responses, uh… and there's a tool response.
+
+[Faculty (Olympus)] 13:28:11
+It's doing something, if not doing something else.
+
+[Faculty (Olympus)] 13:28:15
+Okay?
+
+[Faculty (Olympus)] 13:28:17
+If it doesn't have it, it means that that was the final answer, and that's the reason.
+
+[Faculty (Olympus)] 13:28:24
+And just wanted to compare it to last week. Last week, for making it happen,
+
+[Faculty (Olympus)] 13:28:29
+you needed to…
+
+[Faculty (Olympus)] 13:28:31
+If you recall, you needed to use the parser, output parser, for the React
+
+[Faculty (Olympus)] 13:28:37
+input-output agent parser.
+
+[Faculty (Olympus)] 13:28:39
+Just to see if it is there.
+
+[Faculty (Olympus)] 13:28:42
+Last is the finish line, or if you still need to go to the toolbox.
+
+[Faculty (Olympus)] 13:28:47
+So you see, the code is much, much smaller and much cleaner, and it's much easier to trace the code.
+
+[Faculty (Olympus)] 13:28:54
+Okay?
+
+[Faculty (Olympus)] 13:28:58
+should continue is…
+
+[Faculty (Olympus)] 13:29:01
+should I say, yes, identical to last week.
+
+[Faculty (Olympus)] 13:29:04
+So, your…
+
+[Faculty (Olympus)] 13:29:07
+Um… should continue is just to say,
+
+[Faculty (Olympus)] 13:29:12
+If you need to, too,
+
+[Faculty (Olympus)] 13:29:14
+call the tool, or if you are done, you're good to go.
+
+[Faculty (Olympus)] 13:29:20
+Okay? That's the only thing that you check.
+
+[Faculty (Olympus)] 13:29:23
+And how do we check it? By checking the last message, as I said.
+
+[Faculty (Olympus)] 13:29:27
+If it has a condition of the last month, it has a tool call,
+
+[Faculty (Olympus)] 13:29:32
+And, uh, the last message is a tool called…
+
+[Faculty (Olympus)] 13:29:35
+It means that we need to continue. If…
+
+[Faculty (Olympus)] 13:29:38
+The final answer is that…
+
+[Faculty (Olympus)] 13:29:41
+This is gonna be the end.
+
+[Faculty (Olympus)] 13:29:43
+I gave you, uh, another…
+
+[Faculty (Olympus)] 13:29:46
+answer, okay?
+
+[Faculty (Olympus)] 13:29:47
+you have everything,
+
+[Faculty (Olympus)] 13:29:49
+The next piece is to define up to here.
+
+[Faculty (Olympus)] 13:29:56
+to define your…
+
+[Faculty (Olympus)] 13:29:59
+Um, uh…
+
+[Faculty (Olympus)] 13:30:01
+your line graph.
+
+[Faculty (Olympus)] 13:30:03
+And they're always line graphs start with the state graph,
+
+[Faculty (Olympus)] 13:30:07
+with your state,
+
+[Faculty (Olympus)] 13:30:09
+This year, if you're defining the two tool node, you're saying this one,
+
+[Faculty (Olympus)] 13:30:15
+Okay? Your tools is over here.
+
+[Faculty (Olympus)] 13:30:18
+This is the tool node. So instead of defining a function that inside of it,
+
+[Faculty (Olympus)] 13:30:25
+We have the… we literally define a function called the tool node,
+
+[Faculty (Olympus)] 13:30:30
+Undo everything, you already have the tool node, uh, function that easily can communicate.
+
+[Faculty (Olympus)] 13:30:37
+You see the implementation is far better.
+
+[Faculty (Olympus)] 13:30:42
+Okay? The only thing that you're doing is… the reason that you put on gear is for the logging.
+
+[Faculty (Olympus)] 13:30:49
+That's it. It doesn't do anything, literally, over here. It's just…
+
+[Faculty (Olympus)] 13:30:53
+The reason that you create that function is just to add something.
+
+[Faculty (Olympus)] 13:30:58
+before and after. That's the only reason.
+
+[Faculty (Olympus)] 13:31:02
+then you, uh… you are adding notes, you are adding notes, you are adding, uh, entry points,
+
+[Faculty (Olympus)] 13:31:12
+then there is a conditional edge?
+
+[Faculty (Olympus)] 13:31:16
+Similar to last week?
+
+[Faculty (Olympus)] 13:31:18
+And the… the return hedge, which was from the tools to agent, whenever the tool is working,
+
+[Faculty (Olympus)] 13:31:26
+You need to come back,
+
+[Faculty (Olympus)] 13:31:29
+And the last piece is important also, and uh…
+
+[Faculty (Olympus)] 13:31:33
+is the last piece is to workflow the compile.
+
+[Faculty (Olympus)] 13:31:37
+This part is an important thing. When you… and this is different from the previous memoir that I mentioned.
+
+[Faculty (Olympus)] 13:31:44
+When you wanted to keep
+
+[Faculty (Olympus)] 13:31:47
+your state alive. You wanted to give a memoir to it.
+
+[Faculty (Olympus)] 13:31:51
+And I'm talking about the chat space.
+
+[Faculty (Olympus)] 13:31:54
+You wanted to keep the memoir, not in a single loop.
+
+[Faculty (Olympus)] 13:31:57
+I'm not talking, again, just…
+
+[Faculty (Olympus)] 13:32:00
+Try to explain differently.
+
+[Faculty (Olympus)] 13:32:02
+When you wanted to keep the conversation
+
+[Faculty (Olympus)] 13:32:07
+flowing, and you wanted to keep the memory, this is not a single shot.
+
+[Faculty (Olympus)] 13:32:11
+Always, you need to have a check pointer, and the check pointer…
+
+[Faculty (Olympus)] 13:32:16
+sometimes you're gonna learn about the human in the loose the same way, but at this time,
+
+[Faculty (Olympus)] 13:32:21
+The checkpointer for us is to persist it in the memoirs.
+
+[Faculty (Olympus)] 13:32:25
+you save it somewhere in the melon.
+
+[Faculty (Olympus)] 13:32:27
+And you can persist them, actually. You can save it on a disk.
+
+[Faculty (Olympus)] 13:32:31
+Okay, but at this point, I want to save it somewhere.
+
+[Faculty (Olympus)] 13:32:35
+Okay? This is the context from the previous ones.
+
+[Faculty (Olympus)] 13:32:39
+And there are so many discussions about the memory.
+
+[Faculty (Olympus)] 13:32:42
+But over here, just know that to save it for the conventional…
+
+[Faculty (Olympus)] 13:32:50
+flow, you need to keep the memory alive.
+
+[Faculty (Olympus)] 13:32:53
+Okay? One more time.
+
+[Faculty (Olympus)] 13:32:56
+this memory and this one,
+
+[Faculty (Olympus)] 13:33:00
+That's how I explain are two different things.
+
+[Faculty (Olympus)] 13:33:02
+This one, works among the single call.
+
+[Faculty (Olympus)] 13:33:06
+that the agent and the tool are coming back and forth.
+
+[Faculty (Olympus)] 13:33:11
+What actually matters also?
+
+[Faculty (Olympus)] 13:33:13
+This one matters in the terms of the conversational flow.
+
+[Faculty (Olympus)] 13:33:19
+If the agent is done, um, there's nothing for you to do in terms of the project. We are calling a traditional LLM, we are calling the basic autonomous agent, and you're calling the full autonomous agent.
+
+[Faculty (Olympus)] 13:33:33
+And the reason that I'm not going through it, because this is one of the… one part of your…
+
+[Faculty (Olympus)] 13:33:41
+task to…
+
+[Faculty (Olympus)] 13:33:43
+Running your own, see… observe the differences, and report your observations at the very end.
+
+[Faculty (Olympus)] 13:33:49
+You need to understand what is the difference, Steve.
+
+[Faculty (Olympus)] 13:33:53
+How the output looking like, comparing to…
+
+[Faculty (Olympus)] 13:33:56
+comparing to data once.
+
+[Faculty (Olympus)] 13:33:58
+Okay? You're gonna see the differences, and please… you have it at the very end that you need to report one of those observations.
+
+[Faculty (Olympus)] 13:34:07
+Okay.
+
+[Faculty (Olympus)] 13:34:09
+So far, so good. Any questions?
+
+[Faculty (Olympus)] 13:34:17
+No question. Okay.
+
+[Faculty (Olympus)] 13:34:21
+Then, we have the exercise… so, we wanted to…
+
+[Faculty (Olympus)] 13:34:27
+One of the things that Pension, we wanted to have the error handling.
+
+[Faculty (Olympus)] 13:34:30
+Right? And we had… we put it on the system prompt that you need to be reactive,
+
+[Faculty (Olympus)] 13:34:35
+We wanted to make sure, we wanted to test it, like always, we wanted to test something.
+
+[Faculty (Olympus)] 13:34:40
+So, for that reason,
+
+[Faculty (Olympus)] 13:34:43
+VR on purpose, we are providing some, uh, some faulty, uh, function.
+
+[Faculty (Olympus)] 13:34:51
+function call. For this case, we are, like, returning error for the get stock price failing.
+
+[Faculty (Olympus)] 13:34:57
+And instead of the…
+
+[Faculty (Olympus)] 13:34:59
+Correct. 2, which are providing that one.
+
+[Faculty (Olympus)] 13:35:02
+Because we wanted to test that. And by the way, the model…
+
+[Faculty (Olympus)] 13:35:06
+this over here, just…
+
+[Faculty (Olympus)] 13:35:08
+you need to put it on the top as well.
+
+[Faculty (Olympus)] 13:35:13
+Um, everything is the same, except…
+
+[Faculty (Olympus)] 13:35:17
+Except this one. Except this one. So, one of the tools is not working.
+
+[Faculty (Olympus)] 13:35:22
+And we want to test it. And uh… there's nothing for you to do, it's for you to see
+
+[Faculty (Olympus)] 13:35:30
+that the faulty one…
+
+[Faculty (Olympus)] 13:35:32
+I believe it's gonna complain about it over here.
+
+[Faculty (Olympus)] 13:35:36
+It says the… the data retrieval failed, unable to provide the current stock price.
+
+[Faculty (Olympus)] 13:35:42
+He's talking about the source of it.
+
+[Faculty (Olympus)] 13:35:45
+But it's using the fallback methods, I believe. Was it the stock?
+
+[Faculty (Olympus)] 13:35:51
+No, the stock price is not giving you… and by the way, the sourcing of this one, this is for the 3 years, this is for the history.
+
+[Faculty (Olympus)] 13:35:58
+So, it's giving you the… the fallback, you have to see
+
+[Faculty (Olympus)] 13:36:04
+how things are working, are you working without any issue? If that's the case.
+
+[Faculty (Olympus)] 13:36:10
+You're okay. The last piece of the Section 1, the Part 1, is for you just to provide your own queries, just test your queries, and see what is happening.
+
+[Faculty (Olympus)] 13:36:22
+And that's it.
+
+[Faculty (Olympus)] 13:36:25
+The part one is that.
+
+[Faculty (Olympus)] 13:36:27
+Question for the park one. Oh, there's the new things.
+
+[Faculty (Olympus)] 13:36:30
+Uh, did you get the difference between the conversational memory versus the agent tool memory.
+
+[Faculty (Olympus)] 13:36:36
+Anand, uh, Ananda, okay.
+
+[Faculty (Olympus)] 13:36:39
+One more time, I don't want us to make it complex, because…
+
+[Faculty (Olympus)] 13:36:42
+you're gonna see later on, but…
+
+[Faculty (Olympus)] 13:36:46
+Suppose that…
+
+[Faculty (Olympus)] 13:36:48
+Similar to the ChatGPT.
+
+[Faculty (Olympus)] 13:36:50
+Okay? First of all, do you want to add to your question?
+
+[Faculty (Olympus)] 13:36:55
+Ananda?
+
+[Faculty (Olympus)] 13:37:01
+Is there anything… okay.
+
+[Faculty (Olympus)] 13:37:03
+If that's the case, suppose that you are…
+
+[Faculty (Olympus)] 13:37:08
+into ChatGPT. You want to create the chat-based platform.
+
+[Faculty (Olympus)] 13:37:13
+Right?
+
+[Faculty (Olympus)] 13:37:16
+Okay, unfortunately, I can't take… that's fine! Oh, that's absolutely fine.
+
+[Faculty (Olympus)] 13:37:20
+Your microphone's not working. That's absolutely fine, no worries at all.
+
+[Faculty (Olympus)] 13:37:26
+You… you have, uh…
+
+[Faculty (Olympus)] 13:37:28
+The… you wanted to create some chat-based agent.
+
+[Faculty (Olympus)] 13:37:32
+Most of the thing that you've seen so far is that you created one call, you put a… you put a query, you have a question,
+
+[Faculty (Olympus)] 13:37:41
+He goes to your agent, do something, going back and forth, and…
+
+[Faculty (Olympus)] 13:37:46
+provide some final answer to you.
+
+[Faculty (Olympus)] 13:37:49
+So, in that context, in that architecture, you cannot ask a second question.
+
+[Faculty (Olympus)] 13:37:57
+And I expect to… to… to follow up. You cannot say, okay, on your previous ques… on your previous answer,
+
+[Faculty (Olympus)] 13:38:05
+You said this one, and you wanted to… I have a question regarding that, okay?
+
+[Faculty (Olympus)] 13:38:12
+So, to make it a conversational, underlying chain line graph, the way that you give it that flow and the memory of the previous stuff by the checkpointer.
+
+[Faculty (Olympus)] 13:38:24
+That's it.
+
+[Faculty (Olympus)] 13:38:27
+check pointer is for that purpose.
+
+[Faculty (Olympus)] 13:38:30
+It's just a single thing. But the checkpointers, you're gonna see, we're gonna use it for the other purposes. I mentioned one of them, human in the loop.
+
+[Faculty (Olympus)] 13:38:39
+You wanted to, at a certain point, you want your agent to be stopped,
+
+[Faculty (Olympus)] 13:38:45
+When I ask a human, okay, do you accept this one? If you accept it,
+
+[Faculty (Olympus)] 13:38:49
+then I'm gonna move forward.
+
+[Faculty (Olympus)] 13:38:51
+This is another thing, but for the sake of memory, the way that you give it a conversational flow is this way.
+
+[Faculty (Olympus)] 13:38:59
+Any other questions?
+
+[Faculty (Olympus)] 13:39:06
+Perfect, thanks. Okay, thank you.
+
+[Faculty (Olympus)] 13:39:10
+Okay. The part two…
+
+[Faculty (Olympus)] 13:39:14
+is identical to Part 1.
+
+[Faculty (Olympus)] 13:39:16
+There's only one extra step on top of the part one.
+
+[Faculty (Olympus)] 13:39:21
+That extra stuff…
+
+[Faculty (Olympus)] 13:39:22
+is that, so far,
+
+[Faculty (Olympus)] 13:39:26
+on your, uh…
+
+[Faculty (Olympus)] 13:39:29
+This agent is only working on the public data.
+
+[Faculty (Olympus)] 13:39:33
+Now, suppose that you have some…
+
+[Faculty (Olympus)] 13:39:37
+proprietary data.
+
+[Faculty (Olympus)] 13:39:39
+some private data, something that is not exposed to the public.
+
+[Faculty (Olympus)] 13:39:44
+within your company.
+
+[Faculty (Olympus)] 13:39:45
+And you wanted to also include that.
+
+[Faculty (Olympus)] 13:39:48
+inside your agent. So, your agent
+
+[Faculty (Olympus)] 13:39:50
+take a look at the public data, but at the same time, it takes a look at
+
+[Faculty (Olympus)] 13:39:56
+your private data, something that you have it for yourself, and this is not exposed to the public.
+
+[Faculty (Olympus)] 13:40:01
+This is the way that we want to add that extra stuff, and we wanted to use the wrap.
+
+[Faculty (Olympus)] 13:40:08
+And for the rag, most of the description over here is just nothing but repeating everything that we
+
+[Faculty (Olympus)] 13:40:15
+we taught you and you learned,
+
+[Faculty (Olympus)] 13:40:17
+During the past,
+
+[Faculty (Olympus)] 13:40:20
+7 weeks. I believe that was week 3 that you were… you got familiar with RAM.
+
+[Faculty (Olympus)] 13:40:25
+And… this is the only thing that we wanted to do.
+
+[Faculty (Olympus)] 13:40:29
+Question?
+
+[Faculty (Olympus)] 13:40:32
+No question, okay.
+
+[Faculty (Olympus)] 13:40:36
+Um…
+
+[Faculty (Olympus)] 13:40:37
+This part has 8 marks.
+
+[Faculty (Olympus)] 13:40:40
+And, uh, he's just testing some of the stuff you already learned.
+
+[Faculty (Olympus)] 13:40:48
+And, uh, you remember, for every rack?
+
+[Faculty (Olympus)] 13:40:50
+you need to load split chunk,
+
+[Faculty (Olympus)] 13:40:54
+The three steps that I always say…
+
+[Faculty (Olympus)] 13:40:56
+Whenever you're talking about the indexing,
+
+[Faculty (Olympus)] 13:40:59
+load split chunk,
+
+[Faculty (Olympus)] 13:41:01
+Create your vector store one more time, we are using the, uh…
+
+[Faculty (Olympus)] 13:41:07
+PromoDB, you need to have an embedding on top of it,
+
+[Faculty (Olympus)] 13:41:14
+Uh… you need to have an embedding.
+
+[Faculty (Olympus)] 13:41:17
+Uh, for this one, the embedding is happening, I believe, on the OpenAI, so we are using the OpenAI embedding.
+
+[Faculty (Olympus)] 13:41:23
+You save it, and the next part is to do the retrieval.
+
+[Faculty (Olympus)] 13:41:28
+And you do the retrieval as a tool integration.
+
+[Faculty (Olympus)] 13:41:33
+Then we're gonna ask the agents, so the agent is identical to previous one, the only thing is that you're gonna have one more function, that's it.
+
+[Faculty (Olympus)] 13:41:42
+We're gonna test it, and we're gonna analyze the investment.
+
+[Faculty (Olympus)] 13:41:47
+So, none of this stuff is new. As I already explained.
+
+[Faculty (Olympus)] 13:41:53
+let me, uh…
+
+[Faculty (Olympus)] 13:41:57
+lets me do it…
+
+[Faculty (Olympus)] 13:41:59
+So…
+
+[Faculty (Olympus)] 13:42:01
+We have new imports because of the RAG implementation.
+
+[Faculty (Olympus)] 13:42:08
+Um, you're gonna see… there was a zip file.
+
+[Faculty (Olympus)] 13:42:12
+If I go… database.
+
+[Faculty (Olympus)] 13:42:15
+There's a zip file over here. Please import that.
+
+[Faculty (Olympus)] 13:42:19
+Similar to always make sure the path to the zip file is correct.
+
+[Faculty (Olympus)] 13:42:24
+So it's working. Inside that zip file, there are 5 files.
+
+[Faculty (Olympus)] 13:42:30
+If I'm not mistaken, don't take me for granted, but I believe this is the identical files that we have for the… for the first project.
+
+[Faculty (Olympus)] 13:42:40
+For NVIDIA, Microsoft, IBM, Google, and Amazon,
+
+[Faculty (Olympus)] 13:42:45
+then we have Apple?
+
+[Faculty (Olympus)] 13:42:48
+Maybe not. Um…
+
+[Faculty (Olympus)] 13:42:51
+So we have the initiatives for those, uh…
+
+[Faculty (Olympus)] 13:42:56
+for those companies,
+
+[Faculty (Olympus)] 13:43:00
+The… do stuff that we need to do. So, again, we load it…
+
+[Faculty (Olympus)] 13:43:03
+So, you already know what to replace it. We need to load it.
+
+[Faculty (Olympus)] 13:43:08
+we need to, uh, chunk it using… this is the defining text splitter.
+
+[Faculty (Olympus)] 13:43:16
+then you're gonna do the trunking,
+
+[Faculty (Olympus)] 13:43:19
+Uh, this is just reporting the charts, nothing fancy.
+
+[Faculty (Olympus)] 13:43:25
+then you're gonna define the embedding model. The embedding model is already mentioned, it's giving you the output, so you use the ADN002.
+
+[Faculty (Olympus)] 13:43:37
+embedding from the OpenAI.
+
+[Faculty (Olympus)] 13:43:40
+You create your vector store, ChromaDB, one more time.
+
+[Faculty (Olympus)] 13:43:45
+Uh, you define your retrieval… you retriever. Also,
+
+[Faculty (Olympus)] 13:43:50
+providing the vector store and the embedding.
+
+[Faculty (Olympus)] 13:43:54
+And you've seen that pattern before so many times. I believe there's… there shouldn't… at this point, there shouldn't be any question about it. The writing is…
+
+[Faculty (Olympus)] 13:44:02
+one of the basics of everything.
+
+[Faculty (Olympus)] 13:44:05
+And we are testing your rack.
+
+[Faculty (Olympus)] 13:44:07
+If I'm not mistaken, yes, we are testing the retrieval over here, get relevant documents,
+
+[Faculty (Olympus)] 13:44:13
+And we wanted to see what do we have?
+
+[Faculty (Olympus)] 13:44:16
+Okay? Nothing on these sides.
+
+[Faculty (Olympus)] 13:44:19
+Then, we're gonna go and define the tool, the rack tool. The rack tool…
+
+[Faculty (Olympus)] 13:44:26
+is doing nothing but retrieve the relevant documents.
+
+[Faculty (Olympus)] 13:44:31
+And we have the Q&A system message.
+
+[Faculty (Olympus)] 13:44:36
+you have the Q&A user message,
+
+[Faculty (Olympus)] 13:44:40
+And you've seen it before, again, the same pattern, nothing fancy.
+
+[Faculty (Olympus)] 13:44:46
+We are retrieving…
+
+[Faculty (Olympus)] 13:44:48
+So it's going to be a list of documents. You're appending everything, only the content of those documents,
+
+[Faculty (Olympus)] 13:44:55
+Then you're going to join it so that you will have a single string,
+
+[Faculty (Olympus)] 13:44:59
+as an output. And you're providing it as a prompt,
+
+[Faculty (Olympus)] 13:45:04
+And you define the model. One more time, ChatGPT4 Mini,
+
+[Faculty (Olympus)] 13:45:09
+And you invoke it to get the response.
+
+[Faculty (Olympus)] 13:45:12
+And that's it. And this is the error handling, same as the before.
+
+[Faculty (Olympus)] 13:45:17
+So, for some of them, you're seeing the actual answer. For some of them, you need to, like, write it down.
+
+[Faculty (Olympus)] 13:45:26
+And the 2 is defined.
+
+[Faculty (Olympus)] 13:45:29
+When the tool is defined,
+
+[Faculty (Olympus)] 13:45:32
+You test it,
+
+[Faculty (Olympus)] 13:45:34
+And… that was among the questions on the top.
+
+[Faculty (Olympus)] 13:45:39
+that when you define a tool,
+
+[Faculty (Olympus)] 13:45:41
+using a decorator that you're missing here.
+
+[Faculty (Olympus)] 13:45:48
+How do we use that? We use the invoke method.
+
+[Faculty (Olympus)] 13:45:52
+Okay, so you're testing the retrieval,
+
+[Faculty (Olympus)] 13:45:57
+Um, over here, to just to get some answer.
+
+[Faculty (Olympus)] 13:46:02
+And now, you are incorporating this one to the system message and to your agent.
+
+[Faculty (Olympus)] 13:46:10
+The only difference that you're seeing, this is this part, so there's a private tool, it says new.
+
+[Faculty (Olympus)] 13:46:16
+I don't like to mention this is new.
+
+[Faculty (Olympus)] 13:46:20
+And also, we have…
+
+[Faculty (Olympus)] 13:46:23
+Let's see…
+
+[Faculty (Olympus)] 13:46:25
+I believe everything else is kind of the same.
+
+[Faculty (Olympus)] 13:46:31
+Except, uh, the initiatives, it should be mentioning the…
+
+[Faculty (Olympus)] 13:46:37
+this data, the rack,
+
+[Faculty (Olympus)] 13:46:39
+Okay, always query the private dataset for the AI research. So this is the part that you're…
+
+[Faculty (Olympus)] 13:46:46
+adding it. The rest of this stuff is the same.
+
+[Faculty (Olympus)] 13:46:50
+And one more time, we are creating the agent tools is…
+
+[Faculty (Olympus)] 13:46:55
+Same as the one that we had on the top.
+
+[Faculty (Olympus)] 13:46:59
+The difference, and almost the same, so, um, you needed to define it on the very top, the model, the tool calling, everything is the same. So, technically, if you…
+
+[Faculty (Olympus)] 13:47:10
+find out the answer for those, you need to copy and paste it over here.
+
+[Faculty (Olympus)] 13:47:15
+The state is the same estate as before that we… I believe that was Simple Agent?
+
+[Faculty (Olympus)] 13:47:22
+Or something like that?
+
+[Faculty (Olympus)] 13:47:25
+Um, you use that one to create the agent node?
+
+[Faculty (Olympus)] 13:47:30
+Uh, the system message…
+
+[Faculty (Olympus)] 13:47:32
+the user message that you need to do.
+
+[Faculty (Olympus)] 13:47:36
+And, uh…
+
+[Faculty (Olympus)] 13:47:37
+That's it. The only difference is that…
+
+[Faculty (Olympus)] 13:47:41
+you create the function in a way that you can turn on and off,
+
+[Faculty (Olympus)] 13:47:47
+Uh, they're right. So, if you wanted to use the proprietary data,
+
+[Faculty (Olympus)] 13:47:52
+You turn it on as true, which is the default is true.
+
+[Faculty (Olympus)] 13:47:56
+If you don't like it, and you wanted to only use the public data
+
+[Faculty (Olympus)] 13:48:00
+you turn it off. That's the only difference.
+
+[Faculty (Olympus)] 13:48:03
+Everything else I'm seeing the shoot continues the same.
+
+[Faculty (Olympus)] 13:48:09
+workflow is the same, everything else is the same, um, there's nothing fancy about it.
+
+[Faculty (Olympus)] 13:48:15
+Unless you have this one.
+
+[Faculty (Olympus)] 13:48:18
+Bob. So you already have the answer, Bob.
+
+[Faculty (Olympus)] 13:48:22
+And everything is good.
+
+[Faculty (Olympus)] 13:48:24
+Okay.
+
+[Faculty (Olympus)] 13:48:26
+When you define the agent…
+
+[Faculty (Olympus)] 13:48:29
+Okay, any question for defining the agent? That was the second time that I'm explaining the same thing, literally.
+
+[Faculty (Olympus)] 13:48:36
+Is there any question? Mm-hmm.
+
+[Ananda Thatiparthi .] 13:48:38
+Sorry.
+
+[Ananda Thatiparthi .] 13:48:38
+Uh, yeah, I put… I changed my microphone. Thanks, uh, um…
+
+[Faculty (Olympus)] 13:48:40
+Go on.
+
+[Ananda Thatiparthi .] 13:48:44
+This should continue is a… is a keyword, a method, or it's, um…
+
+[Ananda Thatiparthi .] 13:48:48
+I see it's kind of grayed out. It's just, um…
+
+[Faculty (Olympus)] 13:48:52
+It's… it's great up because… so whenever in VS Code in a Python, you define something, define a variable, but you don't use it. It's… it's showing it this way.
+
+[Faculty (Olympus)] 13:49:06
+Okay? The reason, if you see the solution, it shouldn't be gray, it should be black.
+
+[Faculty (Olympus)] 13:49:14
+Does it make sense? So, as soon as I correct this one…
+
+[Ananda Thatiparthi .] 13:49:19
+Okay. Oh, okay, okay, got it, got it, got it, okay, got it, okay. Yeah, yeah, got it, okay, thank you.
+
+[Faculty (Olympus)] 13:49:19
+And I can give you compile.
+
+[Faculty (Olympus)] 13:49:23
+Okay? It turned black.
+
+[Ananda Thatiparthi .] 13:49:26
+Yeah, so there's no… there's no particular method names. It's… it's… we can reprint something, I think, got it.
+
+[Faculty (Olympus)] 13:49:30
+No.
+
+[Faculty (Olympus)] 13:49:33
+Yeah, just got, yeah.
+
+[Faculty (Olympus)] 13:49:35
+oops, haha, it's giving you the answer.
+
+[Faculty (Olympus)] 13:49:39
+Okay. Okay. Any other questions?
+
+[Jonathan Beckford .] 13:49:41
+Quick, quick question.
+
+[Faculty (Olympus)] 13:49:42
+Uh-huh. Go on, Jonathan.
+
+[Jonathan Beckford .] 13:49:44
+So, in the instructions, it said that the difference between this
+
+[Jonathan Beckford .] 13:49:48
+In the previous section,
+
+[Jonathan Beckford .] 13:49:50
+was the rag portion, um, and adding an additional tool for the strategic AI.
+
+[Faculty (Olympus)] 13:49:53
+Correct. Mm-hmm.
+
+[Jonathan Beckford .] 13:49:56
+But then it also said one of the first one was for single company, this one was for multi-company ranking. I don't think I see anything…
+
+[Faculty (Olympus)] 13:50:04
+Oh! Thank you for that. My bad, my bad.
+
+[Faculty (Olympus)] 13:50:08
+And that's the correct one.
+
+[Faculty (Olympus)] 13:50:12
+Highly apologize. I missed something to explain. Over here.
+
+[Faculty (Olympus)] 13:50:16
+So, the output format…
+
+[Faculty (Olympus)] 13:50:19
+We are adding one more layer of this stuff over here. You're right. Thank you, Jonathan. Thank you, Jonathan, for reminding me.
+
+[Faculty (Olympus)] 13:50:27
+The first one was working on a single… so everything was related to a single company. This one,
+
+[Faculty (Olympus)] 13:50:35
+two things is happening. First,
+
+[Faculty (Olympus)] 13:50:37
+The RAC is implemented, as I already mentioned, and you mentioned it,
+
+[Faculty (Olympus)] 13:50:41
+The second thing that is where in the, uh…
+
+[Faculty (Olympus)] 13:50:45
+in the system, probably, we're gonna see…
+
+[Faculty (Olympus)] 13:50:47
+We wanted to analyze and compare
+
+[Faculty (Olympus)] 13:50:51
+the, uh, different companies, and similar to the first one, you remember the first project?
+
+[Faculty (Olympus)] 13:50:58
+you wanted to have a ranking of which one is the best, based on the different criteria.
+
+[Faculty (Olympus)] 13:51:05
+Uh, you want to see…
+
+[Faculty (Olympus)] 13:51:07
+the ranking of the best one for the investment, and you are including only 5 companies over here.
+
+[Faculty (Olympus)] 13:51:13
+So, not for… not more than that.
+
+[Faculty (Olympus)] 13:51:16
+And this is the two differences that you're making. I'm trying to find…
+
+[Faculty (Olympus)] 13:51:21
+the piece, if I get to the point, this one.
+
+[Faculty (Olympus)] 13:51:28
+Let me see…
+
+[Jonathan Beckford .] 13:51:31
+I couldn't find where it refers to ranking and multi-company, honestly. That's what I was asking the question, because…
+
+[Faculty (Olympus)] 13:51:36
+there should be…
+
+[Faculty (Olympus)] 13:51:39
+Very good point. I didn't… since you are not supposed to change anything on the, um…
+
+[Faculty (Olympus)] 13:51:46
+On this one, I didn't read it before that, but over here, example…
+
+[Faculty (Olympus)] 13:51:51
+AI Research Activity Check for every company analysis you must query…
+
+[Faculty (Olympus)] 13:51:57
+list, include the project.
+
+[Faculty (Olympus)] 13:52:00
+Example, okay.
+
+[Faculty (Olympus)] 13:52:03
+qualify a standard. A report must include thesis stuff.
+
+[Faculty (Olympus)] 13:52:09
+recommendation…
+
+[Faculty (Olympus)] 13:52:15
+buy, hold, sell, source citation, gap analysis, remember your autonomous, the initiative
+
+[Faculty (Olympus)] 13:52:22
+Uh, very good question.
+
+[Faculty (Olympus)] 13:52:29
+I saw it on…
+
+[Faculty (Olympus)] 13:52:33
+It should be…
+
+[Faculty (Olympus)] 13:52:37
+Over here, it says that make a clear recommendation, okay?
+
+[Faculty (Olympus)] 13:52:42
+So…
+
+[Faculty (Olympus)] 13:52:45
+It's kind of…
+
+[Faculty (Olympus)] 13:52:49
+Primary goal. Target outputs.
+
+[Faculty (Olympus)] 13:52:53
+Market sentiments, AI research, risk analysis, investment recommendations. So, here we go.
+
+[Faculty (Olympus)] 13:53:00
+It's asking to give us a recommendation, data-driven rating with a confidence level.
+
+[Faculty (Olympus)] 13:53:06
+It's define the confidence level, make a clear recommendation, it's give information.
+
+[Faculty (Olympus)] 13:53:14
+Error handling has nothing to do with this one. It should be somewhere, something over here.
+
+[Faculty (Olympus)] 13:53:19
+Examples…
+
+[Faculty (Olympus)] 13:53:21
+API recent article, recent news, Microsoft is working to enjoy this talk.
+
+[Faculty (Olympus)] 13:53:27
+Recent positive news.
+
+[Faculty (Olympus)] 13:53:29
+important for new articles.
+
+[Faculty (Olympus)] 13:53:31
+That one alone is giving you what you're doing, and what you want.
+
+[Faculty (Olympus)] 13:53:38
+AI research activity check.
+
+[Faculty (Olympus)] 13:53:42
+quality. So, twice, it's asking you…
+
+[Faculty (Olympus)] 13:53:45
+what to do with each one of them.
+
+[Faculty (Olympus)] 13:53:48
+And let me see…
+
+[Faculty (Olympus)] 13:53:50
+Let's pass this one and go…
+
+[Jonathan Beckford .] 13:53:54
+That was part of the original prompt, though, that the investment recommendation.
+
+[Jonathan Beckford .] 13:53:59
+Um…
+
+[Faculty (Olympus)] 13:54:00
+Yeah.
+
+[Jonathan Beckford .] 13:54:01
+So, I just don't see anything… I just don't see anything different. Yeah, if you went up… this is the agent charter with RAG. If you went to the agent charter full,
+
+[Faculty (Olympus)] 13:54:01
+The original one?
+
+[Faculty (Olympus)] 13:54:09
+Good question.
+
+[Jonathan Beckford .] 13:54:11
+it has the same investment recommendation.
+
+[Faculty (Olympus)] 13:54:12
+Okay.
+
+[Jonathan Beckford .] 13:54:15
+The difference is the rag that this adds.
+
+[Faculty (Olympus)] 13:54:20
+Very good point.
+
+[Faculty (Olympus)] 13:54:21
+Let's take a look at the output.
+
+[Faculty (Olympus)] 13:54:23
+Do we get the, uh, their recommendation?
+
+[Jonathan Beckford .] 13:54:28
+Mm-hmm.
+
+[Faculty (Olympus)] 13:54:29
+investment recommendation. It's to buy.
+
+[Faculty (Olympus)] 13:54:32
+But if you're talking about this single…
+
+[Marcelle Mercier .] 13:54:36
+Single company. I had this same question, too.
+
+[Faculty (Olympus)] 13:54:37
+single one. Single component.
+
+[Faculty (Olympus)] 13:54:41
+Very good question.
+
+[Marcelle Mercier .] 13:54:41
+And I was…
+
+[Faculty (Olympus)] 13:54:43
+We're finding an owls.
+
+[Faculty (Olympus)] 13:54:44
+Let's take a look at the function. Do we miss something?
+
+[Faculty (Olympus)] 13:54:50
+that…
+
+[Faculty (Olympus)] 13:54:51
+This is the…
+
+[Faculty (Olympus)] 13:54:53
+detail…
+
+[Faculty (Olympus)] 13:54:55
+Unless we have a list of companies…
+
+[Faculty (Olympus)] 13:55:00
+test queries.
+
+[Faculty (Olympus)] 13:55:02
+working NVIDIA, Google.
+
+[Faculty (Olympus)] 13:55:06
+Okay, so far so good.
+
+[Faculty (Olympus)] 13:55:08
+This is the right. Do we…
+
+[Faculty (Olympus)] 13:55:12
+Work on any companies.
+
+[Faculty (Olympus)] 13:55:22
+The question probably is coming from the… from the courage. Provide me a comprehensive investment analysis on an India, including the… okay,
+
+[Faculty (Olympus)] 13:55:32
+This one should give you a, like, a single agent, okay?
+
+[Faculty (Olympus)] 13:55:36
+So far.
+
+[Faculty (Olympus)] 13:55:40
+Synergy Hughes…
+
+[Faculty (Olympus)] 13:55:46
+This is another test, and actually we are moving forward.
+
+[Faculty (Olympus)] 13:55:51
+Uh, recommendations, invest recommendation system. Okay, multi-company ranking.
+
+[Faculty (Olympus)] 13:55:57
+So, these are the companies. Okay.
+
+[Faculty (Olympus)] 13:56:00
+You're not getting there.
+
+[Faculty (Olympus)] 13:56:02
+If you're not getting there. So, these are the tests, guys, nothing important.
+
+[Faculty (Olympus)] 13:56:08
+We already know what it is.
+
+[Faculty (Olympus)] 13:56:10
+This is a single company, and here we go. This is the 2.4 investment recommendation system.
+
+[Faculty (Olympus)] 13:56:18
+And the only thing that you're changing in your query
+
+[Faculty (Olympus)] 13:56:23
+you are supposed to…
+
+[Faculty (Olympus)] 13:56:26
+Um, you are supposed to do, uh, the court has
+
+[Jonathan Beckford .] 13:56:30
+Hmm…
+
+[Faculty (Olympus)] 13:56:32
+asking for these companies?
+
+[Faculty (Olympus)] 13:56:34
+that you're gonna join it as a single string,
+
+[Faculty (Olympus)] 13:56:37
+Uh, do the… do this stuff. So, you put the quarry over here.
+
+[Faculty (Olympus)] 13:56:42
+So, very good question. So, this is not baked into the system prompt. This is not, like, an always…
+
+[Faculty (Olympus)] 13:56:50
+provide the, like, a recommendation and a ranking for those 5 companies.
+
+[Faculty (Olympus)] 13:56:55
+But, um, it's like, uh, like, you are asking, and it's capable of handling both, and it's very interesting, because
+
+[Faculty (Olympus)] 13:57:05
+It can, one by one, go pick up every detail about the each of those, uh, those companies,
+
+[Faculty (Olympus)] 13:57:12
+an augmented into a single one. So…
+
+[Faculty (Olympus)] 13:57:15
+It's analyzing for a single one, it's giving you…
+
+[Faculty (Olympus)] 13:57:20
+the same format of the… all of them.
+
+[Faculty (Olympus)] 13:57:23
+And with some confidence level.
+
+[Marcelle Mercier .] 13:57:23
+Mm-hmm.
+
+[Faculty (Olympus)] 13:57:25
+Does it make sense?
+
+[Jonathan Beckford .] 13:57:27
+Mm-hmm.
+
+[Marcelle Mercier .] 13:57:27
+Yeah. Oh, sorry, Jonathan.
+
+[Jonathan Beckford .] 13:57:31
+No, no worries. No, I think that's what I was…
+
+[Jonathan Beckford .] 13:57:33
+curious about that this just in the user prompt, or the user message.
+
+[Faculty (Olympus)] 13:57:35
+Mm-hmm.
+
+[Jonathan Beckford .] 13:57:37
+that's where you would provide all those details.
+
+[Jonathan Beckford .] 13:57:41
+Um, so this, this kind of makes…
+
+[Faculty (Olympus)] 13:57:41
+Mm-hmm.
+
+[Jonathan Beckford .] 13:57:43
+Makes sense. And I guess you're supposed to account for all of the requirements?
+
+[Jonathan Beckford .] 13:57:48
+for the ranking that were provided
+
+[Jonathan Beckford .] 13:57:50
+at the very beginning of this.
+
+[Faculty (Olympus)] 13:57:51
+Mm-hmm.
+
+[Jonathan Beckford .] 13:57:54
+on how you do the ranking?
+
+[Faculty (Olympus)] 13:57:55
+I believe if you put… I believe if you put a proper query over here, it's…
+
+[Faculty (Olympus)] 13:58:00
+your agent should go one-on-one, one by one,
+
+[Faculty (Olympus)] 13:58:04
+on each of the companies, and recall every detail, all of the loop agents,
+
+[Faculty (Olympus)] 13:58:10
+collecting the prices.
+
+[Faculty (Olympus)] 13:58:13
+And it's… it does it over here. See? The output, the sample output that we're seeing, it has the 3 years return, it has the current price.
+
+[Faculty (Olympus)] 13:58:22
+It has the gap market, high, low.
+
+[Faculty (Olympus)] 13:58:25
+for each of the companies. It means that Inventu…
+
+[Faculty (Olympus)] 13:58:30
+And called those functions, one by one, for each of those companies,
+
+[Faculty (Olympus)] 13:58:35
+and collected the proper ones.
+
+[Faculty (Olympus)] 13:58:38
+Right? So it works. Then it went to the AI research activity.
+
+[Faculty (Olympus)] 13:58:45
+And also, all of the AI initiatives from the RAC part, so you're seeing the RAC part is working also.
+
+[Faculty (Olympus)] 13:58:53
+For each company, one by one,
+
+[Faculty (Olympus)] 13:58:58
+And at the very end, it's giving you the investment recommendations. So, the query is asking this one, and this is the way that, uh…
+
+[Faculty (Olympus)] 13:59:07
+your agent is capable of handling different purposes of the input query.
+
+[Faculty (Olympus)] 13:59:14
+Yeah, everything is working.
+
+[Marcelle Mercier .] 13:59:20
+No, that helps, thank you, because it was summarized in a table.
+
+[Faculty (Olympus)] 13:59:22
+Very, very good catch.
+
+[Marcelle Mercier .] 13:59:24
+And it was like, huh?
+
+[Faculty (Olympus)] 13:59:26
+Okay.
+
+[Faculty (Olympus)] 13:59:29
+Amazing. That was a good catch. That was a goose catch. I knew that it was something, but it was kind of funny, I didn't remember that.
+
+[Faculty (Olympus)] 13:59:38
+Amazing. I think we are at the end. There are two things, uh, there's nothing for you to do, just to run it. There are a couple of, uh…
+
+[Faculty (Olympus)] 13:59:49
+exercise and running and sample stuff that you can see here.
+
+[Faculty (Olympus)] 13:59:53
+And at the very end, again, same as the previous one,
+
+[Faculty (Olympus)] 13:59:58
+You wanted to see your observations, uh, comparing, for example, I gave you one of the observations that you can have.
+
+[Faculty (Olympus)] 14:00:06
+at least one or two.
+
+[Faculty (Olympus)] 14:00:09
+that on your…
+
+[Faculty (Olympus)] 14:00:12
+basic versus the gold base versus the full agents.
+
+[Faculty (Olympus)] 14:00:17
+What were the differences? You can also…
+
+[Faculty (Olympus)] 14:00:20
+talk about the observation between the rag base versus the…
+
+[Faculty (Olympus)] 14:00:25
+then part one without the rack.
+
+[Faculty (Olympus)] 14:00:27
+you can also put things like, um…
+
+[Faculty (Olympus)] 14:00:33
+Uh, like, uh, like the recommendation that you just saw for the multi-companies versus the single companies, you can have, like, 3 different observations.
+
+[Faculty (Olympus)] 14:00:42
+you can come up with, uh, free future scope for this project?
+
+[Faculty (Olympus)] 14:00:48
+Um, similar to this one.
+
+[Faculty (Olympus)] 14:00:50
+And that's the whole thing that you have.
+
+[Faculty (Olympus)] 14:00:53
+for your…
+
+[Faculty (Olympus)] 14:00:56
+Uh… for your project.
+
+[Faculty (Olympus)] 14:00:58
+So, we have…
+
+[Faculty (Olympus)] 14:01:01
+30 minutes more to go.
+
+[Faculty (Olympus)] 14:01:04
+And, uh, I just wanted to wrap up the project, show you a couple of stuff.
+
+[Faculty (Olympus)] 14:01:08
+Uh, that's our promise, including the lifespan.
+
+[Faculty (Olympus)] 14:01:13
+And, uh, before that, is there any question?
+
+[Faculty (Olympus)] 14:01:19
+And let me share my screen. Meanwhile, if you have got a question, let me see if I can.
+
+[Faculty (Olympus)] 14:01:25
+pull up one of my projects over here.
+
+[Faculty (Olympus)] 14:01:32
+If there's any question, please feel free to tell me.
+
+[Marcelle Mercier .] 14:01:38
+So, the last part of the project asks the challenge question there about
+
+[Marcelle Mercier .] 14:01:43
+If you can modify the agent to analyze companies from a different sector.
+
+[Marcelle Mercier .] 14:01:48
+So… oh, now that I read it again, I guess I could figure that piece of it out. But if we do do that, do we include it in this, or do we just do it for the fun of doing it?
+
+[Faculty (Olympus)] 14:01:58
+If there's a placeholder for that, include it. If not, no. It just probably could be, like, a something for the… there's, like, a future step, future research, probably you can put it over there.
+
+[Marcelle Mercier .] 14:02:11
+Okay, okay, great, thank you.
+
+[Faculty (Olympus)] 14:02:13
+Or, as your observation.
+
+[Marcelle Mercier .] 14:02:14
+Mm-hmm.
+
+[Marcelle Mercier .] 14:02:16
+Okay, thanks.
+
+[Faculty (Olympus)] 14:02:20
+I see.
+
+[Braulio Cabral .] 14:02:20
+I'm sorry, uh, uh…
+
+[Braulio Cabral .] 14:02:22
+This is Claudio, can you hear me?
+
+[Faculty (Olympus)] 14:02:25
+Yes, I can.
+
+[Braulio Cabral .] 14:02:26
+Yep, on that, um…
+
+[Braulio Cabral .] 14:02:29
+topic there…
+
+[Braulio Cabral .] 14:02:30
+I already, uh, I submitted my project already, but…
+
+[Braulio Cabral .] 14:02:35
+What I did, I added…
+
+[Braulio Cabral .] 14:02:37
+a code cell…
+
+[Braulio Cabral .] 14:02:39
+And then put the modify agent there that actually works with the different
+
+[Braulio Cabral .] 14:02:47
+industry, like health,
+
+[Braulio Cabral .] 14:02:48
+And then added another cold cell to actually invoke that agent, and just to show that, hey,
+
+[Braulio Cabral .] 14:02:56
+it works.
+
+[Braulio Cabral .] 14:02:58
+So, I guess that's okay, right?
+
+[Braulio Cabral .] 14:03:00
+that I added code, uh, code sales.
+
+[Faculty (Olympus)] 14:03:03
+I cannot say for certain, but uh…
+
+[Faculty (Olympus)] 14:03:07
+Because, honestly, I'm not certain how the rubrics behind the scene, and uh…
+
+[Faculty (Olympus)] 14:03:13
+how things are working, how to grade that.
+
+[Faculty (Olympus)] 14:03:17
+But 99% is gonna be fine.
+
+[Faculty (Olympus)] 14:03:20
+99% is going to be fine.
+
+[Faculty (Olympus)] 14:03:22
+Maybe since there is still time for the project for your submission, probably you can talk to your coordinator.
+
+[Faculty (Olympus)] 14:03:30
+It's a gel, and see if there's any problem with that, you can…
+
+[Faculty (Olympus)] 14:03:34
+deleted and resubmitted.
+
+[Braulio Cabral .] 14:03:36
+Yeah, because this is a challenge, but it doesn't tell you…
+
+[Faculty (Olympus)] 14:03:37
+I do think that would be a cool…
+
+[Braulio Cabral .] 14:03:39
+It's like there's nothing for you to do.
+
+[Braulio Cabral .] 14:03:42
+So I said, well, if this is a challenge, then let me just add the code cells and show the challenge.
+
+[Faculty (Olympus)] 14:03:43
+If…
+
+[Faculty (Olympus)] 14:03:48
+That's really nice, but I believe the indication is that
+
+[Faculty (Olympus)] 14:03:51
+It's a challenge for you to do it on your side, but it doesn't mean that you're required to submit it.
+
+[Braulio Cabral .] 14:03:59
+Okay, I thought it was, like, some kind of extra credit.
+
+[Faculty (Olympus)] 14:03:59
+This is my…
+
+[Faculty (Olympus)] 14:04:02
+quite good! I mean, that's good. I mean…
+
+[Faculty (Olympus)] 14:04:06
+Um, I've taught…
+
+[Faculty (Olympus)] 14:04:08
+different…
+
+[Faculty (Olympus)] 14:04:11
+The other cohorts to other courses, including the data science, and uh… in some of the…
+
+[Faculty (Olympus)] 14:04:17
+Some of those cohorts and some of the other courses and specialization
+
+[Faculty (Olympus)] 14:04:23
+The project is… you're not provided anything.
+
+[Faculty (Olympus)] 14:04:27
+You're provided the data, the question, and everything else.
+
+[Faculty (Olympus)] 14:04:32
+And you're supposed to create that. So, it requires much more effort.
+
+[Braulio Cabral .] 14:04:36
+Yeah, yeah.
+
+[Faculty (Olympus)] 14:04:36
+Just to create everything.
+
+[Faculty (Olympus)] 14:04:39
+Now, like those stuff, but I understand most of you have a, like, a full-time work, plus the… plus the family stuff.
+
+[Faculty (Olympus)] 14:04:45
+probably that would be kind of on the verge of impossible, if you wanted to create it from scratch.
+
+[Faculty (Olympus)] 14:04:53
+But it gives you, like, an indication how to do the things, uh…
+
+[Faculty (Olympus)] 14:04:58
+Plus, with the assistant AI, HR AI agent assistant, probably you can do it.
+
+[Faculty (Olympus)] 14:05:03
+But that's… that's amazing.
+
+[Braulio Cabral .] 14:05:05
+Okay, yeah.
+
+[Faculty (Olympus)] 14:05:06
+On the health, this is one of my exciting fields at I love to work on.
+
+[Braulio Cabral .] 14:05:11
+I'll check with them, because it makes sense, like, if they are doing the grading, I don't know, maybe using…
+
+[Faculty (Olympus)] 14:05:11
+And there are so many rooms.
+
+[Braulio Cabral .] 14:05:19
+An automation thing, AI, or whatever, and then it sees those fields that, oh, wait a minute, this is not part of it, and…
+
+[Faculty (Olympus)] 14:05:25
+don't think that would be a problem. I don't think… since, especially this is at the very end, I don't think that would be a problem.
+
+[Braulio Cabral .] 14:05:27
+Okay.
+
+[Braulio Cabral .] 14:05:32
+Okay, okay, thank you.
+
+[Faculty (Olympus)] 14:05:34
+Yeah, yeah. We're… for the sake of, like, certainty, you check it BCG.
+
+[Braulio Cabral .] 14:05:39
+Okay, I'll do that, thanks.
+
+[Faculty (Olympus)] 14:05:41
+Amazing. Any other questions?
+
+[Faculty (Olympus)] 14:05:51
+Let me…
+
+[Faculty (Olympus)] 14:05:53
+Sharing my screen one more time.
+
+[Faculty (Olympus)] 14:06:03
+This is for you just to tell you…
+
+[Faculty (Olympus)] 14:06:06
+Very something like that, but by no means I'm trying to teach you anything.
+
+[Faculty (Olympus)] 14:06:12
+I just wanted to, since there were so many questions, including today,
+
+[Faculty (Olympus)] 14:06:16
+Regarding the Langsmith, or how to track cover stuff, or how to do…
+
+[Faculty (Olympus)] 14:06:23
+some of the, like, a production for the tracing,
+
+[Faculty (Olympus)] 14:06:27
+Um, that's the reason that Tom…
+
+[Faculty (Olympus)] 14:06:30
+I'm showing… showing this to you.
+
+[Faculty (Olympus)] 14:06:32
+So, you remember last week that we had the agent, and that was a good example?
+
+[Faculty (Olympus)] 14:06:39
+The only thing… so, we have a platform, and the… one of the reasons that I love Lang… Langchain ecosystem is that there are other parts that you can…
+
+[Faculty (Olympus)] 14:06:49
+The whole ecosystem worked with each other without any hassle, so it's so easy.
+
+[Faculty (Olympus)] 14:06:55
+to incorporate something else,
+
+[Faculty (Olympus)] 14:06:58
+on top of your line chain.
+
+[Faculty (Olympus)] 14:07:01
+You already know that the line graph and line chain can be easily played together.
+
+[Faculty (Olympus)] 14:07:07
+without extra hassle. This is very easy, very, uh…
+
+[Faculty (Olympus)] 14:07:12
+Nice and straightforward to use the line chain in the line graph.
+
+[Faculty (Olympus)] 14:07:17
+This add other part, underlying chain ecosystem, is the linesmith, and the limesmith
+
+[Faculty (Olympus)] 14:07:24
+is the type of… this is not just for the tracking, but…
+
+[Faculty (Olympus)] 14:07:27
+You're tracking if you are familiar… any of you familiar with the ML flow?
+
+[Faculty (Olympus)] 14:07:36
+experimentation tracking systems, any of those, or platforms?
+
+[Faculty (Olympus)] 14:07:41
+Okay. Lacksmithies give you…
+
+[Faculty (Olympus)] 14:07:45
+Clear visibility, something put something in the chat… yes.
+
+[Faculty (Olympus)] 14:07:49
+Okay, amazing, amazing.
+
+[Faculty (Olympus)] 14:07:51
+Um, so…
+
+[Faculty (Olympus)] 14:07:53
+If you, um, familiar with those tracking stuff, you need to understand what is happening behind the scenes. You want us to track it, you want it to persist it.
+
+[Faculty (Olympus)] 14:08:03
+you want to see something, and it also uses for the sake of experimentation, meaning that you want… you have multiple scenarios, and you wanted to compare these scenarios together.
+
+[Faculty (Olympus)] 14:08:14
+Okay? Lacksmith.
+
+[Faculty (Olympus)] 14:08:17
+He's the one that he comes to your health.
+
+[Faculty (Olympus)] 14:08:21
+And the linesmith, by the way, is the one that normally… there's a free tier, but there's an enterprise level also.
+
+[Faculty (Olympus)] 14:08:27
+That it gives you so many…
+
+[Faculty (Olympus)] 14:08:30
+tools and, uh, like, the capabilities behind the scenes.
+
+[Faculty (Olympus)] 14:08:34
+that you don't have it, and this is the way that the line chain ecosystem earns money.
+
+[Faculty (Olympus)] 14:08:39
+Okay? The blacksmith…
+
+[Faculty (Olympus)] 14:08:42
+is something that you can use for the trace behind the scene.
+
+[Faculty (Olympus)] 14:08:47
+how to use it… you just look it up, but you need to go to your Langsman.
+
+[Faculty (Olympus)] 14:08:53
+Create the project, and based on the project,
+
+[Faculty (Olympus)] 14:08:56
+You're gonna have…
+
+[Faculty (Olympus)] 14:08:59
+Four things. You're gonna have the Langsmith tracing, Lansmith Endpoint, API key, and then the project name.
+
+[Faculty (Olympus)] 14:09:06
+And if you go…
+
+[Faculty (Olympus)] 14:09:08
+Over here, on the home,
+
+[Faculty (Olympus)] 14:09:10
+You see that I have multiple projects, and I haven't used it for a while.
+
+[Faculty (Olympus)] 14:09:15
+And this is the project that I created, and if I click on it,
+
+[Faculty (Olympus)] 14:09:19
+you see all of the traces that happens, and you see some of them fail because of some random problem, not because something was wrong.
+
+[Faculty (Olympus)] 14:09:30
+And this is the…
+
+[Faculty (Olympus)] 14:09:33
+one that I used for the last week notebook. So, this is the last week notebook.
+
+[Faculty (Olympus)] 14:09:38
+I added only 4 things, put it on the environment variable,
+
+[Faculty (Olympus)] 14:09:43
+And that's it. You don't need to call it all the time. That's it.
+
+[Faculty (Olympus)] 14:09:47
+You'd have it, you're good to go.
+
+[Faculty (Olympus)] 14:09:52
+If I do that, and if I run it, you remember that, uh…
+
+[Faculty (Olympus)] 14:09:57
+we were… what was the last one that we were on?
+
+[Faculty (Olympus)] 14:10:04
+Um…
+
+[Faculty (Olympus)] 14:10:06
+Real Legal Agents.
+
+[Faculty (Olympus)] 14:10:10
+Is this the…
+
+[Faculty (Olympus)] 14:10:12
+I'm not sure which one is which one, but…
+
+[Faculty (Olympus)] 14:10:14
+probably…
+
+[Faculty (Olympus)] 14:10:17
+run evaluation…
+
+[Faculty (Olympus)] 14:10:22
+Okay. You see those traces that we were trying to find a good one?
+
+[Faculty (Olympus)] 14:10:28
+you see the traces that you're trying… we were trying to understand?
+
+[Faculty (Olympus)] 14:10:33
+The tracers is more clear over here. So, I'm seeing, first of all…
+
+[Faculty (Olympus)] 14:10:38
+how much I paid…
+
+[Faculty (Olympus)] 14:10:40
+Overall, for these costs so far,
+
+[Faculty (Olympus)] 14:10:43
+I'll have very detailed understanding of everything, step by step, of the notebook that runs.
+
+[Faculty (Olympus)] 14:10:50
+Including this one.
+
+[Faculty (Olympus)] 14:10:51
+And you see…
+
+[Faculty (Olympus)] 14:10:55
+And you see, for example, in this line graph call, how much I spent, this is the amount I'd spend, and this is really nice that I know exactly what is happening.
+
+[Faculty (Olympus)] 14:11:04
+There are some stats over here for the input, this one, for the output, this percentage for the total.
+
+[Faculty (Olympus)] 14:11:10
+So, 37%, that was on the input. 63%.
+
+[Faculty (Olympus)] 14:11:15
+was on the output.
+
+[Faculty (Olympus)] 14:11:18
+When you see the input was to this one, the landlord is demanding security deposit equal to 12 months.
+
+[Faculty (Olympus)] 14:11:25
+Uh, probably you remember that.
+
+[Faculty (Olympus)] 14:11:27
+last week that we ran it.
+
+[Faculty (Olympus)] 14:11:29
+And it says on the first step counts,
+
+[Faculty (Olympus)] 14:11:33
+And the human, it's asking this one.
+
+[Faculty (Olympus)] 14:11:35
+And the AI agent is doing it step by step.
+
+[Faculty (Olympus)] 14:11:39
+And step-by-step, you can trace anything that you have. Your agent, what's happening on your ChatGPT OpenAI,
+
+[Faculty (Olympus)] 14:11:47
+And this one. As you can see, this is not very helpful, because we put everything on a single node.
+
+[Faculty (Olympus)] 14:11:55
+But if you were putting it on the different nodes, and you were calling it every time,
+
+[Faculty (Olympus)] 14:12:00
+you would have a separate one-by-one action items over there.
+
+[Faculty (Olympus)] 14:12:06
+Okay? Get a Langsmith is an amazing
+
+[Faculty (Olympus)] 14:12:11
+platform that I highly recommend you to, uh, to explore.
+
+[Faculty (Olympus)] 14:12:15
+And you're gonna learn more… you're gonna learn a lot about it, and this is very handy. I think, as I said,
+
+[Faculty (Olympus)] 14:12:23
+since you have.
+
+[Faculty (Olympus)] 14:12:25
+There are specific threads available, there are so many automations that you can do, and you can deploy your models right over here without any hassle.
+
+[Faculty (Olympus)] 14:12:34
+I'm not suggesting to do it, this is not the proper way that I suggest.
+
+[Faculty (Olympus)] 14:12:38
+But there is a deployment, uh, uh, like,
+
+[Faculty (Olympus)] 14:12:41
+things over here. You see the deployments?
+
+[Faculty (Olympus)] 14:12:46
+The… this stuff is…
+
+[Faculty (Olympus)] 14:12:51
+there's a copy of everything that you do, it goes to your linesmith.
+
+[Faculty (Olympus)] 14:12:56
+For your… if you're working on a… on a company or enterprise level, and you don't want to expose your… your stuff,
+
+[Faculty (Olympus)] 14:13:04
+to the length span, and that company
+
+[Faculty (Olympus)] 14:13:07
+doesn't have an enterprise-level blacksmith access.
+
+[Faculty (Olympus)] 14:13:10
+One thing that, uh, they gave us the accessibility was to run the Langsmith locally.
+
+[Faculty (Olympus)] 14:13:18
+And they call it the land graph.
+
+[Faculty (Olympus)] 14:13:22
+studio.
+
+[Faculty (Olympus)] 14:13:23
+LineGraph Studio…
+
+[Faculty (Olympus)] 14:13:28
+This is one of the projects that they did, like, 2 years ago.
+
+[Faculty (Olympus)] 14:13:32
+Okay? And…
+
+[Faculty (Olympus)] 14:13:34
+This is happening on my local system.
+
+[Faculty (Olympus)] 14:13:38
+Technically, it's from the same thing, but you see this is complaining why…
+
+[Faculty (Olympus)] 14:13:44
+I'm not giving it the Limesmith API key, because I didn't want to expose
+
+[Faculty (Olympus)] 14:13:52
+And this is, like,
+
+[Faculty (Olympus)] 14:13:53
+This is the state that I had on that project.
+
+[Faculty (Olympus)] 14:13:58
+This is the, as I said, this is a very old one.
+
+[Faculty (Olympus)] 14:14:00
+These are the states.
+
+[Faculty (Olympus)] 14:14:04
+If I show you…
+
+[Faculty (Olympus)] 14:14:08
+Uh, these are the nodes, uh… where is the graph?
+
+[Faculty (Olympus)] 14:14:13
+Here is the graph.
+
+[Faculty (Olympus)] 14:14:17
+And, uh, do I have the estate? Estate.
+
+[Faculty (Olympus)] 14:14:20
+Okay. You see the states?
+
+[Faculty (Olympus)] 14:14:23
+So this is a graph state I have the question, and so many other stuff.
+
+[Faculty (Olympus)] 14:14:28
+All of them…
+
+[Faculty (Olympus)] 14:14:30
+is here. So we have the same stuff over here.
+
+[Faculty (Olympus)] 14:14:35
+So the input of me, this cell, that was for, like, some forecasting model.
+
+[Faculty (Olympus)] 14:14:41
+what is the… what is forecasting?
+
+[Faculty (Olympus)] 14:14:45
+models. I don't know, whatever.
+
+[Faculty (Olympus)] 14:14:47
+Okay? If I submit, you're gonna see, one by one, a vent to the retrieval. What is it retrieving?
+
+[Faculty (Olympus)] 14:14:57
+Okay? Event to the retrieval.
+
+[Faculty (Olympus)] 14:15:02
+It went to the grading the documents, you see this is grading the documents nicely. It's… if it passes…
+
+[Faculty (Olympus)] 14:15:08
+It's gonna go to the generation,
+
+[Faculty (Olympus)] 14:15:12
+And as you can see, there's a conditional, there are multiple conditional edges, and since the conditional is met,
+
+[Faculty (Olympus)] 14:15:19
+It's going to provide you with a final assert.
+
+[Faculty (Olympus)] 14:15:22
+Okay? This is the final asset.
+
+[Faculty (Olympus)] 14:15:25
+This is a nice way that…
+
+[Faculty (Olympus)] 14:15:28
+You can leverage… if you're using the line graph,
+
+[Faculty (Olympus)] 14:15:32
+only the lanctions alone is not going to work this way. And you see the Langsmith stuff over here? We didn't have it back in a few months ago. These are the stuff that recently added.
+
+[Faculty (Olympus)] 14:15:43
+So that's the reason that sometimes he says the line graph, uh, Lang Smith.
+
+[Faculty (Olympus)] 14:15:49
+This is… is accessible locally. You don't need to expose your data if you're
+
+[Faculty (Olympus)] 14:15:55
+working on a patient data, on a legal state,
+
+[Faculty (Olympus)] 14:15:58
+If you have financial data,
+
+[Faculty (Olympus)] 14:16:01
+You don't want to expose it outside.
+
+[Faculty (Olympus)] 14:16:04
+or you want it to be 100% certain that everything is good. By the way, one thing that I didn't mention is that
+
+[Faculty (Olympus)] 14:16:10
+He didn't use the OpenAI. He was running on my laptop,
+
+[Faculty (Olympus)] 14:16:15
+probably you didn't hear the noise, but as soon as I ran it,
+
+[Faculty (Olympus)] 14:16:19
+my laptop started to… you hear the sounds of the fan starting kicking in.
+
+[Faculty (Olympus)] 14:16:25
+Um, so without exposing anything, I was… you see the grading, uh, every detail can be seen.
+
+[Faculty (Olympus)] 14:16:34
+Um, in a nice form. So…
+
+[Faculty (Olympus)] 14:16:37
+This is something that you can use on your company if you wanted to use something on a production level. You can create something on a production level, trace everything,
+
+[Faculty (Olympus)] 14:16:48
+Every call on your agent is going to be
+
+[Faculty (Olympus)] 14:16:53
+is going to be, uh…
+
+[Faculty (Olympus)] 14:16:55
+sustain over there. So, it's really nice, it's really nice.
+
+[Faculty (Olympus)] 14:16:58
+If somebody comes to you with some complaints that there were some issue with your model,
+
+[Faculty (Olympus)] 14:17:06
+If you wanted to understand
+
+[Faculty (Olympus)] 14:17:10
+Uh, why the output is happening,
+
+[Faculty (Olympus)] 14:17:13
+you're… you can find out using the Langsmith.
+
+[Faculty (Olympus)] 14:17:17
+And if you define your multi-agent that you're gonna see soon,
+
+[Faculty (Olympus)] 14:17:22
+multi-agents like that.
+
+[Faculty (Olympus)] 14:17:24
+This is a simple workflow, but technically is a multi-agent, because each agent is doing something.
+
+[Faculty (Olympus)] 14:17:31
+You have a nice traceability. You see, those are the documents that I loaded. Those are the documents that was graded and was approved for the sake of
+
+[Faculty (Olympus)] 14:17:43
+Uh, for the sake of output. So I have all of the performance metrics over here, nicely.
+
+[Faculty (Olympus)] 14:17:48
+grading times, everything that they have, the confidence levels, the confidence number of the things. You see, I'm keeping up.
+
+[Faculty (Olympus)] 14:17:55
+all of my metrics.
+
+[Faculty (Olympus)] 14:17:57
+It's a nice traceability. It's a nice way that both under development and both on the production
+
+[Faculty (Olympus)] 14:18:04
+You can't keep track of it.
+
+[Faculty (Olympus)] 14:18:06
+That's the thing that, uh, I promise you. Is the line studio in the Docker image that are running?
+
+[Faculty (Olympus)] 14:18:15
+No, I don't…
+
+[Faculty (Olympus)] 14:18:16
+Let me think about it. Even if it is possible,
+
+[Faculty (Olympus)] 14:18:20
+I wouldn't suggest that, because Langsmith…
+
+[Faculty (Olympus)] 14:18:25
+if you have a proper setup on the linesman,
+
+[Faculty (Olympus)] 14:18:30
+this is the way that you're supposed to use that, right?
+
+[Faculty (Olympus)] 14:18:34
+The Linecraft Studio is mostly on the local side, plus if you put the Langsmith
+
+[Faculty (Olympus)] 14:18:43
+credential also is going to send a copy to your Langsmith as well. So, it's going to be your local,
+
+[Faculty (Olympus)] 14:18:49
+lost your Langsmith, uh, re… uh, Langsmith account.
+
+[Faculty (Olympus)] 14:18:53
+But if you don't want to expose it, this is the way.
+
+[Faculty (Olympus)] 14:18:57
+On a Docker image,
+
+[Zareh Vazquez .] 14:18:59
+So how are you running a… how are you running locally in your laptop?
+
+[Faculty (Olympus)] 14:19:00
+Hypothetically, it's possible.
+
+[Faculty (Olympus)] 14:19:04
+Okay.
+
+[Faculty (Olympus)] 14:19:07
+Uh, that's something that probably you should know.
+
+[Faculty (Olympus)] 14:19:10
+Always, there is a line graph like JSON.
+
+[Faculty (Olympus)] 14:19:14
+that is referring…
+
+[Faculty (Olympus)] 14:19:17
+Uh, what is the, uh…
+
+[Faculty (Olympus)] 14:19:19
+what is the… ugh.
+
+[Faculty (Olympus)] 14:19:23
+Uh, the script that you need to invoke, and what is the function that's inside…
+
+[Faculty (Olympus)] 14:19:27
+Which one is your graph? You see if you go to Graph…
+
+[Faculty (Olympus)] 14:19:32
+And you find their graph,
+
+[Faculty (Olympus)] 14:19:36
+There we go. Graft our compiles.
+
+[Faculty (Olympus)] 14:19:39
+So, it's getting the graph from the graph.py,
+
+[Faculty (Olympus)] 14:19:45
+to load that graph. And if you wanted to run it…
+
+[Faculty (Olympus)] 14:19:48
+You simply…
+
+[Faculty (Olympus)] 14:19:53
+run, they're Ron… I'm sorry, Landgraf Dead.
+
+[Faculty (Olympus)] 14:19:56
+That's it.
+
+[Faculty (Olympus)] 14:19:59
+A line graph… you run the line graph dev, and if you point to the correct thing,
+
+[Faculty (Olympus)] 14:20:04
+it's gonna run it for you.
+
+[Faculty (Olympus)] 14:20:07
+I'm thinking it should be possible to run it on a Python notebook, Jupyter's notebook, but I've never tested it.
+
+[Faculty (Olympus)] 14:20:16
+So, truly, I don't know.
+
+[Faculty (Olympus)] 14:20:19
+But I believe that's doable.
+
+[Faculty (Olympus)] 14:20:22
+I believe that's doable.
+
+[Zareh Vazquez .] 14:20:25
+And just to confirm, that, uh, local tool is called Langraph Studio.
+
+[Faculty (Olympus)] 14:20:31
+Oh, sorry, I wasn't sharing my screen. Oh, just give me a moment.
+
+[Faculty (Olympus)] 14:20:35
+My bad, my bad. I forgot my screen view share.
+
+[Faculty (Olympus)] 14:20:39
+Okay, one more time. The… you see the JSON?
+
+[Faculty (Olympus)] 14:20:43
+here's the JSON, my van.
+
+[Faculty (Olympus)] 14:20:45
+You see the JSON? It says the linegraph.json.
+
+[Zareh Vazquez .] 14:20:49
+Mm-hmm.
+
+[Faculty (Olympus)] 14:20:50
+you put in other rooms, route,
+
+[Faculty (Olympus)] 14:20:52
+you say what dependency you need to run it,
+
+[Faculty (Olympus)] 14:20:56
+And what varies the graph. You see, I'm saying go to this…
+
+[Faculty (Olympus)] 14:21:01
+script under this one, go through the graph,
+
+[Faculty (Olympus)] 14:21:05
+Here we go the graph, and there's a graph
+
+[Faculty (Olympus)] 14:21:07
+inside that graph.py.
+
+[Faculty (Olympus)] 14:21:10
+So, I'm saying this is the one that you need to invoke.
+
+[Faculty (Olympus)] 14:21:15
+Okay? And to run it,
+
+[Faculty (Olympus)] 14:21:17
+You just simply type your terminal, linegraph.dev.
+
+[Faculty (Olympus)] 14:21:22
+sorry, not the line graphed.
+
+[Faculty (Olympus)] 14:21:26
+And it's going to bring you to… offer you, the sermon.
+
+[Zareh Vazquez .] 14:21:30
+Oh, okay, so it's a development tool. It's a developer tool, right? So it's not…
+
+[Faculty (Olympus)] 14:21:32
+Yes.
+
+[Faculty (Olympus)] 14:21:34
+Correct.
+
+[Zareh Vazquez .] 14:21:34
+So, for tracking purposes, we need lax meat.
+
+[Faculty (Olympus)] 14:21:39
+it's… if…
+
+[Zareh Vazquez .] 14:21:40
+But…
+
+[Faculty (Olympus)] 14:21:41
+Over here, it says Lank Smith.
+
+[Faculty (Olympus)] 14:21:44
+These two are the same.
+
+[Faculty (Olympus)] 14:21:47
+This is the local version, that's the cloud version, kind of this way.
+
+[Faculty (Olympus)] 14:21:51
+He wasn't that big. He wasn't that…
+
+[Faculty (Olympus)] 14:21:55
+A little bit more than a year ago, year and a half ago, they provided this one.
+
+[Faculty (Olympus)] 14:22:00
+less than a year and a half.
+
+[Faculty (Olympus)] 14:22:02
+They provided this one, and initially there were two different stuff, but then they combined it. So, technically, it's Langraph Studio is a local version of Langsman.
+
+[Zareh Vazquez .] 14:22:16
+50 for a developer, not to run in an enterprise.
+
+[Faculty (Olympus)] 14:22:18
+Right. Correct.
+
+[Faculty (Olympus)] 14:22:20
+But if you're asking, you're challenging me
+
+[Zareh Vazquez .] 14:22:21
+Right. Thank you.
+
+[Faculty (Olympus)] 14:22:24
+And I run a LandGraph,
+
+[Faculty (Olympus)] 14:22:28
+uh… studio.
+
+[Faculty (Olympus)] 14:22:30
+on a server.
+
+[Faculty (Olympus)] 14:22:31
+I would say I bet this is possible.
+
+[Faculty (Olympus)] 14:22:35
+think it, like a Docker image. When you deploy a model, you have a, like, port, output port,
+
+[Faculty (Olympus)] 14:22:41
+And we have the same over here, it's nothing fancy.
+
+[Faculty (Olympus)] 14:22:46
+So, technically, it should be possible.
+
+[Faculty (Olympus)] 14:22:49
+to, uh, to host it in your private server.
+
+[Faculty (Olympus)] 14:22:54
+But I've never done it. I mean, there's no… there's no purpose of it.
+
+[Zareh Vazquez .] 14:22:54
+Yeah, but I'm…
+
+[Zareh Vazquez .] 14:22:59
+Well, I'm thinking, I mean, deploying any of these agents,
+
+[Zareh Vazquez .] 14:23:04
+at the end, I mean, you will not run it locally from a PC, right? You…
+
+[Faculty (Olympus)] 14:23:04
+Uh-huh.
+
+[Faculty (Olympus)] 14:23:08
+No. No.
+
+[Zareh Vazquez .] 14:23:09
+You want it to run it or expose it as an API.
+
+[Zareh Vazquez .] 14:23:11
+So… so others can consume it and use them.
+
+[Zareh Vazquez .] 14:23:14
+But if you want to track
+
+[Zareh Vazquez .] 14:23:18
+what and how they are used, you need
+
+[Zareh Vazquez .] 14:23:21
+these kind of tools, right? So, for example, Lacksmith.
+
+[Zareh Vazquez .] 14:23:23
+Which is the main thing that the companies sell.
+
+[Faculty (Olympus)] 14:23:24
+Correct.
+
+[Zareh Vazquez .] 14:23:28
+And I was just wondering if this land graph
+
+[Zareh Vazquez .] 14:23:32
+tool can be used as a server solution for tracking
+
+[Zareh Vazquez .] 14:23:37
+on the enterprise, so like you said, we don't need to share the data.
+
+[Faculty (Olympus)] 14:23:41
+No.
+
+[Zareh Vazquez .] 14:23:41
+with Langsmith.
+
+[Faculty (Olympus)] 14:23:43
+Langsmith has…
+
+[Faculty (Olympus)] 14:23:46
+If I'm not mistaken, there's a limitation on using the linesmith, and uh… so you cannot have so many input-output calls for the linesman. There's a limitation to it. Plus,
+
+[Faculty (Olympus)] 14:23:59
+There is an enterprise level…
+
+[Faculty (Olympus)] 14:24:02
+of the life scope.
+
+[Faculty (Olympus)] 14:24:04
+Okay, there's an enterprise level to this.
+
+[Faculty (Olympus)] 14:24:07
+And on the enterprise level, you're gonna have so many metrics evaluators right away, so you remember what we discussed with the…
+
+[Faculty (Olympus)] 14:24:19
+VP eval and a few other things that we have.
+
+[Faculty (Olympus)] 14:24:22
+Linesmith has all of them combined, and you don't need to…
+
+[Faculty (Olympus)] 14:24:27
+have a separate line of code. Everything is over here.
+
+[Faculty (Olympus)] 14:24:30
+And you can track all of them without any hassle. This is really nice.
+
+[Faculty (Olympus)] 14:24:37
+Does this make sense? So, if you're thinking,
+
+[Faculty (Olympus)] 14:24:40
+If your solution is something
+
+[Faculty (Olympus)] 14:24:43
+This is very small scale for yourself, like, a personal level.
+
+[Faculty (Olympus)] 14:24:47
+use the linesman. If you wanted to use it on an enterprise level, you have to have an enterprise-level linesmith.
+
+[Faculty (Olympus)] 14:24:55
+And it's not that expensive.
+
+[Zareh Vazquez .] 14:24:57
+Okay. No, but what I want is to track.
+
+[Zareh Vazquez .] 14:25:01
+everything that…
+
+[Zareh Vazquez .] 14:25:03
+the users will do, not just… not just sampling,
+
+[Zareh Vazquez .] 14:25:07
+put everything, so we know how they are using it.
+
+[Zareh Vazquez .] 14:25:09
+And that was, I mean, from my… from where my question was coming,
+
+[Zareh Vazquez .] 14:25:13
+But let me just expand it. Have you…
+
+[Zareh Vazquez .] 14:25:16
+ever use landfuse?
+
+[Faculty (Olympus)] 14:25:21
+You know, I heard it from someone, actually, from this class.
+
+[Faculty (Olympus)] 14:25:25
+Something, uh, that I made a peace with myself is that…
+
+[Faculty (Olympus)] 14:25:30
+Not completely peace with myself, but I gotta mention it because probably this is applicable to you guys.
+
+[Faculty (Olympus)] 14:25:36
+is that the AI these days is kind of something… when you start
+
+[Faculty (Olympus)] 14:25:43
+following up with the news, you get suspicious, you get addictive to following up the news.
+
+[Faculty (Olympus)] 14:25:50
+And these days, it's a kind of, like, at least it happened to me that I was… I had a burnt out.
+
+[Faculty (Olympus)] 14:25:57
+Uh, following up so many things.
+
+[Faculty (Olympus)] 14:25:59
+So, one thing that I decided to do when I'm, like, suggesting to all of my students, and I suggested to you,
+
+[Faculty (Olympus)] 14:26:06
+is that you have so many frameworks, you have so many ways to…
+
+[Faculty (Olympus)] 14:26:13
+to… to have the same things be getting done.
+
+[Faculty (Olympus)] 14:26:17
+I suggest you to speak to one of them, because if you wanted to learn all of them at the same time, it would be so hard.
+
+[Zareh Vazquez .] 14:26:17
+Mm-hmm.
+
+[Faculty (Olympus)] 14:26:25
+These days, so far, I would say the lanchain ecosystem, line chain, line graph, linesmith stuff,
+
+[Faculty (Olympus)] 14:26:34
+He's the, um…
+
+[Faculty (Olympus)] 14:26:37
+is the most popular one, and thank you for providing me with this one.
+
+[Faculty (Olympus)] 14:26:43
+So, LangFuse, Lang Chain Tracing, and Lang Graph Integration.
+
+[Faculty (Olympus)] 14:26:48
+But this is not from the line change, uh, ecosystem, interesting. This is a kind of a third party.
+
+[Faculty (Olympus)] 14:26:55
+Right?
+
+[Zareh Vazquez .] 14:26:56
+Yeah, it's a third party, yeah, and I mean, the second link that I put is there is another…
+
+[Zareh Vazquez .] 14:27:02
+Like you said, so there are…
+
+[Faculty (Olympus)] 14:27:03
+Yep.
+
+[Zareh Vazquez .] 14:27:04
+100 different ways to achieve the same objective, right? And… and…
+
+[Zareh Vazquez .] 14:27:09
+I think I was asking just to see how you do it, because…
+
+[Zareh Vazquez .] 14:27:12
+Traceability, observability of all this is important.
+
+[Zareh Vazquez .] 14:27:15
+So you know how…
+
+[Faculty (Olympus)] 14:27:15
+Mm-hmm.
+
+[Zareh Vazquez .] 14:27:17
+things that are used.
+
+[Zareh Vazquez .] 14:27:19
+How much is costing you. You can also use it to troubleshoot.
+
+[Zareh Vazquez .] 14:27:24
+problems that your user have.
+
+[Zareh Vazquez .] 14:27:26
+And in fact, you know exactly the second link that I share.
+
+[Zareh Vazquez .] 14:27:31
+is how we are doing it.
+
+[Zareh Vazquez .] 14:27:34
+using Elasticsearch, and tracing.
+
+[Faculty (Olympus)] 14:27:36
+Mark?
+
+[Zareh Vazquez .] 14:27:37
+Open telemetry.
+
+[Faculty (Olympus)] 14:27:38
+I can tell you… I can tell you what is happening on me, on the personal side versus the professional side. On the personal side likes me all the time.
+
+[Zareh Vazquez .] 14:27:42
+Mm-hmm.
+
+[Faculty (Olympus)] 14:27:48
+I… I don't have any…
+
+[Faculty (Olympus)] 14:27:52
+critical type of, uh, things in production, personally.
+
+[Faculty (Olympus)] 14:27:57
+that can expose me, or expose my, uh, my customers.
+
+[Faculty (Olympus)] 14:28:03
+like, jeopardize the whole thing. So, I'm using the lifespan.
+
+[Faculty (Olympus)] 14:28:08
+And I have a…
+
+[Faculty (Olympus)] 14:28:11
+probably that would be a good recommendation for you. I have multiple Langsmith accounts.
+
+[Faculty (Olympus)] 14:28:16
+And one of them is specifically for the production stuff. So that's the reason that you didn't see any production stuff on these slides, but I have to log off and log on with the other one, so that you will see
+
+[Faculty (Olympus)] 14:28:29
+the production tracking. I didn't want to, uh, like, confuse these two.
+
+[Faculty (Olympus)] 14:28:33
+On a company level,
+
+[Faculty (Olympus)] 14:28:36
+our company is using the ML flow, and we have the license through the Databricks, we have everything.
+
+[Faculty (Olympus)] 14:28:44
+even though the MF flow is some open-source platform, and the Langesmith and LangChain is something else, but…
+
+[Faculty (Olympus)] 14:28:53
+I decided to use Damiflow. Everyone in the familiar with that. Emmaflow is very straightforward, also.
+
+[Faculty (Olympus)] 14:29:00
+Uh, for, uh, for setting up for the traceability for the experimentation, and even it has something
+
+[Faculty (Olympus)] 14:29:07
+that I like more than likes smooth.
+
+[Faculty (Olympus)] 14:29:10
+But Langsmith is so rich and so comprehensive, but I'm not leveraging those stuff.
+
+[Faculty (Olympus)] 14:29:17
+So, I don't care. For me, that's just the traceability.
+
+[Faculty (Olympus)] 14:29:21
+Okay? If this is the traceability,
+
+[Faculty (Olympus)] 14:29:25
+I, uh… I just… the MLflow, or this one, or even you can write it, like,
+
+[Faculty (Olympus)] 14:29:31
+create this script, and please write this one over there and persist this somewhere.
+
+[Faculty (Olympus)] 14:29:37
+Like, as easy as you can get.
+
+[Faculty (Olympus)] 14:29:39
+So, it's nothing fancy about it.
+
+[Faculty (Olympus)] 14:29:41
+But, uh, this is the way that I do it in my company.
+
+[Faculty (Olympus)] 14:29:46
+Lightsmith and Langchain is in discussion with many companies, uh, to probably, probably we get in.
+
+[Faculty (Olympus)] 14:29:54
+If that happens, this is going to be…
+
+[Faculty (Olympus)] 14:29:56
+good on our side, uh, for the deployments of those models, but…
+
+[Faculty (Olympus)] 14:30:01
+Uh, that's the case.
+
+[Zareh Vazquez .] 14:30:04
+Thank you.
+
+[Faculty (Olympus)] 14:30:04
+Yeah. Oh, you're welcome.
+
+[Faculty (Olympus)] 14:30:07
+Any other question? You're at the top.
+
+[Angela Johnson .] 14:30:10
+Can I ask one little tangential?
+
+[Angela Johnson .] 14:30:13
+Um, I read a lot that people like, uh, Langchain for robotics, and some people are using it really successful with sensors and hardware elements. I found it
+
+[Faculty (Olympus)] 14:30:21
+Mm-hmm.
+
+[Angela Johnson .] 14:30:21
+Personally, a little frustrating, but um…
+
+[Angela Johnson .] 14:30:23
+Are there… are there people doing that, or frameworks…
+
+[Angela Johnson .] 14:30:27
+more geared towards the hardware integration and making the agents work with hardware.
+
+[Angela Johnson .] 14:30:31
+Um, I'd just be curious your perspectives.
+
+[Faculty (Olympus)] 14:30:35
+Good question, and I… I'm not aware of it. This is a shame, because, uh…
+
+[Faculty (Olympus)] 14:30:40
+I have some background in robotics and mechatronics, specifically.
+
+[Faculty (Olympus)] 14:30:45
+But I've never…
+
+[Faculty (Olympus)] 14:30:47
+curious about how they are doing it. I have friends, and I can easily ask them.
+
+[Faculty (Olympus)] 14:30:52
+But I've never thought about it. I don't have any comments, sorry about that, Angela.
+
+[Faculty (Olympus)] 14:30:57
+But I don't have anything. But I can look up and I can ask few friends that they are leveraging the…
+
+[Faculty (Olympus)] 14:31:04
+LLM, an LLM agents on robotics, and I can come back to you with some questions… with some answers.
+
+[Angela Johnson .] 14:31:08
+It's funny, I meet people with heated feelings on that, that Langchain's perfect for the hardware side, and others like me that are just like, this is frustrating and doing something else, but it's, uh, it's funny how
+
+[Angela Johnson .] 14:31:17
+divided opinions are.
+
+[Faculty (Olympus)] 14:31:24
+Very interesting. Very interesting. You're saying for the incorporating via the hardware.
+
+[Faculty (Olympus)] 14:31:29
+That's very interesting aspect of it.
+
+[Faculty (Olympus)] 14:31:31
+Because I know that the line chain links made stuff on, uh… I've seen it so many times.
+
+[Faculty (Olympus)] 14:31:40
+Either myself or the other implementation on, uh…
+
+[Faculty (Olympus)] 14:31:44
+three platforms, 3 domains.
+
+[Faculty (Olympus)] 14:31:47
+Legal, financial…
+
+[Faculty (Olympus)] 14:31:50
+And, uh, health.
+
+[Faculty (Olympus)] 14:31:52
+on a healthcare. I've seen it so many times, but…
+
+[Faculty (Olympus)] 14:31:55
+When it comes to the communicating with the hardware,
+
+[Faculty (Olympus)] 14:31:59
+I don't have any output on that.
+
+[Faculty (Olympus)] 14:32:02
+And that makes sense. That makes sense. One more time.
+
+[Faculty (Olympus)] 14:32:05
+None of them are mature enough, comparing to the other fields of technology.
+
+[Faculty (Olympus)] 14:32:11
+none of the frameworks are mature enough to say this is absolutely good.
+
+[Faculty (Olympus)] 14:32:18
+we got issue with them.
+
+[Faculty (Olympus)] 14:32:20
+And, um, that's a very good question. I'll ask my friends, and if I get some tangible, interesting things, I'm going to share it with you.
+
+[Dino Vitale .] 14:32:32
+I had a real quick question. If I'm in Colab, if I'm using Colab,
+
+[Dino Vitale .] 14:32:36
+Um, with the, uh, with the logging,
+
+[Dino Vitale .] 14:32:39
+where can I tail the log? Where can I tail the log file? Isn't there something? Because it doesn't print out to your screen, right?
+
+[Faculty (Olympus)] 14:32:49
+This is… since I haven't run it, I cannot say, but let me… there were some weird stuff about the logging.
+
+[Faculty (Olympus)] 14:32:57
+Let me investigate it, and I'm gonna put it in the chat. I don't want to confuse you, but you're right. The login variant weren't appearing over there.
+
+[Faculty (Olympus)] 14:33:06
+Uh, there is a… there's no file handler.
+
+[Faculty (Olympus)] 14:33:10
+only stream handler, and the stream handler is not working properly.
+
+[Faculty (Olympus)] 14:33:14
+I gotta… I gotta investigate on that, and let me come back to you, if you don't mind.
+
+[Faculty (Olympus)] 14:33:22
+Does it make sense? Because when you're…
+
+[Dino Vitale .] 14:33:22
+Thanks.
+
+[Faculty (Olympus)] 14:33:25
+Then you see the login. Do I want to confuse you, I've seen it before, and I had the same question.
+
+[Faculty (Olympus)] 14:33:30
+When you have the login, you have to have that specific format on the login, and I don't see that on the print statement.
+
+[Faculty (Olympus)] 14:33:38
+Because I didn't run it.
+
+[Faculty (Olympus)] 14:33:40
+I gotta run it myself and see why this is happening this way.
+
+[Faculty (Olympus)] 14:33:44
+I'll come back to you.
+
+[Dino Vitale .] 14:33:46
+Yeah, I thought it had to do because I was running in Colab, you know, as opposed to in VS Code.
+
+[Faculty (Olympus)] 14:33:49
+No.
+
+[Faculty (Olympus)] 14:33:52
+that I haven't run it on the VS Code,
+
+[Faculty (Olympus)] 14:33:56
+And one more observation, why I haven't run the solution on the VS Code is that
+
+[Faculty (Olympus)] 14:34:01
+And I wanted to notify you is that it seems that…
+
+[Faculty (Olympus)] 14:34:06
+Especially when you go to the V12,
+
+[Faculty (Olympus)] 14:34:09
+There are some, um…
+
+[Faculty (Olympus)] 14:34:12
+like, different version of the line chain, Langsmith, that…
+
+[Faculty (Olympus)] 14:34:15
+they are using on the… on the other leaks, so sometimes have this different dependency.
+
+[Faculty (Olympus)] 14:34:21
+is like making trouble for me. So, I couldn't run it because I wanted to run it, and everything was, like, blown off.
+
+[Faculty (Olympus)] 14:34:28
+all of my dependencies, like, blown off because I wanted to find the, uh, the correct one.
+
+[Faculty (Olympus)] 14:34:33
+That's the reason that I haven't run it. I'll run it, I'll keep you in Google for sure.
+
+[Faculty (Olympus)] 14:34:39
+And by the way, we are past the time. If you wanted to drop, feel free to drop. If there's any question, I'll stay for you to answer.
+
+[Dino Vitale .] 14:34:40
+Thank you.
+
+[Faculty (Olympus)] 14:34:50
+Yeah.
+
+[Faculty (Olympus)] 14:34:52
+Thank you, have a good day. You have a great weekend.
+
+[Faculty (Olympus)] 14:34:58
+Any other question, by any chance?
+
+[Faculty (Olympus)] 14:35:08
+Okay, I have a question. Also had a problem with… okay, Zara.
+
+[Faculty (Olympus)] 14:35:13
+dependencies using the following dependencies, okay?
+
+[Zareh Vazquez .] 14:35:17
+So, 312…
+
+[Faculty (Olympus)] 14:35:17
+what is the… what problem do you have?
+
+[Zareh Vazquez .] 14:35:19
+There are all kind of problems.
+
+[Zareh Vazquez .] 14:35:22
+Uh, so 312, 10…
+
+[Faculty (Olympus)] 14:35:22
+Okay.
+
+[Zareh Vazquez .] 14:35:25
+with those dependencies, everything work.
+
+[Faculty (Olympus)] 14:35:30
+You remember at the very beginning, you had the same… it was you or maybe somebody else had the same problem?
+
+[Faculty (Olympus)] 14:35:37
+And we fixed that.
+
+[Faculty (Olympus)] 14:35:39
+I'm trying to load the… let me
+

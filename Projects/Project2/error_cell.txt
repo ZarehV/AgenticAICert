@@ -1,0 +1,12 @@
+TRADITIONAL_PROMPT = """You are a helpful assistant.
+Answer the user's question about stock information."""
+
+print("📋 Traditional LLM Prompt:")
+print("="*80)
+print(TRADITIONAL_PROMPT)
+print("="*80)
+print("\n❌ Problems with this approach:")
+print("   • No initiative - waits for user to specify what they want")
+print("   • No comprehensive analysis - just answers the question")
+print("   • Asks follow-up questions instead of taking action")
+print("   • Provides minimal information")

@@ -1,0 +1,6 @@
+{
+    "API_KEY": "gl-U2FsdGVkX19edwaeVWoyPyyZEJQNnjcA5B9zZ6+RH6/D3iM9HQ9PqX0HizSAedVs",
+    "OPENAI_API_BASE": "https://aibe.mygreatlearning.com/openai/v1",
+    "SERP_API_KEY": "0c0244f5af4140dc6aa9e2a69d72a88dda72afc5316e1bff8dab0bc929ca244c",
+    "TAVILY_API_KEY" : "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"
+}
